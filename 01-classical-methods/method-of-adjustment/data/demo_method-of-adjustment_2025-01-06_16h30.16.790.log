@@ -1,0 +1,306 @@
+4.8883 	INFO 	Loaded monitor calibration from ['2023_05_12 15:00']
+5.0523 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd9610a96a0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd9610a9580>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fd9614f6a30>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([3024, 1964]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.0523 	EXP 	window1: backgroundImage = ''
+5.0524 	EXP 	window1: backgroundFit = 'none'
+5.0952 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.0952 	EXP 	window1: recordFrameIntervals = False
+5.2152 	EXP 	window1: recordFrameIntervals = True
+6.0490 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+6.7406 	INFO 	keyboard.Keyboard is using ptb backend.
+6.9967 	INFO 	keyboard.Keyboard is using ptb backend.
+7.2540 	INFO 	keyboard.Keyboard is using ptb backend.
+7.2540 	EXP 	method-of-adjustment: status = STARTED
+7.2904 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.3081 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, interpolate=True, mask='raisedCos', maskParams=None, name='grating', opacity=1, ori=0.0, phase=array([1., 1.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([0.15, 0.15]), tex='sin', texRes=512.0, units='height', win=Window(...))
+7.3237 	EXP 	Created grating_2 = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, interpolate=True, mask='raisedCos', maskParams=None, name='grating_2', opacity=1, ori=0.0, phase=array([1., 1.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([1., 1.]), size=array([0.15, 0.15]), tex='sin', texRes=512.0, units='height', win=Window(...))
+7.3267 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, draggable=False, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='polygon', opacity=1, ori=1.0, pos=array([0., 0.]), size=array([0.015, 0.015]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0220 	INFO 	Keyboard events cleared
+0.0219 	EXP 	text: autoDraw = True
+0.7127 	EXP 	Imported method-of-adjustment.csv as conditions, 4 conditions, 2 params
+0.7132 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'direction': 1, 'control': 1, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.7185 	DATA 	Keypress: space
+0.7207 	WARNING 	t of last frame was 114.80ms (=1/8)
+0.7207 	EXP 	text: autoDraw = False
+0.7207 	EXP 	grating: phase = array([322.50611043, 322.50611043])
+0.7207 	EXP 	grating_2: phase = array([338.45583357, 338.45583357])
+0.7207 	EXP 	polygon: ori = 90.0
+0.7207 	EXP 	polygon: autoDraw = True
+0.9938 	INFO 	Keyboard events cleared
+0.9937 	WARNING 	t of last frame was 38.12ms (=1/26)
+0.9937 	EXP 	grating: autoDraw = True
+0.9937 	EXP 	grating_2: autoDraw = True
+0.9937 	EXP 	grating: tex = 'sin'
+0.9937 	EXP 	grating_2: tex = 'sin'
+2.5931 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.6106 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.6270 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.6415 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.6593 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.6764 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.6935 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.7104 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.7251 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.7430 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.7602 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.7763 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.7938 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.8108 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.8260 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.8432 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.8597 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.8770 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.8939 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.9089 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.9431 	DATA 	Mouse: wheel shift=(0,-1), pos=(756,491)
+2.9596 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.9769 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.9774 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+2.9922 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+3.0077 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+3.0275 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+3.0432 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+3.0571 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+3.0574 	DATA 	Mouse: wheel shift=(0,0), pos=(756,491)
+8.4426 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'direction': -1, 'control': -1, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+8.4583 	DATA 	Keypress: space
+8.4609 	WARNING 	t of last frame was 20.96ms (=1/47)
+8.4609 	EXP 	grating: autoDraw = False
+8.4609 	EXP 	grating_2: autoDraw = False
+8.4609 	EXP 	polygon: autoDraw = False
+8.4609 	EXP 	grating: phase = array([220.77326252, 220.77326252])
+8.4609 	EXP 	grating_2: phase = array([142.30770837, 142.30770837])
+8.4609 	EXP 	polygon: ori = -90.0
+8.4609 	EXP 	polygon: autoDraw = True
+8.6894 	INFO 	Keyboard events cleared
+8.6891 	EXP 	grating: autoDraw = True
+8.6891 	EXP 	grating_2: autoDraw = True
+12.6271 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'direction': -1, 'control': 1, 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+12.6315 	DATA 	Keypress: space
+12.6390 	EXP 	grating: autoDraw = False
+12.6390 	EXP 	grating_2: autoDraw = False
+12.6390 	EXP 	polygon: autoDraw = False
+12.6390 	EXP 	grating: phase = array([301.961412, 301.961412])
+12.6390 	EXP 	grating_2: phase = array([162.82609251, 162.82609251])
+12.6390 	EXP 	polygon: ori = 90.0
+12.6390 	EXP 	polygon: autoDraw = True
+12.8729 	INFO 	Keyboard events cleared
+12.8727 	EXP 	grating: autoDraw = True
+12.8727 	EXP 	grating_2: autoDraw = True
+17.3599 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'direction': 1, 'control': -1, 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+17.3642 	DATA 	Keypress: space
+17.3724 	EXP 	grating: autoDraw = False
+17.3724 	EXP 	grating_2: autoDraw = False
+17.3724 	EXP 	polygon: autoDraw = False
+17.3724 	EXP 	grating: phase = array([265.93319323, 265.93319323])
+17.3724 	EXP 	grating_2: phase = array([246.65323537, 246.65323537])
+17.3724 	EXP 	polygon: ori = -90.0
+17.3724 	EXP 	polygon: autoDraw = True
+17.6060 	INFO 	Keyboard events cleared
+17.6058 	EXP 	grating: autoDraw = True
+17.6058 	EXP 	grating_2: autoDraw = True
+21.9567 	EXP 	New trial (rep=1, index=0): <Trial 4 (0 in rep 1) data={'direction': -1, 'control': -1, 'thisN': 4, 'thisTrialN': 0, 'thisRepN': 1}>
+21.9610 	DATA 	Keypress: space
+21.9636 	EXP 	grating: autoDraw = False
+21.9636 	EXP 	grating_2: autoDraw = False
+21.9636 	EXP 	polygon: autoDraw = False
+21.9636 	EXP 	grating: phase = array([65.22788037, 65.22788037])
+21.9636 	EXP 	grating_2: phase = array([0.68922607, 0.68922607])
+21.9636 	EXP 	polygon: ori = -90.0
+21.9636 	EXP 	polygon: autoDraw = True
+22.1968 	INFO 	Keyboard events cleared
+22.1966 	EXP 	grating: autoDraw = True
+22.1966 	EXP 	grating_2: autoDraw = True
+27.6423 	EXP 	New trial (rep=1, index=1): <Trial 5 (1 in rep 1) data={'direction': -1, 'control': 1, 'thisN': 5, 'thisTrialN': 1, 'thisRepN': 1}>
+27.6479 	DATA 	Keypress: space
+27.6556 	EXP 	grating: autoDraw = False
+27.6556 	EXP 	grating_2: autoDraw = False
+27.6556 	EXP 	polygon: autoDraw = False
+27.6556 	EXP 	grating: phase = array([249.296776, 249.296776])
+27.6556 	EXP 	grating_2: phase = array([277.09985225, 277.09985225])
+27.6556 	EXP 	polygon: ori = 90.0
+27.6556 	EXP 	polygon: autoDraw = True
+27.8893 	INFO 	Keyboard events cleared
+27.8891 	EXP 	grating: autoDraw = True
+27.8891 	EXP 	grating_2: autoDraw = True
+31.4298 	EXP 	New trial (rep=1, index=2): <Trial 6 (2 in rep 1) data={'direction': 1, 'control': 1, 'thisN': 6, 'thisTrialN': 2, 'thisRepN': 1}>
+31.4338 	DATA 	Keypress: space
+31.4389 	EXP 	grating: autoDraw = False
+31.4389 	EXP 	grating_2: autoDraw = False
+31.4389 	EXP 	polygon: autoDraw = False
+31.4389 	EXP 	grating: phase = array([23.21079975, 23.21079975])
+31.4389 	EXP 	grating_2: phase = array([23.66306869, 23.66306869])
+31.4389 	EXP 	polygon: ori = 90.0
+31.4389 	EXP 	polygon: autoDraw = True
+31.6795 	INFO 	Keyboard events cleared
+31.6794 	EXP 	grating: autoDraw = True
+31.6794 	EXP 	grating_2: autoDraw = True
+34.6234 	EXP 	New trial (rep=1, index=3): <Trial 7 (3 in rep 1) data={'direction': 1, 'control': -1, 'thisN': 7, 'thisTrialN': 3, 'thisRepN': 1}>
+34.6269 	DATA 	Keypress: space
+34.6285 	EXP 	grating: autoDraw = False
+34.6285 	EXP 	grating_2: autoDraw = False
+34.6285 	EXP 	polygon: autoDraw = False
+34.6285 	EXP 	grating: phase = array([24.31993435, 24.31993435])
+34.6285 	EXP 	grating_2: phase = array([257.51726927, 257.51726927])
+34.6285 	EXP 	polygon: ori = -90.0
+34.6285 	EXP 	polygon: autoDraw = True
+34.8634 	INFO 	Keyboard events cleared
+34.8633 	EXP 	grating: autoDraw = True
+34.8633 	EXP 	grating_2: autoDraw = True
+37.3921 	EXP 	New trial (rep=2, index=0): <Trial 8 (0 in rep 2) data={'direction': 1, 'control': -1, 'thisN': 8, 'thisTrialN': 0, 'thisRepN': 2}>
+37.3986 	DATA 	Keypress: space
+37.4014 	EXP 	grating: autoDraw = False
+37.4014 	EXP 	grating_2: autoDraw = False
+37.4014 	EXP 	polygon: autoDraw = False
+37.4014 	EXP 	grating: phase = array([290.80054762, 290.80054762])
+37.4014 	EXP 	grating_2: phase = array([286.81929569, 286.81929569])
+37.4014 	EXP 	polygon: ori = -90.0
+37.4014 	EXP 	polygon: autoDraw = True
+37.6393 	INFO 	Keyboard events cleared
+37.6391 	EXP 	grating: autoDraw = True
+37.6391 	EXP 	grating_2: autoDraw = True
+40.3913 	EXP 	New trial (rep=2, index=1): <Trial 9 (1 in rep 2) data={'direction': -1, 'control': -1, 'thisN': 9, 'thisTrialN': 1, 'thisRepN': 2}>
+40.3959 	DATA 	Keypress: space
+40.3987 	EXP 	grating: autoDraw = False
+40.3987 	EXP 	grating_2: autoDraw = False
+40.3987 	EXP 	polygon: autoDraw = False
+40.3987 	EXP 	grating: phase = array([11.09410266, 11.09410266])
+40.3987 	EXP 	grating_2: phase = array([37.73926411, 37.73926411])
+40.3987 	EXP 	polygon: ori = -90.0
+40.3987 	EXP 	polygon: autoDraw = True
+40.6393 	INFO 	Keyboard events cleared
+40.6391 	EXP 	grating: autoDraw = True
+40.6391 	EXP 	grating_2: autoDraw = True
+43.7255 	EXP 	New trial (rep=2, index=2): <Trial 10 (2 in rep 2) data={'direction': -1, 'control': 1, 'thisN': 10, 'thisTrialN': 2, 'thisRepN': 2}>
+43.7298 	DATA 	Keypress: space
+43.7325 	EXP 	grating: autoDraw = False
+43.7325 	EXP 	grating_2: autoDraw = False
+43.7325 	EXP 	polygon: autoDraw = False
+43.7325 	EXP 	grating: phase = array([289.40563053, 289.40563053])
+43.7325 	EXP 	grating_2: phase = array([33.11836386, 33.11836386])
+43.7325 	EXP 	polygon: ori = 90.0
+43.7325 	EXP 	polygon: autoDraw = True
+43.9727 	INFO 	Keyboard events cleared
+43.9724 	EXP 	grating: autoDraw = True
+43.9724 	EXP 	grating_2: autoDraw = True
+49.9087 	EXP 	New trial (rep=2, index=3): <Trial 11 (3 in rep 2) data={'direction': 1, 'control': 1, 'thisN': 11, 'thisTrialN': 3, 'thisRepN': 2}>
+49.9135 	DATA 	Keypress: space
+49.9162 	EXP 	grating: autoDraw = False
+49.9162 	EXP 	grating_2: autoDraw = False
+49.9162 	EXP 	polygon: autoDraw = False
+49.9162 	EXP 	grating: phase = array([92.56968476, 92.56968476])
+49.9162 	EXP 	grating_2: phase = array([354.50924018, 354.50924018])
+49.9162 	EXP 	polygon: ori = 90.0
+49.9162 	EXP 	polygon: autoDraw = True
+50.1558 	INFO 	Keyboard events cleared
+50.1556 	EXP 	grating: autoDraw = True
+50.1556 	EXP 	grating_2: autoDraw = True
+55.9413 	EXP 	New trial (rep=3, index=0): <Trial 12 (0 in rep 3) data={'direction': 1, 'control': -1, 'thisN': 12, 'thisTrialN': 0, 'thisRepN': 3}>
+55.9459 	DATA 	Keypress: space
+55.9557 	EXP 	grating: autoDraw = False
+55.9557 	EXP 	grating_2: autoDraw = False
+55.9557 	EXP 	polygon: autoDraw = False
+55.9557 	EXP 	grating: phase = array([86.43323938, 86.43323938])
+55.9557 	EXP 	grating_2: phase = array([270.67724616, 270.67724616])
+55.9557 	EXP 	polygon: ori = -90.0
+55.9557 	EXP 	polygon: autoDraw = True
+56.1895 	INFO 	Keyboard events cleared
+56.1892 	EXP 	grating: autoDraw = True
+56.1892 	EXP 	grating_2: autoDraw = True
+59.9753 	EXP 	New trial (rep=3, index=1): <Trial 13 (1 in rep 3) data={'direction': -1, 'control': 1, 'thisN': 13, 'thisTrialN': 1, 'thisRepN': 3}>
+59.9816 	DATA 	Keypress: space
+59.9844 	EXP 	grating: autoDraw = False
+59.9844 	EXP 	grating_2: autoDraw = False
+59.9844 	EXP 	polygon: autoDraw = False
+59.9844 	EXP 	grating: phase = array([187.74145118, 187.74145118])
+59.9844 	EXP 	grating_2: phase = array([177.86539007, 177.86539007])
+59.9844 	EXP 	polygon: ori = 90.0
+59.9844 	EXP 	polygon: autoDraw = True
+60.2398 	INFO 	Keyboard events cleared
+60.2395 	EXP 	grating: autoDraw = True
+60.2395 	EXP 	grating_2: autoDraw = True
+64.3251 	EXP 	New trial (rep=3, index=2): <Trial 14 (2 in rep 3) data={'direction': -1, 'control': -1, 'thisN': 14, 'thisTrialN': 2, 'thisRepN': 3}>
+64.3296 	DATA 	Keypress: space
+64.3324 	EXP 	grating: autoDraw = False
+64.3324 	EXP 	grating_2: autoDraw = False
+64.3324 	EXP 	polygon: autoDraw = False
+64.3324 	EXP 	grating: phase = array([13.54354348, 13.54354348])
+64.3324 	EXP 	grating_2: phase = array([281.85701492, 281.85701492])
+64.3324 	EXP 	polygon: ori = -90.0
+64.3324 	EXP 	polygon: autoDraw = True
+64.5733 	INFO 	Keyboard events cleared
+64.5731 	EXP 	grating: autoDraw = True
+64.5731 	EXP 	grating_2: autoDraw = True
+67.9089 	EXP 	New trial (rep=3, index=3): <Trial 15 (3 in rep 3) data={'direction': 1, 'control': 1, 'thisN': 15, 'thisTrialN': 3, 'thisRepN': 3}>
+67.9131 	DATA 	Keypress: space
+67.9224 	EXP 	grating: autoDraw = False
+67.9224 	EXP 	grating_2: autoDraw = False
+67.9224 	EXP 	polygon: autoDraw = False
+67.9224 	EXP 	grating: phase = array([97.40413523, 97.40413523])
+67.9224 	EXP 	grating_2: phase = array([142.324243, 142.324243])
+67.9224 	EXP 	polygon: ori = 90.0
+67.9224 	EXP 	polygon: autoDraw = True
+68.1559 	INFO 	Keyboard events cleared
+68.1557 	EXP 	grating: autoDraw = True
+68.1557 	EXP 	grating_2: autoDraw = True
+71.5739 	EXP 	New trial (rep=4, index=0): <Trial 16 (0 in rep 4) data={'direction': -1, 'control': -1, 'thisN': 16, 'thisTrialN': 0, 'thisRepN': 4}>
+71.5782 	DATA 	Keypress: space
+71.5890 	EXP 	grating: autoDraw = False
+71.5890 	EXP 	grating_2: autoDraw = False
+71.5890 	EXP 	polygon: autoDraw = False
+71.5890 	EXP 	grating: phase = array([305.9954781, 305.9954781])
+71.5890 	EXP 	grating_2: phase = array([215.30489214, 215.30489214])
+71.5890 	EXP 	polygon: ori = -90.0
+71.5890 	EXP 	polygon: autoDraw = True
+71.8225 	INFO 	Keyboard events cleared
+71.8223 	EXP 	grating: autoDraw = True
+71.8223 	EXP 	grating_2: autoDraw = True
+75.4791 	EXP 	New trial (rep=4, index=1): <Trial 17 (1 in rep 4) data={'direction': 1, 'control': -1, 'thisN': 17, 'thisTrialN': 1, 'thisRepN': 4}>
+75.4837 	DATA 	Keypress: space
+75.4889 	EXP 	grating: autoDraw = False
+75.4889 	EXP 	grating_2: autoDraw = False
+75.4889 	EXP 	polygon: autoDraw = False
+75.4889 	EXP 	grating: phase = array([339.21508147, 339.21508147])
+75.4889 	EXP 	grating_2: phase = array([336.42625313, 336.42625313])
+75.4889 	EXP 	polygon: ori = -90.0
+75.4889 	EXP 	polygon: autoDraw = True
+75.5289 	WARNING 	t of last frame was 21.52ms (=1/46)
+75.7291 	INFO 	Keyboard events cleared
+75.7291 	EXP 	grating: autoDraw = True
+75.7291 	EXP 	grating_2: autoDraw = True
+78.3239 	EXP 	New trial (rep=4, index=2): <Trial 18 (2 in rep 4) data={'direction': -1, 'control': 1, 'thisN': 18, 'thisTrialN': 2, 'thisRepN': 4}>
+78.3282 	DATA 	Keypress: space
+78.3391 	EXP 	grating: autoDraw = False
+78.3391 	EXP 	grating_2: autoDraw = False
+78.3391 	EXP 	polygon: autoDraw = False
+78.3391 	EXP 	grating: phase = array([175.34479345, 175.34479345])
+78.3391 	EXP 	grating_2: phase = array([146.24369866, 146.24369866])
+78.3391 	EXP 	polygon: ori = 90.0
+78.3391 	EXP 	polygon: autoDraw = True
+78.5730 	INFO 	Keyboard events cleared
+78.5727 	EXP 	grating: autoDraw = True
+78.5727 	EXP 	grating_2: autoDraw = True
+81.2259 	EXP 	New trial (rep=4, index=3): <Trial 19 (3 in rep 4) data={'direction': 1, 'control': 1, 'thisN': 19, 'thisTrialN': 3, 'thisRepN': 4}>
+81.2315 	DATA 	Keypress: space
+81.2390 	EXP 	grating: autoDraw = False
+81.2390 	EXP 	grating_2: autoDraw = False
+81.2390 	EXP 	polygon: autoDraw = False
+81.2390 	EXP 	grating: phase = array([358.75354034, 358.75354034])
+81.2390 	EXP 	grating_2: phase = array([216.24550393, 216.24550393])
+81.2390 	EXP 	polygon: ori = 90.0
+81.2390 	EXP 	polygon: autoDraw = True
+81.4725 	INFO 	Keyboard events cleared
+81.4723 	EXP 	grating: autoDraw = True
+81.4723 	EXP 	grating_2: autoDraw = True
+83.8264 	DATA 	Keypress: space
+83.8291 	EXP 	grating: autoDraw = False
+83.8291 	EXP 	grating_2: autoDraw = False
+83.8291 	EXP 	polygon: autoDraw = False
+83.8292 	EXP 	method-of-adjustment: status = STOPPED
+83.8381 	INFO 	saved data to '/Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768 - Measuring Perception/demos/week-1/method-of-adjustment/data/demo_method-of-adjustment_2025-01-06_16h30.16.790.csv'
+83.8392 	INFO 	saved data to /Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768 - Measuring Perception/demos/week-1/method-of-adjustment/data/demo_method-of-adjustment_2025-01-06_16h30.16.790.psydat
+83.8749 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+83.8750 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+83.8750 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
