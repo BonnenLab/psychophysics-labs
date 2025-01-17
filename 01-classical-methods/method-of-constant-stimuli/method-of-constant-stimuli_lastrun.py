@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on Mon Jan  6 16:02:27 2025
+    on Thu Jan 16 21:16:36 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -125,7 +125,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='/Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768 - Measuring Perception/demos/week-1/method-of-constant-stimuli/method-of-constant-stimuli_lastrun.py',
+        originPath='/Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768 - Measuring Perception/V768-Psychophysics-labs/01-classical-methods/method-of-constant-stimuli/method-of-constant-stimuli_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
@@ -366,7 +366,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "begin_experiment" ---
     text = visual.TextStim(win=win, name='text',
-        text='On each trial, a grating might appear in the circle. When the circle turns green you should press up there was a grating and down if there was no stimulus.\n\nPress the space bar to begin.',
+        text='On each trial, a grating might appear in the circle. When the circle turns green, you should press up if there was a grating and down if there was no stimulus.\n\nPress the space bar to begin.',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -390,13 +390,27 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         colorSpace='rgb', lineColor='black', fillColor=None,
         opacity=None, depth=-1.0, interpolate=True)
     response = keyboard.Keyboard(deviceName='response')
+    noise = visual.NoiseStim(
+        win=win, name='noise',units='pix', 
+        noiseImage=None, mask=None,
+        ori=0.0, pos=(0, 0), size=(256, 256), sf=None,
+        phase=0.0,
+        color=[1,1,1], colorSpace='rgb',     opacity=None, blendmode='add', contrast=0.001,
+        texRes=128, filter=None,
+        noiseType='Uniform', noiseElementSize=[2], 
+        noiseBaseSf=8.0, noiseBW=1.0,
+        noiseBWO=30.0, noiseOri=0.0,
+        noiseFractalPower=0.0,noiseFilterLower=1.0,
+        noiseFilterUpper=8.0, noiseFilterOrder=0.0,
+        noiseClip=3.0, imageComponent='Phase', interpolate=False, depth=-3.0)
+    noise.buildNoise()
     polygon = visual.ShapeStim(
         win=win, name='polygon',
         size=(0.5, 0.5), vertices='circle',
         ori=0.0, pos=(0, 0), draggable=False, anchor='center',
         lineWidth=10.0,
         colorSpace='rgb', lineColor='green', fillColor=None,
-        opacity=None, depth=-3.0, interpolate=True)
+        opacity=None, depth=-4.0, interpolate=True)
     
     # create some handy timers
     
@@ -591,7 +605,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # create an object to store info about Routine trial
         trial = data.Routine(
             name='trial',
-            components=[grating, stimulus_window, response, polygon],
+            components=[grating, stimulus_window, response, noise, polygon],
         )
         trial.status = NOT_STARTED
         continueRoutine = True
@@ -714,6 +728,30 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                     response.duration = _response_allKeys[-1].duration
                     # a response ends the routine
                     continueRoutine = False
+            
+            # *noise* updates
+            
+            # if noise is starting this frame...
+            if noise.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                noise.frameNStart = frameN  # exact frame index
+                noise.tStart = t  # local t and not account for scr refresh
+                noise.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(noise, 'tStartRefresh')  # time at next scr refresh
+                # update status
+                noise.status = STARTED
+                noise.setAutoDraw(True)
+            
+            # if noise is active this frame...
+            if noise.status == STARTED:
+                # update params
+                pass
+            if noise.status == STARTED:
+                if noise._needBuild:
+                    noise.buildNoise()
+                else:
+                    if (frameN-noise.frameNStart) %             5==0:
+                        noise.updateNoise()
             
             # *polygon* updates
             
