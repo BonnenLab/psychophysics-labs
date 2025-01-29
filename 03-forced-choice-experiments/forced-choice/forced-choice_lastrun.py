@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on Mon Jan  6 23:01:46 2025
+    on Tue Jan 28 22:20:17 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -125,7 +125,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='/Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768 - Measuring Perception/demos/week-2/forced-choice/forced-choice_lastrun.py',
+        originPath='/Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768 - Measuring Perception/V768-Psychophysics-labs/03-forced-choice-experiments/forced-choice/forced-choice_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
@@ -366,7 +366,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "begin_experiment" ---
     text = visual.TextStim(win=win, name='text',
-        text='On each trial, a grating might appear in the circle. When the circle turns green you should press up there was a grating and down if there was no stimulus.\n\nPress the space bar to begin.',
+        text='On each trial, a grating might appear on the left or right of the fixation cross. When the cross turns green, you must indicate which side a stimulus appeared on using the left and right arrow keys.\n\nPress the space bar to begin.',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -378,7 +378,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     grating = visual.GratingStim(
         win=win, name='grating',
         tex='sin', mask='gauss', anchor='center',
-        ori=0.0, pos=[0,0], draggable=False, size=(0.2, 0.2), sf=2.0, phase=1.0,
+        ori=0.0, pos=[0,0], draggable=False, size=1.0, sf=2.0, phase=1.0,
         color=[1,1,1], colorSpace='rgb',
         opacity=None, contrast=1.0, blendmode='avg',
         texRes=512.0, interpolate=True, depth=0.0)
@@ -598,6 +598,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # update component parameters for each repeat
         grating.setContrast(contrast)
         grating.setPos((location*.35, 0))
+        grating.setSize((size,size))
         grating.setPhase(360*np.random.rand())
         # create starting attributes for response
         response.keys = []

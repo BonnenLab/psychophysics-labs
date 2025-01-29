@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" ?>
-<PsychoPy2experiment encoding="utf-8" version="2023.2.3">
+<PsychoPy2experiment encoding="utf-8" version="2024.2.4">
   <Settings>
     <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
     <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
@@ -116,7 +116,7 @@
         <Param val="(location*.35, 0)" valType="list" updates="set every repeat" name="pos"/>
         <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="2" valType="num" updates="constant" name="sf"/>
-        <Param val="(0.2, 0.2)" valType="list" updates="constant" name="size"/>
+        <Param val="(size,size)" valType="list" updates="set every repeat" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val=".1" valType="code" updates="None" name="startVal"/>
@@ -277,7 +277,7 @@
     <Routine name="begin_experiment"/>
     <LoopInitiator loopType="TrialHandler" name="trials">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[OrderedDict([('contrast', 0.0), ('location', 1)]), OrderedDict([('contrast', 1e-09), ('location', 1)]), OrderedDict([('contrast', 1e-07), ('location', 1)]), OrderedDict([('contrast', 1e-05), ('location', 1)]), OrderedDict([('contrast', 0.001), ('location', 1)]), OrderedDict([('contrast', 0.01), ('location', 1)]), OrderedDict([('contrast', 0.1), ('location', 1)]), OrderedDict([('contrast', 1.0), ('location', 1)]), OrderedDict([('contrast', 0.0), ('location', -1)]), OrderedDict([('contrast', 1e-09), ('location', -1)]), OrderedDict([('contrast', 1e-07), ('location', -1)]), OrderedDict([('contrast', 1e-05), ('location', -1)]), OrderedDict([('contrast', 0.001), ('location', -1)]), OrderedDict([('contrast', 0.01), ('location', -1)]), OrderedDict([('contrast', 0.1), ('location', -1)]), OrderedDict([('contrast', 1.0), ('location', -1)])]" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('contrast', 1e-05), ('location', 1), ('size', 0.1)]), OrderedDict([('contrast', 0.0001), ('location', 1), ('size', 0.1)]), OrderedDict([('contrast', 0.001), ('location', 1), ('size', 0.1)]), OrderedDict([('contrast', 0.01), ('location', 1), ('size', 0.1)]), OrderedDict([('contrast', 0.1), ('location', 1), ('size', 0.1)]), OrderedDict([('contrast', 0.05), ('location', 1), ('size', 0.1)]), OrderedDict([('contrast', 0.1), ('location', 1), ('size', 0.1)]), OrderedDict([('contrast', 1.0), ('location', 1), ('size', 0.1)]), OrderedDict([('contrast', 1e-05), ('location', -1), ('size', 0.1)]), OrderedDict([('contrast', 0.0001), ('location', -1), ('size', 0.1)]), OrderedDict([('contrast', 0.001), ('location', -1), ('size', 0.1)]), OrderedDict([('contrast', 0.01), ('location', -1), ('size', 0.1)]), OrderedDict([('contrast', 0.1), ('location', -1), ('size', 0.1)]), OrderedDict([('contrast', 0.05), ('location', -1), ('size', 0.1)]), OrderedDict([('contrast', 0.1), ('location', -1), ('size', 0.1)]), OrderedDict([('contrast', 1.0), ('location', -1), ('size', 0.1)])]" valType="str"/>
       <Param name="conditionsFile" updates="None" val="forced-choice.csv" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
