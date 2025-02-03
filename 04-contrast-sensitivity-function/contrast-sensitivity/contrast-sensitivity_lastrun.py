@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on Sun Jan 26 16:43:41 2025
+    on Mon Feb  3 14:57:01 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -378,7 +378,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     grating = visual.GratingStim(
         win=win, name='grating',
         tex='sin', mask='gauss', anchor='center',
-        ori=0.0, pos=[0,0], draggable=False, size=1.0, sf=2.0, phase=1.0,
+        ori=0.0, pos=[0,0], draggable=False, size=1.0, sf=1.0, phase=1.0,
         color=[1,1,1], colorSpace='rgb',
         opacity=None, contrast=1.0, blendmode='avg',
         texRes=512.0, interpolate=True, depth=0.0)
@@ -598,7 +598,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # update component parameters for each repeat
         grating.setContrast(contrast)
         grating.setPos((location*.35, 0))
-        grating.setSize((size,size))
+        grating.setSize((.2,.2))
+        grating.setSF(cpd)
         grating.setPhase(360*np.random.rand())
         # create starting attributes for response
         response.keys = []

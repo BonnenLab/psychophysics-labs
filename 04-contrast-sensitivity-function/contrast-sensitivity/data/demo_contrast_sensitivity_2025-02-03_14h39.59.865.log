@@ -1,0 +1,12 @@
+8.4054 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+0.7976 	WARNING 	t of last frame was 20.29ms (=1/49)
+1.1176 	WARNING 	t of last frame was 123.91ms (=1/8)
+2.8144 	WARNING 	t of last frame was 20.26ms (=1/49)
+5.2978 	WARNING 	t of last frame was 20.33ms (=1/49)
+5.5646 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+409.5559 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+409.5561 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+409.5561 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
