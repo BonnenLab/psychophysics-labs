@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" ?>
-<PsychoPy2experiment encoding="utf-8" version="2024.2.4">
+<PsychoPy2experiment encoding="utf-8" version="2023.2.3">
   <Settings>
     <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
     <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
@@ -115,7 +115,7 @@
         <Param val="360*np.random.rand()" valType="num" updates="set every repeat" name="phase"/>
         <Param val="(location*.35, 0)" valType="list" updates="set every repeat" name="pos"/>
         <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="cpd" valType="num" updates="set every repeat" name="sf"/>
+        <Param val="n_cycles" valType="num" updates="set every repeat" name="sf"/>
         <Param val="(.2,.2)" valType="list" updates="set every repeat" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
