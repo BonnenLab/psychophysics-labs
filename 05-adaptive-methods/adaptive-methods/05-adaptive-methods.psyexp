@@ -109,8 +109,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
-        <Param val="if (((staircase.currentStaircase.condition[&quot;label&quot;] === &quot;hi&quot;) &amp;&amp; (staircase.currentStaircase.thisTrialN === 5))) {&amp;#10;    staircase.currentStaircase.finished = true;&amp;#10;}&amp;#10;if (((staircase.currentStaircase.condition[&quot;label&quot;] === &quot;lo&quot;) &amp;&amp; (staircase.currentStaircase.thisTrialN === 5))) {&amp;#10;    staircase.currentStaircase.finished = true;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="if staircase.currentStaircase.condition['label']=='hi' and staircase.currentStaircase.thisTrialN == 5:&amp;#10;    staircase.currentStaircase.finished = True&amp;#10;&amp;#10;if staircase.currentStaircase.condition['label']=='lo' and staircase.currentStaircase.thisTrialN == 5:&amp;#10;    staircase.currentStaircase.finished = True&amp;#10;    " valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="if (((staircase.currentStaircase.thisTrialN === 6) &amp;&amp; (staircase.currentStaircase.condition[&quot;label&quot;] === &quot;hi&quot;))) {&amp;#10;    staircase.currentStaircase.finished = true;&amp;#10;}&amp;#10;if (((staircase.currentStaircase.thisTrialN === 6) &amp;&amp; (staircase.currentStaircase.condition[&quot;label&quot;] === &quot;lo&quot;))) {&amp;#10;    staircase.currentStaircase.finished = true;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="if staircase.currentStaircase.thisTrialN == 6 and staircase.currentStaircase.condition['label']=='hi':&amp;#10;    staircase.currentStaircase.finished=True&amp;#10;&amp;#10;if staircase.currentStaircase.thisTrialN == 6 and staircase.currentStaircase.condition['label']=='lo':&amp;#10;    staircase.currentStaircase.finished=True" valType="extendedCode" updates="constant" name="End Routine"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="easy_trials" valType="code" updates="None" name="name"/>
       </CodeComponent>
@@ -132,7 +132,7 @@
         <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="2" valType="num" updates="constant" name="sf"/>
-        <Param val="(0.25, 0.25)" valType="list" updates="constant" name="size"/>
+        <Param val="(.2,.2)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -162,7 +162,7 @@
         <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="2" valType="num" updates="constant" name="sf"/>
-        <Param val="(0.25, 0.25)" valType="list" updates="constant" name="size"/>
+        <Param val="(0.2, 0.2)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.6" valType="code" updates="None" name="startVal"/>
@@ -206,8 +206,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
-        <Param val="if ((key_resp.keys === &quot;right&quot;)) {&amp;#10;    staircase.addResponse(1, {&quot;intensity&quot;: level});&amp;#10;} else {&amp;#10;    staircase.addResponse(0, {&quot;intensity&quot;: level});&amp;#10;}&amp;#10;if ((key_resp.keys === &quot;right&quot;)) {&amp;#10;    psychoJS.experiment.addData(&quot;response&quot;, &quot;cw&quot;);&amp;#10;} else {&amp;#10;    psychoJS.experiment.addData(&quot;response&quot;, &quot;ccw&quot;);&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="# update staircase&amp;#10;if key_resp.keys == 'right':&amp;#10;    staircase.addResponse(1,intensity=level)&amp;#10;else:&amp;#10;    staircase.addResponse(0,intensity=level)&amp;#10;&amp;#10;# log response direction&amp;#10;if key_resp.keys == 'right':&amp;#10;    thisExp.addData('response','cw')&amp;#10;else:&amp;#10;    thisExp.addData('response','ccw')" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="if (((key_resp.keys === &quot;right&quot;) &amp;&amp; (level !== 0))) {&amp;#10;    staircase.addResponse(1, level);&amp;#10;} else {&amp;#10;    if (((key_resp.keys === &quot;left&quot;) &amp;&amp; (level === 0))) {&amp;#10;        staircase.addResponse(1, level);&amp;#10;    } else {&amp;#10;        staircase.addResponse(0, level);&amp;#10;    }&amp;#10;}&amp;#10;if ((key_resp.keys === &quot;right&quot;)) {&amp;#10;    psychoJS.experiment.addData(&quot;response&quot;, &quot;cw&quot;);&amp;#10;} else {&amp;#10;    psychoJS.experiment.addData(&quot;response&quot;, &quot;ccw&quot;);&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="# update staircase&amp;#10;if key_resp.keys == 'right' and level!=0:&amp;#10;    staircase.addResponse(1,level)&amp;#10;elif key_resp.keys == 'left' and level==0:&amp;#10;    staircase.addResponse(1,level)&amp;#10;else:&amp;#10;    staircase.addResponse(0,level)&amp;#10;&amp;#10;# log response direction&amp;#10;if key_resp.keys == 'right':&amp;#10;    thisExp.addData('response','cw')&amp;#10;else:&amp;#10;    thisExp.addData('response','ccw')" valType="extendedCode" updates="constant" name="End Routine"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="log_response" valType="code" updates="None" name="name"/>
       </CodeComponent>
@@ -308,7 +308,7 @@
   <Flow>
     <Routine name="begin_experiment"/>
     <LoopInitiator loopType="MultiStairHandler" name="staircase">
-      <Param name="conditions" updates="None" val="[{'label': 'cw', 'nReps': 60, 'startVal': 12, 'maxVal': 15, 'minVal': 0, 'stepSizes': 1, 'stepType': 'lin', 'nUp': 1, 'nDown': 2, 'nReversals': None}, {'label': 'ccw', 'nReps': 60, 'startVal': -12, 'maxVal': 0, 'minVal': -15, 'stepSizes': 1, 'stepType': 'lin', 'nUp': 2, 'nDown': 1, 'nReversals': None}, {'label': 'hi', 'nReps': 6, 'startVal': 15, 'maxVal': 15, 'minVal': 15, 'stepSizes': 1, 'stepType': 'lin', 'nUp': 1, 'nDown': 2, 'nReversals': None}, {'label': 'lo', 'nReps': 6, 'startVal': -15, 'maxVal': -15, 'minVal': -15, 'stepSizes': 1, 'stepType': 'lin', 'nUp': 2, 'nDown': 1, 'nReversals': None}]" valType="list"/>
+      <Param name="conditions" updates="None" val="[{'label': 'cw', 'nReps': 60, 'startVal': 10, 'maxVal': 15, 'minVal': 0, 'stepSizes': [2, 0.5], 'stepType': 'lin', 'nUp': 1, 'nDown': 2, 'nReversals': None}, {'label': 'ccw', 'nReps': 60, 'startVal': -10, 'maxVal': 0, 'minVal': -15, 'stepSizes': [2, 0.5], 'stepType': 'lin', 'nUp': 2, 'nDown': 1, 'nReversals': None}, {'label': 'hi', 'nReps': 6, 'startVal': 15, 'maxVal': 15, 'minVal': 15, 'stepSizes': 1, 'stepType': 'lin', 'nUp': 1, 'nDown': 2, 'nReversals': 0}, {'label': 'lo', 'nReps': 6, 'startVal': -15, 'maxVal': -15, 'minVal': -15, 'stepSizes': 1, 'stepType': 'lin', 'nUp': 2, 'nDown': 1, 'nReversals': 0}]" valType="list"/>
       <Param name="conditionsFile" updates="None" val="staircase_parameters.xlsx" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
@@ -316,7 +316,7 @@
       <Param name="nReps" updates="None" val="60" valType="num"/>
       <Param name="name" updates="None" val="staircase" valType="code"/>
       <Param name="stairType" updates="None" val="simple" valType="str"/>
-      <Param name="switchMethod" updates="None" val="fullRandom" valType="str"/>
+      <Param name="switchMethod" updates="None" val="random" valType="str"/>
     </LoopInitiator>
     <Routine name="trial"/>
     <LoopTerminator name="staircase"/>

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on Wed Feb 12 20:14:44 2025
+    on Wed Feb 12 23:42:29 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -387,14 +387,14 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     grating = visual.GratingStim(
         win=win, name='grating',
         tex='sin', mask='gauss', anchor='center',
-        ori=0.0, pos=(0, 0), draggable=False, size=(0.25, 0.25), sf=2.0, phase=0.0,
+        ori=0.0, pos=(0, 0), draggable=False, size=(.2,.2), sf=2.0, phase=0.0,
         color=[1,1,1], colorSpace='rgb',
         opacity=None, contrast=1.0, blendmode='avg',
         texRes=128.0, interpolate=True, depth=-1.0)
     grating_test = visual.GratingStim(
         win=win, name='grating_test',
         tex='sin', mask='gauss', anchor='center',
-        ori=1.0, pos=(0, 0), draggable=False, size=(0.25, 0.25), sf=2.0, phase=0.0,
+        ori=1.0, pos=(0, 0), draggable=False, size=(0.2, 0.2), sf=2.0, phase=0.0,
         color=[1,1,1], colorSpace='rgb',
         opacity=None, contrast=1.0, blendmode='avg',
         texRes=128.0, interpolate=True, depth=-2.0)
@@ -572,7 +572,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     staircase = data.MultiStairHandler(stairType='simple', name='staircase',
         nTrials=60.0,
         conditions=conditions,
-        method='fullRandom',
+        method='random',
         originPath=-1)
     thisExp.addLoop(staircase)  # add the loop to the experiment
     # initialise values for first condition
@@ -789,21 +789,22 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         trial.tStopRefresh = tThisFlipGlobal
         thisExp.addData('trial.stopped', trial.tStop)
         # Run 'End Routine' code from easy_trials
-        if staircase.currentStaircase.condition['label']=='hi' and staircase.currentStaircase.thisTrialN == 5:
-            staircase.currentStaircase.finished = True
+        if staircase.currentStaircase.thisTrialN == 6 and staircase.currentStaircase.condition['label']=='hi':
+            staircase.currentStaircase.finished=True
         
-        if staircase.currentStaircase.condition['label']=='lo' and staircase.currentStaircase.thisTrialN == 5:
-            staircase.currentStaircase.finished = True
-            
+        if staircase.currentStaircase.thisTrialN == 6 and staircase.currentStaircase.condition['label']=='lo':
+            staircase.currentStaircase.finished=True
         # check responses
         if key_resp.keys in ['', [], None]:  # No response was made
             key_resp.keys = None
         # Run 'End Routine' code from log_response
         # update staircase
-        if key_resp.keys == 'right':
-            staircase.addResponse(1,intensity=level)
+        if key_resp.keys == 'right' and level!=0:
+            staircase.addResponse(1,level)
+        elif key_resp.keys == 'left' and level==0:
+            staircase.addResponse(1,level)
         else:
-            staircase.addResponse(0,intensity=level)
+            staircase.addResponse(0,level)
         
         # log response direction
         if key_resp.keys == 'right':
