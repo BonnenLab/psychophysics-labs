@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on Mon Feb 10 22:43:10 2025
+    on Wed Feb 12 20:14:44 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -400,10 +400,10 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         texRes=128.0, interpolate=True, depth=-2.0)
     key_resp = keyboard.Keyboard(deviceName='key_resp')
     text_2 = visual.TextStim(win=win, name='text_2',
-        text='counter-clockwise (left) or clockwise (right)',
+        text='+',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
-        color='white', colorSpace='rgb', opacity=None, 
+        color='green', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-5.0);
     
