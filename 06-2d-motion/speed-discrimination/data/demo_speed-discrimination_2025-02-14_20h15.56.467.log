@@ -1,0 +1,1293 @@
+10.2117 	INFO 	Loaded monitor calibration from ['2023_05_12 15:00']
+10.3801 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f8139d43880>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f8139d43700>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f8139f2f2b0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([3024, 1964]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.3801 	EXP 	window1: backgroundImage = ''
+10.3802 	EXP 	window1: backgroundFit = 'none'
+10.4226 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.4227 	EXP 	window1: recordFrameIntervals = False
+10.5434 	EXP 	window1: recordFrameIntervals = True
+11.3818 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+13.0694 	INFO 	keyboard.Keyboard is using iohub backend.
+13.0695 	INFO 	keyboard.Keyboard is using iohub backend.
+13.0695 	INFO 	keyboard.Keyboard is using iohub backend.
+13.0695 	EXP 	speed-discrimination: status = STARTED
+13.1040 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.1072 	EXP 	Created dots_1 = DotStim(__class__=<class 'psychopy.visual.dot.DotStim'>, autoLog=True, coherence=1.0, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, dir=0.0, dotLife=10.0, dotSize=4.0, element=None, fieldAnchor=UNKNOWN, fieldPos=array([0., 0.]), fieldShape='circle', fieldSize=array([0.4, 0.4]), nDots=100, name='dots_1', noiseDots='direction', opacity=1, rgb=UNKNOWN, signalDots='same', speed=1.0, units='height', win=Window(...))
+13.1078 	EXP 	Created dots_2 = DotStim(__class__=<class 'psychopy.visual.dot.DotStim'>, autoLog=True, coherence=1.0, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, dir=0.0, dotLife=10.0, dotSize=4.0, element=None, fieldAnchor=UNKNOWN, fieldPos=array([0., 0.]), fieldShape='circle', fieldSize=array([0.4, 0.4]), nDots=100, name='dots_2', noiseDots='direction', opacity=1, rgb=UNKNOWN, signalDots='same', speed=1.0, units='height', win=Window(...))
+13.1112 	EXP 	Created circle_block = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([0.00392157, 0.00392157, 0.00392157]), fillColorSpace='rgb', fillRGB=array([0.00392157, 0.00392157, 0.00392157]), interpolate=True, lineColor=array([0.00392157, 0.00392157, 0.00392157]), lineColorSpace='rgb', lineRGB=array([0.00392157, 0.00392157, 0.00392157]), lineWidth=1.0, name='circle_block', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+13.1126 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, draggable=False, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='fixation', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.025, 0.025]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+13.1138 	EXP 	Created fixation_green = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, draggable=False, fillColor=array([-1.        ,  0.00392157, -1.        ]), fillColorSpace='rgb', fillRGB=array([-1.        ,  0.00392157, -1.        ]), interpolate=True, lineColor=array([-1.        ,  0.00392157, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        ,  0.00392157, -1.        ]), lineWidth=1.0, name='fixation_green', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.025, 0.025]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0119 	INFO 	Keyboard events cleared
+0.0117 	EXP 	text: autoDraw = True
+1.2194 	EXP 	Imported speed-discrimination.csv as conditions, 14 conditions, 2 params
+1.3152 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'speed1': 0.0005, 'speed2': 0.001, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+1.3217 	DATA 	Keypress: space
+1.3242 	WARNING 	t of last frame was 141.10ms (=1/7)
+1.3242 	EXP 	text: autoDraw = False
+1.3242 	EXP 	dots_1: speed = 0.0005
+1.3242 	EXP 	dots_2: speed = 0.001
+1.3242 	EXP 	dots_1: autoDraw = True
+1.3242 	EXP 	circle_block: autoDraw = True
+1.3242 	EXP 	fixation: autoDraw = True
+1.8306 	EXP 	dots_1: autoDraw = False
+1.9507 	EXP 	dots_2: autoDraw = True
+2.4473 	EXP 	dots_2: autoDraw = False
+2.4544 	INFO 	Keyboard events cleared
+2.4541 	EXP 	fixation_green: autoDraw = True
+2.5690 	EXP 	fixation: autoDraw = False
+3.2667 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'speed1': -0.0005, 'speed2': -0.002, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+3.2704 	DATA 	Keypress: down
+3.2735 	EXP 	dots_1: autoDraw = False
+3.2735 	EXP 	dots_2: autoDraw = False
+3.2735 	EXP 	circle_block: autoDraw = False
+3.2735 	EXP 	fixation: autoDraw = False
+3.2735 	EXP 	fixation_green: autoDraw = False
+3.2735 	EXP 	dots_1: speed = -0.0005
+3.2735 	EXP 	dots_2: speed = -0.002
+3.2735 	EXP 	dots_1: autoDraw = True
+3.2735 	EXP 	circle_block: autoDraw = True
+3.2735 	EXP 	fixation: autoDraw = True
+3.7807 	EXP 	dots_1: autoDraw = False
+4.0171 	EXP 	dots_2: autoDraw = True
+4.5136 	INFO 	Keyboard events cleared
+4.5132 	EXP 	dots_2: autoDraw = False
+4.5132 	EXP 	fixation_green: autoDraw = True
+4.5171 	EXP 	fixation: autoDraw = False
+4.9342 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'speed1': 0.0005, 'speed2': 6.25e-05, 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+4.9374 	DATA 	Keypress: up
+4.9469 	EXP 	dots_1: autoDraw = False
+4.9469 	EXP 	dots_2: autoDraw = False
+4.9469 	EXP 	circle_block: autoDraw = False
+4.9469 	EXP 	fixation: autoDraw = False
+4.9469 	EXP 	fixation_green: autoDraw = False
+4.9469 	EXP 	dots_1: speed = 0.0005
+4.9469 	EXP 	dots_2: speed = 6.25e-05
+4.9469 	EXP 	dots_1: autoDraw = True
+4.9469 	EXP 	circle_block: autoDraw = True
+4.9469 	EXP 	fixation: autoDraw = True
+5.4331 	EXP 	dots_1: autoDraw = False
+5.6809 	EXP 	dots_2: autoDraw = True
+6.1659 	EXP 	dots_2: autoDraw = False
+6.1863 	INFO 	Keyboard events cleared
+6.1860 	EXP 	fixation: autoDraw = False
+6.1860 	EXP 	fixation_green: autoDraw = True
+6.5485 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'speed1': -0.0005, 'speed2': -0.00025, 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+6.5517 	DATA 	Keypress: down
+6.5546 	EXP 	dots_1: autoDraw = False
+6.5546 	EXP 	dots_2: autoDraw = False
+6.5546 	EXP 	circle_block: autoDraw = False
+6.5546 	EXP 	fixation: autoDraw = False
+6.5546 	EXP 	fixation_green: autoDraw = False
+6.5546 	EXP 	dots_1: speed = -0.0005
+6.5546 	EXP 	dots_2: speed = -0.00025
+6.5546 	EXP 	dots_1: autoDraw = True
+6.5546 	EXP 	circle_block: autoDraw = True
+6.5546 	EXP 	fixation: autoDraw = True
+7.0636 	EXP 	dots_1: autoDraw = False
+7.2977 	EXP 	dots_2: autoDraw = True
+7.7832 	EXP 	dots_2: autoDraw = False
+7.7969 	INFO 	Keyboard events cleared
+7.7966 	EXP 	fixation_green: autoDraw = True
+7.8003 	EXP 	fixation: autoDraw = False
+8.2438 	DATA 	Keypress: down
+8.2476 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'speed1': 0.0005, 'speed2': 0.0005, 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+8.2515 	EXP 	dots_1: autoDraw = False
+8.2515 	EXP 	dots_2: autoDraw = False
+8.2515 	EXP 	circle_block: autoDraw = False
+8.2515 	EXP 	fixation: autoDraw = False
+8.2515 	EXP 	fixation_green: autoDraw = False
+8.2515 	EXP 	dots_1: speed = 0.0005
+8.2515 	EXP 	dots_2: speed = 0.0005
+8.2515 	EXP 	dots_1: autoDraw = True
+8.2515 	EXP 	circle_block: autoDraw = True
+8.2515 	EXP 	fixation: autoDraw = True
+8.7642 	EXP 	dots_1: autoDraw = False
+8.9854 	EXP 	dots_2: autoDraw = True
+9.4983 	INFO 	Keyboard events cleared
+9.4976 	EXP 	dots_2: autoDraw = False
+9.4976 	EXP 	fixation_green: autoDraw = True
+9.5138 	EXP 	fixation: autoDraw = False
+10.1327 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'speed1': 0.0005, 'speed2': 0.004, 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+10.1363 	DATA 	Keypress: down
+10.1468 	EXP 	dots_1: autoDraw = False
+10.1468 	EXP 	dots_2: autoDraw = False
+10.1468 	EXP 	circle_block: autoDraw = False
+10.1468 	EXP 	fixation: autoDraw = False
+10.1468 	EXP 	fixation_green: autoDraw = False
+10.1468 	EXP 	dots_1: speed = 0.0005
+10.1468 	EXP 	dots_2: speed = 0.004
+10.1468 	EXP 	dots_1: autoDraw = True
+10.1468 	EXP 	circle_block: autoDraw = True
+10.1468 	EXP 	fixation: autoDraw = True
+10.6470 	EXP 	dots_1: autoDraw = False
+10.8800 	EXP 	dots_2: autoDraw = True
+11.3804 	EXP 	dots_2: autoDraw = False
+11.3855 	INFO 	Keyboard events cleared
+11.3852 	EXP 	fixation: autoDraw = False
+11.3852 	EXP 	fixation_green: autoDraw = True
+11.8852 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'speed1': 0.0005, 'speed2': 0.002, 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+11.8883 	DATA 	Keypress: up
+11.8967 	EXP 	dots_1: autoDraw = False
+11.8967 	EXP 	dots_2: autoDraw = False
+11.8967 	EXP 	circle_block: autoDraw = False
+11.8967 	EXP 	fixation: autoDraw = False
+11.8967 	EXP 	fixation_green: autoDraw = False
+11.8967 	EXP 	dots_1: speed = 0.0005
+11.8967 	EXP 	dots_2: speed = 0.002
+11.8967 	EXP 	dots_1: autoDraw = True
+11.8967 	EXP 	circle_block: autoDraw = True
+11.8967 	EXP 	fixation: autoDraw = True
+12.3844 	EXP 	dots_1: autoDraw = False
+12.6362 	EXP 	dots_2: autoDraw = True
+13.1356 	INFO 	Keyboard events cleared
+13.1353 	EXP 	dots_2: autoDraw = False
+13.1353 	EXP 	fixation: autoDraw = False
+13.1353 	EXP 	fixation_green: autoDraw = True
+13.5862 	DATA 	Keypress: up
+13.5977 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'speed1': 0.0005, 'speed2': 0.000125, 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+13.6020 	EXP 	dots_1: autoDraw = False
+13.6020 	EXP 	dots_2: autoDraw = False
+13.6020 	EXP 	circle_block: autoDraw = False
+13.6020 	EXP 	fixation: autoDraw = False
+13.6020 	EXP 	fixation_green: autoDraw = False
+13.6020 	EXP 	dots_1: speed = 0.0005
+13.6020 	EXP 	dots_2: speed = 0.000125
+13.6020 	EXP 	dots_1: autoDraw = True
+13.6020 	EXP 	circle_block: autoDraw = True
+13.6020 	EXP 	fixation: autoDraw = True
+14.1143 	EXP 	dots_1: autoDraw = False
+14.3476 	EXP 	dots_2: autoDraw = True
+14.8336 	INFO 	Keyboard events cleared
+14.8334 	EXP 	dots_2: autoDraw = False
+14.8334 	EXP 	fixation_green: autoDraw = True
+14.8502 	EXP 	fixation: autoDraw = False
+15.0646 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'speed1': -0.0005, 'speed2': -0.001, 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+15.0672 	DATA 	Keypress: down
+15.0700 	EXP 	dots_1: autoDraw = False
+15.0700 	EXP 	dots_2: autoDraw = False
+15.0700 	EXP 	circle_block: autoDraw = False
+15.0700 	EXP 	fixation: autoDraw = False
+15.0700 	EXP 	fixation_green: autoDraw = False
+15.0700 	EXP 	dots_1: speed = -0.0005
+15.0700 	EXP 	dots_2: speed = -0.001
+15.0700 	EXP 	dots_1: autoDraw = True
+15.0700 	EXP 	circle_block: autoDraw = True
+15.0700 	EXP 	fixation: autoDraw = True
+15.5804 	EXP 	dots_1: autoDraw = False
+15.8023 	EXP 	dots_2: autoDraw = True
+16.3146 	INFO 	Keyboard events cleared
+16.3138 	EXP 	dots_2: autoDraw = False
+16.3138 	EXP 	fixation_green: autoDraw = True
+16.3199 	EXP 	fixation: autoDraw = False
+16.7488 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'speed1': -0.0005, 'speed2': -0.000125, 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+16.7520 	DATA 	Keypress: up
+16.7635 	EXP 	dots_1: autoDraw = False
+16.7635 	EXP 	dots_2: autoDraw = False
+16.7635 	EXP 	circle_block: autoDraw = False
+16.7635 	EXP 	fixation: autoDraw = False
+16.7635 	EXP 	fixation_green: autoDraw = False
+16.7635 	EXP 	dots_1: speed = -0.0005
+16.7635 	EXP 	dots_2: speed = -0.000125
+16.7635 	EXP 	dots_1: autoDraw = True
+16.7635 	EXP 	circle_block: autoDraw = True
+16.7635 	EXP 	fixation: autoDraw = True
+17.2638 	EXP 	dots_1: autoDraw = False
+17.4966 	EXP 	dots_2: autoDraw = True
+17.9970 	EXP 	dots_2: autoDraw = False
+18.0017 	INFO 	Keyboard events cleared
+18.0014 	EXP 	fixation: autoDraw = False
+18.0014 	EXP 	fixation_green: autoDraw = True
+18.3009 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'speed1': -0.0005, 'speed2': -0.0005, 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+18.3047 	DATA 	Keypress: down
+18.3076 	EXP 	dots_1: autoDraw = False
+18.3076 	EXP 	dots_2: autoDraw = False
+18.3076 	EXP 	circle_block: autoDraw = False
+18.3076 	EXP 	fixation: autoDraw = False
+18.3076 	EXP 	fixation_green: autoDraw = False
+18.3076 	EXP 	dots_1: speed = -0.0005
+18.3076 	EXP 	dots_2: speed = -0.0005
+18.3076 	EXP 	dots_1: autoDraw = True
+18.3076 	EXP 	circle_block: autoDraw = True
+18.3076 	EXP 	fixation: autoDraw = True
+18.8139 	EXP 	dots_1: autoDraw = False
+19.0642 	EXP 	dots_2: autoDraw = True
+19.5470 	INFO 	Keyboard events cleared
+19.5466 	EXP 	fixation_green: autoDraw = True
+19.5505 	EXP 	dots_2: autoDraw = False
+19.5505 	EXP 	fixation: autoDraw = False
+20.0340 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'speed1': 0.0005, 'speed2': 0.00025, 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+20.0379 	DATA 	Keypress: up
+20.0466 	EXP 	dots_1: autoDraw = False
+20.0466 	EXP 	dots_2: autoDraw = False
+20.0466 	EXP 	circle_block: autoDraw = False
+20.0466 	EXP 	fixation: autoDraw = False
+20.0466 	EXP 	fixation_green: autoDraw = False
+20.0466 	EXP 	dots_1: speed = 0.0005
+20.0466 	EXP 	dots_2: speed = 0.00025
+20.0466 	EXP 	dots_1: autoDraw = True
+20.0466 	EXP 	circle_block: autoDraw = True
+20.0466 	EXP 	fixation: autoDraw = True
+20.5321 	EXP 	dots_1: autoDraw = False
+20.7869 	EXP 	dots_2: autoDraw = True
+21.2979 	INFO 	Keyboard events cleared
+21.2972 	EXP 	dots_2: autoDraw = False
+21.2972 	EXP 	fixation: autoDraw = False
+21.2972 	EXP 	fixation_green: autoDraw = True
+21.5151 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'speed1': -0.0005, 'speed2': -6.25e-05, 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+21.5184 	DATA 	Keypress: down
+21.5214 	EXP 	dots_1: autoDraw = False
+21.5214 	EXP 	dots_2: autoDraw = False
+21.5214 	EXP 	circle_block: autoDraw = False
+21.5214 	EXP 	fixation: autoDraw = False
+21.5214 	EXP 	fixation_green: autoDraw = False
+21.5214 	EXP 	dots_1: speed = -0.0005
+21.5214 	EXP 	dots_2: speed = -6.25e-05
+21.5214 	EXP 	dots_1: autoDraw = True
+21.5214 	EXP 	circle_block: autoDraw = True
+21.5214 	EXP 	fixation: autoDraw = True
+22.0166 	EXP 	dots_1: autoDraw = False
+22.2639 	EXP 	dots_2: autoDraw = True
+22.7642 	INFO 	Keyboard events cleared
+22.7639 	EXP 	dots_2: autoDraw = False
+22.7639 	EXP 	fixation_green: autoDraw = True
+22.7802 	EXP 	fixation: autoDraw = False
+23.1515 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'speed1': -0.0005, 'speed2': -0.004, 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+23.1546 	DATA 	Keypress: down
+23.1632 	EXP 	dots_1: autoDraw = False
+23.1632 	EXP 	dots_2: autoDraw = False
+23.1632 	EXP 	circle_block: autoDraw = False
+23.1632 	EXP 	fixation: autoDraw = False
+23.1632 	EXP 	fixation_green: autoDraw = False
+23.1632 	EXP 	dots_1: speed = -0.0005
+23.1632 	EXP 	dots_2: speed = -0.004
+23.1632 	EXP 	dots_1: autoDraw = True
+23.1632 	EXP 	circle_block: autoDraw = True
+23.1632 	EXP 	fixation: autoDraw = True
+23.6642 	EXP 	dots_1: autoDraw = False
+23.9149 	EXP 	dots_2: autoDraw = True
+24.4145 	INFO 	Keyboard events cleared
+24.4142 	EXP 	dots_2: autoDraw = False
+24.4142 	EXP 	fixation: autoDraw = False
+24.4142 	EXP 	fixation_green: autoDraw = True
+24.8327 	EXP 	New trial (rep=1, index=0): <Trial 14 (0 in rep 1) data={'speed1': 0.0005, 'speed2': 0.00025, 'thisN': 14, 'thisTrialN': 0, 'thisRepN': 1}>
+24.8356 	DATA 	Keypress: up
+24.8469 	EXP 	dots_1: autoDraw = False
+24.8469 	EXP 	dots_2: autoDraw = False
+24.8469 	EXP 	circle_block: autoDraw = False
+24.8469 	EXP 	fixation: autoDraw = False
+24.8469 	EXP 	fixation_green: autoDraw = False
+24.8469 	EXP 	dots_1: speed = 0.0005
+24.8469 	EXP 	dots_2: speed = 0.00025
+24.8469 	EXP 	dots_1: autoDraw = True
+24.8469 	EXP 	circle_block: autoDraw = True
+24.8469 	EXP 	fixation: autoDraw = True
+25.3350 	EXP 	dots_1: autoDraw = False
+25.5800 	EXP 	dots_2: autoDraw = True
+26.0666 	EXP 	dots_2: autoDraw = False
+26.0811 	INFO 	Keyboard events cleared
+26.0808 	EXP 	fixation_green: autoDraw = True
+26.0968 	EXP 	fixation: autoDraw = False
+26.5330 	EXP 	New trial (rep=1, index=1): <Trial 15 (1 in rep 1) data={'speed1': 0.0005, 'speed2': 0.0005, 'thisN': 15, 'thisTrialN': 1, 'thisRepN': 1}>
+26.5362 	DATA 	Keypress: down
+26.5468 	EXP 	dots_1: autoDraw = False
+26.5468 	EXP 	dots_2: autoDraw = False
+26.5468 	EXP 	circle_block: autoDraw = False
+26.5468 	EXP 	fixation: autoDraw = False
+26.5468 	EXP 	fixation_green: autoDraw = False
+26.5468 	EXP 	dots_1: speed = 0.0005
+26.5468 	EXP 	dots_2: speed = 0.0005
+26.5468 	EXP 	dots_1: autoDraw = True
+26.5468 	EXP 	circle_block: autoDraw = True
+26.5468 	EXP 	fixation: autoDraw = True
+27.0469 	EXP 	dots_1: autoDraw = False
+27.2799 	EXP 	dots_2: autoDraw = True
+27.7803 	EXP 	dots_2: autoDraw = False
+27.7860 	INFO 	Keyboard events cleared
+27.7855 	EXP 	fixation: autoDraw = False
+27.7855 	EXP 	fixation_green: autoDraw = True
+28.4989 	EXP 	New trial (rep=1, index=2): <Trial 16 (2 in rep 1) data={'speed1': -0.0005, 'speed2': -0.004, 'thisN': 16, 'thisTrialN': 2, 'thisRepN': 1}>
+28.5021 	DATA 	Keypress: down
+28.5135 	EXP 	dots_1: autoDraw = False
+28.5135 	EXP 	dots_2: autoDraw = False
+28.5135 	EXP 	circle_block: autoDraw = False
+28.5135 	EXP 	fixation: autoDraw = False
+28.5135 	EXP 	fixation_green: autoDraw = False
+28.5135 	EXP 	dots_1: speed = -0.0005
+28.5135 	EXP 	dots_2: speed = -0.004
+28.5135 	EXP 	dots_1: autoDraw = True
+28.5135 	EXP 	circle_block: autoDraw = True
+28.5135 	EXP 	fixation: autoDraw = True
+29.0014 	EXP 	dots_1: autoDraw = False
+29.2643 	EXP 	dots_2: autoDraw = True
+29.7646 	INFO 	Keyboard events cleared
+29.7639 	EXP 	dots_2: autoDraw = False
+29.7639 	EXP 	fixation: autoDraw = False
+29.7639 	EXP 	fixation_green: autoDraw = True
+30.1041 	EXP 	New trial (rep=1, index=3): <Trial 17 (3 in rep 1) data={'speed1': 0.0005, 'speed2': 0.002, 'thisN': 17, 'thisTrialN': 3, 'thisRepN': 1}>
+30.1069 	DATA 	Keypress: up
+30.1132 	EXP 	dots_1: autoDraw = False
+30.1132 	EXP 	dots_2: autoDraw = False
+30.1132 	EXP 	circle_block: autoDraw = False
+30.1132 	EXP 	fixation: autoDraw = False
+30.1132 	EXP 	fixation_green: autoDraw = False
+30.1132 	EXP 	dots_1: speed = 0.0005
+30.1132 	EXP 	dots_2: speed = 0.002
+30.1132 	EXP 	dots_1: autoDraw = True
+30.1132 	EXP 	circle_block: autoDraw = True
+30.1132 	EXP 	fixation: autoDraw = True
+30.6002 	EXP 	dots_1: autoDraw = False
+30.8510 	EXP 	dots_2: autoDraw = True
+31.3522 	INFO 	Keyboard events cleared
+31.3518 	EXP 	dots_2: autoDraw = False
+31.3518 	EXP 	fixation: autoDraw = False
+31.3518 	EXP 	fixation_green: autoDraw = True
+31.8027 	DATA 	Keypress: up
+31.8153 	EXP 	New trial (rep=1, index=4): <Trial 18 (4 in rep 1) data={'speed1': -0.0005, 'speed2': -6.25e-05, 'thisN': 18, 'thisTrialN': 4, 'thisRepN': 1}>
+31.8199 	EXP 	dots_1: autoDraw = False
+31.8199 	EXP 	dots_2: autoDraw = False
+31.8199 	EXP 	circle_block: autoDraw = False
+31.8199 	EXP 	fixation: autoDraw = False
+31.8199 	EXP 	fixation_green: autoDraw = False
+31.8199 	EXP 	dots_1: speed = -0.0005
+31.8199 	EXP 	dots_2: speed = -6.25e-05
+31.8199 	EXP 	dots_1: autoDraw = True
+31.8199 	EXP 	circle_block: autoDraw = True
+31.8199 	EXP 	fixation: autoDraw = True
+32.3303 	EXP 	dots_1: autoDraw = False
+32.5633 	EXP 	dots_2: autoDraw = True
+33.0647 	INFO 	Keyboard events cleared
+33.0640 	EXP 	dots_2: autoDraw = False
+33.0640 	EXP 	fixation_green: autoDraw = True
+33.0807 	EXP 	fixation: autoDraw = False
+33.4339 	EXP 	New trial (rep=1, index=5): <Trial 19 (5 in rep 1) data={'speed1': 0.0005, 'speed2': 6.25e-05, 'thisN': 19, 'thisTrialN': 5, 'thisRepN': 1}>
+33.4371 	DATA 	Keypress: down
+33.4466 	EXP 	dots_1: autoDraw = False
+33.4466 	EXP 	dots_2: autoDraw = False
+33.4466 	EXP 	circle_block: autoDraw = False
+33.4466 	EXP 	fixation: autoDraw = False
+33.4466 	EXP 	fixation_green: autoDraw = False
+33.4466 	EXP 	dots_1: speed = 0.0005
+33.4466 	EXP 	dots_2: speed = 6.25e-05
+33.4466 	EXP 	dots_1: autoDraw = True
+33.4466 	EXP 	circle_block: autoDraw = True
+33.4466 	EXP 	fixation: autoDraw = True
+33.9355 	EXP 	dots_1: autoDraw = False
+34.1861 	EXP 	dots_2: autoDraw = True
+34.6804 	INFO 	Keyboard events cleared
+34.6801 	EXP 	fixation_green: autoDraw = True
+34.6841 	EXP 	dots_2: autoDraw = False
+34.6841 	EXP 	fixation: autoDraw = False
+35.1357 	DATA 	Keypress: down
+35.1486 	EXP 	New trial (rep=1, index=6): <Trial 20 (6 in rep 1) data={'speed1': 0.0005, 'speed2': 0.004, 'thisN': 20, 'thisTrialN': 6, 'thisRepN': 1}>
+35.1532 	EXP 	dots_1: autoDraw = False
+35.1532 	EXP 	dots_2: autoDraw = False
+35.1532 	EXP 	circle_block: autoDraw = False
+35.1532 	EXP 	fixation: autoDraw = False
+35.1532 	EXP 	fixation_green: autoDraw = False
+35.1532 	EXP 	dots_1: speed = 0.0005
+35.1532 	EXP 	dots_2: speed = 0.004
+35.1532 	EXP 	dots_1: autoDraw = True
+35.1532 	EXP 	circle_block: autoDraw = True
+35.1532 	EXP 	fixation: autoDraw = True
+35.6526 	EXP 	dots_1: autoDraw = False
+35.8965 	EXP 	dots_2: autoDraw = True
+36.3833 	EXP 	dots_2: autoDraw = False
+36.3969 	INFO 	Keyboard events cleared
+36.3967 	EXP 	fixation_green: autoDraw = True
+36.4004 	EXP 	fixation: autoDraw = False
+36.7686 	DATA 	Keypress: up
+36.7812 	EXP 	New trial (rep=1, index=7): <Trial 21 (7 in rep 1) data={'speed1': -0.0005, 'speed2': -0.002, 'thisN': 21, 'thisTrialN': 7, 'thisRepN': 1}>
+36.7858 	EXP 	dots_1: autoDraw = False
+36.7858 	EXP 	dots_2: autoDraw = False
+36.7858 	EXP 	circle_block: autoDraw = False
+36.7858 	EXP 	fixation: autoDraw = False
+36.7858 	EXP 	fixation_green: autoDraw = False
+36.7858 	EXP 	dots_1: speed = -0.0005
+36.7858 	EXP 	dots_2: speed = -0.002
+36.7858 	EXP 	dots_1: autoDraw = True
+36.7858 	EXP 	circle_block: autoDraw = True
+36.7858 	EXP 	fixation: autoDraw = True
+37.2822 	EXP 	dots_1: autoDraw = False
+37.5310 	EXP 	dots_2: autoDraw = True
+38.0308 	INFO 	Keyboard events cleared
+38.0300 	EXP 	dots_2: autoDraw = False
+38.0300 	EXP 	fixation_green: autoDraw = True
+38.0351 	EXP 	fixation: autoDraw = False
+38.8347 	EXP 	New trial (rep=1, index=8): <Trial 22 (8 in rep 1) data={'speed1': 0.0005, 'speed2': 0.001, 'thisN': 22, 'thisTrialN': 8, 'thisRepN': 1}>
+38.8383 	DATA 	Keypress: up
+38.8468 	EXP 	dots_1: autoDraw = False
+38.8468 	EXP 	dots_2: autoDraw = False
+38.8468 	EXP 	circle_block: autoDraw = False
+38.8468 	EXP 	fixation: autoDraw = False
+38.8468 	EXP 	fixation_green: autoDraw = False
+38.8468 	EXP 	dots_1: speed = 0.0005
+38.8468 	EXP 	dots_2: speed = 0.001
+38.8468 	EXP 	dots_1: autoDraw = True
+38.8468 	EXP 	circle_block: autoDraw = True
+38.8468 	EXP 	fixation: autoDraw = True
+39.3469 	EXP 	dots_1: autoDraw = False
+39.5968 	EXP 	dots_2: autoDraw = True
+40.0840 	INFO 	Keyboard events cleared
+40.0838 	EXP 	dots_2: autoDraw = False
+40.0838 	EXP 	fixation: autoDraw = False
+40.0838 	EXP 	fixation_green: autoDraw = True
+41.2161 	EXP 	New trial (rep=1, index=9): <Trial 23 (9 in rep 1) data={'speed1': -0.0005, 'speed2': -0.00025, 'thisN': 23, 'thisTrialN': 9, 'thisRepN': 1}>
+41.2194 	DATA 	Keypress: up
+41.2301 	EXP 	dots_1: autoDraw = False
+41.2301 	EXP 	dots_2: autoDraw = False
+41.2301 	EXP 	circle_block: autoDraw = False
+41.2301 	EXP 	fixation: autoDraw = False
+41.2301 	EXP 	fixation_green: autoDraw = False
+41.2301 	EXP 	dots_1: speed = -0.0005
+41.2301 	EXP 	dots_2: speed = -0.00025
+41.2301 	EXP 	dots_1: autoDraw = True
+41.2301 	EXP 	circle_block: autoDraw = True
+41.2301 	EXP 	fixation: autoDraw = True
+41.7188 	EXP 	dots_1: autoDraw = False
+41.9799 	EXP 	dots_2: autoDraw = True
+42.4815 	INFO 	Keyboard events cleared
+42.4808 	EXP 	dots_2: autoDraw = False
+42.4808 	EXP 	fixation: autoDraw = False
+42.4808 	EXP 	fixation_green: autoDraw = True
+42.7505 	EXP 	New trial (rep=1, index=10): <Trial 24 (10 in rep 1) data={'speed1': -0.0005, 'speed2': -0.0005, 'thisN': 24, 'thisTrialN': 10, 'thisRepN': 1}>
+42.7537 	DATA 	Keypress: down
+42.7635 	EXP 	dots_1: autoDraw = False
+42.7635 	EXP 	dots_2: autoDraw = False
+42.7635 	EXP 	circle_block: autoDraw = False
+42.7635 	EXP 	fixation: autoDraw = False
+42.7635 	EXP 	fixation_green: autoDraw = False
+42.7635 	EXP 	dots_1: speed = -0.0005
+42.7635 	EXP 	dots_2: speed = -0.0005
+42.7635 	EXP 	dots_1: autoDraw = True
+42.7635 	EXP 	circle_block: autoDraw = True
+42.7635 	EXP 	fixation: autoDraw = True
+43.2516 	EXP 	dots_1: autoDraw = False
+43.5035 	EXP 	dots_2: autoDraw = True
+44.0149 	INFO 	Keyboard events cleared
+44.0143 	EXP 	dots_2: autoDraw = False
+44.0143 	EXP 	fixation: autoDraw = False
+44.0143 	EXP 	fixation_green: autoDraw = True
+44.6153 	EXP 	New trial (rep=1, index=11): <Trial 25 (11 in rep 1) data={'speed1': 0.0005, 'speed2': 0.000125, 'thisN': 25, 'thisTrialN': 11, 'thisRepN': 1}>
+44.6184 	DATA 	Keypress: up
+44.6213 	EXP 	dots_1: autoDraw = False
+44.6213 	EXP 	dots_2: autoDraw = False
+44.6213 	EXP 	circle_block: autoDraw = False
+44.6213 	EXP 	fixation: autoDraw = False
+44.6213 	EXP 	fixation_green: autoDraw = False
+44.6213 	EXP 	dots_1: speed = 0.0005
+44.6213 	EXP 	dots_2: speed = 0.000125
+44.6213 	EXP 	dots_1: autoDraw = True
+44.6213 	EXP 	circle_block: autoDraw = True
+44.6213 	EXP 	fixation: autoDraw = True
+45.1305 	EXP 	dots_1: autoDraw = False
+45.3635 	EXP 	dots_2: autoDraw = True
+45.8500 	EXP 	dots_2: autoDraw = False
+45.8636 	INFO 	Keyboard events cleared
+45.8633 	EXP 	fixation_green: autoDraw = True
+45.8669 	EXP 	fixation: autoDraw = False
+46.1664 	EXP 	New trial (rep=1, index=12): <Trial 26 (12 in rep 1) data={'speed1': -0.0005, 'speed2': -0.000125, 'thisN': 26, 'thisTrialN': 12, 'thisRepN': 1}>
+46.1697 	DATA 	Keypress: down
+46.1727 	EXP 	dots_1: autoDraw = False
+46.1727 	EXP 	dots_2: autoDraw = False
+46.1727 	EXP 	circle_block: autoDraw = False
+46.1727 	EXP 	fixation: autoDraw = False
+46.1727 	EXP 	fixation_green: autoDraw = False
+46.1727 	EXP 	dots_1: speed = -0.0005
+46.1727 	EXP 	dots_2: speed = -0.000125
+46.1727 	EXP 	dots_1: autoDraw = True
+46.1727 	EXP 	circle_block: autoDraw = True
+46.1727 	EXP 	fixation: autoDraw = True
+46.6804 	EXP 	dots_1: autoDraw = False
+46.9137 	EXP 	dots_2: autoDraw = True
+47.4138 	EXP 	dots_2: autoDraw = False
+47.4193 	INFO 	Keyboard events cleared
+47.4189 	EXP 	fixation: autoDraw = False
+47.4189 	EXP 	fixation_green: autoDraw = True
+47.6496 	EXP 	New trial (rep=1, index=13): <Trial 27 (13 in rep 1) data={'speed1': -0.0005, 'speed2': -0.001, 'thisN': 27, 'thisTrialN': 13, 'thisRepN': 1}>
+47.6528 	DATA 	Keypress: down
+47.6635 	EXP 	dots_1: autoDraw = False
+47.6635 	EXP 	dots_2: autoDraw = False
+47.6635 	EXP 	circle_block: autoDraw = False
+47.6635 	EXP 	fixation: autoDraw = False
+47.6635 	EXP 	fixation_green: autoDraw = False
+47.6635 	EXP 	dots_1: speed = -0.0005
+47.6635 	EXP 	dots_2: speed = -0.001
+47.6635 	EXP 	dots_1: autoDraw = True
+47.6635 	EXP 	circle_block: autoDraw = True
+47.6635 	EXP 	fixation: autoDraw = True
+48.1521 	EXP 	dots_1: autoDraw = False
+48.3966 	EXP 	dots_2: autoDraw = True
+48.8838 	EXP 	dots_2: autoDraw = False
+48.8968 	INFO 	Keyboard events cleared
+48.8966 	EXP 	fixation_green: autoDraw = True
+48.9002 	EXP 	fixation: autoDraw = False
+49.3005 	EXP 	New trial (rep=2, index=0): <Trial 28 (0 in rep 2) data={'speed1': 0.0005, 'speed2': 0.000125, 'thisN': 28, 'thisTrialN': 0, 'thisRepN': 2}>
+49.3035 	DATA 	Keypress: up
+49.3132 	EXP 	dots_1: autoDraw = False
+49.3132 	EXP 	dots_2: autoDraw = False
+49.3132 	EXP 	circle_block: autoDraw = False
+49.3132 	EXP 	fixation: autoDraw = False
+49.3132 	EXP 	fixation_green: autoDraw = False
+49.3132 	EXP 	dots_1: speed = 0.0005
+49.3132 	EXP 	dots_2: speed = 0.000125
+49.3132 	EXP 	dots_1: autoDraw = True
+49.3132 	EXP 	circle_block: autoDraw = True
+49.3132 	EXP 	fixation: autoDraw = True
+49.7998 	EXP 	dots_1: autoDraw = False
+50.0466 	EXP 	dots_2: autoDraw = True
+50.5472 	EXP 	dots_2: autoDraw = False
+50.5647 	INFO 	Keyboard events cleared
+50.5639 	EXP 	fixation: autoDraw = False
+50.5639 	EXP 	fixation_green: autoDraw = True
+50.6239 	WARNING 	t of last frame was 43.20ms (=1/23)
+50.6679 	WARNING 	t of last frame was 43.95ms (=1/22)
+50.7997 	EXP 	New trial (rep=2, index=1): <Trial 29 (1 in rep 2) data={'speed1': 0.0005, 'speed2': 0.004, 'thisN': 29, 'thisTrialN': 1, 'thisRepN': 2}>
+50.8034 	DATA 	Keypress: down
+50.8136 	EXP 	dots_1: autoDraw = False
+50.8136 	EXP 	dots_2: autoDraw = False
+50.8136 	EXP 	circle_block: autoDraw = False
+50.8136 	EXP 	fixation: autoDraw = False
+50.8136 	EXP 	fixation_green: autoDraw = False
+50.8136 	EXP 	dots_1: speed = 0.0005
+50.8136 	EXP 	dots_2: speed = 0.004
+50.8136 	EXP 	dots_1: autoDraw = True
+50.8136 	EXP 	circle_block: autoDraw = True
+50.8136 	EXP 	fixation: autoDraw = True
+51.3140 	EXP 	dots_1: autoDraw = False
+51.5466 	EXP 	dots_2: autoDraw = True
+52.0332 	EXP 	dots_2: autoDraw = False
+52.0474 	INFO 	Keyboard events cleared
+52.0468 	EXP 	fixation_green: autoDraw = True
+52.0521 	EXP 	fixation: autoDraw = False
+52.5314 	EXP 	New trial (rep=2, index=2): <Trial 30 (2 in rep 2) data={'speed1': -0.0005, 'speed2': -0.002, 'thisN': 30, 'thisTrialN': 2, 'thisRepN': 2}>
+52.5348 	DATA 	Keypress: up
+52.5377 	EXP 	dots_1: autoDraw = False
+52.5377 	EXP 	dots_2: autoDraw = False
+52.5377 	EXP 	circle_block: autoDraw = False
+52.5377 	EXP 	fixation: autoDraw = False
+52.5377 	EXP 	fixation_green: autoDraw = False
+52.5377 	EXP 	dots_1: speed = -0.0005
+52.5377 	EXP 	dots_2: speed = -0.002
+52.5377 	EXP 	dots_1: autoDraw = True
+52.5377 	EXP 	circle_block: autoDraw = True
+52.5377 	EXP 	fixation: autoDraw = True
+53.0471 	EXP 	dots_1: autoDraw = False
+53.2811 	EXP 	dots_2: autoDraw = True
+53.7802 	INFO 	Keyboard events cleared
+53.7799 	EXP 	dots_2: autoDraw = False
+53.7799 	EXP 	fixation_green: autoDraw = True
+53.7838 	EXP 	fixation: autoDraw = False
+54.2982 	EXP 	New trial (rep=2, index=3): <Trial 31 (3 in rep 2) data={'speed1': -0.0005, 'speed2': -0.00025, 'thisN': 31, 'thisTrialN': 3, 'thisRepN': 2}>
+54.3016 	DATA 	Keypress: up
+54.3044 	EXP 	dots_1: autoDraw = False
+54.3044 	EXP 	dots_2: autoDraw = False
+54.3044 	EXP 	circle_block: autoDraw = False
+54.3044 	EXP 	fixation: autoDraw = False
+54.3044 	EXP 	fixation_green: autoDraw = False
+54.3044 	EXP 	dots_1: speed = -0.0005
+54.3044 	EXP 	dots_2: speed = -0.00025
+54.3044 	EXP 	dots_1: autoDraw = True
+54.3044 	EXP 	circle_block: autoDraw = True
+54.3044 	EXP 	fixation: autoDraw = True
+54.8137 	EXP 	dots_1: autoDraw = False
+55.0472 	EXP 	dots_2: autoDraw = True
+55.5480 	INFO 	Keyboard events cleared
+55.5474 	EXP 	dots_2: autoDraw = False
+55.5474 	EXP 	fixation_green: autoDraw = True
+55.5643 	EXP 	fixation: autoDraw = False
+55.9012 	EXP 	New trial (rep=2, index=4): <Trial 32 (4 in rep 2) data={'speed1': -0.0005, 'speed2': -0.001, 'thisN': 32, 'thisTrialN': 4, 'thisRepN': 2}>
+55.9053 	DATA 	Keypress: down
+55.9135 	EXP 	dots_1: autoDraw = False
+55.9135 	EXP 	dots_2: autoDraw = False
+55.9135 	EXP 	circle_block: autoDraw = False
+55.9135 	EXP 	fixation: autoDraw = False
+55.9135 	EXP 	fixation_green: autoDraw = False
+55.9135 	EXP 	dots_1: speed = -0.0005
+55.9135 	EXP 	dots_2: speed = -0.001
+55.9135 	EXP 	dots_1: autoDraw = True
+55.9135 	EXP 	circle_block: autoDraw = True
+55.9135 	EXP 	fixation: autoDraw = True
+56.3987 	EXP 	dots_1: autoDraw = False
+56.6528 	EXP 	dots_2: autoDraw = True
+57.1650 	INFO 	Keyboard events cleared
+57.1642 	EXP 	dots_2: autoDraw = False
+57.1642 	EXP 	fixation: autoDraw = False
+57.1642 	EXP 	fixation_green: autoDraw = True
+57.5648 	EXP 	New trial (rep=2, index=5): <Trial 33 (5 in rep 2) data={'speed1': 0.0005, 'speed2': 6.25e-05, 'thisN': 33, 'thisTrialN': 5, 'thisRepN': 2}>
+57.5678 	DATA 	Keypress: up
+57.5706 	EXP 	dots_1: autoDraw = False
+57.5706 	EXP 	dots_2: autoDraw = False
+57.5706 	EXP 	circle_block: autoDraw = False
+57.5706 	EXP 	fixation: autoDraw = False
+57.5706 	EXP 	fixation_green: autoDraw = False
+57.5706 	EXP 	dots_1: speed = 0.0005
+57.5706 	EXP 	dots_2: speed = 6.25e-05
+57.5706 	EXP 	dots_1: autoDraw = True
+57.5706 	EXP 	circle_block: autoDraw = True
+57.5706 	EXP 	fixation: autoDraw = True
+58.0803 	EXP 	dots_1: autoDraw = False
+58.3141 	EXP 	dots_2: autoDraw = True
+58.8022 	INFO 	Keyboard events cleared
+58.8019 	EXP 	dots_2: autoDraw = False
+58.8019 	EXP 	fixation_green: autoDraw = True
+58.8159 	EXP 	fixation: autoDraw = False
+59.0363 	EXP 	New trial (rep=2, index=6): <Trial 34 (6 in rep 2) data={'speed1': 0.0005, 'speed2': 0.0005, 'thisN': 34, 'thisTrialN': 6, 'thisRepN': 2}>
+59.0390 	DATA 	Keypress: down
+59.0467 	EXP 	dots_1: autoDraw = False
+59.0467 	EXP 	dots_2: autoDraw = False
+59.0467 	EXP 	circle_block: autoDraw = False
+59.0467 	EXP 	fixation: autoDraw = False
+59.0467 	EXP 	fixation_green: autoDraw = False
+59.0467 	EXP 	dots_1: speed = 0.0005
+59.0467 	EXP 	dots_2: speed = 0.0005
+59.0467 	EXP 	dots_1: autoDraw = True
+59.0467 	EXP 	circle_block: autoDraw = True
+59.0467 	EXP 	fixation: autoDraw = True
+59.5325 	EXP 	dots_1: autoDraw = False
+59.7973 	EXP 	dots_2: autoDraw = True
+60.2978 	INFO 	Keyboard events cleared
+60.2971 	EXP 	dots_2: autoDraw = False
+60.2971 	EXP 	fixation: autoDraw = False
+60.2971 	EXP 	fixation_green: autoDraw = True
+60.9173 	EXP 	New trial (rep=2, index=7): <Trial 35 (7 in rep 2) data={'speed1': -0.0005, 'speed2': -6.25e-05, 'thisN': 35, 'thisTrialN': 7, 'thisRepN': 2}>
+60.9210 	DATA 	Keypress: up
+60.9301 	EXP 	dots_1: autoDraw = False
+60.9301 	EXP 	dots_2: autoDraw = False
+60.9301 	EXP 	circle_block: autoDraw = False
+60.9301 	EXP 	fixation: autoDraw = False
+60.9301 	EXP 	fixation_green: autoDraw = False
+60.9301 	EXP 	dots_1: speed = -0.0005
+60.9301 	EXP 	dots_2: speed = -6.25e-05
+60.9301 	EXP 	dots_1: autoDraw = True
+60.9301 	EXP 	circle_block: autoDraw = True
+60.9301 	EXP 	fixation: autoDraw = True
+61.4167 	EXP 	dots_1: autoDraw = False
+61.6633 	EXP 	dots_2: autoDraw = True
+62.1637 	EXP 	dots_2: autoDraw = False
+62.1811 	INFO 	Keyboard events cleared
+62.1803 	EXP 	fixation: autoDraw = False
+62.1803 	EXP 	fixation_green: autoDraw = True
+62.3837 	EXP 	New trial (rep=2, index=8): <Trial 36 (8 in rep 2) data={'speed1': 0.0005, 'speed2': 0.00025, 'thisN': 36, 'thisTrialN': 8, 'thisRepN': 2}>
+62.3870 	DATA 	Keypress: down
+62.3969 	EXP 	dots_1: autoDraw = False
+62.3969 	EXP 	dots_2: autoDraw = False
+62.3969 	EXP 	circle_block: autoDraw = False
+62.3969 	EXP 	fixation: autoDraw = False
+62.3969 	EXP 	fixation_green: autoDraw = False
+62.3969 	EXP 	dots_1: speed = 0.0005
+62.3969 	EXP 	dots_2: speed = 0.00025
+62.3969 	EXP 	dots_1: autoDraw = True
+62.3969 	EXP 	circle_block: autoDraw = True
+62.3969 	EXP 	fixation: autoDraw = True
+62.8822 	EXP 	dots_1: autoDraw = False
+63.1352 	EXP 	dots_2: autoDraw = True
+63.6315 	INFO 	Keyboard events cleared
+63.6311 	EXP 	dots_2: autoDraw = False
+63.6311 	EXP 	fixation_green: autoDraw = True
+63.6475 	EXP 	fixation: autoDraw = False
+63.9351 	EXP 	New trial (rep=2, index=9): <Trial 37 (9 in rep 2) data={'speed1': -0.0005, 'speed2': -0.000125, 'thisN': 37, 'thisTrialN': 9, 'thisRepN': 2}>
+63.9380 	DATA 	Keypress: down
+63.9466 	EXP 	dots_1: autoDraw = False
+63.9466 	EXP 	dots_2: autoDraw = False
+63.9466 	EXP 	circle_block: autoDraw = False
+63.9466 	EXP 	fixation: autoDraw = False
+63.9466 	EXP 	fixation_green: autoDraw = False
+63.9466 	EXP 	dots_1: speed = -0.0005
+63.9466 	EXP 	dots_2: speed = -0.000125
+63.9466 	EXP 	dots_1: autoDraw = True
+63.9466 	EXP 	circle_block: autoDraw = True
+63.9466 	EXP 	fixation: autoDraw = True
+64.4473 	EXP 	dots_1: autoDraw = False
+64.6800 	EXP 	dots_2: autoDraw = True
+65.1808 	EXP 	dots_2: autoDraw = False
+65.1978 	INFO 	Keyboard events cleared
+65.1970 	EXP 	fixation: autoDraw = False
+65.1970 	EXP 	fixation_green: autoDraw = True
+65.5866 	EXP 	New trial (rep=2, index=10): <Trial 38 (10 in rep 2) data={'speed1': 0.0005, 'speed2': 0.001, 'thisN': 38, 'thisTrialN': 10, 'thisRepN': 2}>
+65.5894 	DATA 	Keypress: down
+65.5966 	EXP 	dots_1: autoDraw = False
+65.5966 	EXP 	dots_2: autoDraw = False
+65.5966 	EXP 	circle_block: autoDraw = False
+65.5966 	EXP 	fixation: autoDraw = False
+65.5966 	EXP 	fixation_green: autoDraw = False
+65.5966 	EXP 	dots_1: speed = 0.0005
+65.5966 	EXP 	dots_2: speed = 0.001
+65.5966 	EXP 	dots_1: autoDraw = True
+65.5966 	EXP 	circle_block: autoDraw = True
+65.5966 	EXP 	fixation: autoDraw = True
+66.0970 	EXP 	dots_1: autoDraw = False
+66.3300 	EXP 	dots_2: autoDraw = True
+66.8155 	EXP 	dots_2: autoDraw = False
+66.8354 	INFO 	Keyboard events cleared
+66.8350 	EXP 	fixation: autoDraw = False
+66.8350 	EXP 	fixation_green: autoDraw = True
+67.2982 	EXP 	New trial (rep=2, index=11): <Trial 39 (11 in rep 2) data={'speed1': 0.0005, 'speed2': 0.002, 'thisN': 39, 'thisTrialN': 11, 'thisRepN': 2}>
+67.3015 	DATA 	Keypress: up
+67.3045 	EXP 	dots_1: autoDraw = False
+67.3045 	EXP 	dots_2: autoDraw = False
+67.3045 	EXP 	circle_block: autoDraw = False
+67.3045 	EXP 	fixation: autoDraw = False
+67.3045 	EXP 	fixation_green: autoDraw = False
+67.3045 	EXP 	dots_1: speed = 0.0005
+67.3045 	EXP 	dots_2: speed = 0.002
+67.3045 	EXP 	dots_1: autoDraw = True
+67.3045 	EXP 	circle_block: autoDraw = True
+67.3045 	EXP 	fixation: autoDraw = True
+67.8137 	EXP 	dots_1: autoDraw = False
+68.0470 	EXP 	dots_2: autoDraw = True
+68.5481 	INFO 	Keyboard events cleared
+68.5473 	EXP 	dots_2: autoDraw = False
+68.5473 	EXP 	fixation_green: autoDraw = True
+68.5637 	EXP 	fixation: autoDraw = False
+68.9844 	DATA 	Keypress: up
+68.9882 	EXP 	New trial (rep=2, index=12): <Trial 40 (12 in rep 2) data={'speed1': -0.0005, 'speed2': -0.0005, 'thisN': 40, 'thisTrialN': 12, 'thisRepN': 2}>
+68.9966 	EXP 	dots_1: autoDraw = False
+68.9966 	EXP 	dots_2: autoDraw = False
+68.9966 	EXP 	circle_block: autoDraw = False
+68.9966 	EXP 	fixation: autoDraw = False
+68.9966 	EXP 	fixation_green: autoDraw = False
+68.9966 	EXP 	dots_1: speed = -0.0005
+68.9966 	EXP 	dots_2: speed = -0.0005
+68.9966 	EXP 	dots_1: autoDraw = True
+68.9966 	EXP 	circle_block: autoDraw = True
+68.9966 	EXP 	fixation: autoDraw = True
+69.4853 	EXP 	dots_1: autoDraw = False
+69.7474 	EXP 	dots_2: autoDraw = True
+70.2482 	INFO 	Keyboard events cleared
+70.2475 	EXP 	dots_2: autoDraw = False
+70.2475 	EXP 	fixation: autoDraw = False
+70.2475 	EXP 	fixation_green: autoDraw = True
+70.6504 	EXP 	New trial (rep=2, index=13): <Trial 41 (13 in rep 2) data={'speed1': -0.0005, 'speed2': -0.004, 'thisN': 41, 'thisTrialN': 13, 'thisRepN': 2}>
+70.6536 	DATA 	Keypress: down
+70.6636 	EXP 	dots_1: autoDraw = False
+70.6636 	EXP 	dots_2: autoDraw = False
+70.6636 	EXP 	circle_block: autoDraw = False
+70.6636 	EXP 	fixation: autoDraw = False
+70.6636 	EXP 	fixation_green: autoDraw = False
+70.6636 	EXP 	dots_1: speed = -0.0005
+70.6636 	EXP 	dots_2: speed = -0.004
+70.6636 	EXP 	dots_1: autoDraw = True
+70.6636 	EXP 	circle_block: autoDraw = True
+70.6636 	EXP 	fixation: autoDraw = True
+71.1489 	EXP 	dots_1: autoDraw = False
+71.4021 	EXP 	dots_2: autoDraw = True
+71.8970 	INFO 	Keyboard events cleared
+71.8967 	EXP 	fixation_green: autoDraw = True
+71.9006 	EXP 	dots_2: autoDraw = False
+71.9006 	EXP 	fixation: autoDraw = False
+72.2175 	EXP 	New trial (rep=3, index=0): <Trial 42 (0 in rep 3) data={'speed1': 0.0005, 'speed2': 0.004, 'thisN': 42, 'thisTrialN': 0, 'thisRepN': 3}>
+72.2221 	DATA 	Keypress: up
+72.2300 	EXP 	dots_1: autoDraw = False
+72.2300 	EXP 	dots_2: autoDraw = False
+72.2300 	EXP 	circle_block: autoDraw = False
+72.2300 	EXP 	fixation: autoDraw = False
+72.2300 	EXP 	fixation_green: autoDraw = False
+72.2300 	EXP 	dots_1: speed = 0.0005
+72.2300 	EXP 	dots_2: speed = 0.004
+72.2300 	EXP 	dots_1: autoDraw = True
+72.2300 	EXP 	circle_block: autoDraw = True
+72.2300 	EXP 	fixation: autoDraw = True
+72.7304 	EXP 	dots_1: autoDraw = False
+72.9690 	EXP 	dots_2: autoDraw = True
+73.4635 	INFO 	Keyboard events cleared
+73.4632 	EXP 	fixation_green: autoDraw = True
+73.4671 	EXP 	dots_2: autoDraw = False
+73.4671 	EXP 	fixation: autoDraw = False
+73.9329 	EXP 	New trial (rep=3, index=1): <Trial 43 (1 in rep 3) data={'speed1': 0.0005, 'speed2': 0.0005, 'thisN': 43, 'thisTrialN': 1, 'thisRepN': 3}>
+73.9362 	DATA 	Keypress: up
+73.9391 	EXP 	dots_1: autoDraw = False
+73.9391 	EXP 	dots_2: autoDraw = False
+73.9391 	EXP 	circle_block: autoDraw = False
+73.9391 	EXP 	fixation: autoDraw = False
+73.9391 	EXP 	fixation_green: autoDraw = False
+73.9391 	EXP 	dots_1: speed = 0.0005
+73.9391 	EXP 	dots_2: speed = 0.0005
+73.9391 	EXP 	dots_1: autoDraw = True
+73.9391 	EXP 	circle_block: autoDraw = True
+73.9391 	EXP 	fixation: autoDraw = True
+74.4471 	EXP 	dots_1: autoDraw = False
+74.6800 	EXP 	dots_2: autoDraw = True
+75.1665 	EXP 	dots_2: autoDraw = False
+75.1802 	INFO 	Keyboard events cleared
+75.1799 	EXP 	fixation_green: autoDraw = True
+75.1854 	EXP 	fixation: autoDraw = False
+75.7326 	EXP 	New trial (rep=3, index=2): <Trial 44 (2 in rep 3) data={'speed1': 0.0005, 'speed2': 0.00025, 'thisN': 44, 'thisTrialN': 2, 'thisRepN': 3}>
+75.7358 	DATA 	Keypress: down
+75.7468 	EXP 	dots_1: autoDraw = False
+75.7468 	EXP 	dots_2: autoDraw = False
+75.7468 	EXP 	circle_block: autoDraw = False
+75.7468 	EXP 	fixation: autoDraw = False
+75.7468 	EXP 	fixation_green: autoDraw = False
+75.7468 	EXP 	dots_1: speed = 0.0005
+75.7468 	EXP 	dots_2: speed = 0.00025
+75.7468 	EXP 	dots_1: autoDraw = True
+75.7468 	EXP 	circle_block: autoDraw = True
+75.7468 	EXP 	fixation: autoDraw = True
+76.2320 	EXP 	dots_1: autoDraw = False
+76.4804 	EXP 	dots_2: autoDraw = True
+76.9678 	EXP 	dots_2: autoDraw = False
+76.9806 	INFO 	Keyboard events cleared
+76.9799 	EXP 	fixation_green: autoDraw = True
+76.9854 	EXP 	fixation: autoDraw = False
+77.3683 	DATA 	Keypress: down
+77.3721 	EXP 	New trial (rep=3, index=3): <Trial 45 (3 in rep 3) data={'speed1': 0.0005, 'speed2': 0.002, 'thisN': 45, 'thisTrialN': 3, 'thisRepN': 3}>
+77.3799 	EXP 	dots_1: autoDraw = False
+77.3799 	EXP 	dots_2: autoDraw = False
+77.3799 	EXP 	circle_block: autoDraw = False
+77.3799 	EXP 	fixation: autoDraw = False
+77.3799 	EXP 	fixation_green: autoDraw = False
+77.3799 	EXP 	dots_1: speed = 0.0005
+77.3799 	EXP 	dots_2: speed = 0.002
+77.3799 	EXP 	dots_1: autoDraw = True
+77.3799 	EXP 	circle_block: autoDraw = True
+77.3799 	EXP 	fixation: autoDraw = True
+77.8661 	EXP 	dots_1: autoDraw = False
+78.1172 	EXP 	dots_2: autoDraw = True
+78.6143 	EXP 	dots_2: autoDraw = False
+78.6314 	INFO 	Keyboard events cleared
+78.6308 	EXP 	fixation: autoDraw = False
+78.6308 	EXP 	fixation_green: autoDraw = True
+79.0189 	EXP 	New trial (rep=3, index=4): <Trial 46 (4 in rep 3) data={'speed1': -0.0005, 'speed2': -0.000125, 'thisN': 46, 'thisTrialN': 4, 'thisRepN': 3}>
+79.0222 	DATA 	Keypress: up
+79.0301 	EXP 	dots_1: autoDraw = False
+79.0301 	EXP 	dots_2: autoDraw = False
+79.0301 	EXP 	circle_block: autoDraw = False
+79.0301 	EXP 	fixation: autoDraw = False
+79.0301 	EXP 	fixation_green: autoDraw = False
+79.0301 	EXP 	dots_1: speed = -0.0005
+79.0301 	EXP 	dots_2: speed = -0.000125
+79.0301 	EXP 	dots_1: autoDraw = True
+79.0301 	EXP 	circle_block: autoDraw = True
+79.0301 	EXP 	fixation: autoDraw = True
+79.5303 	EXP 	dots_1: autoDraw = False
+79.7806 	EXP 	dots_2: autoDraw = True
+80.2640 	INFO 	Keyboard events cleared
+80.2633 	EXP 	fixation_green: autoDraw = True
+80.2690 	EXP 	dots_2: autoDraw = False
+80.2690 	EXP 	fixation: autoDraw = False
+80.5184 	DATA 	Keypress: down
+80.5225 	EXP 	New trial (rep=3, index=5): <Trial 47 (5 in rep 3) data={'speed1': -0.0005, 'speed2': -0.001, 'thisN': 47, 'thisTrialN': 5, 'thisRepN': 3}>
+80.5299 	EXP 	dots_1: autoDraw = False
+80.5299 	EXP 	dots_2: autoDraw = False
+80.5299 	EXP 	circle_block: autoDraw = False
+80.5299 	EXP 	fixation: autoDraw = False
+80.5299 	EXP 	fixation_green: autoDraw = False
+80.5299 	EXP 	dots_1: speed = -0.0005
+80.5299 	EXP 	dots_2: speed = -0.001
+80.5299 	EXP 	dots_1: autoDraw = True
+80.5299 	EXP 	circle_block: autoDraw = True
+80.5299 	EXP 	fixation: autoDraw = True
+81.0164 	EXP 	dots_1: autoDraw = False
+81.2810 	EXP 	dots_2: autoDraw = True
+81.7674 	INFO 	Keyboard events cleared
+81.7672 	EXP 	dots_2: autoDraw = False
+81.7672 	EXP 	fixation: autoDraw = False
+81.7672 	EXP 	fixation_green: autoDraw = True
+82.9505 	EXP 	New trial (rep=3, index=6): <Trial 48 (6 in rep 3) data={'speed1': -0.0005, 'speed2': -0.0005, 'thisN': 48, 'thisTrialN': 6, 'thisRepN': 3}>
+82.9539 	DATA 	Keypress: up
+82.9634 	EXP 	dots_1: autoDraw = False
+82.9634 	EXP 	dots_2: autoDraw = False
+82.9634 	EXP 	circle_block: autoDraw = False
+82.9634 	EXP 	fixation: autoDraw = False
+82.9634 	EXP 	fixation_green: autoDraw = False
+82.9634 	EXP 	dots_1: speed = -0.0005
+82.9634 	EXP 	dots_2: speed = -0.0005
+82.9634 	EXP 	dots_1: autoDraw = True
+82.9634 	EXP 	circle_block: autoDraw = True
+82.9634 	EXP 	fixation: autoDraw = True
+83.4496 	EXP 	dots_1: autoDraw = False
+83.7137 	EXP 	dots_2: autoDraw = True
+84.2144 	INFO 	Keyboard events cleared
+84.2137 	EXP 	dots_2: autoDraw = False
+84.2137 	EXP 	fixation: autoDraw = False
+84.2137 	EXP 	fixation_green: autoDraw = True
+84.6481 	EXP 	New trial (rep=3, index=7): <Trial 49 (7 in rep 3) data={'speed1': -0.0005, 'speed2': -0.002, 'thisN': 49, 'thisTrialN': 7, 'thisRepN': 3}>
+84.6514 	DATA 	Keypress: down
+84.6544 	EXP 	dots_1: autoDraw = False
+84.6544 	EXP 	dots_2: autoDraw = False
+84.6544 	EXP 	circle_block: autoDraw = False
+84.6544 	EXP 	fixation: autoDraw = False
+84.6544 	EXP 	fixation_green: autoDraw = False
+84.6544 	EXP 	dots_1: speed = -0.0005
+84.6544 	EXP 	dots_2: speed = -0.002
+84.6544 	EXP 	dots_1: autoDraw = True
+84.6544 	EXP 	circle_block: autoDraw = True
+84.6544 	EXP 	fixation: autoDraw = True
+85.1637 	EXP 	dots_1: autoDraw = False
+85.3967 	EXP 	dots_2: autoDraw = True
+85.8988 	INFO 	Keyboard events cleared
+85.8981 	EXP 	dots_2: autoDraw = False
+85.8981 	EXP 	fixation_green: autoDraw = True
+85.9142 	EXP 	fixation: autoDraw = False
+86.5316 	EXP 	New trial (rep=3, index=8): <Trial 50 (8 in rep 3) data={'speed1': 0.0005, 'speed2': 0.001, 'thisN': 50, 'thisTrialN': 8, 'thisRepN': 3}>
+86.5351 	DATA 	Keypress: up
+86.5379 	EXP 	dots_1: autoDraw = False
+86.5379 	EXP 	dots_2: autoDraw = False
+86.5379 	EXP 	circle_block: autoDraw = False
+86.5379 	EXP 	fixation: autoDraw = False
+86.5379 	EXP 	fixation_green: autoDraw = False
+86.5379 	EXP 	dots_1: speed = 0.0005
+86.5379 	EXP 	dots_2: speed = 0.001
+86.5379 	EXP 	dots_1: autoDraw = True
+86.5379 	EXP 	circle_block: autoDraw = True
+86.5379 	EXP 	fixation: autoDraw = True
+87.0471 	EXP 	dots_1: autoDraw = False
+87.2808 	EXP 	dots_2: autoDraw = True
+87.7681 	EXP 	dots_2: autoDraw = False
+87.7802 	INFO 	Keyboard events cleared
+87.7799 	EXP 	fixation_green: autoDraw = True
+87.7837 	EXP 	fixation: autoDraw = False
+89.0492 	EXP 	New trial (rep=3, index=9): <Trial 51 (9 in rep 3) data={'speed1': -0.0005, 'speed2': -0.004, 'thisN': 51, 'thisTrialN': 9, 'thisRepN': 3}>
+89.0526 	DATA 	Keypress: down
+89.0635 	EXP 	dots_1: autoDraw = False
+89.0635 	EXP 	dots_2: autoDraw = False
+89.0635 	EXP 	circle_block: autoDraw = False
+89.0635 	EXP 	fixation: autoDraw = False
+89.0635 	EXP 	fixation_green: autoDraw = False
+89.0635 	EXP 	dots_1: speed = -0.0005
+89.0635 	EXP 	dots_2: speed = -0.004
+89.0635 	EXP 	dots_1: autoDraw = True
+89.0635 	EXP 	circle_block: autoDraw = True
+89.0635 	EXP 	fixation: autoDraw = True
+89.5642 	EXP 	dots_1: autoDraw = False
+89.8011 	EXP 	dots_2: autoDraw = True
+90.3149 	INFO 	Keyboard events cleared
+90.3143 	EXP 	dots_2: autoDraw = False
+90.3143 	EXP 	fixation: autoDraw = False
+90.3143 	EXP 	fixation_green: autoDraw = True
+90.8347 	EXP 	New trial (rep=3, index=10): <Trial 52 (10 in rep 3) data={'speed1': 0.0005, 'speed2': 6.25e-05, 'thisN': 52, 'thisTrialN': 10, 'thisRepN': 3}>
+90.8385 	DATA 	Keypress: up
+90.8467 	EXP 	dots_1: autoDraw = False
+90.8467 	EXP 	dots_2: autoDraw = False
+90.8467 	EXP 	circle_block: autoDraw = False
+90.8467 	EXP 	fixation: autoDraw = False
+90.8467 	EXP 	fixation_green: autoDraw = False
+90.8467 	EXP 	dots_1: speed = 0.0005
+90.8467 	EXP 	dots_2: speed = 6.25e-05
+90.8467 	EXP 	dots_1: autoDraw = True
+90.8467 	EXP 	circle_block: autoDraw = True
+90.8467 	EXP 	fixation: autoDraw = True
+91.3470 	EXP 	dots_1: autoDraw = False
+91.5799 	EXP 	dots_2: autoDraw = True
+92.0671 	EXP 	dots_2: autoDraw = False
+92.0815 	INFO 	Keyboard events cleared
+92.0808 	EXP 	fixation_green: autoDraw = True
+92.0977 	EXP 	fixation: autoDraw = False
+92.5212 	DATA 	Keypress: down
+92.5254 	EXP 	New trial (rep=3, index=11): <Trial 53 (11 in rep 3) data={'speed1': -0.0005, 'speed2': -6.25e-05, 'thisN': 53, 'thisTrialN': 11, 'thisRepN': 3}>
+92.5299 	EXP 	dots_1: autoDraw = False
+92.5299 	EXP 	dots_2: autoDraw = False
+92.5299 	EXP 	circle_block: autoDraw = False
+92.5299 	EXP 	fixation: autoDraw = False
+92.5299 	EXP 	fixation_green: autoDraw = False
+92.5299 	EXP 	dots_1: speed = -0.0005
+92.5299 	EXP 	dots_2: speed = -6.25e-05
+92.5299 	EXP 	dots_1: autoDraw = True
+92.5299 	EXP 	circle_block: autoDraw = True
+92.5299 	EXP 	fixation: autoDraw = True
+93.0152 	EXP 	dots_1: autoDraw = False
+93.2807 	EXP 	dots_2: autoDraw = True
+93.7817 	INFO 	Keyboard events cleared
+93.7811 	EXP 	dots_2: autoDraw = False
+93.7811 	EXP 	fixation: autoDraw = False
+93.7811 	EXP 	fixation_green: autoDraw = True
+94.1172 	EXP 	New trial (rep=3, index=12): <Trial 54 (12 in rep 3) data={'speed1': 0.0005, 'speed2': 0.000125, 'thisN': 54, 'thisTrialN': 12, 'thisRepN': 3}>
+94.1208 	DATA 	Keypress: down
+94.1301 	EXP 	dots_1: autoDraw = False
+94.1301 	EXP 	dots_2: autoDraw = False
+94.1301 	EXP 	circle_block: autoDraw = False
+94.1301 	EXP 	fixation: autoDraw = False
+94.1301 	EXP 	fixation_green: autoDraw = False
+94.1301 	EXP 	dots_1: speed = 0.0005
+94.1301 	EXP 	dots_2: speed = 0.000125
+94.1301 	EXP 	dots_1: autoDraw = True
+94.1301 	EXP 	circle_block: autoDraw = True
+94.1301 	EXP 	fixation: autoDraw = True
+94.6312 	EXP 	dots_1: autoDraw = False
+94.8633 	EXP 	dots_2: autoDraw = True
+95.3521 	EXP 	dots_2: autoDraw = False
+95.3645 	INFO 	Keyboard events cleared
+95.3636 	EXP 	fixation_green: autoDraw = True
+95.3686 	EXP 	fixation: autoDraw = False
+95.6696 	DATA 	Keypress: down
+95.6812 	EXP 	New trial (rep=3, index=13): <Trial 55 (13 in rep 3) data={'speed1': -0.0005, 'speed2': -0.00025, 'thisN': 55, 'thisTrialN': 13, 'thisRepN': 3}>
+95.6857 	EXP 	dots_1: autoDraw = False
+95.6857 	EXP 	dots_2: autoDraw = False
+95.6857 	EXP 	circle_block: autoDraw = False
+95.6857 	EXP 	fixation: autoDraw = False
+95.6857 	EXP 	fixation_green: autoDraw = False
+95.6857 	EXP 	dots_1: speed = -0.0005
+95.6857 	EXP 	dots_2: speed = -0.00025
+95.6857 	EXP 	dots_1: autoDraw = True
+95.6857 	EXP 	circle_block: autoDraw = True
+95.6857 	EXP 	fixation: autoDraw = True
+96.1833 	EXP 	dots_1: autoDraw = False
+96.4304 	EXP 	dots_2: autoDraw = True
+96.9317 	INFO 	Keyboard events cleared
+96.9310 	EXP 	dots_2: autoDraw = False
+96.9310 	EXP 	fixation_green: autoDraw = True
+96.9472 	EXP 	fixation: autoDraw = False
+97.2816 	EXP 	New trial (rep=4, index=0): <Trial 56 (0 in rep 4) data={'speed1': 0.0005, 'speed2': 0.002, 'thisN': 56, 'thisTrialN': 0, 'thisRepN': 4}>
+97.2849 	DATA 	Keypress: down
+97.2878 	EXP 	dots_1: autoDraw = False
+97.2878 	EXP 	dots_2: autoDraw = False
+97.2878 	EXP 	circle_block: autoDraw = False
+97.2878 	EXP 	fixation: autoDraw = False
+97.2878 	EXP 	fixation_green: autoDraw = False
+97.2878 	EXP 	dots_1: speed = 0.0005
+97.2878 	EXP 	dots_2: speed = 0.002
+97.2878 	EXP 	dots_1: autoDraw = True
+97.2878 	EXP 	circle_block: autoDraw = True
+97.2878 	EXP 	fixation: autoDraw = True
+97.7971 	EXP 	dots_1: autoDraw = False
+98.0299 	EXP 	dots_2: autoDraw = True
+98.5311 	INFO 	Keyboard events cleared
+98.5303 	EXP 	dots_2: autoDraw = False
+98.5303 	EXP 	fixation_green: autoDraw = True
+98.5364 	EXP 	fixation: autoDraw = False
+98.9482 	EXP 	New trial (rep=4, index=1): <Trial 57 (1 in rep 4) data={'speed1': 0.0005, 'speed2': 0.0005, 'thisN': 57, 'thisTrialN': 1, 'thisRepN': 4}>
+98.9513 	DATA 	Keypress: up
+98.9542 	EXP 	dots_1: autoDraw = False
+98.9542 	EXP 	dots_2: autoDraw = False
+98.9542 	EXP 	circle_block: autoDraw = False
+98.9542 	EXP 	fixation: autoDraw = False
+98.9542 	EXP 	fixation_green: autoDraw = False
+98.9542 	EXP 	dots_1: speed = 0.0005
+98.9542 	EXP 	dots_2: speed = 0.0005
+98.9542 	EXP 	dots_1: autoDraw = True
+98.9542 	EXP 	circle_block: autoDraw = True
+98.9542 	EXP 	fixation: autoDraw = True
+99.4498 	EXP 	dots_1: autoDraw = False
+99.6974 	EXP 	dots_2: autoDraw = True
+100.1976 	INFO 	Keyboard events cleared
+100.1972 	EXP 	dots_2: autoDraw = False
+100.1972 	EXP 	fixation_green: autoDraw = True
+100.2145 	EXP 	fixation: autoDraw = False
+100.6503 	EXP 	New trial (rep=4, index=2): <Trial 58 (2 in rep 4) data={'speed1': -0.0005, 'speed2': -0.000125, 'thisN': 58, 'thisTrialN': 2, 'thisRepN': 4}>
+100.6535 	DATA 	Keypress: down
+100.6634 	EXP 	dots_1: autoDraw = False
+100.6634 	EXP 	dots_2: autoDraw = False
+100.6634 	EXP 	circle_block: autoDraw = False
+100.6634 	EXP 	fixation: autoDraw = False
+100.6634 	EXP 	fixation_green: autoDraw = False
+100.6634 	EXP 	dots_1: speed = -0.0005
+100.6634 	EXP 	dots_2: speed = -0.000125
+100.6634 	EXP 	dots_1: autoDraw = True
+100.6634 	EXP 	circle_block: autoDraw = True
+100.6634 	EXP 	fixation: autoDraw = True
+101.1647 	EXP 	dots_1: autoDraw = False
+101.4135 	EXP 	dots_2: autoDraw = True
+101.9009 	INFO 	Keyboard events cleared
+101.9007 	EXP 	dots_2: autoDraw = False
+101.9007 	EXP 	fixation: autoDraw = False
+101.9007 	EXP 	fixation_green: autoDraw = True
+102.4215 	EXP 	New trial (rep=4, index=3): <Trial 59 (3 in rep 4) data={'speed1': 0.0005, 'speed2': 0.00025, 'thisN': 59, 'thisTrialN': 3, 'thisRepN': 4}>
+102.4248 	DATA 	Keypress: down
+102.4301 	EXP 	dots_1: autoDraw = False
+102.4301 	EXP 	dots_2: autoDraw = False
+102.4301 	EXP 	circle_block: autoDraw = False
+102.4301 	EXP 	fixation: autoDraw = False
+102.4301 	EXP 	fixation_green: autoDraw = False
+102.4301 	EXP 	dots_1: speed = 0.0005
+102.4301 	EXP 	dots_2: speed = 0.00025
+102.4301 	EXP 	dots_1: autoDraw = True
+102.4301 	EXP 	circle_block: autoDraw = True
+102.4301 	EXP 	fixation: autoDraw = True
+102.9305 	EXP 	dots_1: autoDraw = False
+103.1676 	EXP 	dots_2: autoDraw = True
+103.6641 	EXP 	dots_2: autoDraw = False
+103.6810 	INFO 	Keyboard events cleared
+103.6803 	EXP 	fixation: autoDraw = False
+103.6803 	EXP 	fixation_green: autoDraw = True
+104.0845 	EXP 	New trial (rep=4, index=4): <Trial 60 (4 in rep 4) data={'speed1': -0.0005, 'speed2': -0.001, 'thisN': 60, 'thisTrialN': 4, 'thisRepN': 4}>
+104.0876 	DATA 	Keypress: down
+104.0966 	EXP 	dots_1: autoDraw = False
+104.0966 	EXP 	dots_2: autoDraw = False
+104.0966 	EXP 	circle_block: autoDraw = False
+104.0966 	EXP 	fixation: autoDraw = False
+104.0966 	EXP 	fixation_green: autoDraw = False
+104.0966 	EXP 	dots_1: speed = -0.0005
+104.0966 	EXP 	dots_2: speed = -0.001
+104.0966 	EXP 	dots_1: autoDraw = True
+104.0966 	EXP 	circle_block: autoDraw = True
+104.0966 	EXP 	fixation: autoDraw = True
+104.5969 	EXP 	dots_1: autoDraw = False
+104.8299 	EXP 	dots_2: autoDraw = True
+105.3306 	EXP 	dots_2: autoDraw = False
+105.3478 	INFO 	Keyboard events cleared
+105.3472 	EXP 	fixation: autoDraw = False
+105.3472 	EXP 	fixation_green: autoDraw = True
+105.6983 	EXP 	New trial (rep=4, index=5): <Trial 61 (5 in rep 4) data={'speed1': -0.0005, 'speed2': -0.004, 'thisN': 61, 'thisTrialN': 5, 'thisRepN': 4}>
+105.7014 	DATA 	Keypress: up
+105.7045 	EXP 	dots_1: autoDraw = False
+105.7045 	EXP 	dots_2: autoDraw = False
+105.7045 	EXP 	circle_block: autoDraw = False
+105.7045 	EXP 	fixation: autoDraw = False
+105.7045 	EXP 	fixation_green: autoDraw = False
+105.7045 	EXP 	dots_1: speed = -0.0005
+105.7045 	EXP 	dots_2: speed = -0.004
+105.7045 	EXP 	dots_1: autoDraw = True
+105.7045 	EXP 	circle_block: autoDraw = True
+105.7045 	EXP 	fixation: autoDraw = True
+106.2139 	EXP 	dots_1: autoDraw = False
+106.4468 	EXP 	dots_2: autoDraw = True
+106.9479 	INFO 	Keyboard events cleared
+106.9472 	EXP 	dots_2: autoDraw = False
+106.9472 	EXP 	fixation_green: autoDraw = True
+106.9637 	EXP 	fixation: autoDraw = False
+107.3678 	EXP 	New trial (rep=4, index=6): <Trial 62 (6 in rep 4) data={'speed1': -0.0005, 'speed2': -0.0005, 'thisN': 62, 'thisTrialN': 6, 'thisRepN': 4}>
+107.3716 	DATA 	Keypress: up
+107.3801 	EXP 	dots_1: autoDraw = False
+107.3801 	EXP 	dots_2: autoDraw = False
+107.3801 	EXP 	circle_block: autoDraw = False
+107.3801 	EXP 	fixation: autoDraw = False
+107.3801 	EXP 	fixation_green: autoDraw = False
+107.3801 	EXP 	dots_1: speed = -0.0005
+107.3801 	EXP 	dots_2: speed = -0.0005
+107.3801 	EXP 	dots_1: autoDraw = True
+107.3801 	EXP 	circle_block: autoDraw = True
+107.3801 	EXP 	fixation: autoDraw = True
+107.8654 	EXP 	dots_1: autoDraw = False
+108.1136 	EXP 	dots_2: autoDraw = True
+108.6137 	EXP 	dots_2: autoDraw = False
+108.6189 	INFO 	Keyboard events cleared
+108.6186 	EXP 	fixation: autoDraw = False
+108.6186 	EXP 	fixation_green: autoDraw = True
+110.2011 	EXP 	New trial (rep=4, index=7): <Trial 63 (7 in rep 4) data={'speed1': 0.0005, 'speed2': 0.001, 'thisN': 63, 'thisTrialN': 7, 'thisRepN': 4}>
+110.2056 	DATA 	Keypress: down
+110.2134 	EXP 	dots_1: autoDraw = False
+110.2134 	EXP 	dots_2: autoDraw = False
+110.2134 	EXP 	circle_block: autoDraw = False
+110.2134 	EXP 	fixation: autoDraw = False
+110.2134 	EXP 	fixation_green: autoDraw = False
+110.2134 	EXP 	dots_1: speed = 0.0005
+110.2134 	EXP 	dots_2: speed = 0.001
+110.2134 	EXP 	dots_1: autoDraw = True
+110.2134 	EXP 	circle_block: autoDraw = True
+110.2134 	EXP 	fixation: autoDraw = True
+110.7138 	EXP 	dots_1: autoDraw = False
+110.9533 	EXP 	dots_2: autoDraw = True
+111.4474 	INFO 	Keyboard events cleared
+111.4466 	EXP 	fixation_green: autoDraw = True
+111.4514 	EXP 	dots_2: autoDraw = False
+111.4514 	EXP 	fixation: autoDraw = False
+111.9175 	EXP 	New trial (rep=4, index=8): <Trial 64 (8 in rep 4) data={'speed1': -0.0005, 'speed2': -0.002, 'thisN': 64, 'thisTrialN': 8, 'thisRepN': 4}>
+111.9220 	DATA 	Keypress: up
+111.9301 	EXP 	dots_1: autoDraw = False
+111.9301 	EXP 	dots_2: autoDraw = False
+111.9301 	EXP 	circle_block: autoDraw = False
+111.9301 	EXP 	fixation: autoDraw = False
+111.9301 	EXP 	fixation_green: autoDraw = False
+111.9301 	EXP 	dots_1: speed = -0.0005
+111.9301 	EXP 	dots_2: speed = -0.002
+111.9301 	EXP 	dots_1: autoDraw = True
+111.9301 	EXP 	circle_block: autoDraw = True
+111.9301 	EXP 	fixation: autoDraw = True
+112.4180 	EXP 	dots_1: autoDraw = False
+112.6808 	EXP 	dots_2: autoDraw = True
+113.1669 	INFO 	Keyboard events cleared
+113.1665 	EXP 	dots_2: autoDraw = False
+113.1665 	EXP 	fixation: autoDraw = False
+113.1665 	EXP 	fixation_green: autoDraw = True
+113.6150 	EXP 	New trial (rep=4, index=9): <Trial 65 (9 in rep 4) data={'speed1': -0.0005, 'speed2': -0.00025, 'thisN': 65, 'thisTrialN': 9, 'thisRepN': 4}>
+113.6182 	DATA 	Keypress: up
+113.6211 	EXP 	dots_1: autoDraw = False
+113.6211 	EXP 	dots_2: autoDraw = False
+113.6211 	EXP 	circle_block: autoDraw = False
+113.6211 	EXP 	fixation: autoDraw = False
+113.6211 	EXP 	fixation_green: autoDraw = False
+113.6211 	EXP 	dots_1: speed = -0.0005
+113.6211 	EXP 	dots_2: speed = -0.00025
+113.6211 	EXP 	dots_1: autoDraw = True
+113.6211 	EXP 	circle_block: autoDraw = True
+113.6211 	EXP 	fixation: autoDraw = True
+114.1308 	EXP 	dots_1: autoDraw = False
+114.3642 	EXP 	dots_2: autoDraw = True
+114.8647 	INFO 	Keyboard events cleared
+114.8640 	EXP 	dots_2: autoDraw = False
+114.8640 	EXP 	fixation_green: autoDraw = True
+114.8803 	EXP 	fixation: autoDraw = False
+115.4673 	EXP 	New trial (rep=4, index=10): <Trial 66 (10 in rep 4) data={'speed1': 0.0005, 'speed2': 0.004, 'thisN': 66, 'thisTrialN': 10, 'thisRepN': 4}>
+115.4706 	DATA 	Keypress: down
+115.4802 	EXP 	dots_1: autoDraw = False
+115.4802 	EXP 	dots_2: autoDraw = False
+115.4802 	EXP 	circle_block: autoDraw = False
+115.4802 	EXP 	fixation: autoDraw = False
+115.4802 	EXP 	fixation_green: autoDraw = False
+115.4802 	EXP 	dots_1: speed = 0.0005
+115.4802 	EXP 	dots_2: speed = 0.004
+115.4802 	EXP 	dots_1: autoDraw = True
+115.4802 	EXP 	circle_block: autoDraw = True
+115.4802 	EXP 	fixation: autoDraw = True
+115.9690 	EXP 	dots_1: autoDraw = False
+116.2132 	EXP 	dots_2: autoDraw = True
+116.7142 	EXP 	dots_2: autoDraw = False
+116.7316 	INFO 	Keyboard events cleared
+116.7306 	EXP 	fixation: autoDraw = False
+116.7306 	EXP 	fixation_green: autoDraw = True
+117.4538 	EXP 	New trial (rep=4, index=11): <Trial 67 (11 in rep 4) data={'speed1': -0.0005, 'speed2': -6.25e-05, 'thisN': 67, 'thisTrialN': 11, 'thisRepN': 4}>
+117.4569 	DATA 	Keypress: up
+117.4633 	EXP 	dots_1: autoDraw = False
+117.4633 	EXP 	dots_2: autoDraw = False
+117.4633 	EXP 	circle_block: autoDraw = False
+117.4633 	EXP 	fixation: autoDraw = False
+117.4633 	EXP 	fixation_green: autoDraw = False
+117.4633 	EXP 	dots_1: speed = -0.0005
+117.4633 	EXP 	dots_2: speed = -6.25e-05
+117.4633 	EXP 	dots_1: autoDraw = True
+117.4633 	EXP 	circle_block: autoDraw = True
+117.4633 	EXP 	fixation: autoDraw = True
+117.9637 	EXP 	dots_1: autoDraw = False
+118.1996 	EXP 	dots_2: autoDraw = True
+118.6966 	EXP 	dots_2: autoDraw = False
+118.6996 	INFO 	Keyboard events cleared
+118.6994 	EXP 	fixation: autoDraw = False
+118.6994 	EXP 	fixation_green: autoDraw = True
+119.1509 	EXP 	New trial (rep=4, index=12): <Trial 68 (12 in rep 4) data={'speed1': 0.0005, 'speed2': 6.25e-05, 'thisN': 68, 'thisTrialN': 12, 'thisRepN': 4}>
+119.1548 	DATA 	Keypress: down
+119.1635 	EXP 	dots_1: autoDraw = False
+119.1635 	EXP 	dots_2: autoDraw = False
+119.1635 	EXP 	circle_block: autoDraw = False
+119.1635 	EXP 	fixation: autoDraw = False
+119.1635 	EXP 	fixation_green: autoDraw = False
+119.1635 	EXP 	dots_1: speed = 0.0005
+119.1635 	EXP 	dots_2: speed = 6.25e-05
+119.1635 	EXP 	dots_1: autoDraw = True
+119.1635 	EXP 	circle_block: autoDraw = True
+119.1635 	EXP 	fixation: autoDraw = True
+119.6636 	EXP 	dots_1: autoDraw = False
+119.8966 	EXP 	dots_2: autoDraw = True
+120.3846 	EXP 	dots_2: autoDraw = False
+120.3973 	INFO 	Keyboard events cleared
+120.3966 	EXP 	fixation_green: autoDraw = True
+120.4011 	EXP 	fixation: autoDraw = False
+120.7675 	EXP 	New trial (rep=4, index=13): <Trial 69 (13 in rep 4) data={'speed1': 0.0005, 'speed2': 0.000125, 'thisN': 69, 'thisTrialN': 13, 'thisRepN': 4}>
+120.7711 	DATA 	Keypress: down
+120.7801 	EXP 	dots_1: autoDraw = False
+120.7801 	EXP 	dots_2: autoDraw = False
+120.7801 	EXP 	circle_block: autoDraw = False
+120.7801 	EXP 	fixation: autoDraw = False
+120.7801 	EXP 	fixation_green: autoDraw = False
+120.7801 	EXP 	dots_1: speed = 0.0005
+120.7801 	EXP 	dots_2: speed = 0.000125
+120.7801 	EXP 	dots_1: autoDraw = True
+120.7801 	EXP 	circle_block: autoDraw = True
+120.7801 	EXP 	fixation: autoDraw = True
+121.2686 	EXP 	dots_1: autoDraw = False
+121.5309 	EXP 	dots_2: autoDraw = True
+122.0136 	INFO 	Keyboard events cleared
+122.0133 	EXP 	fixation_green: autoDraw = True
+122.0172 	EXP 	dots_2: autoDraw = False
+122.0172 	EXP 	fixation: autoDraw = False
+122.3691 	DATA 	Keypress: down
+122.3800 	EXP 	dots_1: autoDraw = False
+122.3800 	EXP 	dots_2: autoDraw = False
+122.3800 	EXP 	circle_block: autoDraw = False
+122.3800 	EXP 	fixation: autoDraw = False
+122.3800 	EXP 	fixation_green: autoDraw = False
+122.3801 	EXP 	speed-discrimination: status = STOPPED
+122.4017 	INFO 	saved data to '/Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768-Measuring-Perception/V768-Psychophysics-labs/06-2d-motion/speed-discrimination/data/demo_speed-discrimination_2025-02-14_20h15.56.467.csv'
+122.4027 	INFO 	saved data to /Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768-Measuring-Perception/V768-Psychophysics-labs/06-2d-motion/speed-discrimination/data/demo_speed-discrimination_2025-02-14_20h15.56.467.psydat
+122.4048 	WARNING 	t of last frame was 24.84ms (=1/40)
