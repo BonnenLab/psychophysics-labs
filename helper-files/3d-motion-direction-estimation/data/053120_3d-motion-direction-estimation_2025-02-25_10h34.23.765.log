@@ -1,0 +1,26 @@
+4.1244 	INFO 	Loaded monitor calibration from ['2023_05_12 15:00']
+4.2800 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f7f28e259d0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f7f28e258e0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f7f637588b0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([3024, 1964]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.2800 	EXP 	window1: backgroundImage = ''
+4.2801 	EXP 	window1: backgroundFit = 'none'
+4.3214 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+4.3214 	EXP 	window1: recordFrameIntervals = False
+4.4404 	EXP 	window1: recordFrameIntervals = True
+5.2740 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+6.9656 	INFO 	keyboard.Keyboard is using iohub backend.
+6.9657 	EXP 	3d-motion-direction-estimation: status = STARTED
+0.0138 	EXP 	Created dot_left_0 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([0, 0, 1]), fillColorSpace='rgb', fillRGB=array([0, 0, 1]), interpolate=True, lineColor=array([0., 0., 1.]), lineColorSpace='rgb', lineRGB=array([0, 0, 1]), lineWidth=1.5, name='dot_left_0', opacity=1.0, ori=0.0, pos=array([0.1384725, 0.1432896]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0158 	EXP 	Created dot_left_0 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([1, 0, 0]), fillColorSpace='rgb', fillRGB=array([1, 0, 0]), interpolate=True, lineColor=array([1., 0., 0.]), lineColorSpace='rgb', lineRGB=array([1, 0, 0]), lineWidth=1.5, name='dot_left_0', opacity=1.0, ori=0.0, pos=array([0.11560339, 0.1432896 ]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0209 	EXP 	dot_left_0: autoDraw = True
+0.0209 	EXP 	dot_left_0: autoDraw = True
+6.5184 	WARNING 	t of last frame was 108.77ms (=1/9)
+14.5753 	DATA 	Keypress: escape
+14.5783 	WARNING 	t of last frame was 38.62ms (=1/25)
+14.6222 	EXP 	3d-motion-direction-estimation: status = STOPPED
+14.6252 	EXP 	dot_left_0: autoDraw = False
+14.6252 	EXP 	dot_left_0: autoDraw = False
+14.6253 	EXP 	3d-motion-direction-estimation: status = STOPPED
+14.6266 	INFO 	saved data to '/Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768-Measuring-Perception/V768-Psychophysics-labs/07-3d-motion/3d-motion-direction-estimation/data/053120_3d-motion-direction-estimation_2025-02-25_10h34.23.765.csv'
+14.6270 	INFO 	saved data to /Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768-Measuring-Perception/V768-Psychophysics-labs/07-3d-motion/3d-motion-direction-estimation/data/053120_3d-motion-direction-estimation_2025-02-25_10h34.23.765.psydat

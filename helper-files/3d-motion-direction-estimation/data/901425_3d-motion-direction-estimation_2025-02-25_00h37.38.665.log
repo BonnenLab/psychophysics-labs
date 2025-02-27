@@ -1,0 +1,59 @@
+4.0825 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+4.0833 	INFO 	Loaded monitor calibration from ['2023_05_12 15:00']
+4.2325 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f8553d828e0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f8553d827f0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f8558bc2820>, multiSample=False, name='window1', numSamples=2, pos=[356.0, 191.0], screen=0, size=array([1600, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.2326 	EXP 	window1: backgroundImage = ''
+4.2326 	EXP 	window1: backgroundFit = 'none'
+4.2423 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2429 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2434 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2441 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2448 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2450 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2455 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2462 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2464 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2466 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2471 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2476 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2480 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2485 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2489 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2494 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2499 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2501 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2504 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2511 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2514 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2515 	DEBUG 	Uploading Texture Font fontname to graphics card
+4.2544 	DEBUG 	Upload of Texture Font fontname complete
+4.2594 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2601 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2608 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.2609 	DEBUG 	Uploading Texture Font fontname to graphics card
+4.2628 	DEBUG 	Upload of Texture Font fontname complete
+4.2642 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+4.2643 	EXP 	window1: recordFrameIntervals = False
+4.3588 	EXP 	window1: recordFrameIntervals = True
+5.1938 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+5.2012 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2017 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2026 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2037 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2047 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2057 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2061 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2070 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2080 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2089 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.2092 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.2120 	DEBUG 	Upload of Texture Font fontname complete
+5.2289 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+6.8903 	INFO 	keyboard.Keyboard is using iohub backend.
+6.8904 	EXP 	3d-motion-direction-estimation: status = STARTED
+6.8975 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0184 	DEBUG 	Saving data for 3d-motion-direction-estimation ExperimentHandler
+0.0187 	INFO 	saved data to /Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768-Measuring-Perception/V768-Psychophysics-labs/07-3d-motion/3d-motion-direction-estimation/data/901425_3d-motion-direction-estimation_2025-02-25_00h37.38.665.psydat
+0.0189 	INFO 	saved data to '/Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768-Measuring-Perception/V768-Psychophysics-labs/07-3d-motion/3d-motion-direction-estimation/data/901425_3d-motion-direction-estimation_2025-02-25_00h37.38.665.csv'

@@ -1,0 +1,184 @@
+4.4766 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+4.4778 	INFO 	Loaded monitor calibration from ['2023_05_12 15:00']
+4.6303 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f7bbd6af760>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f7bbd6af640>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f7bbd5ca670>, multiSample=False, name='window1', numSamples=2, pos=[356.0, 191.0], screen=0, size=array([1600, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.6304 	EXP 	window1: backgroundImage = ''
+4.6304 	EXP 	window1: backgroundFit = 'none'
+4.6396 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6402 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6407 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6414 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6421 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6423 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6428 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6435 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6437 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6439 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6444 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6448 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6453 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6458 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6462 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6467 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6472 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6475 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6478 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6485 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6487 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6489 	DEBUG 	Uploading Texture Font fontname to graphics card
+4.6517 	DEBUG 	Upload of Texture Font fontname complete
+4.6568 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6575 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6582 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6584 	DEBUG 	Uploading Texture Font fontname to graphics card
+4.6602 	DEBUG 	Upload of Texture Font fontname complete
+4.6617 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+4.6617 	EXP 	window1: recordFrameIntervals = False
+4.7815 	EXP 	window1: recordFrameIntervals = True
+5.6151 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+5.6223 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6229 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6240 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6253 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6264 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6275 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6280 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6289 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6300 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6309 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6312 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.6341 	DEBUG 	Upload of Texture Font fontname complete
+5.6524 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+7.3159 	INFO 	keyboard.Keyboard is using iohub backend.
+7.3159 	EXP 	3d-motion-direction-estimation: status = STARTED
+7.3225 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0123 	EXP 	Created dot_left_0 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([-1, -1,  1]), fillColorSpace='rgb', fillRGB=array([-1, -1,  1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='dot_left_0', opacity=1.0, ori=0.0, pos=array([0.0830989 , 0.11409129]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0144 	EXP 	Created dot_left_0 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1, -1, -1]), lineWidth=1.5, name='dot_left_0', opacity=1.0, ori=0.0, pos=array([0.09056198, 0.11409129]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0164 	EXP 	Created dot_left_1 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([-1, -1,  1]), fillColorSpace='rgb', fillRGB=array([-1, -1,  1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='dot_left_1', opacity=1.0, ori=0.0, pos=array([0.07943926, 0.16124698]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0185 	EXP 	Created dot_left_1 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1, -1, -1]), lineWidth=1.5, name='dot_left_1', opacity=1.0, ori=0.0, pos=array([0.08114889, 0.16124698]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0207 	EXP 	Created dot_left_2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([-1, -1,  1]), fillColorSpace='rgb', fillRGB=array([-1, -1,  1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='dot_left_2', opacity=1.0, ori=0.0, pos=array([-0.08334717,  0.16502586]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0227 	EXP 	Created dot_left_2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1, -1, -1]), lineWidth=1.5, name='dot_left_2', opacity=1.0, ori=0.0, pos=array([-0.07784912,  0.16502586]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0246 	EXP 	Created dot_left_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([-1, -1,  1]), fillColorSpace='rgb', fillRGB=array([-1, -1,  1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='dot_left_3', opacity=1.0, ori=0.0, pos=array([0.22123308, 0.03061122]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0266 	EXP 	Created dot_left_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1, -1, -1]), lineWidth=1.5, name='dot_left_3', opacity=1.0, ori=0.0, pos=array([0.23241408, 0.03061122]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0285 	EXP 	Created dot_left_4 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([-1, -1,  1]), fillColorSpace='rgb', fillRGB=array([-1, -1,  1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='dot_left_4', opacity=1.0, ori=0.0, pos=array([ 0.00819803, -0.15344688]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0305 	EXP 	Created dot_left_4 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1, -1, -1]), lineWidth=1.5, name='dot_left_4', opacity=1.0, ori=0.0, pos=array([ 0.00268499, -0.15344688]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0327 	EXP 	Created dot_left_5 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([-1, -1,  1]), fillColorSpace='rgb', fillRGB=array([-1, -1,  1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='dot_left_5', opacity=1.0, ori=0.0, pos=array([-0.07876761, -0.13026561]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0347 	EXP 	Created dot_left_5 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1, -1, -1]), lineWidth=1.5, name='dot_left_5', opacity=1.0, ori=0.0, pos=array([-0.05930427, -0.13026561]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0367 	EXP 	Created dot_left_6 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([-1, -1,  1]), fillColorSpace='rgb', fillRGB=array([-1, -1,  1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='dot_left_6', opacity=1.0, ori=0.0, pos=array([0.06182253, 0.17415886]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0387 	EXP 	Created dot_left_6 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1, -1, -1]), lineWidth=1.5, name='dot_left_6', opacity=1.0, ori=0.0, pos=array([0.0833343 , 0.17415886]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0407 	EXP 	Created dot_left_7 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([-1, -1,  1]), fillColorSpace='rgb', fillRGB=array([-1, -1,  1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='dot_left_7', opacity=1.0, ori=0.0, pos=array([-0.00572667,  0.14181487]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0426 	EXP 	Created dot_left_7 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1, -1, -1]), lineWidth=1.5, name='dot_left_7', opacity=1.0, ori=0.0, pos=array([0.01856671, 0.14181487]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0446 	EXP 	Created dot_left_8 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([-1, -1,  1]), fillColorSpace='rgb', fillRGB=array([-1, -1,  1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='dot_left_8', opacity=1.0, ori=0.0, pos=array([ 0.22361441, -0.08909233]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0468 	EXP 	Created dot_left_8 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1, -1, -1]), lineWidth=1.5, name='dot_left_8', opacity=1.0, ori=0.0, pos=array([ 0.23027596, -0.08909233]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0488 	EXP 	Created dot_left_9 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([-1, -1,  1]), fillColorSpace='rgb', fillRGB=array([-1, -1,  1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='dot_left_9', opacity=1.0, ori=0.0, pos=array([ 0.02523338, -0.0499042 ]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0508 	EXP 	Created dot_left_9 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1, -1, -1]), lineWidth=1.5, name='dot_left_9', opacity=1.0, ori=0.0, pos=array([ 0.01527667, -0.0499042 ]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0528 	EXP 	Created dot_left_10 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([-1, -1,  1]), fillColorSpace='rgb', fillRGB=array([-1, -1,  1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='dot_left_10', opacity=1.0, ori=0.0, pos=array([ 0.04997013, -0.12105824]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0549 	EXP 	Created dot_left_10 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1, -1, -1]), lineWidth=1.5, name='dot_left_10', opacity=1.0, ori=0.0, pos=array([ 0.04901846, -0.12105824]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0574 	EXP 	Created dot_left_11 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([-1, -1,  1]), fillColorSpace='rgb', fillRGB=array([-1, -1,  1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='dot_left_11', opacity=1.0, ori=0.0, pos=array([-0.16830889, -0.24028638]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0594 	EXP 	Created dot_left_11 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1, -1, -1]), lineWidth=1.5, name='dot_left_11', opacity=1.0, ori=0.0, pos=array([-0.15569853, -0.24028638]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0618 	EXP 	Created dot_left_12 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([-1, -1,  1]), fillColorSpace='rgb', fillRGB=array([-1, -1,  1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='dot_left_12', opacity=1.0, ori=0.0, pos=array([ 0.09005115, -0.25103738]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0642 	EXP 	Created dot_left_12 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1, -1, -1]), lineWidth=1.5, name='dot_left_12', opacity=1.0, ori=0.0, pos=array([ 0.08382389, -0.25103738]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0664 	EXP 	Created dot_left_13 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([-1, -1,  1]), fillColorSpace='rgb', fillRGB=array([-1, -1,  1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='dot_left_13', opacity=1.0, ori=0.0, pos=array([-0.08641928, -0.000765  ]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0684 	EXP 	Created dot_left_13 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1, -1, -1]), lineWidth=1.5, name='dot_left_13', opacity=1.0, ori=0.0, pos=array([-0.09072235, -0.000765  ]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0704 	EXP 	Created dot_left_14 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([-1, -1,  1]), fillColorSpace='rgb', fillRGB=array([-1, -1,  1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.5, name='dot_left_14', opacity=1.0, ori=0.0, pos=array([ 0.12216764, -0.03250098]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0723 	EXP 	Created dot_left_14 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1, -1, -1]), lineWidth=1.5, name='dot_left_14', opacity=1.0, ori=0.0, pos=array([ 0.11172653, -0.03250098]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0869 	WARNING 	t of last frame was 82.61ms (=1/12)
+0.0869 	EXP 	dot_left_0: autoDraw = True
+0.0869 	EXP 	dot_left_1: autoDraw = True
+0.0869 	EXP 	dot_left_2: autoDraw = True
+0.0869 	EXP 	dot_left_3: autoDraw = True
+0.0869 	EXP 	dot_left_4: autoDraw = True
+0.0869 	EXP 	dot_left_5: autoDraw = True
+0.0869 	EXP 	dot_left_6: autoDraw = True
+0.0869 	EXP 	dot_left_7: autoDraw = True
+0.0869 	EXP 	dot_left_8: autoDraw = True
+0.0869 	EXP 	dot_left_9: autoDraw = True
+0.0869 	EXP 	dot_left_10: autoDraw = True
+0.0869 	EXP 	dot_left_11: autoDraw = True
+0.0869 	EXP 	dot_left_12: autoDraw = True
+0.0869 	EXP 	dot_left_13: autoDraw = True
+0.0869 	EXP 	dot_left_14: autoDraw = True
+0.0869 	EXP 	dot_left_0: autoDraw = True
+0.0869 	EXP 	dot_left_1: autoDraw = True
+0.0869 	EXP 	dot_left_2: autoDraw = True
+0.0869 	EXP 	dot_left_3: autoDraw = True
+0.0869 	EXP 	dot_left_4: autoDraw = True
+0.0869 	EXP 	dot_left_5: autoDraw = True
+0.0869 	EXP 	dot_left_6: autoDraw = True
+0.0869 	EXP 	dot_left_7: autoDraw = True
+0.0869 	EXP 	dot_left_8: autoDraw = True
+0.0869 	EXP 	dot_left_9: autoDraw = True
+0.0869 	EXP 	dot_left_10: autoDraw = True
+0.0869 	EXP 	dot_left_11: autoDraw = True
+0.0869 	EXP 	dot_left_12: autoDraw = True
+0.0869 	EXP 	dot_left_13: autoDraw = True
+0.0869 	EXP 	dot_left_14: autoDraw = True
+0.0869 	EXP 	polygon: autoDraw = True
+0.2922 	WARNING 	t of last frame was 60.87ms (=1/16)
+1.0785 	EXP 	dot_left_0: autoDraw = False
+1.0785 	EXP 	dot_left_1: autoDraw = False
+1.0785 	EXP 	dot_left_2: autoDraw = False
+1.0785 	EXP 	dot_left_3: autoDraw = False
+1.0785 	EXP 	dot_left_4: autoDraw = False
+1.0785 	EXP 	dot_left_5: autoDraw = False
+1.0785 	EXP 	dot_left_6: autoDraw = False
+1.0785 	EXP 	dot_left_7: autoDraw = False
+1.0785 	EXP 	dot_left_8: autoDraw = False
+1.0785 	EXP 	dot_left_9: autoDraw = False
+1.0785 	EXP 	dot_left_10: autoDraw = False
+1.0785 	EXP 	dot_left_11: autoDraw = False
+1.0785 	EXP 	dot_left_12: autoDraw = False
+1.0785 	EXP 	dot_left_13: autoDraw = False
+1.0785 	EXP 	dot_left_14: autoDraw = False
+1.0785 	EXP 	dot_left_0: autoDraw = False
+1.0785 	EXP 	dot_left_1: autoDraw = False
+1.0785 	EXP 	dot_left_2: autoDraw = False
+1.0785 	EXP 	dot_left_3: autoDraw = False
+1.0785 	EXP 	dot_left_4: autoDraw = False
+1.0785 	EXP 	dot_left_5: autoDraw = False
+1.0785 	EXP 	dot_left_6: autoDraw = False
+1.0785 	EXP 	dot_left_7: autoDraw = False
+1.0785 	EXP 	dot_left_8: autoDraw = False
+1.0785 	EXP 	dot_left_9: autoDraw = False
+1.0785 	EXP 	dot_left_10: autoDraw = False
+1.0785 	EXP 	dot_left_11: autoDraw = False
+1.0785 	EXP 	dot_left_12: autoDraw = False
+1.0785 	EXP 	dot_left_13: autoDraw = False
+1.0785 	EXP 	dot_left_14: autoDraw = False
+5.0127 	EXP 	polygon: autoDraw = False
+5.0127 	EXP 	dot_left_0: autoDraw = False
+5.0127 	EXP 	dot_left_1: autoDraw = False
+5.0127 	EXP 	dot_left_2: autoDraw = False
+5.0127 	EXP 	dot_left_3: autoDraw = False
+5.0127 	EXP 	dot_left_4: autoDraw = False
+5.0127 	EXP 	dot_left_5: autoDraw = False
+5.0127 	EXP 	dot_left_6: autoDraw = False
+5.0127 	EXP 	dot_left_7: autoDraw = False
+5.0127 	EXP 	dot_left_8: autoDraw = False
+5.0127 	EXP 	dot_left_9: autoDraw = False
+5.0127 	EXP 	dot_left_10: autoDraw = False
+5.0127 	EXP 	dot_left_11: autoDraw = False
+5.0127 	EXP 	dot_left_12: autoDraw = False
+5.0127 	EXP 	dot_left_13: autoDraw = False
+5.0127 	EXP 	dot_left_14: autoDraw = False
+5.0127 	EXP 	dot_left_0: autoDraw = False
+5.0127 	EXP 	dot_left_1: autoDraw = False
+5.0127 	EXP 	dot_left_2: autoDraw = False
+5.0127 	EXP 	dot_left_3: autoDraw = False
+5.0127 	EXP 	dot_left_4: autoDraw = False
+5.0127 	EXP 	dot_left_5: autoDraw = False
+5.0127 	EXP 	dot_left_6: autoDraw = False
+5.0127 	EXP 	dot_left_7: autoDraw = False
+5.0127 	EXP 	dot_left_8: autoDraw = False
+5.0127 	EXP 	dot_left_9: autoDraw = False
+5.0127 	EXP 	dot_left_10: autoDraw = False
+5.0127 	EXP 	dot_left_11: autoDraw = False
+5.0127 	EXP 	dot_left_12: autoDraw = False
+5.0127 	EXP 	dot_left_13: autoDraw = False
+5.0127 	EXP 	dot_left_14: autoDraw = False
+5.0146 	EXP 	3d-motion-direction-estimation: status = STOPPED
+5.0169 	INFO 	saved data to '/Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768-Measuring-Perception/V768-Psychophysics-labs/07-3d-motion/3d-motion-direction-estimation/data/275800_3d-motion-direction-estimation_2025-02-25_10h25.00.029.csv'
+5.0173 	INFO 	saved data to /Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768-Measuring-Perception/V768-Psychophysics-labs/07-3d-motion/3d-motion-direction-estimation/data/275800_3d-motion-direction-estimation_2025-02-25_10h25.00.029.psydat
+5.1776 	DEBUG 	Saving data for 3d-motion-direction-estimation ExperimentHandler
