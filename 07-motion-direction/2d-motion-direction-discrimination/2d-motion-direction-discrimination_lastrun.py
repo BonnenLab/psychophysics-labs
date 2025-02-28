@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on Thu Feb 27 07:06:18 2025
+    on Fri Feb 28 07:12:52 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -126,7 +126,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='/Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768-Measuring-Perception/V768-Psychophysics-labs/07-3d-motion/2d-motion-direction-discrimation/2d-motion-direction-discrimination_lastrun.py',
+        originPath='/Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768-Measuring-Perception/V768-Psychophysics-labs/07-motion-direction/2d-motion-direction-discrimination/2d-motion-direction-discrimination_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
@@ -387,7 +387,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     dots = visual.DotStim(
         win=win, name='dots',
         nDots=50, dotSize=2.0,
-        speed=0.002, dir=90.0, coherence=1.0,
+        speed=0.002, dir=1.0, coherence=1.0,
         fieldPos=(0.0, 0.0), fieldSize=0.25, fieldAnchor='center', fieldShape='circle',
         signalDots='same', noiseDots='direction',dotLife=100.0,
         color=[1.0,1.0,1.0], colorSpace='rgb', opacity=None,
@@ -572,7 +572,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # set up handler to look after randomisation of trials etc
     conditions = data.importConditions('staircase_parameters.xlsx')
     staircase = data.MultiStairHandler(stairType='simple', name='staircase',
-        nTrials=60.0,
+        nTrials=40.0,
         conditions=conditions,
         method='random',
         originPath=-1)
@@ -597,8 +597,9 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         trial.status = NOT_STARTED
         continueRoutine = True
         # update component parameters for each repeat
+        dots.setDir(base_direction)
         dots.refreshDots()
-        dots_test.setDir(90+level)
+        dots_test.setDir(base_direction+level)
         dots_test.refreshDots()
         # create starting attributes for key_resp
         key_resp.keys = []

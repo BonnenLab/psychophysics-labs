@@ -120,7 +120,7 @@
         <Param val="$[1.0,1.0,1.0]" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
         <Param val="1" valType="num" updates="constant" name="contrast"/>
-        <Param val="90.0" valType="num" updates="constant" name="dir"/>
+        <Param val="base_direction" valType="num" updates="set every repeat" name="dir"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="100" valType="num" updates="None" name="dotLife"/>
         <Param val="2" valType="num" updates="constant" name="dotSize"/>
@@ -151,7 +151,7 @@
         <Param val="$[1.0,1.0,1.0]" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
         <Param val="1" valType="num" updates="constant" name="contrast"/>
-        <Param val="90+level" valType="num" updates="set every repeat" name="dir"/>
+        <Param val="base_direction+level" valType="num" updates="set every repeat" name="dir"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="100" valType="num" updates="None" name="dotLife"/>
         <Param val="2" valType="num" updates="constant" name="dotSize"/>
@@ -310,12 +310,12 @@
   <Flow>
     <Routine name="begin_experiment"/>
     <LoopInitiator loopType="MultiStairHandler" name="staircase">
-      <Param name="conditions" updates="None" val="[{'label': 'cw', 'nReps': 60, 'startVal': 10, 'maxVal': 15, 'minVal': 0, 'stepSizes': [2, 0.5], 'stepType': 'lin', 'nUp': 1, 'nDown': 2, 'nReversals': None}, {'label': 'ccw', 'nReps': 60, 'startVal': -10, 'maxVal': 0, 'minVal': -15, 'stepSizes': [2, 0.5], 'stepType': 'lin', 'nUp': 2, 'nDown': 1, 'nReversals': None}, {'label': 'hi', 'nReps': 6, 'startVal': 15, 'maxVal': 15, 'minVal': 15, 'stepSizes': 1, 'stepType': 'lin', 'nUp': 1, 'nDown': 2, 'nReversals': 0}, {'label': 'lo', 'nReps': 6, 'startVal': -15, 'maxVal': -15, 'minVal': -15, 'stepSizes': 1, 'stepType': 'lin', 'nUp': 2, 'nDown': 1, 'nReversals': 0}]" valType="list"/>
+      <Param name="conditions" updates="None" val="[{'label': 'cw', 'nReps': 40, 'startVal': 14, 'maxVal': 20, 'minVal': 0, 'stepSizes': 2, 'stepType': 'lin', 'nUp': 1, 'nDown': 2, 'nReversals': None, 'base_direction': 45}, {'label': 'ccw', 'nReps': 40, 'startVal': -14, 'maxVal': 0, 'minVal': -20, 'stepSizes': 2, 'stepType': 'lin', 'nUp': 2, 'nDown': 1, 'nReversals': None, 'base_direction': 45}, {'label': 'hi', 'nReps': 6, 'startVal': 14, 'maxVal': 20, 'minVal': 20, 'stepSizes': 1, 'stepType': 'lin', 'nUp': 1, 'nDown': 2, 'nReversals': 0, 'base_direction': 45}, {'label': 'lo', 'nReps': 6, 'startVal': -14, 'maxVal': -20, 'minVal': -20, 'stepSizes': 1, 'stepType': 'lin', 'nUp': 2, 'nDown': 1, 'nReversals': 0, 'base_direction': 45}, {'label': 'cw', 'nReps': 40, 'startVal': 14, 'maxVal': 20, 'minVal': 0, 'stepSizes': 2, 'stepType': 'lin', 'nUp': 1, 'nDown': 2, 'nReversals': None, 'base_direction': 135}, {'label': 'ccw', 'nReps': 40, 'startVal': -14, 'maxVal': 0, 'minVal': -20, 'stepSizes': 2, 'stepType': 'lin', 'nUp': 2, 'nDown': 1, 'nReversals': None, 'base_direction': 135}, {'label': 'hi', 'nReps': 6, 'startVal': 14, 'maxVal': 20, 'minVal': 20, 'stepSizes': 1, 'stepType': 'lin', 'nUp': 1, 'nDown': 2, 'nReversals': 0, 'base_direction': 135}, {'label': 'lo', 'nReps': 6, 'startVal': -14, 'maxVal': -20, 'minVal': -20, 'stepSizes': 1, 'stepType': 'lin', 'nUp': 2, 'nDown': 1, 'nReversals': 0, 'base_direction': 135}]" valType="list"/>
       <Param name="conditionsFile" updates="None" val="staircase_parameters.xlsx" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="interleaved staircases" valType="str"/>
-      <Param name="nReps" updates="None" val="60" valType="num"/>
+      <Param name="nReps" updates="None" val="40" valType="num"/>
       <Param name="name" updates="None" val="staircase" valType="code"/>
       <Param name="stairType" updates="None" val="simple" valType="str"/>
       <Param name="switchMethod" updates="None" val="random" valType="str"/>

@@ -1,0 +1,2293 @@
+12.6627 	INFO 	Loaded monitor calibration from ['2023_05_12 15:00']
+12.8334 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7feefc04f670>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7feefc04f550>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7feefc537100>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([3024, 1964]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.8335 	EXP 	window1: backgroundImage = ''
+12.8335 	EXP 	window1: backgroundFit = 'none'
+12.8767 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+12.8767 	EXP 	window1: recordFrameIntervals = False
+12.9916 	EXP 	window1: recordFrameIntervals = True
+13.8270 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+15.7808 	INFO 	keyboard.Keyboard is using iohub backend.
+15.7809 	INFO 	keyboard.Keyboard is using iohub backend.
+15.7809 	INFO 	keyboard.Keyboard is using iohub backend.
+15.7809 	EXP 	2d-motion-direction-discrimination: status = STARTED
+15.8215 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.8250 	EXP 	Created dots = DotStim(__class__=<class 'psychopy.visual.dot.DotStim'>, autoLog=True, coherence=1.0, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, dir=1.0, dotLife=100.0, dotSize=4.0, element=None, fieldAnchor=UNKNOWN, fieldPos=array([0., 0.]), fieldShape='circle', fieldSize=array([0.25, 0.25]), nDots=50, name='dots', noiseDots='direction', opacity=1, rgb=UNKNOWN, signalDots='same', speed=0.002, units='height', win=Window(...))
+15.8256 	EXP 	Created dots_test = DotStim(__class__=<class 'psychopy.visual.dot.DotStim'>, autoLog=True, coherence=1.0, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, dir=1.0, dotLife=100.0, dotSize=4.0, element=None, fieldAnchor=UNKNOWN, fieldPos=array([0., 0.]), fieldShape='circle', fieldSize=array([0.2, 0.2]), nDots=50, name='dots_test', noiseDots='direction', opacity=1, rgb=UNKNOWN, signalDots='same', speed=0.002, units='height', win=Window(...))
+15.8273 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1.        ,  0.00392157, -1.        ]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+0.0171 	INFO 	Keyboard events cleared
+0.0169 	EXP 	text: autoDraw = True
+4.9222 	WARNING 	t of last frame was 110.30ms (=1/9)
+6.1497 	DATA 	Keypress: lcommand
+6.1530 	WARNING 	t of last frame was 20.53ms (=1/48)
+7.0330 	EXP 	Imported staircase_parameters.xlsx as conditions, 8 conditions, 11 params
+7.1467 	WARNING 	Increasing number of minimum required reversals to the number of step sizes, (1).
+7.1469 	WARNING 	Increasing number of minimum required reversals to the number of step sizes, (1).
+7.1475 	WARNING 	Increasing number of minimum required reversals to the number of step sizes, (1).
+7.1477 	WARNING 	Increasing number of minimum required reversals to the number of step sizes, (1).
+7.1520 	DATA 	Keypress: space
+7.1542 	WARNING 	t of last frame was 141.06ms (=1/7)
+7.1542 	EXP 	text: autoDraw = False
+7.1542 	EXP 	dots: dir = 135.0
+7.1542 	EXP 	dots_test: dir = 121.0
+7.1542 	EXP 	dots: autoDraw = True
+7.6476 	EXP 	dots: autoDraw = False
+7.8142 	EXP 	dots_test: autoDraw = True
+8.3122 	INFO 	Keyboard events cleared
+8.3119 	EXP 	dots_test: autoDraw = False
+8.3119 	EXP 	text_2: autoDraw = True
+8.8827 	DATA 	Keypress: right
+8.8853 	EXP 	dots: autoDraw = False
+8.8853 	EXP 	dots_test: autoDraw = False
+8.8853 	EXP 	text_2: autoDraw = False
+8.8853 	EXP 	dots: dir = 135.0
+8.8853 	EXP 	dots_test: dir = 121.0
+8.8853 	EXP 	dots: autoDraw = True
+9.3969 	EXP 	dots: autoDraw = False
+9.6801 	EXP 	dots_test: autoDraw = True
+10.1798 	INFO 	Keyboard events cleared
+10.1794 	EXP 	dots_test: autoDraw = False
+10.1794 	EXP 	text_2: autoDraw = True
+10.4752 	DATA 	Keypress: right
+10.4779 	EXP 	dots: autoDraw = False
+10.4779 	EXP 	dots_test: autoDraw = False
+10.4779 	EXP 	text_2: autoDraw = False
+10.4779 	EXP 	dots: dir = 135.0
+10.4779 	EXP 	dots_test: dir = 149.0
+10.4779 	EXP 	dots: autoDraw = True
+10.9789 	EXP 	dots: autoDraw = False
+11.2633 	EXP 	dots_test: autoDraw = True
+11.7624 	INFO 	Keyboard events cleared
+11.7621 	EXP 	dots_test: autoDraw = False
+11.7621 	EXP 	text_2: autoDraw = True
+12.1989 	DATA 	Keypress: left
+12.2018 	EXP 	dots: autoDraw = False
+12.2018 	EXP 	dots_test: autoDraw = False
+12.2018 	EXP 	text_2: autoDraw = False
+12.2018 	EXP 	dots: dir = 45.0
+12.2018 	EXP 	dots_test: dir = 31.0
+12.2018 	EXP 	dots: autoDraw = True
+12.7127 	EXP 	dots: autoDraw = False
+12.9964 	EXP 	dots_test: autoDraw = True
+13.4955 	INFO 	Keyboard events cleared
+13.4952 	EXP 	dots_test: autoDraw = False
+13.4952 	EXP 	text_2: autoDraw = True
+13.8675 	DATA 	Keypress: right
+13.8788 	EXP 	dots: autoDraw = False
+13.8788 	EXP 	dots_test: autoDraw = False
+13.8788 	EXP 	text_2: autoDraw = False
+13.8788 	EXP 	dots: dir = 135.0
+13.8788 	EXP 	dots_test: dir = 149.0
+13.8788 	EXP 	dots: autoDraw = True
+14.3777 	EXP 	dots: autoDraw = False
+14.6618 	EXP 	dots_test: autoDraw = True
+15.1630 	EXP 	dots_test: autoDraw = False
+15.1801 	INFO 	Keyboard events cleared
+15.1793 	EXP 	text_2: autoDraw = True
+15.4666 	DATA 	Keypress: left
+15.4788 	EXP 	dots: autoDraw = False
+15.4788 	EXP 	dots_test: autoDraw = False
+15.4788 	EXP 	text_2: autoDraw = False
+15.4788 	EXP 	dots: dir = 45.0
+15.4788 	EXP 	dots_test: dir = 59.0
+15.4788 	EXP 	dots: autoDraw = True
+15.9796 	EXP 	dots: autoDraw = False
+16.2632 	EXP 	dots_test: autoDraw = True
+16.7620 	INFO 	Keyboard events cleared
+16.7618 	EXP 	dots_test: autoDraw = False
+16.7618 	EXP 	text_2: autoDraw = True
+17.3656 	DATA 	Keypress: left
+17.3683 	EXP 	dots: autoDraw = False
+17.3683 	EXP 	dots_test: autoDraw = False
+17.3683 	EXP 	text_2: autoDraw = False
+17.3683 	EXP 	dots: dir = 45.0
+17.3683 	EXP 	dots_test: dir = 59.0
+17.3683 	EXP 	dots: autoDraw = True
+17.8641 	EXP 	dots: autoDraw = False
+18.1520 	EXP 	dots_test: autoDraw = True
+18.6642 	INFO 	Keyboard events cleared
+18.6635 	EXP 	dots_test: autoDraw = False
+18.6635 	EXP 	text_2: autoDraw = True
+18.9655 	DATA 	Keypress: left
+18.9684 	EXP 	dots: autoDraw = False
+18.9684 	EXP 	dots_test: autoDraw = False
+18.9684 	EXP 	text_2: autoDraw = False
+18.9684 	EXP 	dots: dir = 45.0
+18.9684 	EXP 	dots_test: dir = 31.0
+18.9684 	EXP 	dots: autoDraw = True
+19.4794 	EXP 	dots: autoDraw = False
+19.7630 	EXP 	dots_test: autoDraw = True
+20.2637 	INFO 	Keyboard events cleared
+20.2635 	EXP 	dots_test: autoDraw = False
+20.2635 	EXP 	text_2: autoDraw = True
+20.6390 	DATA 	Keypress: right
+20.6452 	EXP 	dots: autoDraw = False
+20.6452 	EXP 	dots_test: autoDraw = False
+20.6452 	EXP 	text_2: autoDraw = False
+20.6452 	EXP 	dots: dir = 135.0
+20.6452 	EXP 	dots_test: dir = 115.0
+20.6452 	EXP 	dots: autoDraw = True
+21.1468 	EXP 	dots: autoDraw = False
+21.4307 	EXP 	dots_test: autoDraw = True
+21.9297 	EXP 	dots_test: autoDraw = False
+21.9464 	INFO 	Keyboard events cleared
+21.9462 	EXP 	text_2: autoDraw = True
+22.2837 	DATA 	Keypress: right
+22.2954 	EXP 	dots: autoDraw = False
+22.2954 	EXP 	dots_test: autoDraw = False
+22.2954 	EXP 	text_2: autoDraw = False
+22.2954 	EXP 	dots: dir = 135.0
+22.2954 	EXP 	dots_test: dir = 123.0
+22.2954 	EXP 	dots: autoDraw = True
+22.7963 	EXP 	dots: autoDraw = False
+23.0969 	EXP 	dots_test: autoDraw = True
+23.5793 	INFO 	Keyboard events cleared
+23.5786 	EXP 	text_2: autoDraw = True
+23.5952 	EXP 	dots_test: autoDraw = False
+23.9668 	DATA 	Keypress: right
+23.9789 	EXP 	dots: autoDraw = False
+23.9789 	EXP 	dots_test: autoDraw = False
+23.9789 	EXP 	text_2: autoDraw = False
+23.9789 	EXP 	dots: dir = 135.0
+23.9789 	EXP 	dots_test: dir = 147.0
+23.9789 	EXP 	dots: autoDraw = True
+24.4798 	EXP 	dots: autoDraw = False
+24.7792 	EXP 	dots_test: autoDraw = True
+25.2621 	INFO 	Keyboard events cleared
+25.2618 	EXP 	text_2: autoDraw = True
+25.2642 	EXP 	dots_test: autoDraw = False
+25.6720 	DATA 	Keypress: left
+25.6787 	EXP 	dots: autoDraw = False
+25.6787 	EXP 	dots_test: autoDraw = False
+25.6787 	EXP 	text_2: autoDraw = False
+25.6787 	EXP 	dots: dir = 45.0
+25.6787 	EXP 	dots_test: dir = 65.0
+25.6787 	EXP 	dots: autoDraw = True
+25.9504 	WARNING 	t of last frame was 20.03ms (=1/49)
+26.1787 	EXP 	dots: autoDraw = False
+26.4796 	EXP 	dots_test: autoDraw = True
+26.9652 	INFO 	Keyboard events cleared
+26.9650 	EXP 	text_2: autoDraw = True
+26.9785 	EXP 	dots_test: autoDraw = False
+27.3990 	DATA 	Keypress: left
+27.4020 	EXP 	dots: autoDraw = False
+27.4020 	EXP 	dots_test: autoDraw = False
+27.4020 	EXP 	text_2: autoDraw = False
+27.4020 	EXP 	dots: dir = 135.0
+27.4020 	EXP 	dots_test: dir = 155.0
+27.4020 	EXP 	dots: autoDraw = True
+27.8984 	EXP 	dots: autoDraw = False
+28.1962 	EXP 	dots_test: autoDraw = True
+28.6975 	INFO 	Keyboard events cleared
+28.6968 	EXP 	dots_test: autoDraw = False
+28.6968 	EXP 	text_2: autoDraw = True
+29.0485 	DATA 	Keypress: left
+29.0513 	EXP 	dots: autoDraw = False
+29.0513 	EXP 	dots_test: autoDraw = False
+29.0513 	EXP 	text_2: autoDraw = False
+29.0513 	EXP 	dots: dir = 45.0
+29.0513 	EXP 	dots_test: dir = 25.0
+29.0513 	EXP 	dots: autoDraw = True
+29.5628 	EXP 	dots: autoDraw = False
+29.8461 	EXP 	dots_test: autoDraw = True
+30.3472 	INFO 	Keyboard events cleared
+30.3465 	EXP 	dots_test: autoDraw = False
+30.3465 	EXP 	text_2: autoDraw = True
+30.6002 	DATA 	Keypress: right
+30.6162 	EXP 	dots: autoDraw = False
+30.6162 	EXP 	dots_test: autoDraw = False
+30.6162 	EXP 	text_2: autoDraw = False
+30.6162 	EXP 	dots: dir = 45.0
+30.6162 	EXP 	dots_test: dir = 33.0
+30.6162 	EXP 	dots: autoDraw = True
+31.1294 	EXP 	dots: autoDraw = False
+31.3975 	EXP 	dots_test: autoDraw = True
+31.8951 	EXP 	dots_test: autoDraw = False
+31.8977 	INFO 	Keyboard events cleared
+31.8975 	EXP 	text_2: autoDraw = True
+32.2493 	DATA 	Keypress: right
+32.2522 	EXP 	dots: autoDraw = False
+32.2522 	EXP 	dots_test: autoDraw = False
+32.2522 	EXP 	text_2: autoDraw = False
+32.2522 	EXP 	dots: dir = 45.0
+32.2522 	EXP 	dots_test: dir = 57.0
+32.2522 	EXP 	dots: autoDraw = True
+32.7628 	EXP 	dots: autoDraw = False
+33.0453 	EXP 	dots_test: autoDraw = True
+33.5310 	EXP 	dots_test: autoDraw = False
+33.5455 	INFO 	Keyboard events cleared
+33.5453 	EXP 	text_2: autoDraw = True
+33.8532 	DATA 	Keypress: left
+33.8621 	EXP 	dots: autoDraw = False
+33.8621 	EXP 	dots_test: autoDraw = False
+33.8621 	EXP 	text_2: autoDraw = False
+33.8621 	EXP 	dots: dir = 135.0
+33.8621 	EXP 	dots_test: dir = 125.0
+33.8621 	EXP 	dots: autoDraw = True
+34.3631 	EXP 	dots: autoDraw = False
+34.6451 	EXP 	dots_test: autoDraw = True
+35.1462 	EXP 	dots_test: autoDraw = False
+35.1643 	INFO 	Keyboard events cleared
+35.1636 	EXP 	text_2: autoDraw = True
+35.6173 	DATA 	Keypress: right
+35.6204 	EXP 	dots: autoDraw = False
+35.6204 	EXP 	dots_test: autoDraw = False
+35.6204 	EXP 	text_2: autoDraw = False
+35.6204 	EXP 	dots: dir = 135.0
+35.6204 	EXP 	dots_test: dir = 155.0
+35.6204 	EXP 	dots: autoDraw = True
+36.1298 	EXP 	dots: autoDraw = False
+36.4292 	EXP 	dots_test: autoDraw = True
+36.9120 	INFO 	Keyboard events cleared
+36.9118 	EXP 	text_2: autoDraw = True
+36.9141 	EXP 	dots_test: autoDraw = False
+37.1671 	DATA 	Keypress: left
+37.1785 	EXP 	dots: autoDraw = False
+37.1785 	EXP 	dots_test: autoDraw = False
+37.1785 	EXP 	text_2: autoDraw = False
+37.1785 	EXP 	dots: dir = 135.0
+37.1785 	EXP 	dots_test: dir = 145.0
+37.1785 	EXP 	dots: autoDraw = True
+37.6797 	EXP 	dots: autoDraw = False
+37.9662 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+37.9781 	EXP 	dots_test: autoDraw = True
+38.4797 	INFO 	Keyboard events cleared
+38.4794 	EXP 	dots_test: autoDraw = False
+38.4794 	EXP 	text_2: autoDraw = True
+38.9504 	DATA 	Keypress: left
+38.9621 	EXP 	dots: autoDraw = False
+38.9621 	EXP 	dots_test: autoDraw = False
+38.9621 	EXP 	text_2: autoDraw = False
+38.9621 	EXP 	dots: dir = 135.0
+38.9621 	EXP 	dots_test: dir = 115.0
+38.9621 	EXP 	dots: autoDraw = True
+39.4496 	EXP 	dots: autoDraw = False
+39.7448 	EXP 	dots_test: autoDraw = True
+40.2329 	EXP 	dots_test: autoDraw = False
+40.2453 	INFO 	Keyboard events cleared
+40.2450 	EXP 	text_2: autoDraw = True
+40.5666 	DATA 	Keypress: right
+40.5788 	EXP 	dots: autoDraw = False
+40.5788 	EXP 	dots_test: autoDraw = False
+40.5788 	EXP 	text_2: autoDraw = False
+40.5788 	EXP 	dots: dir = 45.0
+40.5788 	EXP 	dots_test: dir = 25.0
+40.5788 	EXP 	dots: autoDraw = True
+41.0794 	EXP 	dots: autoDraw = False
+41.3619 	EXP 	dots_test: autoDraw = True
+41.8650 	INFO 	Keyboard events cleared
+41.8648 	EXP 	dots_test: autoDraw = False
+41.8648 	EXP 	text_2: autoDraw = True
+42.0988 	DATA 	Keypress: right
+42.1015 	EXP 	dots: autoDraw = False
+42.1015 	EXP 	dots_test: autoDraw = False
+42.1015 	EXP 	text_2: autoDraw = False
+42.1015 	EXP 	dots: dir = 45.0
+42.1015 	EXP 	dots_test: dir = 55.0
+42.1015 	EXP 	dots: autoDraw = True
+42.5976 	EXP 	dots: autoDraw = False
+42.8969 	EXP 	dots_test: autoDraw = True
+43.3967 	INFO 	Keyboard events cleared
+43.3960 	EXP 	dots_test: autoDraw = False
+43.3960 	EXP 	text_2: autoDraw = True
+43.8323 	DATA 	Keypress: left
+43.8352 	EXP 	dots: autoDraw = False
+43.8352 	EXP 	dots_test: autoDraw = False
+43.8352 	EXP 	text_2: autoDraw = False
+43.8352 	EXP 	dots: dir = 45.0
+43.8352 	EXP 	dots_test: dir = 35.0
+43.8352 	EXP 	dots: autoDraw = True
+44.3460 	EXP 	dots: autoDraw = False
+44.6293 	EXP 	dots_test: autoDraw = True
+45.1300 	INFO 	Keyboard events cleared
+45.1297 	EXP 	dots_test: autoDraw = False
+45.1297 	EXP 	text_2: autoDraw = True
+45.3152 	DATA 	Keypress: right
+45.3179 	EXP 	dots: autoDraw = False
+45.3179 	EXP 	dots_test: autoDraw = False
+45.3179 	EXP 	text_2: autoDraw = False
+45.3179 	EXP 	dots: dir = 45.0
+45.3179 	EXP 	dots_test: dir = 65.0
+45.3179 	EXP 	dots: autoDraw = True
+45.8155 	EXP 	dots: autoDraw = False
+46.1128 	EXP 	dots_test: autoDraw = True
+46.6140 	INFO 	Keyboard events cleared
+46.6133 	EXP 	dots_test: autoDraw = False
+46.6133 	EXP 	text_2: autoDraw = True
+46.8714 	DATA 	Keypress: left
+46.8787 	EXP 	dots: autoDraw = False
+46.8787 	EXP 	dots_test: autoDraw = False
+46.8787 	EXP 	text_2: autoDraw = False
+46.8787 	EXP 	dots: dir = 135.0
+46.8787 	EXP 	dots_test: dir = 127.0
+46.8787 	EXP 	dots: autoDraw = True
+47.3792 	EXP 	dots: autoDraw = False
+47.6793 	EXP 	dots_test: autoDraw = True
+48.1652 	INFO 	Keyboard events cleared
+48.1650 	EXP 	dots_test: autoDraw = False
+48.1650 	EXP 	text_2: autoDraw = True
+48.6980 	DATA 	Keypress: left
+48.7008 	EXP 	dots: autoDraw = False
+48.7008 	EXP 	dots_test: autoDraw = False
+48.7008 	EXP 	text_2: autoDraw = False
+48.7008 	EXP 	dots: dir = 135.0
+48.7008 	EXP 	dots_test: dir = 143.0
+48.7008 	EXP 	dots: autoDraw = True
+49.2009 	EXP 	dots: autoDraw = False
+49.4869 	EXP 	dots_test: autoDraw = True
+49.9967 	INFO 	Keyboard events cleared
+49.9960 	EXP 	dots_test: autoDraw = False
+49.9960 	EXP 	text_2: autoDraw = True
+50.2499 	DATA 	Keypress: left
+50.2622 	EXP 	dots: autoDraw = False
+50.2622 	EXP 	dots_test: autoDraw = False
+50.2622 	EXP 	text_2: autoDraw = False
+50.2622 	EXP 	dots: dir = 135.0
+50.2622 	EXP 	dots_test: dir = 115.0
+50.2622 	EXP 	dots: autoDraw = True
+50.7626 	EXP 	dots: autoDraw = False
+51.0624 	EXP 	dots_test: autoDraw = True
+51.5642 	INFO 	Keyboard events cleared
+51.5633 	EXP 	dots_test: autoDraw = False
+51.5633 	EXP 	text_2: autoDraw = True
+51.8354 	DATA 	Keypress: right
+51.8453 	EXP 	dots: autoDraw = False
+51.8453 	EXP 	dots_test: autoDraw = False
+51.8453 	EXP 	text_2: autoDraw = False
+51.8453 	EXP 	dots: dir = 45.0
+51.8453 	EXP 	dots_test: dir = 25.0
+51.8453 	EXP 	dots: autoDraw = True
+52.3460 	EXP 	dots: autoDraw = False
+52.6457 	EXP 	dots_test: autoDraw = True
+53.1288 	INFO 	Keyboard events cleared
+53.1285 	EXP 	text_2: autoDraw = True
+53.1309 	EXP 	dots_test: autoDraw = False
+53.8668 	DATA 	Keypress: right
+53.8788 	EXP 	dots: autoDraw = False
+53.8788 	EXP 	dots_test: autoDraw = False
+53.8788 	EXP 	text_2: autoDraw = False
+53.8788 	EXP 	dots: dir = 45.0
+53.8788 	EXP 	dots_test: dir = 65.0
+53.8788 	EXP 	dots: autoDraw = True
+54.3663 	EXP 	dots: autoDraw = False
+54.6799 	EXP 	dots_test: autoDraw = True
+55.1630 	INFO 	Keyboard events cleared
+55.1628 	EXP 	text_2: autoDraw = True
+55.1800 	EXP 	dots_test: autoDraw = False
+55.4164 	DATA 	Keypress: left
+55.4191 	EXP 	dots: autoDraw = False
+55.4191 	EXP 	dots_test: autoDraw = False
+55.4191 	EXP 	text_2: autoDraw = False
+55.4191 	EXP 	dots: dir = 45.0
+55.4191 	EXP 	dots_test: dir = 53.0
+55.4191 	EXP 	dots: autoDraw = True
+55.9187 	EXP 	dots: autoDraw = False
+56.2292 	EXP 	dots_test: autoDraw = True
+56.7127 	INFO 	Keyboard events cleared
+56.7119 	EXP 	text_2: autoDraw = True
+56.7173 	EXP 	dots_test: autoDraw = False
+57.1337 	DATA 	Keypress: left
+57.1363 	EXP 	dots: autoDraw = False
+57.1363 	EXP 	dots_test: autoDraw = False
+57.1363 	EXP 	text_2: autoDraw = False
+57.1363 	EXP 	dots: dir = 135.0
+57.1363 	EXP 	dots_test: dir = 155.0
+57.1363 	EXP 	dots: autoDraw = True
+57.6325 	EXP 	dots: autoDraw = False
+57.9296 	EXP 	dots_test: autoDraw = True
+58.4298 	EXP 	dots_test: autoDraw = False
+58.4477 	INFO 	Keyboard events cleared
+58.4469 	EXP 	text_2: autoDraw = True
+58.8001 	DATA 	Keypress: left
+58.8120 	EXP 	dots: autoDraw = False
+58.8120 	EXP 	dots_test: autoDraw = False
+58.8120 	EXP 	text_2: autoDraw = False
+58.8120 	EXP 	dots: dir = 45.0
+58.8120 	EXP 	dots_test: dir = 37.0
+58.8120 	EXP 	dots: autoDraw = True
+59.2970 	EXP 	dots: autoDraw = False
+59.6132 	EXP 	dots_test: autoDraw = True
+60.1133 	INFO 	Keyboard events cleared
+60.1131 	EXP 	dots_test: autoDraw = False
+60.1131 	EXP 	text_2: autoDraw = True
+60.4321 	DATA 	Keypress: right
+60.4349 	EXP 	dots: autoDraw = False
+60.4349 	EXP 	dots_test: autoDraw = False
+60.4349 	EXP 	text_2: autoDraw = False
+60.4349 	EXP 	dots: dir = 45.0
+60.4349 	EXP 	dots_test: dir = 51.0
+60.4349 	EXP 	dots: autoDraw = True
+60.9316 	EXP 	dots: autoDraw = False
+61.2190 	EXP 	dots_test: autoDraw = True
+61.7300 	INFO 	Keyboard events cleared
+61.7293 	EXP 	dots_test: autoDraw = False
+61.7293 	EXP 	text_2: autoDraw = True
+61.9501 	DATA 	Keypress: left
+61.9620 	EXP 	dots: autoDraw = False
+61.9620 	EXP 	dots_test: autoDraw = False
+61.9620 	EXP 	text_2: autoDraw = False
+61.9620 	EXP 	dots: dir = 45.0
+61.9620 	EXP 	dots_test: dir = 39.0
+61.9620 	EXP 	dots: autoDraw = True
+62.4621 	EXP 	dots: autoDraw = False
+62.7451 	EXP 	dots_test: autoDraw = True
+63.2309 	EXP 	dots_test: autoDraw = False
+63.2454 	INFO 	Keyboard events cleared
+63.2452 	EXP 	text_2: autoDraw = True
+64.0837 	DATA 	Keypress: left
+64.0953 	EXP 	dots: autoDraw = False
+64.0953 	EXP 	dots_test: autoDraw = False
+64.0953 	EXP 	text_2: autoDraw = False
+64.0953 	EXP 	dots: dir = 135.0
+64.0953 	EXP 	dots_test: dir = 141.0
+64.0953 	EXP 	dots: autoDraw = True
+64.5967 	EXP 	dots: autoDraw = False
+64.8786 	EXP 	dots_test: autoDraw = True
+65.3793 	EXP 	dots_test: autoDraw = False
+65.3978 	INFO 	Keyboard events cleared
+65.3971 	EXP 	text_2: autoDraw = True
+65.8330 	DATA 	Keypress: left
+65.8455 	EXP 	dots: autoDraw = False
+65.8455 	EXP 	dots_test: autoDraw = False
+65.8455 	EXP 	text_2: autoDraw = False
+65.8455 	EXP 	dots: dir = 135.0
+65.8455 	EXP 	dots_test: dir = 155.0
+65.8455 	EXP 	dots: autoDraw = True
+66.3456 	EXP 	dots: autoDraw = False
+66.6285 	EXP 	dots_test: autoDraw = True
+67.1182 	EXP 	dots_test: autoDraw = False
+67.1287 	INFO 	Keyboard events cleared
+67.1285 	EXP 	text_2: autoDraw = True
+67.4837 	DATA 	Keypress: left
+67.4955 	EXP 	dots: autoDraw = False
+67.4955 	EXP 	dots_test: autoDraw = False
+67.4955 	EXP 	text_2: autoDraw = False
+67.4955 	EXP 	dots: dir = 45.0
+67.4955 	EXP 	dots_test: dir = 65.0
+67.4955 	EXP 	dots: autoDraw = True
+67.9969 	EXP 	dots: autoDraw = False
+68.2785 	EXP 	dots_test: autoDraw = True
+68.7791 	EXP 	dots_test: autoDraw = False
+68.7834 	INFO 	Keyboard events cleared
+68.7831 	EXP 	text_2: autoDraw = True
+69.0174 	DATA 	Keypress: left
+69.0316 	EXP 	dots: autoDraw = False
+69.0316 	EXP 	dots_test: autoDraw = False
+69.0316 	EXP 	text_2: autoDraw = False
+69.0316 	EXP 	dots: dir = 135.0
+69.0316 	EXP 	dots_test: dir = 115.0
+69.0316 	EXP 	dots: autoDraw = True
+69.5460 	EXP 	dots: autoDraw = False
+69.8129 	EXP 	dots_test: autoDraw = True
+70.3131 	EXP 	dots_test: autoDraw = False
+70.3297 	INFO 	Keyboard events cleared
+70.3294 	EXP 	text_2: autoDraw = True
+70.6160 	DATA 	Keypress: right
+70.6190 	EXP 	dots: autoDraw = False
+70.6190 	EXP 	dots_test: autoDraw = False
+70.6190 	EXP 	text_2: autoDraw = False
+70.6190 	EXP 	dots: dir = 45.0
+70.6190 	EXP 	dots_test: dir = 25.0
+70.6190 	EXP 	dots: autoDraw = True
+71.1298 	EXP 	dots: autoDraw = False
+71.4128 	EXP 	dots_test: autoDraw = True
+71.8976 	EXP 	dots_test: autoDraw = False
+71.9121 	INFO 	Keyboard events cleared
+71.9119 	EXP 	text_2: autoDraw = True
+72.2323 	DATA 	Keypress: right
+72.2351 	EXP 	dots: autoDraw = False
+72.2351 	EXP 	dots_test: autoDraw = False
+72.2351 	EXP 	text_2: autoDraw = False
+72.2351 	EXP 	dots: dir = 135.0
+72.2351 	EXP 	dots_test: dir = 125.0
+72.2351 	EXP 	dots: autoDraw = True
+72.7307 	EXP 	dots: autoDraw = False
+73.0185 	EXP 	dots_test: autoDraw = True
+73.5303 	INFO 	Keyboard events cleared
+73.5296 	EXP 	dots_test: autoDraw = False
+73.5296 	EXP 	text_2: autoDraw = True
+73.6532 	DATA 	Keypress: right
+73.6620 	EXP 	dots: autoDraw = False
+73.6620 	EXP 	dots_test: autoDraw = False
+73.6620 	EXP 	text_2: autoDraw = False
+73.6620 	EXP 	dots: dir = 135.0
+73.6620 	EXP 	dots_test: dir = 155.0
+73.6620 	EXP 	dots: autoDraw = True
+74.1497 	EXP 	dots: autoDraw = False
+74.4481 	EXP 	dots_test: autoDraw = True
+74.9467 	INFO 	Keyboard events cleared
+74.9464 	EXP 	dots_test: autoDraw = False
+74.9464 	EXP 	text_2: autoDraw = True
+75.2838 	DATA 	Keypress: left
+75.2954 	EXP 	dots: autoDraw = False
+75.2954 	EXP 	dots_test: autoDraw = False
+75.2954 	EXP 	text_2: autoDraw = False
+75.2954 	EXP 	dots: dir = 45.0
+75.2954 	EXP 	dots_test: dir = 65.0
+75.2954 	EXP 	dots: autoDraw = True
+75.7961 	EXP 	dots: autoDraw = False
+76.0786 	EXP 	dots_test: autoDraw = True
+76.5793 	EXP 	dots_test: autoDraw = False
+76.5976 	INFO 	Keyboard events cleared
+76.5968 	EXP 	text_2: autoDraw = True
+76.8691 	DATA 	Keypress: left
+76.8787 	EXP 	dots: autoDraw = False
+76.8787 	EXP 	dots_test: autoDraw = False
+76.8787 	EXP 	text_2: autoDraw = False
+76.8787 	EXP 	dots: dir = 45.0
+76.8787 	EXP 	dots_test: dir = 25.0
+76.8787 	EXP 	dots: autoDraw = True
+77.3791 	EXP 	dots: autoDraw = False
+77.6803 	EXP 	dots_test: autoDraw = True
+78.1809 	INFO 	Keyboard events cleared
+78.1802 	EXP 	dots_test: autoDraw = False
+78.1802 	EXP 	text_2: autoDraw = True
+78.3030 	DATA 	Keypress: right
+78.3119 	EXP 	dots: autoDraw = False
+78.3119 	EXP 	dots_test: autoDraw = False
+78.3119 	EXP 	text_2: autoDraw = False
+78.3119 	EXP 	dots: dir = 45.0
+78.3119 	EXP 	dots_test: dir = 49.0
+78.3119 	EXP 	dots: autoDraw = True
+78.8133 	EXP 	dots: autoDraw = False
+79.0965 	EXP 	dots_test: autoDraw = True
+79.5965 	EXP 	dots_test: autoDraw = False
+79.6137 	INFO 	Keyboard events cleared
+79.6130 	EXP 	text_2: autoDraw = True
+80.0822 	DATA 	Keypress: right
+80.0850 	EXP 	dots: autoDraw = False
+80.0850 	EXP 	dots_test: autoDraw = False
+80.0850 	EXP 	text_2: autoDraw = False
+80.0850 	EXP 	dots: dir = 135.0
+80.0850 	EXP 	dots_test: dir = 115.0
+80.0850 	EXP 	dots: autoDraw = True
+80.5822 	EXP 	dots: autoDraw = False
+80.8785 	EXP 	dots_test: autoDraw = True
+81.3802 	INFO 	Keyboard events cleared
+81.3794 	EXP 	dots_test: autoDraw = False
+81.3794 	EXP 	text_2: autoDraw = True
+81.7860 	DATA 	Keypress: right
+81.7949 	EXP 	dots: autoDraw = False
+81.7949 	EXP 	dots_test: autoDraw = False
+81.7949 	EXP 	text_2: autoDraw = False
+81.7949 	EXP 	dots: dir = 135.0
+81.7949 	EXP 	dots_test: dir = 139.0
+81.7949 	EXP 	dots: autoDraw = True
+82.2810 	EXP 	dots: autoDraw = False
+82.5791 	EXP 	dots_test: autoDraw = True
+83.0795 	EXP 	dots_test: autoDraw = False
+83.0965 	INFO 	Keyboard events cleared
+83.0962 	EXP 	text_2: autoDraw = True
+83.6338 	DATA 	Keypress: right
+83.6483 	EXP 	dots: autoDraw = False
+83.6483 	EXP 	dots_test: autoDraw = False
+83.6483 	EXP 	text_2: autoDraw = False
+83.6483 	EXP 	dots: dir = 135.0
+83.6483 	EXP 	dots_test: dir = 125.0
+83.6483 	EXP 	dots: autoDraw = True
+84.1634 	EXP 	dots: autoDraw = False
+84.4459 	EXP 	dots_test: autoDraw = True
+84.9465 	INFO 	Keyboard events cleared
+84.9462 	EXP 	dots_test: autoDraw = False
+84.9462 	EXP 	text_2: autoDraw = True
+85.1155 	DATA 	Keypress: right
+85.1182 	EXP 	dots: autoDraw = False
+85.1182 	EXP 	dots_test: autoDraw = False
+85.1182 	EXP 	text_2: autoDraw = False
+85.1182 	EXP 	dots: dir = 45.0
+85.1182 	EXP 	dots_test: dir = 37.0
+85.1182 	EXP 	dots: autoDraw = True
+85.6118 	EXP 	dots: autoDraw = False
+85.9137 	EXP 	dots_test: autoDraw = True
+86.4120 	INFO 	Keyboard events cleared
+86.4117 	EXP 	dots_test: autoDraw = False
+86.4117 	EXP 	text_2: autoDraw = True
+87.8826 	DATA 	Keypress: right
+87.8854 	EXP 	dots: autoDraw = False
+87.8854 	EXP 	dots_test: autoDraw = False
+87.8854 	EXP 	text_2: autoDraw = False
+87.8854 	EXP 	dots: dir = 45.0
+87.8854 	EXP 	dots_test: dir = 51.0
+87.8854 	EXP 	dots: autoDraw = True
+88.3842 	EXP 	dots: autoDraw = False
+88.6791 	EXP 	dots_test: autoDraw = True
+89.1805 	INFO 	Keyboard events cleared
+89.1799 	EXP 	dots_test: autoDraw = False
+89.1799 	EXP 	text_2: autoDraw = True
+89.4849 	DATA 	Keypress: left
+89.4878 	EXP 	dots: autoDraw = False
+89.4878 	EXP 	dots_test: autoDraw = False
+89.4878 	EXP 	text_2: autoDraw = False
+89.4878 	EXP 	dots: dir = 45.0
+89.4878 	EXP 	dots_test: dir = 25.0
+89.4878 	EXP 	dots: autoDraw = True
+89.9957 	EXP 	dots: autoDraw = False
+90.2959 	EXP 	dots_test: autoDraw = True
+90.7966 	INFO 	Keyboard events cleared
+90.7963 	EXP 	dots_test: autoDraw = False
+90.7963 	EXP 	text_2: autoDraw = True
+91.0672 	DATA 	Keypress: right
+91.0788 	EXP 	dots: autoDraw = False
+91.0788 	EXP 	dots_test: autoDraw = False
+91.0788 	EXP 	text_2: autoDraw = False
+91.0788 	EXP 	dots: dir = 135.0
+91.0788 	EXP 	dots_test: dir = 155.0
+91.0788 	EXP 	dots: autoDraw = True
+91.5795 	EXP 	dots: autoDraw = False
+91.8802 	EXP 	dots_test: autoDraw = True
+92.3621 	INFO 	Keyboard events cleared
+92.3618 	EXP 	text_2: autoDraw = True
+92.3796 	EXP 	dots_test: autoDraw = False
+92.6996 	DATA 	Keypress: left
+92.7121 	EXP 	dots: autoDraw = False
+92.7121 	EXP 	dots_test: autoDraw = False
+92.7121 	EXP 	text_2: autoDraw = False
+92.7121 	EXP 	dots: dir = 135.0
+92.7121 	EXP 	dots_test: dir = 141.0
+92.7121 	EXP 	dots: autoDraw = True
+93.2124 	EXP 	dots: autoDraw = False
+93.5130 	EXP 	dots_test: autoDraw = True
+93.9971 	INFO 	Keyboard events cleared
+93.9963 	EXP 	text_2: autoDraw = True
+94.0007 	EXP 	dots_test: autoDraw = False
+95.0160 	DATA 	Keypress: left
+95.0188 	EXP 	dots: autoDraw = False
+95.0188 	EXP 	dots_test: autoDraw = False
+95.0188 	EXP 	text_2: autoDraw = False
+95.0188 	EXP 	dots: dir = 45.0
+95.0188 	EXP 	dots_test: dir = 37.0
+95.0188 	EXP 	dots: autoDraw = True
+95.5296 	EXP 	dots: autoDraw = False
+95.8129 	EXP 	dots_test: autoDraw = True
+96.3141 	INFO 	Keyboard events cleared
+96.3134 	EXP 	dots_test: autoDraw = False
+96.3134 	EXP 	text_2: autoDraw = True
+96.5326 	DATA 	Keypress: right
+96.5455 	EXP 	dots: autoDraw = False
+96.5455 	EXP 	dots_test: autoDraw = False
+96.5455 	EXP 	text_2: autoDraw = False
+96.5455 	EXP 	dots: dir = 45.0
+96.5455 	EXP 	dots_test: dir = 65.0
+96.5455 	EXP 	dots: autoDraw = True
+97.0305 	EXP 	dots: autoDraw = False
+97.3298 	EXP 	dots_test: autoDraw = True
+97.8291 	EXP 	dots_test: autoDraw = False
+97.8472 	INFO 	Keyboard events cleared
+97.8463 	EXP 	text_2: autoDraw = True
+98.2204 	DATA 	Keypress: left
+98.2287 	EXP 	dots: autoDraw = False
+98.2287 	EXP 	dots_test: autoDraw = False
+98.2287 	EXP 	text_2: autoDraw = False
+98.2287 	EXP 	dots: dir = 135.0
+98.2287 	EXP 	dots_test: dir = 127.0
+98.2287 	EXP 	dots: autoDraw = True
+98.7292 	EXP 	dots: autoDraw = False
+99.0163 	EXP 	dots_test: autoDraw = True
+99.5298 	INFO 	Keyboard events cleared
+99.5290 	EXP 	dots_test: autoDraw = False
+99.5290 	EXP 	text_2: autoDraw = True
+99.8162 	DATA 	Keypress: right
+99.8286 	EXP 	dots: autoDraw = False
+99.8286 	EXP 	dots_test: autoDraw = False
+99.8286 	EXP 	text_2: autoDraw = False
+99.8286 	EXP 	dots: dir = 135.0
+99.8286 	EXP 	dots_test: dir = 115.0
+99.8286 	EXP 	dots: autoDraw = True
+100.3142 	EXP 	dots: autoDraw = False
+100.6292 	EXP 	dots_test: autoDraw = True
+101.1140 	INFO 	Keyboard events cleared
+101.1134 	EXP 	text_2: autoDraw = True
+101.1296 	EXP 	dots_test: autoDraw = False
+101.4331 	DATA 	Keypress: right
+101.4359 	EXP 	dots: autoDraw = False
+101.4359 	EXP 	dots_test: autoDraw = False
+101.4359 	EXP 	text_2: autoDraw = False
+101.4359 	EXP 	dots: dir = 135.0
+101.4359 	EXP 	dots_test: dir = 141.0
+101.4359 	EXP 	dots: autoDraw = True
+101.9310 	EXP 	dots: autoDraw = False
+102.2293 	EXP 	dots_test: autoDraw = True
+102.7304 	INFO 	Keyboard events cleared
+102.7301 	EXP 	dots_test: autoDraw = False
+102.7301 	EXP 	text_2: autoDraw = True
+103.2331 	DATA 	Keypress: left
+103.2454 	EXP 	dots: autoDraw = False
+103.2454 	EXP 	dots_test: autoDraw = False
+103.2454 	EXP 	text_2: autoDraw = False
+103.2454 	EXP 	dots: dir = 45.0
+103.2454 	EXP 	dots_test: dir = 39.0
+103.2454 	EXP 	dots: autoDraw = True
+103.7464 	EXP 	dots: autoDraw = False
+104.0293 	EXP 	dots_test: autoDraw = True
+104.5301 	EXP 	dots_test: autoDraw = False
+104.5461 	INFO 	Keyboard events cleared
+104.5459 	EXP 	text_2: autoDraw = True
+105.5162 	DATA 	Keypress: left
+105.5287 	EXP 	dots: autoDraw = False
+105.5287 	EXP 	dots_test: autoDraw = False
+105.5287 	EXP 	text_2: autoDraw = False
+105.5287 	EXP 	dots: dir = 45.0
+105.5287 	EXP 	dots_test: dir = 51.0
+105.5287 	EXP 	dots: autoDraw = True
+106.0295 	EXP 	dots: autoDraw = False
+106.3026 	EXP 	dots_test: autoDraw = True
+106.8131 	EXP 	dots_test: autoDraw = False
+106.8315 	INFO 	Keyboard events cleared
+106.8313 	EXP 	text_2: autoDraw = True
+107.2029 	DATA 	Keypress: left
+107.2121 	EXP 	dots: autoDraw = False
+107.2121 	EXP 	dots_test: autoDraw = False
+107.2121 	EXP 	text_2: autoDraw = False
+107.2121 	EXP 	dots: dir = 135.0
+107.2121 	EXP 	dots_test: dir = 127.0
+107.2121 	EXP 	dots: autoDraw = True
+107.7122 	EXP 	dots: autoDraw = False
+107.9965 	EXP 	dots_test: autoDraw = True
+108.4960 	EXP 	dots_test: autoDraw = False
+108.5137 	INFO 	Keyboard events cleared
+108.5129 	EXP 	text_2: autoDraw = True
+108.7876 	DATA 	Keypress: right
+108.7954 	EXP 	dots: autoDraw = False
+108.7954 	EXP 	dots_test: autoDraw = False
+108.7954 	EXP 	text_2: autoDraw = False
+108.7954 	EXP 	dots: dir = 45.0
+108.7954 	EXP 	dots_test: dir = 49.0
+108.7954 	EXP 	dots: autoDraw = True
+109.2967 	EXP 	dots: autoDraw = False
+109.5968 	EXP 	dots_test: autoDraw = True
+110.0969 	INFO 	Keyboard events cleared
+110.0961 	EXP 	dots_test: autoDraw = False
+110.0961 	EXP 	text_2: autoDraw = True
+110.8985 	DATA 	Keypress: right
+110.9011 	EXP 	dots: autoDraw = False
+110.9011 	EXP 	dots_test: autoDraw = False
+110.9011 	EXP 	text_2: autoDraw = False
+110.9011 	EXP 	dots: dir = 135.0
+110.9011 	EXP 	dots_test: dir = 139.0
+110.9011 	EXP 	dots: autoDraw = True
+111.3974 	EXP 	dots: autoDraw = False
+111.6965 	EXP 	dots_test: autoDraw = True
+112.1975 	INFO 	Keyboard events cleared
+112.1969 	EXP 	dots_test: autoDraw = False
+112.1969 	EXP 	text_2: autoDraw = True
+112.7846 	DATA 	Keypress: right
+112.7952 	EXP 	dots: autoDraw = False
+112.7952 	EXP 	dots_test: autoDraw = False
+112.7952 	EXP 	text_2: autoDraw = False
+112.7952 	EXP 	dots: dir = 45.0
+112.7952 	EXP 	dots_test: dir = 37.0
+112.7952 	EXP 	dots: autoDraw = True
+113.2960 	EXP 	dots: autoDraw = False
+113.5854 	EXP 	dots_test: autoDraw = True
+114.0977 	INFO 	Keyboard events cleared
+114.0969 	EXP 	dots_test: autoDraw = False
+114.0969 	EXP 	text_2: autoDraw = True
+114.5016 	DATA 	Keypress: left
+114.5121 	EXP 	dots: autoDraw = False
+114.5121 	EXP 	dots_test: autoDraw = False
+114.5121 	EXP 	text_2: autoDraw = False
+114.5121 	EXP 	dots: dir = 135.0
+114.5121 	EXP 	dots_test: dir = 129.0
+114.5121 	EXP 	dots: autoDraw = True
+115.0000 	EXP 	dots: autoDraw = False
+115.2973 	EXP 	dots_test: autoDraw = True
+115.8132 	INFO 	Keyboard events cleared
+115.8126 	EXP 	dots_test: autoDraw = False
+115.8126 	EXP 	text_2: autoDraw = True
+117.5493 	DATA 	Keypress: left
+117.5522 	EXP 	dots: autoDraw = False
+117.5522 	EXP 	dots_test: autoDraw = False
+117.5522 	EXP 	text_2: autoDraw = False
+117.5522 	EXP 	dots: dir = 45.0
+117.5522 	EXP 	dots_test: dir = 35.0
+117.5522 	EXP 	dots: autoDraw = True
+118.0495 	EXP 	dots: autoDraw = False
+118.3354 	EXP 	dots_test: autoDraw = True
+118.8465 	INFO 	Keyboard events cleared
+118.8463 	EXP 	dots_test: autoDraw = False
+118.8463 	EXP 	text_2: autoDraw = True
+119.0029 	DATA 	Keypress: right
+119.0122 	EXP 	dots: autoDraw = False
+119.0122 	EXP 	dots_test: autoDraw = False
+119.0122 	EXP 	text_2: autoDraw = False
+119.0122 	EXP 	dots: dir = 45.0
+119.0122 	EXP 	dots_test: dir = 51.0
+119.0122 	EXP 	dots: autoDraw = True
+119.5124 	EXP 	dots: autoDraw = False
+119.7985 	EXP 	dots_test: autoDraw = True
+120.2990 	INFO 	Keyboard events cleared
+120.2987 	EXP 	dots_test: autoDraw = False
+120.2987 	EXP 	text_2: autoDraw = True
+120.5667 	DATA 	Keypress: left
+120.5787 	EXP 	dots: autoDraw = False
+120.5787 	EXP 	dots_test: autoDraw = False
+120.5787 	EXP 	text_2: autoDraw = False
+120.5787 	EXP 	dots: dir = 135.0
+120.5787 	EXP 	dots_test: dir = 141.0
+120.5787 	EXP 	dots: autoDraw = True
+121.0664 	EXP 	dots: autoDraw = False
+121.3632 	EXP 	dots_test: autoDraw = True
+121.8636 	EXP 	dots_test: autoDraw = False
+121.8809 	INFO 	Keyboard events cleared
+121.8801 	EXP 	text_2: autoDraw = True
+122.4509 	DATA 	Keypress: right
+122.4621 	EXP 	dots: autoDraw = False
+122.4621 	EXP 	dots_test: autoDraw = False
+122.4621 	EXP 	text_2: autoDraw = False
+122.4621 	EXP 	dots: dir = 135.0
+122.4621 	EXP 	dots_test: dir = 127.0
+122.4621 	EXP 	dots: autoDraw = True
+122.9624 	EXP 	dots: autoDraw = False
+123.2630 	EXP 	dots_test: autoDraw = True
+123.7454 	INFO 	Keyboard events cleared
+123.7451 	EXP 	text_2: autoDraw = True
+123.7618 	EXP 	dots_test: autoDraw = False
+124.2168 	DATA 	Keypress: right
+124.2196 	EXP 	dots: autoDraw = False
+124.2196 	EXP 	dots_test: autoDraw = False
+124.2196 	EXP 	text_2: autoDraw = False
+124.2196 	EXP 	dots: dir = 45.0
+124.2196 	EXP 	dots_test: dir = 35.0
+124.2196 	EXP 	dots: autoDraw = True
+124.7301 	EXP 	dots: autoDraw = False
+125.0135 	EXP 	dots_test: autoDraw = True
+125.5135 	EXP 	dots_test: autoDraw = False
+125.5300 	INFO 	Keyboard events cleared
+125.5298 	EXP 	text_2: autoDraw = True
+126.0503 	DATA 	Keypress: right
+126.0621 	EXP 	dots: autoDraw = False
+126.0621 	EXP 	dots_test: autoDraw = False
+126.0621 	EXP 	text_2: autoDraw = False
+126.0621 	EXP 	dots: dir = 45.0
+126.0621 	EXP 	dots_test: dir = 51.0
+126.0621 	EXP 	dots: autoDraw = True
+126.5479 	EXP 	dots: autoDraw = False
+126.8468 	EXP 	dots_test: autoDraw = True
+127.3458 	EXP 	dots_test: autoDraw = False
+127.3632 	INFO 	Keyboard events cleared
+127.3624 	EXP 	text_2: autoDraw = True
+127.6154 	DATA 	Keypress: left
+127.6182 	EXP 	dots: autoDraw = False
+127.6182 	EXP 	dots_test: autoDraw = False
+127.6182 	EXP 	text_2: autoDraw = False
+127.6182 	EXP 	dots: dir = 135.0
+127.6182 	EXP 	dots_test: dir = 127.0
+127.6182 	EXP 	dots: autoDraw = True
+128.1294 	EXP 	dots: autoDraw = False
+128.4019 	EXP 	dots_test: autoDraw = True
+128.9130 	INFO 	Keyboard events cleared
+128.9127 	EXP 	dots_test: autoDraw = False
+128.9127 	EXP 	text_2: autoDraw = True
+129.1985 	DATA 	Keypress: right
+129.2011 	EXP 	dots: autoDraw = False
+129.2011 	EXP 	dots_test: autoDraw = False
+129.2011 	EXP 	text_2: autoDraw = False
+129.2011 	EXP 	dots: dir = 135.0
+129.2011 	EXP 	dots_test: dir = 143.0
+129.2011 	EXP 	dots: autoDraw = True
+129.7136 	EXP 	dots: autoDraw = False
+129.9843 	EXP 	dots_test: autoDraw = True
+130.4964 	INFO 	Keyboard events cleared
+130.4962 	EXP 	dots_test: autoDraw = False
+130.4962 	EXP 	text_2: autoDraw = True
+130.7669 	DATA 	Keypress: left
+130.7787 	EXP 	dots: autoDraw = False
+130.7787 	EXP 	dots_test: autoDraw = False
+130.7787 	EXP 	text_2: autoDraw = False
+130.7787 	EXP 	dots: dir = 45.0
+130.7787 	EXP 	dots_test: dir = 37.0
+130.7787 	EXP 	dots: autoDraw = True
+131.2793 	EXP 	dots: autoDraw = False
+131.5619 	EXP 	dots_test: autoDraw = True
+132.0486 	EXP 	dots_test: autoDraw = False
+132.0620 	INFO 	Keyboard events cleared
+132.0618 	EXP 	text_2: autoDraw = True
+132.5370 	DATA 	Keypress: right
+132.5454 	EXP 	dots: autoDraw = False
+132.5454 	EXP 	dots_test: autoDraw = False
+132.5454 	EXP 	text_2: autoDraw = False
+132.5454 	EXP 	dots: dir = 135.0
+132.5454 	EXP 	dots_test: dir = 143.0
+132.5454 	EXP 	dots: autoDraw = True
+133.0338 	EXP 	dots: autoDraw = False
+133.3460 	EXP 	dots_test: autoDraw = True
+133.8472 	INFO 	Keyboard events cleared
+133.8465 	EXP 	dots_test: autoDraw = False
+133.8465 	EXP 	text_2: autoDraw = True
+134.5318 	DATA 	Keypress: left
+134.5334 	EXP 	dots: autoDraw = False
+134.5334 	EXP 	dots_test: autoDraw = False
+134.5334 	EXP 	text_2: autoDraw = False
+134.5334 	EXP 	dots: dir = 45.0
+134.5334 	EXP 	dots_test: dir = 49.0
+134.5334 	EXP 	dots: autoDraw = True
+135.0294 	EXP 	dots: autoDraw = False
+135.3297 	EXP 	dots_test: autoDraw = True
+135.8286 	INFO 	Keyboard events cleared
+135.8284 	EXP 	dots_test: autoDraw = False
+135.8284 	EXP 	text_2: autoDraw = True
+136.2498 	DATA 	Keypress: left
+136.2616 	EXP 	dots: autoDraw = False
+136.2616 	EXP 	dots_test: autoDraw = False
+136.2616 	EXP 	text_2: autoDraw = False
+136.2616 	EXP 	dots: dir = 135.0
+136.2616 	EXP 	dots_test: dir = 129.0
+136.2616 	EXP 	dots: autoDraw = True
+136.7625 	EXP 	dots: autoDraw = False
+137.0465 	EXP 	dots_test: autoDraw = True
+137.5462 	EXP 	dots_test: autoDraw = False
+137.5633 	INFO 	Keyboard events cleared
+137.5630 	EXP 	text_2: autoDraw = True
+138.1002 	DATA 	Keypress: right
+138.1185 	EXP 	dots: autoDraw = False
+138.1185 	EXP 	dots_test: autoDraw = False
+138.1185 	EXP 	text_2: autoDraw = False
+138.1185 	EXP 	dots: dir = 135.0
+138.1185 	EXP 	dots_test: dir = 141.0
+138.1185 	EXP 	dots: autoDraw = True
+138.6301 	EXP 	dots: autoDraw = False
+138.9127 	EXP 	dots_test: autoDraw = True
+139.3977 	EXP 	dots_test: autoDraw = False
+139.4121 	INFO 	Keyboard events cleared
+139.4119 	EXP 	text_2: autoDraw = True
+139.7179 	DATA 	Keypress: left
+139.7209 	EXP 	dots: autoDraw = False
+139.7209 	EXP 	dots_test: autoDraw = False
+139.7209 	EXP 	text_2: autoDraw = False
+139.7209 	EXP 	dots: dir = 135.0
+139.7209 	EXP 	dots_test: dir = 129.0
+139.7209 	EXP 	dots: autoDraw = True
+140.2298 	EXP 	dots: autoDraw = False
+140.5128 	EXP 	dots_test: autoDraw = True
+140.9976 	EXP 	dots_test: autoDraw = False
+141.0155 	INFO 	Keyboard events cleared
+141.0153 	EXP 	text_2: autoDraw = True
+141.3006 	DATA 	Keypress: right
+141.3120 	EXP 	dots: autoDraw = False
+141.3120 	EXP 	dots_test: autoDraw = False
+141.3120 	EXP 	text_2: autoDraw = False
+141.3120 	EXP 	dots: dir = 45.0
+141.3120 	EXP 	dots_test: dir = 37.0
+141.3120 	EXP 	dots: autoDraw = True
+141.8130 	EXP 	dots: autoDraw = False
+142.1126 	EXP 	dots_test: autoDraw = True
+142.6136 	INFO 	Keyboard events cleared
+142.6127 	EXP 	dots_test: autoDraw = False
+142.6127 	EXP 	text_2: autoDraw = True
+143.2016 	DATA 	Keypress: right
+143.2121 	EXP 	dots: autoDraw = False
+143.2121 	EXP 	dots_test: autoDraw = False
+143.2121 	EXP 	text_2: autoDraw = False
+143.2121 	EXP 	dots: dir = 45.0
+143.2121 	EXP 	dots_test: dir = 49.0
+143.2121 	EXP 	dots: autoDraw = True
+143.6972 	EXP 	dots: autoDraw = False
+144.0128 	EXP 	dots_test: autoDraw = True
+144.4979 	INFO 	Keyboard events cleared
+144.4976 	EXP 	text_2: autoDraw = True
+144.5119 	EXP 	dots_test: autoDraw = False
+145.5034 	DATA 	Keypress: left
+145.5063 	EXP 	dots: autoDraw = False
+145.5063 	EXP 	dots_test: autoDraw = False
+145.5063 	EXP 	text_2: autoDraw = False
+145.5063 	EXP 	dots: dir = 45.0
+145.5063 	EXP 	dots_test: dir = 39.0
+145.5063 	EXP 	dots: autoDraw = True
+146.0131 	EXP 	dots: autoDraw = False
+146.3133 	EXP 	dots_test: autoDraw = True
+146.8138 	INFO 	Keyboard events cleared
+146.8130 	EXP 	dots_test: autoDraw = False
+146.8130 	EXP 	text_2: autoDraw = True
+147.1513 	DATA 	Keypress: right
+147.1622 	EXP 	dots: autoDraw = False
+147.1622 	EXP 	dots_test: autoDraw = False
+147.1622 	EXP 	text_2: autoDraw = False
+147.1622 	EXP 	dots: dir = 135.0
+147.1622 	EXP 	dots_test: dir = 141.0
+147.1622 	EXP 	dots: autoDraw = True
+147.6632 	EXP 	dots: autoDraw = False
+147.9463 	EXP 	dots_test: autoDraw = True
+148.4467 	EXP 	dots_test: autoDraw = False
+148.4636 	INFO 	Keyboard events cleared
+148.4634 	EXP 	text_2: autoDraw = True
+148.8995 	DATA 	Keypress: right
+148.9024 	EXP 	dots: autoDraw = False
+148.9024 	EXP 	dots_test: autoDraw = False
+148.9024 	EXP 	text_2: autoDraw = False
+148.9024 	EXP 	dots: dir = 135.0
+148.9024 	EXP 	dots_test: dir = 131.0
+148.9024 	EXP 	dots: autoDraw = True
+149.3992 	EXP 	dots: autoDraw = False
+149.6960 	EXP 	dots_test: autoDraw = True
+150.1968 	INFO 	Keyboard events cleared
+150.1961 	EXP 	dots_test: autoDraw = False
+150.1961 	EXP 	text_2: autoDraw = True
+150.9330 	DATA 	Keypress: right
+150.9360 	EXP 	dots: autoDraw = False
+150.9360 	EXP 	dots_test: autoDraw = False
+150.9360 	EXP 	text_2: autoDraw = False
+150.9360 	EXP 	dots: dir = 45.0
+150.9360 	EXP 	dots_test: dir = 47.0
+150.9360 	EXP 	dots: autoDraw = True
+151.4464 	EXP 	dots: autoDraw = False
+151.7291 	EXP 	dots_test: autoDraw = True
+152.2184 	INFO 	Keyboard events cleared
+152.2181 	EXP 	dots_test: autoDraw = False
+152.2181 	EXP 	text_2: autoDraw = True
+152.5852 	DATA 	Keypress: right
+152.5953 	EXP 	dots: autoDraw = False
+152.5953 	EXP 	dots_test: autoDraw = False
+152.5953 	EXP 	text_2: autoDraw = False
+152.5953 	EXP 	dots: dir = 135.0
+152.5953 	EXP 	dots_test: dir = 143.0
+152.5953 	EXP 	dots: autoDraw = True
+153.0967 	EXP 	dots: autoDraw = False
+153.3812 	EXP 	dots_test: autoDraw = True
+153.8962 	INFO 	Keyboard events cleared
+153.8959 	EXP 	dots_test: autoDraw = False
+153.8959 	EXP 	text_2: autoDraw = True
+154.2829 	DATA 	Keypress: left
+154.2954 	EXP 	dots: autoDraw = False
+154.2954 	EXP 	dots_test: autoDraw = False
+154.2954 	EXP 	text_2: autoDraw = False
+154.2954 	EXP 	dots: dir = 45.0
+154.2954 	EXP 	dots_test: dir = 39.0
+154.2954 	EXP 	dots: autoDraw = True
+154.7958 	EXP 	dots: autoDraw = False
+155.0786 	EXP 	dots_test: autoDraw = True
+155.5799 	EXP 	dots_test: autoDraw = False
+155.5862 	INFO 	Keyboard events cleared
+155.5859 	EXP 	text_2: autoDraw = True
+155.8336 	DATA 	Keypress: right
+155.8453 	EXP 	dots: autoDraw = False
+155.8453 	EXP 	dots_test: autoDraw = False
+155.8453 	EXP 	text_2: autoDraw = False
+155.8453 	EXP 	dots: dir = 135.0
+155.8453 	EXP 	dots_test: dir = 131.0
+155.8453 	EXP 	dots: autoDraw = True
+156.3459 	EXP 	dots: autoDraw = False
+156.6458 	EXP 	dots_test: autoDraw = True
+157.1473 	INFO 	Keyboard events cleared
+157.1464 	EXP 	dots_test: autoDraw = False
+157.1464 	EXP 	text_2: autoDraw = True
+157.6183 	DATA 	Keypress: right
+157.6320 	EXP 	dots: autoDraw = False
+157.6320 	EXP 	dots_test: autoDraw = False
+157.6320 	EXP 	text_2: autoDraw = False
+157.6320 	EXP 	dots: dir = 45.0
+157.6320 	EXP 	dots_test: dir = 49.0
+157.6320 	EXP 	dots: autoDraw = True
+158.1464 	EXP 	dots: autoDraw = False
+158.4285 	EXP 	dots_test: autoDraw = True
+158.9298 	INFO 	Keyboard events cleared
+158.9294 	EXP 	dots_test: autoDraw = False
+158.9294 	EXP 	text_2: autoDraw = True
+159.4173 	DATA 	Keypress: right
+159.4280 	EXP 	dots: autoDraw = False
+159.4280 	EXP 	dots_test: autoDraw = False
+159.4280 	EXP 	text_2: autoDraw = False
+159.4280 	EXP 	dots: dir = 45.0
+159.4280 	EXP 	dots_test: dir = 51.0
+159.4280 	EXP 	dots: autoDraw = True
+159.9295 	EXP 	dots: autoDraw = False
+160.2297 	EXP 	dots_test: autoDraw = True
+160.7152 	INFO 	Keyboard events cleared
+160.7150 	EXP 	text_2: autoDraw = True
+160.7285 	EXP 	dots_test: autoDraw = False
+161.1004 	DATA 	Keypress: left
+161.1121 	EXP 	dots: autoDraw = False
+161.1121 	EXP 	dots_test: autoDraw = False
+161.1121 	EXP 	text_2: autoDraw = False
+161.1121 	EXP 	dots: dir = 135.0
+161.1121 	EXP 	dots_test: dir = 133.0
+161.1121 	EXP 	dots: autoDraw = True
+161.5982 	EXP 	dots: autoDraw = False
+161.9137 	EXP 	dots_test: autoDraw = True
+162.3953 	INFO 	Keyboard events cleared
+162.3950 	EXP 	text_2: autoDraw = True
+162.4118 	EXP 	dots_test: autoDraw = False
+162.8350 	DATA 	Keypress: left
+162.8454 	EXP 	dots: autoDraw = False
+162.8454 	EXP 	dots_test: autoDraw = False
+162.8454 	EXP 	text_2: autoDraw = False
+162.8454 	EXP 	dots: dir = 135.0
+162.8454 	EXP 	dots_test: dir = 143.0
+162.8454 	EXP 	dots: autoDraw = True
+163.3325 	EXP 	dots: autoDraw = False
+163.6284 	EXP 	dots_test: autoDraw = True
+164.1143 	EXP 	dots_test: autoDraw = False
+164.1465 	INFO 	Keyboard events cleared
+164.1462 	EXP 	text_2: autoDraw = True
+164.4670 	DATA 	Keypress: left
+164.4829 	EXP 	dots: autoDraw = False
+164.4829 	EXP 	dots_test: autoDraw = False
+164.4829 	EXP 	text_2: autoDraw = False
+164.4829 	EXP 	dots: dir = 45.0
+164.4829 	EXP 	dots_test: dir = 41.0
+164.4829 	EXP 	dots: autoDraw = True
+164.9807 	EXP 	dots: autoDraw = False
+165.2653 	EXP 	dots_test: autoDraw = True
+165.7643 	INFO 	Keyboard events cleared
+165.7642 	EXP 	dots_test: autoDraw = False
+165.7642 	EXP 	text_2: autoDraw = True
+166.7022 	DATA 	Keypress: right
+166.7120 	EXP 	dots: autoDraw = False
+166.7120 	EXP 	dots_test: autoDraw = False
+166.7120 	EXP 	text_2: autoDraw = False
+166.7120 	EXP 	dots: dir = 45.0
+166.7120 	EXP 	dots_test: dir = 41.0
+166.7120 	EXP 	dots: autoDraw = True
+167.1974 	EXP 	dots: autoDraw = False
+167.4957 	EXP 	dots_test: autoDraw = True
+167.9959 	EXP 	dots_test: autoDraw = False
+168.0127 	INFO 	Keyboard events cleared
+168.0125 	EXP 	text_2: autoDraw = True
+169.0188 	DATA 	Keypress: left
+169.0219 	EXP 	dots: autoDraw = False
+169.0219 	EXP 	dots_test: autoDraw = False
+169.0219 	EXP 	text_2: autoDraw = False
+169.0219 	EXP 	dots: dir = 45.0
+169.0219 	EXP 	dots_test: dir = 51.0
+169.0219 	EXP 	dots: autoDraw = True
+169.5298 	EXP 	dots: autoDraw = False
+169.8186 	EXP 	dots_test: autoDraw = True
+170.3164 	INFO 	Keyboard events cleared
+170.3161 	EXP 	dots_test: autoDraw = False
+170.3161 	EXP 	text_2: autoDraw = True
+170.8344 	DATA 	Keypress: right
+170.8451 	EXP 	dots: autoDraw = False
+170.8451 	EXP 	dots_test: autoDraw = False
+170.8451 	EXP 	text_2: autoDraw = False
+170.8451 	EXP 	dots: dir = 135.0
+170.8451 	EXP 	dots_test: dir = 131.0
+170.8451 	EXP 	dots: autoDraw = True
+171.3457 	EXP 	dots: autoDraw = False
+171.6329 	EXP 	dots_test: autoDraw = True
+172.1287 	INFO 	Keyboard events cleared
+172.1284 	EXP 	text_2: autoDraw = True
+172.1310 	EXP 	dots_test: autoDraw = False
+172.7038 	DATA 	Keypress: right
+172.7117 	EXP 	dots: autoDraw = False
+172.7117 	EXP 	dots_test: autoDraw = False
+172.7117 	EXP 	text_2: autoDraw = False
+172.7117 	EXP 	dots: dir = 135.0
+172.7117 	EXP 	dots_test: dir = 141.0
+172.7117 	EXP 	dots: autoDraw = True
+173.2134 	EXP 	dots: autoDraw = False
+173.5007 	EXP 	dots_test: autoDraw = True
+174.0137 	INFO 	Keyboard events cleared
+174.0128 	EXP 	dots_test: autoDraw = False
+174.0128 	EXP 	text_2: autoDraw = True
+174.7173 	DATA 	Keypress: right
+174.7320 	EXP 	dots: autoDraw = False
+174.7320 	EXP 	dots_test: autoDraw = False
+174.7320 	EXP 	text_2: autoDraw = False
+174.7320 	EXP 	dots: dir = 135.0
+174.7320 	EXP 	dots_test: dir = 143.0
+174.7320 	EXP 	dots: autoDraw = True
+175.2323 	EXP 	dots: autoDraw = False
+175.5185 	EXP 	dots_test: autoDraw = True
+176.0308 	INFO 	Keyboard events cleared
+176.0301 	EXP 	dots_test: autoDraw = False
+176.0301 	EXP 	text_2: autoDraw = True
+176.7024 	DATA 	Keypress: left
+176.7121 	EXP 	dots: autoDraw = False
+176.7121 	EXP 	dots_test: autoDraw = False
+176.7121 	EXP 	text_2: autoDraw = False
+176.7121 	EXP 	dots: dir = 45.0
+176.7121 	EXP 	dots_test: dir = 53.0
+176.7121 	EXP 	dots: autoDraw = True
+177.2133 	EXP 	dots: autoDraw = False
+177.5007 	EXP 	dots_test: autoDraw = True
+177.9960 	INFO 	Keyboard events cleared
+177.9958 	EXP 	dots_test: autoDraw = False
+177.9958 	EXP 	text_2: autoDraw = True
+178.8521 	DATA 	Keypress: left
+178.8621 	EXP 	dots: autoDraw = False
+178.8621 	EXP 	dots_test: autoDraw = False
+178.8621 	EXP 	text_2: autoDraw = False
+178.8621 	EXP 	dots: dir = 45.0
+178.8621 	EXP 	dots_test: dir = 39.0
+178.8621 	EXP 	dots: autoDraw = True
+179.3631 	EXP 	dots: autoDraw = False
+179.6482 	EXP 	dots_test: autoDraw = True
+180.1632 	INFO 	Keyboard events cleared
+180.1629 	EXP 	dots_test: autoDraw = False
+180.1629 	EXP 	text_2: autoDraw = True
+180.3998 	DATA 	Keypress: right
+180.4025 	EXP 	dots: autoDraw = False
+180.4025 	EXP 	dots_test: autoDraw = False
+180.4025 	EXP 	text_2: autoDraw = False
+180.4025 	EXP 	dots: dir = 135.0
+180.4025 	EXP 	dots_test: dir = 131.0
+180.4025 	EXP 	dots: autoDraw = True
+180.9124 	EXP 	dots: autoDraw = False
+181.1945 	EXP 	dots_test: autoDraw = True
+181.6969 	INFO 	Keyboard events cleared
+181.6967 	EXP 	dots_test: autoDraw = False
+181.6967 	EXP 	text_2: autoDraw = True
+182.3493 	DATA 	Keypress: right
+182.3618 	EXP 	dots: autoDraw = False
+182.3618 	EXP 	dots_test: autoDraw = False
+182.3618 	EXP 	text_2: autoDraw = False
+182.3618 	EXP 	dots: dir = 45.0
+182.3618 	EXP 	dots_test: dir = 39.0
+182.3618 	EXP 	dots: autoDraw = True
+182.8630 	EXP 	dots: autoDraw = False
+183.1454 	EXP 	dots_test: autoDraw = True
+183.6308 	EXP 	dots_test: autoDraw = False
+183.6453 	INFO 	Keyboard events cleared
+183.6451 	EXP 	text_2: autoDraw = True
+183.9005 	DATA 	Keypress: right
+183.9034 	EXP 	dots: autoDraw = False
+183.9034 	EXP 	dots_test: autoDraw = False
+183.9034 	EXP 	text_2: autoDraw = False
+183.9034 	EXP 	dots: dir = 135.0
+183.9034 	EXP 	dots_test: dir = 143.0
+183.9034 	EXP 	dots: autoDraw = True
+184.4001 	EXP 	dots: autoDraw = False
+184.7014 	EXP 	dots_test: autoDraw = True
+185.1972 	INFO 	Keyboard events cleared
+185.1963 	EXP 	text_2: autoDraw = True
+185.2135 	EXP 	dots_test: autoDraw = False
+186.7836 	DATA 	Keypress: right
+186.7953 	EXP 	dots: autoDraw = False
+186.7953 	EXP 	dots_test: autoDraw = False
+186.7953 	EXP 	text_2: autoDraw = False
+186.7953 	EXP 	dots: dir = 45.0
+186.7953 	EXP 	dots_test: dir = 53.0
+186.7953 	EXP 	dots: autoDraw = True
+187.2960 	EXP 	dots: autoDraw = False
+187.5800 	EXP 	dots_test: autoDraw = True
+188.0786 	INFO 	Keyboard events cleared
+188.0785 	EXP 	dots_test: autoDraw = False
+188.0785 	EXP 	text_2: autoDraw = True
+188.5833 	DATA 	Keypress: right
+188.5949 	EXP 	dots: autoDraw = False
+188.5949 	EXP 	dots_test: autoDraw = False
+188.5949 	EXP 	text_2: autoDraw = False
+188.5949 	EXP 	dots: dir = 135.0
+188.5949 	EXP 	dots_test: dir = 133.0
+188.5949 	EXP 	dots: autoDraw = True
+189.0963 	EXP 	dots: autoDraw = False
+189.3852 	EXP 	dots_test: autoDraw = True
+189.8956 	INFO 	Keyboard events cleared
+189.8954 	EXP 	dots_test: autoDraw = False
+189.8954 	EXP 	text_2: autoDraw = True
+190.6700 	DATA 	Keypress: left
+190.6788 	EXP 	dots: autoDraw = False
+190.6788 	EXP 	dots_test: autoDraw = False
+190.6788 	EXP 	text_2: autoDraw = False
+190.6788 	EXP 	dots: dir = 135.0
+190.6788 	EXP 	dots_test: dir = 145.0
+190.6788 	EXP 	dots: autoDraw = True
+191.1641 	EXP 	dots: autoDraw = False
+191.4642 	EXP 	dots_test: autoDraw = True
+191.9618 	EXP 	dots_test: autoDraw = False
+191.9658 	INFO 	Keyboard events cleared
+191.9657 	EXP 	text_2: autoDraw = True
+192.3170 	DATA 	Keypress: right
+192.3288 	EXP 	dots: autoDraw = False
+192.3288 	EXP 	dots_test: autoDraw = False
+192.3288 	EXP 	text_2: autoDraw = False
+192.3288 	EXP 	dots: dir = 135.0
+192.3288 	EXP 	dots_test: dir = 131.0
+192.3288 	EXP 	dots: autoDraw = True
+192.8292 	EXP 	dots: autoDraw = False
+193.1121 	EXP 	dots_test: autoDraw = True
+193.6135 	EXP 	dots_test: autoDraw = False
+193.6296 	INFO 	Keyboard events cleared
+193.6293 	EXP 	text_2: autoDraw = True
+193.9017 	DATA 	Keypress: left
+193.9117 	EXP 	dots: autoDraw = False
+193.9117 	EXP 	dots_test: autoDraw = False
+193.9117 	EXP 	text_2: autoDraw = False
+193.9117 	EXP 	dots: dir = 45.0
+193.9117 	EXP 	dots_test: dir = 41.0
+193.9117 	EXP 	dots: autoDraw = True
+194.3990 	EXP 	dots: autoDraw = False
+194.7128 	EXP 	dots_test: autoDraw = True
+195.2122 	INFO 	Keyboard events cleared
+195.2120 	EXP 	dots_test: autoDraw = False
+195.2120 	EXP 	text_2: autoDraw = True
+195.5994 	DATA 	Keypress: right
+195.6022 	EXP 	dots: autoDraw = False
+195.6022 	EXP 	dots_test: autoDraw = False
+195.6022 	EXP 	text_2: autoDraw = False
+195.6022 	EXP 	dots: dir = 45.0
+195.6022 	EXP 	dots_test: dir = 55.0
+195.6022 	EXP 	dots: autoDraw = True
+196.1126 	EXP 	dots: autoDraw = False
+196.3963 	EXP 	dots_test: autoDraw = True
+196.8966 	INFO 	Keyboard events cleared
+196.8963 	EXP 	dots_test: autoDraw = False
+196.8963 	EXP 	text_2: autoDraw = True
+197.1688 	DATA 	Keypress: left
+197.1785 	EXP 	dots: autoDraw = False
+197.1785 	EXP 	dots_test: autoDraw = False
+197.1785 	EXP 	text_2: autoDraw = False
+197.1785 	EXP 	dots: dir = 45.0
+197.1785 	EXP 	dots_test: dir = 55.0
+197.1785 	EXP 	dots: autoDraw = True
+197.6641 	EXP 	dots: autoDraw = False
+197.9790 	EXP 	dots_test: autoDraw = True
+198.4634 	INFO 	Keyboard events cleared
+198.4632 	EXP 	text_2: autoDraw = True
+198.4794 	EXP 	dots_test: autoDraw = False
+198.8858 	DATA 	Keypress: left
+198.8954 	EXP 	dots: autoDraw = False
+198.8954 	EXP 	dots_test: autoDraw = False
+198.8954 	EXP 	text_2: autoDraw = False
+198.8954 	EXP 	dots: dir = 45.0
+198.8954 	EXP 	dots_test: dir = 41.0
+198.8954 	EXP 	dots: autoDraw = True
+199.3956 	EXP 	dots: autoDraw = False
+199.6960 	EXP 	dots_test: autoDraw = True
+200.1971 	INFO 	Keyboard events cleared
+200.1964 	EXP 	dots_test: autoDraw = False
+200.1964 	EXP 	text_2: autoDraw = True
+200.4823 	DATA 	Keypress: left
+200.4853 	EXP 	dots: autoDraw = False
+200.4853 	EXP 	dots_test: autoDraw = False
+200.4853 	EXP 	text_2: autoDraw = False
+200.4853 	EXP 	dots: dir = 135.0
+200.4853 	EXP 	dots_test: dir = 129.0
+200.4853 	EXP 	dots: autoDraw = True
+200.9815 	EXP 	dots: autoDraw = False
+201.2800 	EXP 	dots_test: autoDraw = True
+201.7798 	INFO 	Keyboard events cleared
+201.7790 	EXP 	dots_test: autoDraw = False
+201.7790 	EXP 	text_2: autoDraw = True
+202.1841 	DATA 	Keypress: right
+202.1954 	EXP 	dots: autoDraw = False
+202.1954 	EXP 	dots_test: autoDraw = False
+202.1954 	EXP 	text_2: autoDraw = False
+202.1954 	EXP 	dots: dir = 135.0
+202.1954 	EXP 	dots_test: dir = 147.0
+202.1954 	EXP 	dots: autoDraw = True
+202.6807 	EXP 	dots: autoDraw = False
+202.9962 	EXP 	dots_test: autoDraw = True
+203.4964 	INFO 	Keyboard events cleared
+203.4962 	EXP 	dots_test: autoDraw = False
+203.4962 	EXP 	text_2: autoDraw = True
+204.2672 	DATA 	Keypress: left
+204.2782 	EXP 	dots: autoDraw = False
+204.2782 	EXP 	dots_test: autoDraw = False
+204.2782 	EXP 	text_2: autoDraw = False
+204.2782 	EXP 	dots: dir = 45.0
+204.2782 	EXP 	dots_test: dir = 39.0
+204.2782 	EXP 	dots: autoDraw = True
+204.7668 	EXP 	dots: autoDraw = False
+205.0797 	EXP 	dots_test: autoDraw = True
+205.5803 	INFO 	Keyboard events cleared
+205.5795 	EXP 	dots_test: autoDraw = False
+205.5795 	EXP 	text_2: autoDraw = True
+205.9653 	DATA 	Keypress: right
+205.9681 	EXP 	dots: autoDraw = False
+205.9681 	EXP 	dots_test: autoDraw = False
+205.9681 	EXP 	text_2: autoDraw = False
+205.9681 	EXP 	dots: dir = 135.0
+205.9681 	EXP 	dots_test: dir = 147.0
+205.9681 	EXP 	dots: autoDraw = True
+206.4802 	EXP 	dots: autoDraw = False
+206.7630 	EXP 	dots_test: autoDraw = True
+207.2631 	INFO 	Keyboard events cleared
+207.2628 	EXP 	dots_test: autoDraw = False
+207.2628 	EXP 	text_2: autoDraw = True
+207.7319 	DATA 	Keypress: left
+207.7347 	EXP 	dots: autoDraw = False
+207.7347 	EXP 	dots_test: autoDraw = False
+207.7347 	EXP 	text_2: autoDraw = False
+207.7347 	EXP 	dots: dir = 135.0
+207.7347 	EXP 	dots_test: dir = 129.0
+207.7347 	EXP 	dots: autoDraw = True
+208.2342 	EXP 	dots: autoDraw = False
+208.5292 	EXP 	dots_test: autoDraw = True
+209.0304 	INFO 	Keyboard events cleared
+209.0298 	EXP 	dots_test: autoDraw = False
+209.0298 	EXP 	text_2: autoDraw = True
+209.1168 	DATA 	Keypress: right
+209.1288 	EXP 	dots: autoDraw = False
+209.1288 	EXP 	dots_test: autoDraw = False
+209.1288 	EXP 	text_2: autoDraw = False
+209.1288 	EXP 	dots: dir = 45.0
+209.1288 	EXP 	dots_test: dir = 53.0
+209.1288 	EXP 	dots: autoDraw = True
+209.6302 	EXP 	dots: autoDraw = False
+209.9127 	EXP 	dots_test: autoDraw = True
+210.4131 	INFO 	Keyboard events cleared
+210.4128 	EXP 	dots_test: autoDraw = False
+210.4128 	EXP 	text_2: autoDraw = True
+210.8659 	DATA 	Keypress: left
+210.8687 	EXP 	dots: autoDraw = False
+210.8687 	EXP 	dots_test: autoDraw = False
+210.8687 	EXP 	text_2: autoDraw = False
+210.8687 	EXP 	dots: dir = 135.0
+210.8687 	EXP 	dots_test: dir = 145.0
+210.8687 	EXP 	dots: autoDraw = True
+211.3796 	EXP 	dots: autoDraw = False
+211.6626 	EXP 	dots_test: autoDraw = True
+212.1522 	INFO 	Keyboard events cleared
+212.1518 	EXP 	dots_test: autoDraw = False
+212.1518 	EXP 	text_2: autoDraw = True
+212.5661 	DATA 	Keypress: left
+212.5690 	EXP 	dots: autoDraw = False
+212.5690 	EXP 	dots_test: autoDraw = False
+212.5690 	EXP 	text_2: autoDraw = False
+212.5690 	EXP 	dots: dir = 45.0
+212.5690 	EXP 	dots_test: dir = 39.0
+212.5690 	EXP 	dots: autoDraw = True
+213.0797 	EXP 	dots: autoDraw = False
+213.3618 	EXP 	dots_test: autoDraw = True
+213.8475 	EXP 	dots_test: autoDraw = False
+213.8620 	INFO 	Keyboard events cleared
+213.8617 	EXP 	text_2: autoDraw = True
+214.2365 	DATA 	Keypress: left
+214.2453 	EXP 	dots: autoDraw = False
+214.2453 	EXP 	dots_test: autoDraw = False
+214.2453 	EXP 	text_2: autoDraw = False
+214.2453 	EXP 	dots: dir = 45.0
+214.2453 	EXP 	dots_test: dir = 53.0
+214.2453 	EXP 	dots: autoDraw = True
+214.7462 	EXP 	dots: autoDraw = False
+215.0467 	EXP 	dots_test: autoDraw = True
+215.5288 	INFO 	Keyboard events cleared
+215.5285 	EXP 	text_2: autoDraw = True
+215.5450 	EXP 	dots_test: autoDraw = False
+215.7838 	DATA 	Keypress: left
+215.7953 	EXP 	dots: autoDraw = False
+215.7953 	EXP 	dots_test: autoDraw = False
+215.7953 	EXP 	text_2: autoDraw = False
+215.7953 	EXP 	dots: dir = 135.0
+215.7953 	EXP 	dots_test: dir = 131.0
+215.7953 	EXP 	dots: autoDraw = True
+216.2968 	EXP 	dots: autoDraw = False
+216.5847 	EXP 	dots_test: autoDraw = True
+217.0972 	INFO 	Keyboard events cleared
+217.0962 	EXP 	dots_test: autoDraw = False
+217.0962 	EXP 	text_2: autoDraw = True
+217.6367 	DATA 	Keypress: right
+217.6451 	EXP 	dots: autoDraw = False
+217.6451 	EXP 	dots_test: autoDraw = False
+217.6451 	EXP 	text_2: autoDraw = False
+217.6451 	EXP 	dots: dir = 135.0
+217.6451 	EXP 	dots_test: dir = 131.0
+217.6451 	EXP 	dots: autoDraw = True
+218.1463 	EXP 	dots: autoDraw = False
+218.4468 	EXP 	dots_test: autoDraw = True
+218.9344 	INFO 	Keyboard events cleared
+218.9342 	EXP 	text_2: autoDraw = True
+218.9451 	EXP 	dots_test: autoDraw = False
+220.7669 	DATA 	Keypress: right
+220.7840 	EXP 	dots: autoDraw = False
+220.7840 	EXP 	dots_test: autoDraw = False
+220.7840 	EXP 	text_2: autoDraw = False
+220.7840 	EXP 	dots: dir = 45.0
+220.7840 	EXP 	dots_test: dir = 51.0
+220.7840 	EXP 	dots: autoDraw = True
+221.2957 	EXP 	dots: autoDraw = False
+221.5793 	EXP 	dots_test: autoDraw = True
+222.0642 	EXP 	dots_test: autoDraw = False
+222.0787 	INFO 	Keyboard events cleared
+222.0785 	EXP 	text_2: autoDraw = True
+222.3993 	DATA 	Keypress: left
+222.4021 	EXP 	dots: autoDraw = False
+222.4021 	EXP 	dots_test: autoDraw = False
+222.4021 	EXP 	text_2: autoDraw = False
+222.4021 	EXP 	dots: dir = 45.0
+222.4021 	EXP 	dots_test: dir = 37.0
+222.4021 	EXP 	dots: autoDraw = True
+222.8974 	EXP 	dots: autoDraw = False
+223.1964 	EXP 	dots_test: autoDraw = True
+223.6945 	INFO 	Keyboard events cleared
+223.6943 	EXP 	dots_test: autoDraw = False
+223.6943 	EXP 	text_2: autoDraw = True
+223.9036 	DATA 	Keypress: right
+223.9119 	EXP 	dots: autoDraw = False
+223.9119 	EXP 	dots_test: autoDraw = False
+223.9119 	EXP 	text_2: autoDraw = False
+223.9119 	EXP 	dots: dir = 135.0
+223.9119 	EXP 	dots_test: dir = 145.0
+223.9119 	EXP 	dots: autoDraw = True
+224.4131 	EXP 	dots: autoDraw = False
+224.7129 	EXP 	dots_test: autoDraw = True
+225.2137 	INFO 	Keyboard events cleared
+225.2131 	EXP 	dots_test: autoDraw = False
+225.2131 	EXP 	text_2: autoDraw = True
+226.6841 	DATA 	Keypress: left
+226.6870 	EXP 	dots: autoDraw = False
+226.6870 	EXP 	dots_test: autoDraw = False
+226.6870 	EXP 	text_2: autoDraw = False
+226.6870 	EXP 	dots: dir = 45.0
+226.6870 	EXP 	dots_test: dir = 51.0
+226.6870 	EXP 	dots: autoDraw = True
+227.1967 	EXP 	dots: autoDraw = False
+227.4964 	EXP 	dots_test: autoDraw = True
+227.9787 	INFO 	Keyboard events cleared
+227.9780 	EXP 	text_2: autoDraw = True
+227.9947 	EXP 	dots_test: autoDraw = False
+228.5005 	DATA 	Keypress: left
+228.5121 	EXP 	dots: autoDraw = False
+228.5121 	EXP 	dots_test: autoDraw = False
+228.5121 	EXP 	text_2: autoDraw = False
+228.5121 	EXP 	dots: dir = 45.0
+228.5121 	EXP 	dots_test: dir = 37.0
+228.5121 	EXP 	dots: autoDraw = True
+228.9994 	EXP 	dots: autoDraw = False
+229.3127 	EXP 	dots_test: autoDraw = True
+229.8132 	INFO 	Keyboard events cleared
+229.8130 	EXP 	dots_test: autoDraw = False
+229.8130 	EXP 	text_2: autoDraw = True
+230.1656 	DATA 	Keypress: right
+230.1686 	EXP 	dots: autoDraw = False
+230.1686 	EXP 	dots_test: autoDraw = False
+230.1686 	EXP 	text_2: autoDraw = False
+230.1686 	EXP 	dots: dir = 135.0
+230.1686 	EXP 	dots_test: dir = 133.0
+230.1686 	EXP 	dots: autoDraw = True
+230.6639 	EXP 	dots: autoDraw = False
+230.9635 	EXP 	dots_test: autoDraw = True
+231.4635 	INFO 	Keyboard events cleared
+231.4628 	EXP 	dots_test: autoDraw = False
+231.4628 	EXP 	text_2: autoDraw = True
+231.9686 	DATA 	Keypress: right
+231.9786 	EXP 	dots: autoDraw = False
+231.9786 	EXP 	dots_test: autoDraw = False
+231.9786 	EXP 	text_2: autoDraw = False
+231.9786 	EXP 	dots: dir = 135.0
+231.9786 	EXP 	dots_test: dir = 143.0
+231.9786 	EXP 	dots: autoDraw = True
+232.4794 	EXP 	dots: autoDraw = False
+232.7791 	EXP 	dots_test: autoDraw = True
+233.2799 	INFO 	Keyboard events cleared
+233.2795 	EXP 	dots_test: autoDraw = False
+233.2795 	EXP 	text_2: autoDraw = True
+233.5154 	DATA 	Keypress: left
+233.5182 	EXP 	dots: autoDraw = False
+233.5182 	EXP 	dots_test: autoDraw = False
+233.5182 	EXP 	text_2: autoDraw = False
+233.5182 	EXP 	dots: dir = 135.0
+233.5182 	EXP 	dots_test: dir = 143.0
+233.5182 	EXP 	dots: autoDraw = True
+234.0118 	EXP 	dots: autoDraw = False
+234.3117 	EXP 	dots_test: autoDraw = True
+234.8130 	INFO 	Keyboard events cleared
+234.8127 	EXP 	dots_test: autoDraw = False
+234.8127 	EXP 	text_2: autoDraw = True
+235.1322 	DATA 	Keypress: left
+235.1350 	EXP 	dots: autoDraw = False
+235.1350 	EXP 	dots_test: autoDraw = False
+235.1350 	EXP 	text_2: autoDraw = False
+235.1350 	EXP 	dots: dir = 45.0
+235.1350 	EXP 	dots_test: dir = 49.0
+235.1350 	EXP 	dots: autoDraw = True
+235.6461 	EXP 	dots: autoDraw = False
+235.9292 	EXP 	dots_test: autoDraw = True
+236.4142 	EXP 	dots_test: autoDraw = False
+236.4286 	INFO 	Keyboard events cleared
+236.4284 	EXP 	text_2: autoDraw = True
+236.8657 	DATA 	Keypress: left
+236.8685 	EXP 	dots: autoDraw = False
+236.8685 	EXP 	dots_test: autoDraw = False
+236.8685 	EXP 	text_2: autoDraw = False
+236.8685 	EXP 	dots: dir = 45.0
+236.8685 	EXP 	dots_test: dir = 39.0
+236.8685 	EXP 	dots: autoDraw = True
+237.3618 	EXP 	dots: autoDraw = False
+237.6624 	EXP 	dots_test: autoDraw = True
+238.1633 	INFO 	Keyboard events cleared
+238.1630 	EXP 	dots_test: autoDraw = False
+238.1630 	EXP 	text_2: autoDraw = True
+238.5167 	DATA 	Keypress: right
+238.5196 	EXP 	dots: autoDraw = False
+238.5196 	EXP 	dots_test: autoDraw = False
+238.5196 	EXP 	text_2: autoDraw = False
+238.5196 	EXP 	dots: dir = 135.0
+238.5196 	EXP 	dots_test: dir = 133.0
+238.5196 	EXP 	dots: autoDraw = True
+239.0150 	EXP 	dots: autoDraw = False
+239.3127 	EXP 	dots_test: autoDraw = True
+239.8124 	EXP 	dots_test: autoDraw = False
+239.8295 	INFO 	Keyboard events cleared
+239.8292 	EXP 	text_2: autoDraw = True
+240.5366 	DATA 	Keypress: left
+240.5446 	EXP 	dots: autoDraw = False
+240.5446 	EXP 	dots_test: autoDraw = False
+240.5446 	EXP 	text_2: autoDraw = False
+240.5446 	EXP 	dots: dir = 135.0
+240.5446 	EXP 	dots_test: dir = 141.0
+240.5446 	EXP 	dots: autoDraw = True
+241.0310 	EXP 	dots: autoDraw = False
+241.3461 	EXP 	dots_test: autoDraw = True
+241.8287 	INFO 	Keyboard events cleared
+241.8285 	EXP 	text_2: autoDraw = True
+241.8355 	EXP 	dots_test: autoDraw = False
+242.1496 	DATA 	Keypress: left
+242.1526 	EXP 	dots: autoDraw = False
+242.1526 	EXP 	dots_test: autoDraw = False
+242.1526 	EXP 	text_2: autoDraw = False
+242.1526 	EXP 	dots: dir = 45.0
+242.1526 	EXP 	dots_test: dir = 49.0
+242.1526 	EXP 	dots: autoDraw = True
+242.6628 	EXP 	dots: autoDraw = False
+242.9452 	EXP 	dots_test: autoDraw = True
+243.4472 	INFO 	Keyboard events cleared
+243.4464 	EXP 	dots_test: autoDraw = False
+243.4464 	EXP 	text_2: autoDraw = True
+243.7173 	DATA 	Keypress: right
+243.7286 	EXP 	dots: autoDraw = False
+243.7286 	EXP 	dots_test: autoDraw = False
+243.7286 	EXP 	text_2: autoDraw = False
+243.7286 	EXP 	dots: dir = 135.0
+243.7286 	EXP 	dots_test: dir = 131.0
+243.7286 	EXP 	dots: autoDraw = True
+244.2299 	EXP 	dots: autoDraw = False
+244.5292 	EXP 	dots_test: autoDraw = True
+245.0295 	INFO 	Keyboard events cleared
+245.0293 	EXP 	dots_test: autoDraw = False
+245.0293 	EXP 	text_2: autoDraw = True
+245.3843 	DATA 	Keypress: right
+245.3954 	EXP 	dots: autoDraw = False
+245.3954 	EXP 	dots_test: autoDraw = False
+245.3954 	EXP 	text_2: autoDraw = False
+245.3954 	EXP 	dots: dir = 45.0
+245.3954 	EXP 	dots_test: dir = 39.0
+245.3954 	EXP 	dots: autoDraw = True
+245.8962 	EXP 	dots: autoDraw = False
+246.1959 	EXP 	dots_test: autoDraw = True
+246.6975 	INFO 	Keyboard events cleared
+246.6967 	EXP 	dots_test: autoDraw = False
+246.6967 	EXP 	text_2: autoDraw = True
+247.0866 	DATA 	Keypress: left
+247.0951 	EXP 	dots: autoDraw = False
+247.0951 	EXP 	dots_test: autoDraw = False
+247.0951 	EXP 	text_2: autoDraw = False
+247.0951 	EXP 	dots: dir = 45.0
+247.0951 	EXP 	dots_test: dir = 37.0
+247.0951 	EXP 	dots: autoDraw = True
+247.5960 	EXP 	dots: autoDraw = False
+247.8961 	EXP 	dots_test: autoDraw = True
+248.3968 	INFO 	Keyboard events cleared
+248.3961 	EXP 	dots_test: autoDraw = False
+248.3961 	EXP 	text_2: autoDraw = True
+248.8018 	DATA 	Keypress: right
+248.8119 	EXP 	dots: autoDraw = False
+248.8119 	EXP 	dots_test: autoDraw = False
+248.8119 	EXP 	text_2: autoDraw = False
+248.8119 	EXP 	dots: dir = 45.0
+248.8119 	EXP 	dots_test: dir = 51.0
+248.8119 	EXP 	dots: autoDraw = True
+249.3125 	EXP 	dots: autoDraw = False
+249.6123 	EXP 	dots_test: autoDraw = True
+250.1144 	INFO 	Keyboard events cleared
+250.1142 	EXP 	dots_test: autoDraw = False
+250.1142 	EXP 	text_2: autoDraw = True
+250.4835 	DATA 	Keypress: left
+250.4954 	EXP 	dots: autoDraw = False
+250.4954 	EXP 	dots_test: autoDraw = False
+250.4954 	EXP 	text_2: autoDraw = False
+250.4954 	EXP 	dots: dir = 135.0
+250.4954 	EXP 	dots_test: dir = 141.0
+250.4954 	EXP 	dots: autoDraw = True
+250.9967 	EXP 	dots: autoDraw = False
+251.2957 	EXP 	dots_test: autoDraw = True
+251.7970 	INFO 	Keyboard events cleared
+251.7961 	EXP 	dots_test: autoDraw = False
+251.7961 	EXP 	text_2: autoDraw = True
+252.2329 	DATA 	Keypress: left
+252.2453 	EXP 	dots: autoDraw = False
+252.2453 	EXP 	dots_test: autoDraw = False
+252.2453 	EXP 	text_2: autoDraw = False
+252.2453 	EXP 	dots: dir = 135.0
+252.2453 	EXP 	dots_test: dir = 131.0
+252.2453 	EXP 	dots: autoDraw = True
+252.7466 	EXP 	dots: autoDraw = False
+253.0291 	EXP 	dots_test: autoDraw = True
+253.5305 	INFO 	Keyboard events cleared
+253.5299 	EXP 	dots_test: autoDraw = False
+253.5299 	EXP 	text_2: autoDraw = True
+253.9014 	DATA 	Keypress: right
+253.9117 	EXP 	dots: autoDraw = False
+253.9117 	EXP 	dots_test: autoDraw = False
+253.9117 	EXP 	text_2: autoDraw = False
+253.9117 	EXP 	dots: dir = 45.0
+253.9117 	EXP 	dots_test: dir = 51.0
+253.9117 	EXP 	dots: autoDraw = True
+254.3972 	EXP 	dots: autoDraw = False
+254.7015 	EXP 	dots_test: autoDraw = True
+255.2134 	INFO 	Keyboard events cleared
+255.2127 	EXP 	dots_test: autoDraw = False
+255.2127 	EXP 	text_2: autoDraw = True
+255.5666 	DATA 	Keypress: left
+255.5785 	EXP 	dots: autoDraw = False
+255.5785 	EXP 	dots_test: autoDraw = False
+255.5785 	EXP 	text_2: autoDraw = False
+255.5785 	EXP 	dots: dir = 135.0
+255.5785 	EXP 	dots_test: dir = 133.0
+255.5785 	EXP 	dots: autoDraw = True
+256.0798 	EXP 	dots: autoDraw = False
+256.3795 	EXP 	dots_test: autoDraw = True
+256.8802 	INFO 	Keyboard events cleared
+256.8800 	EXP 	dots_test: autoDraw = False
+256.8800 	EXP 	text_2: autoDraw = True
+257.2334 	DATA 	Keypress: right
+257.2447 	EXP 	dots: autoDraw = False
+257.2447 	EXP 	dots_test: autoDraw = False
+257.2447 	EXP 	text_2: autoDraw = False
+257.2447 	EXP 	dots: dir = 45.0
+257.2447 	EXP 	dots_test: dir = 37.0
+257.2447 	EXP 	dots: autoDraw = True
+257.7460 	EXP 	dots: autoDraw = False
+258.0291 	EXP 	dots_test: autoDraw = True
+258.5301 	EXP 	dots_test: autoDraw = False
+258.5462 	INFO 	Keyboard events cleared
+258.5459 	EXP 	text_2: autoDraw = True
+258.8670 	DATA 	Keypress: right
+258.8786 	EXP 	dots: autoDraw = False
+258.8786 	EXP 	dots_test: autoDraw = False
+258.8786 	EXP 	text_2: autoDraw = False
+258.8786 	EXP 	dots: dir = 135.0
+258.8786 	EXP 	dots_test: dir = 139.0
+258.8786 	EXP 	dots: autoDraw = True
+259.3800 	EXP 	dots: autoDraw = False
+259.6796 	EXP 	dots_test: autoDraw = True
+260.1808 	INFO 	Keyboard events cleared
+260.1801 	EXP 	dots_test: autoDraw = False
+260.1801 	EXP 	text_2: autoDraw = True
+260.5831 	DATA 	Keypress: left
+260.5954 	EXP 	dots: autoDraw = False
+260.5954 	EXP 	dots_test: autoDraw = False
+260.5954 	EXP 	text_2: autoDraw = False
+260.5954 	EXP 	dots: dir = 45.0
+260.5954 	EXP 	dots_test: dir = 49.0
+260.5954 	EXP 	dots: autoDraw = True
+261.0807 	EXP 	dots: autoDraw = False
+261.3795 	EXP 	dots_test: autoDraw = True
+261.8804 	EXP 	dots_test: autoDraw = False
+261.8965 	INFO 	Keyboard events cleared
+261.8958 	EXP 	text_2: autoDraw = True
+262.6833 	DATA 	Keypress: right
+262.6954 	EXP 	dots: autoDraw = False
+262.6954 	EXP 	dots_test: autoDraw = False
+262.6954 	EXP 	text_2: autoDraw = False
+262.6954 	EXP 	dots: dir = 45.0
+262.6954 	EXP 	dots_test: dir = 39.0
+262.6954 	EXP 	dots: autoDraw = True
+263.1824 	EXP 	dots: autoDraw = False
+263.4954 	EXP 	dots_test: autoDraw = True
+263.9970 	INFO 	Keyboard events cleared
+263.9959 	EXP 	dots_test: autoDraw = False
+263.9959 	EXP 	text_2: autoDraw = True
+264.2489 	DATA 	Keypress: right
+264.2519 	EXP 	dots: autoDraw = False
+264.2519 	EXP 	dots_test: autoDraw = False
+264.2519 	EXP 	text_2: autoDraw = False
+264.2519 	EXP 	dots: dir = 135.0
+264.2519 	EXP 	dots_test: dir = 139.0
+264.2519 	EXP 	dots: autoDraw = True
+264.7627 	EXP 	dots: autoDraw = False
+265.0458 	EXP 	dots_test: autoDraw = True
+265.5472 	INFO 	Keyboard events cleared
+265.5466 	EXP 	dots_test: autoDraw = False
+265.5466 	EXP 	text_2: autoDraw = True
+266.9501 	DATA 	Keypress: right
+266.9618 	EXP 	dots: autoDraw = False
+266.9618 	EXP 	dots_test: autoDraw = False
+266.9618 	EXP 	text_2: autoDraw = False
+266.9618 	EXP 	dots: dir = 135.0
+266.9618 	EXP 	dots_test: dir = 133.0
+266.9618 	EXP 	dots: autoDraw = True
+267.4629 	EXP 	dots: autoDraw = False
+267.7446 	EXP 	dots_test: autoDraw = True
+268.2310 	EXP 	dots_test: autoDraw = False
+268.2447 	INFO 	Keyboard events cleared
+268.2445 	EXP 	text_2: autoDraw = True
+268.6362 	DATA 	Keypress: left
+268.6453 	EXP 	dots: autoDraw = False
+268.6453 	EXP 	dots_test: autoDraw = False
+268.6453 	EXP 	text_2: autoDraw = False
+268.6453 	EXP 	dots: dir = 135.0
+268.6453 	EXP 	dots_test: dir = 141.0
+268.6453 	EXP 	dots: autoDraw = True
+269.1465 	EXP 	dots: autoDraw = False
+269.4458 	EXP 	dots_test: autoDraw = True
+269.9462 	INFO 	Keyboard events cleared
+269.9460 	EXP 	dots_test: autoDraw = False
+269.9460 	EXP 	text_2: autoDraw = True
+270.4821 	DATA 	Keypress: right
+270.4851 	EXP 	dots: autoDraw = False
+270.4851 	EXP 	dots_test: autoDraw = False
+270.4851 	EXP 	text_2: autoDraw = False
+270.4851 	EXP 	dots: dir = 45.0
+270.4851 	EXP 	dots_test: dir = 51.0
+270.4851 	EXP 	dots: autoDraw = True
+270.9808 	EXP 	dots: autoDraw = False
+271.2797 	EXP 	dots_test: autoDraw = True
+271.7796 	INFO 	Keyboard events cleared
+271.7794 	EXP 	dots_test: autoDraw = False
+271.7794 	EXP 	text_2: autoDraw = True
+272.1839 	DATA 	Keypress: left
+272.1956 	EXP 	dots: autoDraw = False
+272.1956 	EXP 	dots_test: autoDraw = False
+272.1956 	EXP 	text_2: autoDraw = False
+272.1956 	EXP 	dots: dir = 135.0
+272.1956 	EXP 	dots_test: dir = 131.0
+272.1956 	EXP 	dots: autoDraw = True
+272.6804 	EXP 	dots: autoDraw = False
+272.9961 	EXP 	dots_test: autoDraw = True
+273.4965 	INFO 	Keyboard events cleared
+273.4962 	EXP 	dots_test: autoDraw = False
+273.4962 	EXP 	text_2: autoDraw = True
+273.9515 	DATA 	Keypress: right
+273.9661 	EXP 	dots: autoDraw = False
+273.9661 	EXP 	dots_test: autoDraw = False
+273.9661 	EXP 	text_2: autoDraw = False
+273.9661 	EXP 	dots: dir = 45.0
+273.9661 	EXP 	dots_test: dir = 39.0
+273.9661 	EXP 	dots: autoDraw = True
+274.4800 	EXP 	dots: autoDraw = False
+274.7528 	EXP 	dots_test: autoDraw = True
+275.2638 	INFO 	Keyboard events cleared
+275.2631 	EXP 	dots_test: autoDraw = False
+275.2631 	EXP 	text_2: autoDraw = True
+275.6520 	DATA 	Keypress: right
+275.6619 	EXP 	dots: autoDraw = False
+275.6619 	EXP 	dots_test: autoDraw = False
+275.6619 	EXP 	text_2: autoDraw = False
+275.6619 	EXP 	dots: dir = 135.0
+275.6619 	EXP 	dots_test: dir = 131.0
+275.6619 	EXP 	dots: autoDraw = True
+276.1498 	EXP 	dots: autoDraw = False
+276.4629 	EXP 	dots_test: autoDraw = True
+276.9635 	INFO 	Keyboard events cleared
+276.9633 	EXP 	dots_test: autoDraw = False
+276.9633 	EXP 	text_2: autoDraw = True
+277.4534 	DATA 	Keypress: right
+277.4619 	EXP 	dots: autoDraw = False
+277.4619 	EXP 	dots_test: autoDraw = False
+277.4619 	EXP 	text_2: autoDraw = False
+277.4619 	EXP 	dots: dir = 135.0
+277.4619 	EXP 	dots_test: dir = 143.0
+277.4619 	EXP 	dots: autoDraw = True
+277.9633 	EXP 	dots: autoDraw = False
+278.2449 	EXP 	dots_test: autoDraw = True
+278.7467 	EXP 	dots_test: autoDraw = False
+278.7636 	INFO 	Keyboard events cleared
+278.7627 	EXP 	text_2: autoDraw = True
+279.2014 	DATA 	Keypress: left
+279.2164 	EXP 	dots: autoDraw = False
+279.2164 	EXP 	dots_test: autoDraw = False
+279.2164 	EXP 	text_2: autoDraw = False
+279.2164 	EXP 	dots: dir = 45.0
+279.2164 	EXP 	dots_test: dir = 51.0
+279.2164 	EXP 	dots: autoDraw = True
+279.7293 	EXP 	dots: autoDraw = False
+280.0130 	EXP 	dots_test: autoDraw = True
+280.5120 	INFO 	Keyboard events cleared
+280.5118 	EXP 	dots_test: autoDraw = False
+280.5118 	EXP 	text_2: autoDraw = True
+281.0320 	DATA 	Keypress: right
+281.0360 	EXP 	dots: autoDraw = False
+281.0360 	EXP 	dots_test: autoDraw = False
+281.0360 	EXP 	text_2: autoDraw = False
+281.0360 	EXP 	dots: dir = 45.0
+281.0360 	EXP 	dots_test: dir = 41.0
+281.0360 	EXP 	dots: autoDraw = True
+281.5459 	EXP 	dots: autoDraw = False
+281.8294 	EXP 	dots_test: autoDraw = True
+282.3306 	INFO 	Keyboard events cleared
+282.3299 	EXP 	dots_test: autoDraw = False
+282.3299 	EXP 	text_2: autoDraw = True
+284.2357 	DATA 	Keypress: right
+284.2448 	EXP 	dots: autoDraw = False
+284.2448 	EXP 	dots_test: autoDraw = False
+284.2448 	EXP 	text_2: autoDraw = False
+284.2448 	EXP 	dots: dir = 135.0
+284.2448 	EXP 	dots_test: dir = 143.0
+284.2448 	EXP 	dots: autoDraw = True
+284.7466 	EXP 	dots: autoDraw = False
+285.0466 	EXP 	dots_test: autoDraw = True
+285.5286 	INFO 	Keyboard events cleared
+285.5283 	EXP 	text_2: autoDraw = True
+285.5451 	EXP 	dots_test: autoDraw = False
+287.4659 	DATA 	Keypress: left
+287.4689 	EXP 	dots: autoDraw = False
+287.4689 	EXP 	dots_test: autoDraw = False
+287.4689 	EXP 	text_2: autoDraw = False
+287.4689 	EXP 	dots: dir = 45.0
+287.4689 	EXP 	dots_test: dir = 41.0
+287.4689 	EXP 	dots: autoDraw = True
+287.9797 	EXP 	dots: autoDraw = False
+288.2609 	EXP 	dots_test: autoDraw = True
+288.7505 	INFO 	Keyboard events cleared
+288.7503 	EXP 	dots_test: autoDraw = False
+288.7503 	EXP 	text_2: autoDraw = True
+289.1152 	DATA 	Keypress: right
+289.1178 	EXP 	dots: autoDraw = False
+289.1178 	EXP 	dots_test: autoDraw = False
+289.1178 	EXP 	text_2: autoDraw = False
+289.1178 	EXP 	dots: dir = 135.0
+289.1178 	EXP 	dots_test: dir = 133.0
+289.1178 	EXP 	dots: autoDraw = True
+289.6158 	EXP 	dots: autoDraw = False
+289.9130 	EXP 	dots_test: autoDraw = True
+290.4129 	INFO 	Keyboard events cleared
+290.4126 	EXP 	dots_test: autoDraw = False
+290.4126 	EXP 	text_2: autoDraw = True
+290.8988 	DATA 	Keypress: right
+290.9016 	EXP 	dots: autoDraw = False
+290.9016 	EXP 	dots_test: autoDraw = False
+290.9016 	EXP 	text_2: autoDraw = False
+290.9016 	EXP 	dots: dir = 45.0
+290.9016 	EXP 	dots_test: dir = 53.0
+290.9016 	EXP 	dots: autoDraw = True
+291.4134 	EXP 	dots: autoDraw = False
+291.6950 	EXP 	dots_test: autoDraw = True
+292.1964 	INFO 	Keyboard events cleared
+292.1961 	EXP 	dots_test: autoDraw = False
+292.1961 	EXP 	text_2: autoDraw = True
+292.4684 	DATA 	Keypress: left
+292.4787 	EXP 	dots: autoDraw = False
+292.4787 	EXP 	dots_test: autoDraw = False
+292.4787 	EXP 	text_2: autoDraw = False
+292.4787 	EXP 	dots: dir = 45.0
+292.4787 	EXP 	dots_test: dir = 43.0
+292.4787 	EXP 	dots: autoDraw = True
+292.9793 	EXP 	dots: autoDraw = False
+293.2798 	EXP 	dots_test: autoDraw = True
+293.7808 	INFO 	Keyboard events cleared
+293.7800 	EXP 	dots_test: autoDraw = False
+293.7800 	EXP 	text_2: autoDraw = True
+294.1180 	DATA 	Keypress: left
+294.1285 	EXP 	dots: autoDraw = False
+294.1285 	EXP 	dots_test: autoDraw = False
+294.1285 	EXP 	text_2: autoDraw = False
+294.1285 	EXP 	dots: dir = 135.0
+294.1285 	EXP 	dots_test: dir = 141.0
+294.1285 	EXP 	dots: autoDraw = True
+294.6155 	EXP 	dots: autoDraw = False
+294.9185 	EXP 	dots_test: autoDraw = True
+295.4305 	INFO 	Keyboard events cleared
+295.4299 	EXP 	dots_test: autoDraw = False
+295.4299 	EXP 	text_2: autoDraw = True
+295.7666 	DATA 	Keypress: left
+295.7787 	EXP 	dots: autoDraw = False
+295.7787 	EXP 	dots_test: autoDraw = False
+295.7787 	EXP 	text_2: autoDraw = False
+295.7787 	EXP 	dots: dir = 135.0
+295.7787 	EXP 	dots_test: dir = 133.0
+295.7787 	EXP 	dots: autoDraw = True
+296.2660 	EXP 	dots: autoDraw = False
+296.5791 	EXP 	dots_test: autoDraw = True
+297.0640 	INFO 	Keyboard events cleared
+297.0633 	EXP 	text_2: autoDraw = True
+297.0795 	EXP 	dots_test: autoDraw = False
+297.5193 	DATA 	Keypress: right
+297.5287 	EXP 	dots: autoDraw = False
+297.5287 	EXP 	dots_test: autoDraw = False
+297.5287 	EXP 	text_2: autoDraw = False
+297.5287 	EXP 	dots: dir = 45.0
+297.5287 	EXP 	dots_test: dir = 53.0
+297.5287 	EXP 	dots: autoDraw = True
+298.0290 	EXP 	dots: autoDraw = False
+298.3298 	EXP 	dots_test: autoDraw = True
+298.8294 	INFO 	Keyboard events cleared
+298.8291 	EXP 	dots_test: autoDraw = False
+298.8291 	EXP 	text_2: autoDraw = True
+299.2498 	DATA 	Keypress: left
+299.2620 	EXP 	dots: autoDraw = False
+299.2620 	EXP 	dots_test: autoDraw = False
+299.2620 	EXP 	text_2: autoDraw = False
+299.2620 	EXP 	dots: dir = 135.0
+299.2620 	EXP 	dots_test: dir = 141.0
+299.2620 	EXP 	dots: autoDraw = True
+299.7626 	EXP 	dots: autoDraw = False
+300.0503 	EXP 	dots_test: autoDraw = True
+300.5471 	INFO 	Keyboard events cleared
+300.5468 	EXP 	dots_test: autoDraw = False
+300.5468 	EXP 	text_2: autoDraw = True
+300.9002 	DATA 	Keypress: right
+300.9121 	EXP 	dots: autoDraw = False
+300.9121 	EXP 	dots_test: autoDraw = False
+300.9121 	EXP 	text_2: autoDraw = False
+300.9121 	EXP 	dots: dir = 135.0
+300.9121 	EXP 	dots_test: dir = 135.0
+300.9121 	EXP 	dots: autoDraw = True
+301.4128 	EXP 	dots: autoDraw = False
+301.7125 	EXP 	dots_test: autoDraw = True
+302.2127 	INFO 	Keyboard events cleared
+302.2124 	EXP 	dots_test: autoDraw = False
+302.2124 	EXP 	text_2: autoDraw = True
+302.5006 	DATA 	Keypress: left
+302.5119 	EXP 	dots: autoDraw = False
+302.5119 	EXP 	dots_test: autoDraw = False
+302.5119 	EXP 	text_2: autoDraw = False
+302.5119 	EXP 	dots: dir = 45.0
+302.5119 	EXP 	dots_test: dir = 51.0
+302.5119 	EXP 	dots: autoDraw = True
+302.9991 	EXP 	dots: autoDraw = False
+303.3128 	EXP 	dots_test: autoDraw = True
+303.8137 	INFO 	Keyboard events cleared
+303.8128 	EXP 	dots_test: autoDraw = False
+303.8128 	EXP 	text_2: autoDraw = True
+304.1987 	DATA 	Keypress: left
+304.2015 	EXP 	dots: autoDraw = False
+304.2015 	EXP 	dots_test: autoDraw = False
+304.2015 	EXP 	text_2: autoDraw = False
+304.2015 	EXP 	dots: dir = 45.0
+304.2015 	EXP 	dots_test: dir = 41.0
+304.2015 	EXP 	dots: autoDraw = True
+304.7134 	EXP 	dots: autoDraw = False
+304.9836 	EXP 	dots_test: autoDraw = True
+305.4976 	INFO 	Keyboard events cleared
+305.4966 	EXP 	dots_test: autoDraw = False
+305.4966 	EXP 	text_2: autoDraw = True
+305.7151 	DATA 	Keypress: right
+305.7180 	EXP 	dots: autoDraw = False
+305.7180 	EXP 	dots_test: autoDraw = False
+305.7180 	EXP 	text_2: autoDraw = False
+305.7180 	EXP 	dots: dir = 135.0
+305.7180 	EXP 	dots_test: dir = 135.0
+305.7180 	EXP 	dots: autoDraw = True
+306.2148 	EXP 	dots: autoDraw = False
+306.5126 	EXP 	dots_test: autoDraw = True
+306.9973 	EXP 	dots_test: autoDraw = False
+307.0120 	INFO 	Keyboard events cleared
+307.0118 	EXP 	text_2: autoDraw = True
+307.4672 	DATA 	Keypress: right
+307.4784 	EXP 	dots: autoDraw = False
+307.4784 	EXP 	dots_test: autoDraw = False
+307.4784 	EXP 	text_2: autoDraw = False
+307.4784 	EXP 	dots: dir = 45.0
+307.4784 	EXP 	dots_test: dir = 51.0
+307.4784 	EXP 	dots: autoDraw = True
+307.9656 	EXP 	dots: autoDraw = False
+308.2801 	EXP 	dots_test: autoDraw = True
+308.7798 	INFO 	Keyboard events cleared
+308.7790 	EXP 	dots_test: autoDraw = False
+308.7790 	EXP 	text_2: autoDraw = True
+309.0831 	DATA 	Keypress: left
+309.0860 	EXP 	dots: autoDraw = False
+309.0860 	EXP 	dots_test: autoDraw = False
+309.0860 	EXP 	text_2: autoDraw = False
+309.0860 	EXP 	dots: dir = 45.0
+309.0860 	EXP 	dots_test: dir = 41.0
+309.0860 	EXP 	dots: autoDraw = True
+309.5839 	EXP 	dots: autoDraw = False
+309.8792 	EXP 	dots_test: autoDraw = True
+310.3797 	INFO 	Keyboard events cleared
+310.3790 	EXP 	dots_test: autoDraw = False
+310.3790 	EXP 	text_2: autoDraw = True
+310.6210 	DATA 	Keypress: right
+310.6286 	EXP 	dots: autoDraw = False
+310.6286 	EXP 	dots_test: autoDraw = False
+310.6286 	EXP 	text_2: autoDraw = False
+310.6286 	EXP 	dots: dir = 135.0
+310.6286 	EXP 	dots_test: dir = 143.0
+310.6286 	EXP 	dots: autoDraw = True
+311.1293 	EXP 	dots: autoDraw = False
+311.4186 	EXP 	dots_test: autoDraw = True
+311.9305 	INFO 	Keyboard events cleared
+311.9303 	EXP 	dots_test: autoDraw = False
+311.9303 	EXP 	text_2: autoDraw = True
+312.9182 	DATA 	Keypress: right
+312.9322 	EXP 	dots: autoDraw = False
+312.9322 	EXP 	dots_test: autoDraw = False
+312.9322 	EXP 	text_2: autoDraw = False
+312.9322 	EXP 	dots: dir = 135.0
+312.9322 	EXP 	dots_test: dir = 145.0
+312.9322 	EXP 	dots: autoDraw = True
+313.4331 	EXP 	dots: autoDraw = False
+313.7299 	EXP 	dots_test: autoDraw = True
+314.2146 	INFO 	Keyboard events cleared
+314.2144 	EXP 	dots_test: autoDraw = False
+314.2144 	EXP 	text_2: autoDraw = True
+314.4653 	DATA 	Keypress: left
+314.4682 	EXP 	dots: autoDraw = False
+314.4682 	EXP 	dots_test: autoDraw = False
+314.4682 	EXP 	text_2: autoDraw = False
+314.4682 	EXP 	dots: dir = 45.0
+314.4682 	EXP 	dots_test: dir = 43.0
+314.4682 	EXP 	dots: autoDraw = True
+314.9794 	EXP 	dots: autoDraw = False
+315.2627 	EXP 	dots_test: autoDraw = True
+315.7618 	INFO 	Keyboard events cleared
+315.7615 	EXP 	dots_test: autoDraw = False
+315.7615 	EXP 	text_2: autoDraw = True
+315.9660 	DATA 	Keypress: right
+315.9786 	EXP 	dots: autoDraw = False
+315.9786 	EXP 	dots_test: autoDraw = False
+315.9786 	EXP 	text_2: autoDraw = False
+315.9786 	EXP 	dots: dir = 45.0
+315.9786 	EXP 	dots_test: dir = 49.0
+315.9786 	EXP 	dots: autoDraw = True
+316.4794 	EXP 	dots: autoDraw = False
+316.7782 	EXP 	dots_test: autoDraw = True
+317.2638 	INFO 	Keyboard events cleared
+317.2635 	EXP 	text_2: autoDraw = True
+317.2801 	EXP 	dots_test: autoDraw = False
+317.6184 	DATA 	Keypress: left
+317.6327 	EXP 	dots: autoDraw = False
+317.6327 	EXP 	dots_test: autoDraw = False
+317.6327 	EXP 	text_2: autoDraw = False
+317.6327 	EXP 	dots: dir = 135.0
+317.6327 	EXP 	dots_test: dir = 133.0
+317.6327 	EXP 	dots: autoDraw = True
+318.1315 	EXP 	dots: autoDraw = False
+318.4183 	EXP 	dots_test: autoDraw = True
+318.9296 	INFO 	Keyboard events cleared
+318.9293 	EXP 	dots_test: autoDraw = False
+318.9293 	EXP 	text_2: autoDraw = True
+319.3821 	DATA 	Keypress: right
+319.3849 	EXP 	dots: autoDraw = False
+319.3849 	EXP 	dots_test: autoDraw = False
+319.3849 	EXP 	text_2: autoDraw = False
+319.3849 	EXP 	dots: dir = 135.0
+319.3849 	EXP 	dots_test: dir = 145.0
+319.3849 	EXP 	dots: autoDraw = True
+319.8836 	EXP 	dots: autoDraw = False
+320.1793 	EXP 	dots_test: autoDraw = True
+320.6801 	INFO 	Keyboard events cleared
+320.6791 	EXP 	dots_test: autoDraw = False
+320.6791 	EXP 	text_2: autoDraw = True
+321.0178 	DATA 	Keypress: left
+321.0283 	EXP 	dots: autoDraw = False
+321.0283 	EXP 	dots_test: autoDraw = False
+321.0283 	EXP 	text_2: autoDraw = False
+321.0283 	EXP 	dots: dir = 135.0
+321.0283 	EXP 	dots_test: dir = 133.0
+321.0283 	EXP 	dots: autoDraw = True
+321.5157 	EXP 	dots: autoDraw = False
+321.8127 	EXP 	dots_test: autoDraw = True
+322.3134 	EXP 	dots_test: autoDraw = False
+322.3297 	INFO 	Keyboard events cleared
+322.3295 	EXP 	text_2: autoDraw = True
+322.5694 	DATA 	Keypress: left
+322.5780 	EXP 	dots: autoDraw = False
+322.5780 	EXP 	dots_test: autoDraw = False
+322.5780 	EXP 	text_2: autoDraw = False
+322.5780 	EXP 	dots: dir = 45.0
+322.5780 	EXP 	dots_test: dir = 49.0
+322.5780 	EXP 	dots: autoDraw = True
+323.0642 	EXP 	dots: autoDraw = False
+323.3794 	EXP 	dots_test: autoDraw = True
+323.8802 	INFO 	Keyboard events cleared
+323.8799 	EXP 	dots_test: autoDraw = False
+323.8799 	EXP 	text_2: autoDraw = True
+324.6837 	DATA 	Keypress: left
+324.7036 	EXP 	dots: autoDraw = False
+324.7036 	EXP 	dots_test: autoDraw = False
+324.7036 	EXP 	text_2: autoDraw = False
+324.7036 	EXP 	dots: dir = 45.0
+324.7036 	EXP 	dots_test: dir = 43.0
+324.7036 	EXP 	dots: autoDraw = True
+325.2127 	EXP 	dots: autoDraw = False
+325.5024 	EXP 	dots_test: autoDraw = True
+326.0135 	INFO 	Keyboard events cleared
+326.0129 	EXP 	dots_test: autoDraw = False
+326.0129 	EXP 	text_2: autoDraw = True
+326.2858 	DATA 	Keypress: right
+326.2953 	EXP 	dots: autoDraw = False
+326.2953 	EXP 	dots_test: autoDraw = False
+326.2953 	EXP 	text_2: autoDraw = False
+326.2953 	EXP 	dots: dir = 135.0
+326.2953 	EXP 	dots_test: dir = 131.0
+326.2953 	EXP 	dots: autoDraw = True
+326.7953 	EXP 	dots: autoDraw = False
+327.0807 	EXP 	dots_test: autoDraw = True
+327.5783 	EXP 	dots_test: autoDraw = False
+327.5807 	INFO 	Keyboard events cleared
+327.5804 	EXP 	text_2: autoDraw = True
+328.0338 	DATA 	Keypress: right
+328.0452 	EXP 	dots: autoDraw = False
+328.0452 	EXP 	dots_test: autoDraw = False
+328.0452 	EXP 	text_2: autoDraw = False
+328.0452 	EXP 	dots: dir = 45.0
+328.0452 	EXP 	dots_test: dir = 47.0
+328.0452 	EXP 	dots: autoDraw = True
+328.5323 	EXP 	dots: autoDraw = False
+328.8458 	EXP 	dots_test: autoDraw = True
+329.3465 	INFO 	Keyboard events cleared
+329.3457 	EXP 	dots_test: autoDraw = False
+329.3457 	EXP 	text_2: autoDraw = True
+329.7675 	DATA 	Keypress: right
+329.7783 	EXP 	dots: autoDraw = False
+329.7783 	EXP 	dots_test: autoDraw = False
+329.7783 	EXP 	text_2: autoDraw = False
+329.7783 	EXP 	dots: dir = 45.0
+329.7783 	EXP 	dots_test: dir = 45.0
+329.7783 	EXP 	dots: autoDraw = True
+330.2801 	EXP 	dots: autoDraw = False
+330.5796 	EXP 	dots_test: autoDraw = True
+331.0620 	INFO 	Keyboard events cleared
+331.0617 	EXP 	text_2: autoDraw = True
+331.0783 	EXP 	dots_test: autoDraw = False
+331.4814 	DATA 	Keypress: right
+331.4841 	EXP 	dots: autoDraw = False
+331.4841 	EXP 	dots_test: autoDraw = False
+331.4841 	EXP 	text_2: autoDraw = False
+331.4841 	EXP 	dots: dir = 135.0
+331.4841 	EXP 	dots_test: dir = 143.0
+331.4841 	EXP 	dots: autoDraw = True
+331.9840 	EXP 	dots: autoDraw = False
+332.2793 	EXP 	dots_test: autoDraw = True
+332.7804 	INFO 	Keyboard events cleared
+332.7797 	EXP 	dots_test: autoDraw = False
+332.7797 	EXP 	text_2: autoDraw = True
+333.7651 	DATA 	Keypress: right
+333.7680 	EXP 	dots: autoDraw = False
+333.7680 	EXP 	dots_test: autoDraw = False
+333.7680 	EXP 	text_2: autoDraw = False
+333.7680 	EXP 	dots: dir = 45.0
+333.7680 	EXP 	dots_test: dir = 49.0
+333.7680 	EXP 	dots: autoDraw = True
+334.2640 	EXP 	dots: autoDraw = False
+334.5628 	EXP 	dots_test: autoDraw = True
+335.0631 	INFO 	Keyboard events cleared
+335.0627 	EXP 	dots_test: autoDraw = False
+335.0627 	EXP 	text_2: autoDraw = True
+335.8014 	DATA 	Keypress: left
+335.8119 	EXP 	dots: autoDraw = False
+335.8119 	EXP 	dots_test: autoDraw = False
+335.8119 	EXP 	text_2: autoDraw = False
+335.8119 	EXP 	dots: dir = 135.0
+335.8119 	EXP 	dots_test: dir = 131.0
+335.8119 	EXP 	dots: autoDraw = True
+336.3123 	EXP 	dots: autoDraw = False
+336.6126 	EXP 	dots_test: autoDraw = True
+337.0976 	INFO 	Keyboard events cleared
+337.0974 	EXP 	dots_test: autoDraw = False
+337.0974 	EXP 	text_2: autoDraw = True
+337.4542 	DATA 	Keypress: right
+337.4617 	EXP 	dots: autoDraw = False
+337.4617 	EXP 	dots_test: autoDraw = False
+337.4617 	EXP 	text_2: autoDraw = False
+337.4617 	EXP 	dots: dir = 45.0
+337.4617 	EXP 	dots_test: dir = 43.0
+337.4617 	EXP 	dots: autoDraw = True
+337.9628 	EXP 	dots: autoDraw = False
+338.2477 	EXP 	dots_test: autoDraw = True
+338.7451 	EXP 	dots_test: autoDraw = False
+338.7476 	INFO 	Keyboard events cleared
+338.7473 	EXP 	text_2: autoDraw = True
+339.7188 	DATA 	Keypress: left
+339.7327 	EXP 	dots: autoDraw = False
+339.7327 	EXP 	dots_test: autoDraw = False
+339.7327 	EXP 	text_2: autoDraw = False
+339.7327 	EXP 	dots: dir = 135.0
+339.7327 	EXP 	dots_test: dir = 145.0
+339.7327 	EXP 	dots: autoDraw = True
+340.2469 	EXP 	dots: autoDraw = False
+340.5297 	EXP 	dots_test: autoDraw = True
+341.0297 	INFO 	Keyboard events cleared
+341.0293 	EXP 	dots_test: autoDraw = False
+341.0293 	EXP 	text_2: autoDraw = True
+341.6675 	DATA 	Keypress: left
+341.6785 	EXP 	dots: autoDraw = False
+341.6785 	EXP 	dots_test: autoDraw = False
+341.6785 	EXP 	text_2: autoDraw = False
+341.6786 	EXP 	2d-motion-direction-discrimination: status = STOPPED
+341.7131 	INFO 	saved data to '/Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768-Measuring-Perception/V768-Psychophysics-labs/07-motion-direction/2d-motion-direction-discrimination/data/demo_2d-motion-direction-discrimination_2025-02-28_07h12.54.786.csv'
+341.7151 	INFO 	saved data to /Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768-Measuring-Perception/V768-Psychophysics-labs/07-motion-direction/2d-motion-direction-discrimination/data/demo_2d-motion-direction-discrimination_2025-02-28_07h12.54.786.psydat
