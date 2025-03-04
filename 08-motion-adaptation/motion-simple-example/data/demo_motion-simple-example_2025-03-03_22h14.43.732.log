@@ -1,0 +1,2272 @@
+4.2094 	INFO 	Loaded monitor calibration from ['2023_05_12 15:00']
+4.2195 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1512, 982]. Using actual size
+4.3773 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fa46303e700>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fa46303e310>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fa462f991c0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([3024, 1964]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.3773 	EXP 	window1: backgroundImage = ''
+4.3773 	EXP 	window1: backgroundFit = 'none'
+4.4211 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+4.4211 	EXP 	window1: recordFrameIntervals = False
+4.5452 	EXP 	window1: recordFrameIntervals = True
+5.3827 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+7.0782 	INFO 	keyboard.Keyboard is using iohub backend.
+7.0782 	INFO 	keyboard.Keyboard is using iohub backend.
+7.0783 	INFO 	keyboard.Keyboard is using iohub backend.
+7.0783 	EXP 	motion-simple-example: status = STARTED
+7.1144 	EXP 	Created instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instructions', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.1178 	EXP 	Created dots = DotStim(__class__=<class 'psychopy.visual.dot.DotStim'>, autoLog=True, coherence=1.0, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, dir=1.0, dotLife=10.0, dotSize=6.0, element=None, fieldAnchor=UNKNOWN, fieldPos=array([0., 0.]), fieldShape='circle', fieldSize=array([0.5, 0.5]), nDots=50, name='dots', noiseDots='direction', opacity=1, rgb=UNKNOWN, signalDots='same', speed=0.002, units='height', win=Window(...))
+7.1225 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([0.00392157, 0.00392157, 0.00392157]), fillColorSpace='rgb', fillRGB=array([0.00392157, 0.00392157, 0.00392157]), interpolate=True, lineColor=array([0.00392157, 0.00392157, 0.00392157]), lineColorSpace='rgb', lineRGB=array([0.00392157, 0.00392157, 0.00392157]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.1238 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, draggable=False, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='fixation', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.025, 0.025]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.1252 	EXP 	Created fixation_respond = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, draggable=False, fillColor=array([-1.        ,  0.00392157, -1.        ]), fillColorSpace='rgb', fillRGB=array([-1.        ,  0.00392157, -1.        ]), interpolate=True, lineColor=array([-1.        ,  0.00392157, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        ,  0.00392157, -1.        ]), lineWidth=1.0, name='fixation_respond', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.025, 0.025]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0203 	INFO 	Keyboard events cleared
+0.0201 	EXP 	instructions: autoDraw = True
+0.7078 	EXP 	Imported motion-simple-example.xlsx as conditions, 14 conditions, 2 params
+0.7091 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'coherence': 0.5, 'direction': 180, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.7203 	DATA 	Keypress: space
+0.7226 	WARNING 	t of last frame was 99.92ms (=1/10)
+0.7226 	EXP 	instructions: autoDraw = False
+0.7226 	EXP 	dots: dir = 180.0
+0.7226 	EXP 	dots: coherence = 0.5
+0.7226 	EXP 	polygon: autoDraw = True
+0.7226 	EXP 	fixation: autoDraw = True
+0.7362 	EXP 	dots: autoDraw = True
+1.0230 	EXP 	dots: autoDraw = False
+1.2373 	INFO 	Keyboard events cleared
+1.2370 	EXP 	fixation_respond: autoDraw = True
+1.3205 	EXP 	polygon: autoDraw = False
+1.3205 	EXP 	fixation: autoDraw = False
+1.5083 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'coherence': 0.25, 'direction': 0, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+1.5318 	DATA 	Keypress: left
+1.5346 	WARNING 	t of last frame was 27.95ms (=1/35)
+1.5346 	EXP 	dots: autoDraw = False
+1.5346 	EXP 	polygon: autoDraw = False
+1.5346 	EXP 	fixation: autoDraw = False
+1.5346 	EXP 	fixation_respond: autoDraw = False
+1.5346 	EXP 	dots: dir = 0.0
+1.5346 	EXP 	dots: coherence = 0.25
+1.5346 	EXP 	polygon: autoDraw = True
+1.5346 	EXP 	fixation: autoDraw = True
+1.6064 	EXP 	dots: autoDraw = True
+1.9037 	EXP 	dots: autoDraw = False
+2.1217 	INFO 	Keyboard events cleared
+2.1208 	EXP 	fixation_respond: autoDraw = True
+2.1271 	EXP 	polygon: autoDraw = False
+2.1271 	EXP 	fixation: autoDraw = False
+2.3242 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'coherence': 1, 'direction': 180, 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+2.3270 	DATA 	Keypress: right
+2.3372 	EXP 	dots: autoDraw = False
+2.3372 	EXP 	polygon: autoDraw = False
+2.3372 	EXP 	fixation: autoDraw = False
+2.3372 	EXP 	fixation_respond: autoDraw = False
+2.3372 	EXP 	dots: dir = 180.0
+2.3372 	EXP 	dots: coherence = 1.0
+2.3372 	EXP 	polygon: autoDraw = True
+2.3372 	EXP 	fixation: autoDraw = True
+2.4232 	EXP 	dots: autoDraw = True
+2.7204 	EXP 	dots: autoDraw = False
+2.9249 	INFO 	Keyboard events cleared
+2.9246 	EXP 	polygon: autoDraw = False
+2.9246 	EXP 	fixation: autoDraw = False
+2.9246 	EXP 	fixation_respond: autoDraw = True
+3.1263 	DATA 	Keypress: left
+3.1381 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'coherence': 0, 'direction': 180, 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+3.1420 	EXP 	dots: autoDraw = False
+3.1420 	EXP 	polygon: autoDraw = False
+3.1420 	EXP 	fixation: autoDraw = False
+3.1420 	EXP 	fixation_respond: autoDraw = False
+3.1420 	EXP 	dots: dir = 180.0
+3.1420 	EXP 	dots: coherence = 0.0
+3.1420 	EXP 	polygon: autoDraw = True
+3.1420 	EXP 	fixation: autoDraw = True
+3.2382 	EXP 	dots: autoDraw = True
+3.5371 	EXP 	dots: autoDraw = False
+3.7236 	INFO 	Keyboard events cleared
+3.7233 	EXP 	fixation_respond: autoDraw = True
+3.7395 	EXP 	polygon: autoDraw = False
+3.7395 	EXP 	fixation: autoDraw = False
+4.0888 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'coherence': 0.125, 'direction': 180, 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+4.0916 	DATA 	Keypress: right
+4.0945 	EXP 	dots: autoDraw = False
+4.0945 	EXP 	polygon: autoDraw = False
+4.0945 	EXP 	fixation: autoDraw = False
+4.0945 	EXP 	fixation_respond: autoDraw = False
+4.0945 	EXP 	dots: dir = 180.0
+4.0945 	EXP 	dots: coherence = 0.125
+4.0945 	EXP 	polygon: autoDraw = True
+4.0945 	EXP 	fixation: autoDraw = True
+4.1871 	EXP 	dots: autoDraw = True
+4.4728 	EXP 	dots: autoDraw = False
+4.6882 	INFO 	Keyboard events cleared
+4.6879 	EXP 	fixation_respond: autoDraw = True
+4.7048 	EXP 	polygon: autoDraw = False
+4.7048 	EXP 	fixation: autoDraw = False
+4.9065 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'coherence': 0.03125, 'direction': 180, 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+4.9091 	DATA 	Keypress: left
+4.9207 	EXP 	dots: autoDraw = False
+4.9207 	EXP 	polygon: autoDraw = False
+4.9207 	EXP 	fixation: autoDraw = False
+4.9207 	EXP 	fixation_respond: autoDraw = False
+4.9207 	EXP 	dots: dir = 180.0
+4.9207 	EXP 	dots: coherence = 0.03125
+4.9207 	EXP 	polygon: autoDraw = True
+4.9207 	EXP 	fixation: autoDraw = True
+5.0037 	EXP 	dots: autoDraw = True
+5.2908 	EXP 	dots: autoDraw = False
+5.5223 	INFO 	Keyboard events cleared
+5.5220 	EXP 	polygon: autoDraw = False
+5.5220 	EXP 	fixation: autoDraw = False
+5.5220 	EXP 	fixation_respond: autoDraw = True
+5.7068 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'coherence': 0.0625, 'direction': 180, 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+5.7176 	DATA 	Keypress: left
+5.7204 	EXP 	dots: autoDraw = False
+5.7204 	EXP 	polygon: autoDraw = False
+5.7204 	EXP 	fixation: autoDraw = False
+5.7204 	EXP 	fixation_respond: autoDraw = False
+5.7204 	EXP 	dots: dir = 180.0
+5.7204 	EXP 	dots: coherence = 0.0625
+5.7204 	EXP 	polygon: autoDraw = True
+5.7204 	EXP 	fixation: autoDraw = True
+5.8037 	EXP 	dots: autoDraw = True
+6.0893 	EXP 	dots: autoDraw = False
+6.3040 	INFO 	Keyboard events cleared
+6.3038 	EXP 	fixation_respond: autoDraw = True
+6.3064 	EXP 	polygon: autoDraw = False
+6.3064 	EXP 	fixation: autoDraw = False
+6.4580 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'coherence': 0.5, 'direction': 0, 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+6.4603 	DATA 	Keypress: left
+6.4706 	EXP 	dots: autoDraw = False
+6.4706 	EXP 	polygon: autoDraw = False
+6.4706 	EXP 	fixation: autoDraw = False
+6.4706 	EXP 	fixation_respond: autoDraw = False
+6.4706 	EXP 	dots: dir = 0.0
+6.4706 	EXP 	dots: coherence = 0.5
+6.4706 	EXP 	polygon: autoDraw = True
+6.4706 	EXP 	fixation: autoDraw = True
+6.5715 	EXP 	dots: autoDraw = True
+6.8714 	EXP 	dots: autoDraw = False
+7.0722 	INFO 	Keyboard events cleared
+7.0715 	EXP 	polygon: autoDraw = False
+7.0715 	EXP 	fixation: autoDraw = False
+7.0715 	EXP 	fixation_respond: autoDraw = True
+7.2737 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'coherence': 0, 'direction': 0, 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+7.2760 	DATA 	Keypress: right
+7.2872 	EXP 	dots: autoDraw = False
+7.2872 	EXP 	polygon: autoDraw = False
+7.2872 	EXP 	fixation: autoDraw = False
+7.2872 	EXP 	fixation_respond: autoDraw = False
+7.2872 	EXP 	dots: dir = 0.0
+7.2872 	EXP 	dots: coherence = 0.0
+7.2872 	EXP 	polygon: autoDraw = True
+7.2872 	EXP 	fixation: autoDraw = True
+7.3737 	EXP 	dots: autoDraw = True
+7.6698 	EXP 	dots: autoDraw = False
+7.8719 	INFO 	Keyboard events cleared
+7.8712 	EXP 	fixation_respond: autoDraw = True
+7.8875 	EXP 	polygon: autoDraw = False
+7.8875 	EXP 	fixation: autoDraw = False
+8.2238 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'coherence': 0.0625, 'direction': 0, 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+8.2266 	DATA 	Keypress: left
+8.2373 	EXP 	dots: autoDraw = False
+8.2373 	EXP 	polygon: autoDraw = False
+8.2373 	EXP 	fixation: autoDraw = False
+8.2373 	EXP 	fixation_respond: autoDraw = False
+8.2373 	EXP 	dots: dir = 0.0
+8.2373 	EXP 	dots: coherence = 0.0625
+8.2373 	EXP 	polygon: autoDraw = True
+8.2373 	EXP 	fixation: autoDraw = True
+8.3203 	EXP 	dots: autoDraw = True
+8.6216 	EXP 	dots: autoDraw = False
+8.8388 	INFO 	Keyboard events cleared
+8.8379 	EXP 	polygon: autoDraw = False
+8.8379 	EXP 	fixation: autoDraw = False
+8.8379 	EXP 	fixation_respond: autoDraw = True
+9.0077 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'coherence': 0.125, 'direction': 0, 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+9.0099 	DATA 	Keypress: left
+9.0205 	EXP 	dots: autoDraw = False
+9.0205 	EXP 	polygon: autoDraw = False
+9.0205 	EXP 	fixation: autoDraw = False
+9.0205 	EXP 	fixation_respond: autoDraw = False
+9.0205 	EXP 	dots: dir = 0.0
+9.0205 	EXP 	dots: coherence = 0.125
+9.0205 	EXP 	polygon: autoDraw = True
+9.0205 	EXP 	fixation: autoDraw = True
+9.1077 	EXP 	dots: autoDraw = True
+9.4210 	EXP 	dots: autoDraw = False
+9.6062 	INFO 	Keyboard events cleared
+9.6060 	EXP 	polygon: autoDraw = False
+9.6060 	EXP 	fixation: autoDraw = False
+9.6060 	EXP 	fixation_respond: autoDraw = True
+9.9553 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'coherence': 0.25, 'direction': 180, 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+9.9582 	DATA 	Keypress: right
+9.9609 	EXP 	dots: autoDraw = False
+9.9609 	EXP 	polygon: autoDraw = False
+9.9609 	EXP 	fixation: autoDraw = False
+9.9609 	EXP 	fixation_respond: autoDraw = False
+9.9609 	EXP 	dots: dir = 180.0
+9.9609 	EXP 	dots: coherence = 0.25
+9.9609 	EXP 	polygon: autoDraw = True
+9.9609 	EXP 	fixation: autoDraw = True
+10.0536 	EXP 	dots: autoDraw = True
+10.3551 	EXP 	dots: autoDraw = False
+10.5552 	INFO 	Keyboard events cleared
+10.5544 	EXP 	fixation_respond: autoDraw = True
+10.5713 	EXP 	polygon: autoDraw = False
+10.5713 	EXP 	fixation: autoDraw = False
+10.6751 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'coherence': 1, 'direction': 0, 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+10.6774 	DATA 	Keypress: left
+10.6871 	EXP 	dots: autoDraw = False
+10.6871 	EXP 	polygon: autoDraw = False
+10.6871 	EXP 	fixation: autoDraw = False
+10.6871 	EXP 	fixation_respond: autoDraw = False
+10.6871 	EXP 	dots: dir = 0.0
+10.6871 	EXP 	dots: coherence = 1.0
+10.6871 	EXP 	polygon: autoDraw = True
+10.6871 	EXP 	fixation: autoDraw = True
+10.7742 	EXP 	dots: autoDraw = True
+11.0718 	EXP 	dots: autoDraw = False
+11.2884 	INFO 	Keyboard events cleared
+11.2881 	EXP 	polygon: autoDraw = False
+11.2881 	EXP 	fixation: autoDraw = False
+11.2881 	EXP 	fixation_respond: autoDraw = True
+11.4245 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'coherence': 0.03125, 'direction': 0, 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+11.4265 	DATA 	Keypress: right
+11.4371 	EXP 	dots: autoDraw = False
+11.4371 	EXP 	polygon: autoDraw = False
+11.4371 	EXP 	fixation: autoDraw = False
+11.4371 	EXP 	fixation_respond: autoDraw = False
+11.4371 	EXP 	dots: dir = 0.0
+11.4371 	EXP 	dots: coherence = 0.03125
+11.4371 	EXP 	polygon: autoDraw = True
+11.4371 	EXP 	fixation: autoDraw = True
+11.5236 	EXP 	dots: autoDraw = True
+11.8204 	EXP 	dots: autoDraw = False
+12.0384 	INFO 	Keyboard events cleared
+12.0376 	EXP 	polygon: autoDraw = False
+12.0376 	EXP 	fixation: autoDraw = False
+12.0376 	EXP 	fixation_respond: autoDraw = True
+12.6250 	EXP 	New trial (rep=1, index=0): <Trial 14 (0 in rep 1) data={'coherence': 0, 'direction': 0, 'thisN': 14, 'thisTrialN': 0, 'thisRepN': 1}>
+12.6280 	DATA 	Keypress: right
+12.6372 	EXP 	dots: autoDraw = False
+12.6372 	EXP 	polygon: autoDraw = False
+12.6372 	EXP 	fixation: autoDraw = False
+12.6372 	EXP 	fixation_respond: autoDraw = False
+12.6372 	EXP 	dots: dir = 0.0
+12.6372 	EXP 	dots: coherence = 0.0
+12.6372 	EXP 	polygon: autoDraw = True
+12.6372 	EXP 	fixation: autoDraw = True
+12.7199 	EXP 	dots: autoDraw = True
+13.0212 	EXP 	dots: autoDraw = False
+13.2390 	INFO 	Keyboard events cleared
+13.2383 	EXP 	polygon: autoDraw = False
+13.2383 	EXP 	fixation: autoDraw = False
+13.2383 	EXP 	fixation_respond: autoDraw = True
+13.4388 	EXP 	New trial (rep=1, index=1): <Trial 15 (1 in rep 1) data={'coherence': 1, 'direction': 0, 'thisN': 15, 'thisTrialN': 1, 'thisRepN': 1}>
+13.4411 	DATA 	Keypress: right
+13.4440 	EXP 	dots: autoDraw = False
+13.4440 	EXP 	polygon: autoDraw = False
+13.4440 	EXP 	fixation: autoDraw = False
+13.4440 	EXP 	fixation_respond: autoDraw = False
+13.4440 	EXP 	dots: dir = 0.0
+13.4440 	EXP 	dots: coherence = 1.0
+13.4440 	EXP 	polygon: autoDraw = True
+13.4440 	EXP 	fixation: autoDraw = True
+13.5371 	EXP 	dots: autoDraw = True
+13.8225 	EXP 	dots: autoDraw = False
+14.0385 	INFO 	Keyboard events cleared
+14.0376 	EXP 	fixation_respond: autoDraw = True
+14.0434 	EXP 	polygon: autoDraw = False
+14.0434 	EXP 	fixation: autoDraw = False
+14.1914 	EXP 	New trial (rep=1, index=2): <Trial 16 (2 in rep 1) data={'coherence': 0.25, 'direction': 180, 'thisN': 16, 'thisTrialN': 2, 'thisRepN': 1}>
+14.1935 	DATA 	Keypress: right
+14.2038 	EXP 	dots: autoDraw = False
+14.2038 	EXP 	polygon: autoDraw = False
+14.2038 	EXP 	fixation: autoDraw = False
+14.2038 	EXP 	fixation_respond: autoDraw = False
+14.2038 	EXP 	dots: dir = 180.0
+14.2038 	EXP 	dots: coherence = 0.25
+14.2038 	EXP 	polygon: autoDraw = True
+14.2038 	EXP 	fixation: autoDraw = True
+14.2908 	EXP 	dots: autoDraw = True
+14.5892 	EXP 	dots: autoDraw = False
+14.7887 	INFO 	Keyboard events cleared
+14.7885 	EXP 	polygon: autoDraw = False
+14.7885 	EXP 	fixation: autoDraw = False
+14.7885 	EXP 	fixation_respond: autoDraw = True
+14.9447 	EXP 	New trial (rep=1, index=3): <Trial 17 (3 in rep 1) data={'coherence': 0.5, 'direction': 0, 'thisN': 17, 'thisTrialN': 3, 'thisRepN': 1}>
+14.9473 	DATA 	Keypress: left
+14.9537 	EXP 	dots: autoDraw = False
+14.9537 	EXP 	polygon: autoDraw = False
+14.9537 	EXP 	fixation: autoDraw = False
+14.9537 	EXP 	fixation_respond: autoDraw = False
+14.9537 	EXP 	dots: dir = 0.0
+14.9537 	EXP 	dots: coherence = 0.5
+14.9537 	EXP 	polygon: autoDraw = True
+14.9537 	EXP 	fixation: autoDraw = True
+15.0409 	EXP 	dots: autoDraw = True
+15.3383 	EXP 	dots: autoDraw = False
+15.5551 	INFO 	Keyboard events cleared
+15.5543 	EXP 	polygon: autoDraw = False
+15.5543 	EXP 	fixation: autoDraw = False
+15.5543 	EXP 	fixation_respond: autoDraw = True
+15.7058 	EXP 	New trial (rep=1, index=4): <Trial 18 (4 in rep 1) data={'coherence': 0.03125, 'direction': 0, 'thisN': 18, 'thisTrialN': 4, 'thisRepN': 1}>
+15.7082 	DATA 	Keypress: right
+15.7206 	EXP 	dots: autoDraw = False
+15.7206 	EXP 	polygon: autoDraw = False
+15.7206 	EXP 	fixation: autoDraw = False
+15.7206 	EXP 	fixation_respond: autoDraw = False
+15.7206 	EXP 	dots: dir = 0.0
+15.7206 	EXP 	dots: coherence = 0.03125
+15.7206 	EXP 	polygon: autoDraw = True
+15.7206 	EXP 	fixation: autoDraw = True
+15.8037 	EXP 	dots: autoDraw = True
+16.0892 	EXP 	dots: autoDraw = False
+16.3223 	INFO 	Keyboard events cleared
+16.3215 	EXP 	polygon: autoDraw = False
+16.3215 	EXP 	fixation: autoDraw = False
+16.3215 	EXP 	fixation_respond: autoDraw = True
+16.6229 	EXP 	New trial (rep=1, index=5): <Trial 19 (5 in rep 1) data={'coherence': 0, 'direction': 180, 'thisN': 19, 'thisTrialN': 5, 'thisRepN': 1}>
+16.6256 	DATA 	Keypress: right
+16.6286 	EXP 	dots: autoDraw = False
+16.6286 	EXP 	polygon: autoDraw = False
+16.6286 	EXP 	fixation: autoDraw = False
+16.6286 	EXP 	fixation_respond: autoDraw = False
+16.6286 	EXP 	dots: dir = 180.0
+16.6286 	EXP 	dots: coherence = 0.0
+16.6286 	EXP 	polygon: autoDraw = True
+16.6286 	EXP 	fixation: autoDraw = True
+16.7203 	EXP 	dots: autoDraw = True
+17.0073 	EXP 	dots: autoDraw = False
+17.2207 	INFO 	Keyboard events cleared
+17.2204 	EXP 	fixation_respond: autoDraw = True
+17.2232 	EXP 	polygon: autoDraw = False
+17.2232 	EXP 	fixation: autoDraw = False
+17.5222 	EXP 	New trial (rep=1, index=6): <Trial 20 (6 in rep 1) data={'coherence': 1, 'direction': 180, 'thisN': 20, 'thisTrialN': 6, 'thisRepN': 1}>
+17.5248 	DATA 	Keypress: left
+17.5276 	EXP 	dots: autoDraw = False
+17.5276 	EXP 	polygon: autoDraw = False
+17.5276 	EXP 	fixation: autoDraw = False
+17.5276 	EXP 	fixation_respond: autoDraw = False
+17.5276 	EXP 	dots: dir = 180.0
+17.5276 	EXP 	dots: coherence = 1.0
+17.5276 	EXP 	polygon: autoDraw = True
+17.5276 	EXP 	fixation: autoDraw = True
+17.6203 	EXP 	dots: autoDraw = True
+17.9209 	EXP 	dots: autoDraw = False
+18.1219 	INFO 	Keyboard events cleared
+18.1212 	EXP 	fixation_respond: autoDraw = True
+18.1375 	EXP 	polygon: autoDraw = False
+18.1375 	EXP 	fixation: autoDraw = False
+18.2562 	EXP 	New trial (rep=1, index=7): <Trial 21 (7 in rep 1) data={'coherence': 0.0625, 'direction': 180, 'thisN': 21, 'thisTrialN': 7, 'thisRepN': 1}>
+18.2588 	DATA 	Keypress: left
+18.2706 	EXP 	dots: autoDraw = False
+18.2706 	EXP 	polygon: autoDraw = False
+18.2706 	EXP 	fixation: autoDraw = False
+18.2706 	EXP 	fixation_respond: autoDraw = False
+18.2706 	EXP 	dots: dir = 180.0
+18.2706 	EXP 	dots: coherence = 0.0625
+18.2706 	EXP 	polygon: autoDraw = True
+18.2706 	EXP 	fixation: autoDraw = True
+18.3552 	EXP 	dots: autoDraw = True
+18.6537 	EXP 	dots: autoDraw = False
+18.8721 	INFO 	Keyboard events cleared
+18.8714 	EXP 	polygon: autoDraw = False
+18.8714 	EXP 	fixation: autoDraw = False
+18.8714 	EXP 	fixation_respond: autoDraw = True
+19.3555 	EXP 	New trial (rep=1, index=8): <Trial 22 (8 in rep 1) data={'coherence': 0.25, 'direction': 0, 'thisN': 22, 'thisTrialN': 8, 'thisRepN': 1}>
+19.3581 	DATA 	Keypress: left
+19.3611 	EXP 	dots: autoDraw = False
+19.3611 	EXP 	polygon: autoDraw = False
+19.3611 	EXP 	fixation: autoDraw = False
+19.3611 	EXP 	fixation_respond: autoDraw = False
+19.3611 	EXP 	dots: dir = 0.0
+19.3611 	EXP 	dots: coherence = 0.25
+19.3611 	EXP 	polygon: autoDraw = True
+19.3611 	EXP 	fixation: autoDraw = True
+19.4539 	EXP 	dots: autoDraw = True
+19.7392 	EXP 	dots: autoDraw = False
+19.9549 	INFO 	Keyboard events cleared
+19.9546 	EXP 	fixation_respond: autoDraw = True
+19.9719 	EXP 	polygon: autoDraw = False
+19.9719 	EXP 	fixation: autoDraw = False
+20.1224 	EXP 	New trial (rep=1, index=9): <Trial 23 (9 in rep 1) data={'coherence': 0.5, 'direction': 180, 'thisN': 23, 'thisTrialN': 9, 'thisRepN': 1}>
+20.1251 	DATA 	Keypress: right
+20.1280 	EXP 	dots: autoDraw = False
+20.1280 	EXP 	polygon: autoDraw = False
+20.1280 	EXP 	fixation: autoDraw = False
+20.1280 	EXP 	fixation_respond: autoDraw = False
+20.1280 	EXP 	dots: dir = 180.0
+20.1280 	EXP 	dots: coherence = 0.5
+20.1280 	EXP 	polygon: autoDraw = True
+20.1280 	EXP 	fixation: autoDraw = True
+20.2214 	EXP 	dots: autoDraw = True
+20.5218 	EXP 	dots: autoDraw = False
+20.7206 	INFO 	Keyboard events cleared
+20.7203 	EXP 	fixation_respond: autoDraw = True
+20.7235 	EXP 	polygon: autoDraw = False
+20.7235 	EXP 	fixation: autoDraw = False
+20.9398 	EXP 	New trial (rep=1, index=10): <Trial 24 (10 in rep 1) data={'coherence': 0.03125, 'direction': 180, 'thisN': 24, 'thisTrialN': 10, 'thisRepN': 1}>
+20.9422 	DATA 	Keypress: left
+20.9539 	EXP 	dots: autoDraw = False
+20.9539 	EXP 	polygon: autoDraw = False
+20.9539 	EXP 	fixation: autoDraw = False
+20.9539 	EXP 	fixation_respond: autoDraw = False
+20.9539 	EXP 	dots: dir = 180.0
+20.9539 	EXP 	dots: coherence = 0.03125
+20.9539 	EXP 	polygon: autoDraw = True
+20.9539 	EXP 	fixation: autoDraw = True
+21.0371 	EXP 	dots: autoDraw = True
+21.3382 	EXP 	dots: autoDraw = False
+21.5376 	INFO 	Keyboard events cleared
+21.5372 	EXP 	fixation_respond: autoDraw = True
+21.5410 	EXP 	polygon: autoDraw = False
+21.5410 	EXP 	fixation: autoDraw = False
+21.9603 	EXP 	New trial (rep=1, index=11): <Trial 25 (11 in rep 1) data={'coherence': 0.125, 'direction': 180, 'thisN': 25, 'thisTrialN': 11, 'thisRepN': 1}>
+21.9629 	DATA 	Keypress: left
+21.9703 	EXP 	dots: autoDraw = False
+21.9703 	EXP 	polygon: autoDraw = False
+21.9703 	EXP 	fixation: autoDraw = False
+21.9703 	EXP 	fixation_respond: autoDraw = False
+21.9703 	EXP 	dots: dir = 180.0
+21.9703 	EXP 	dots: coherence = 0.125
+21.9703 	EXP 	polygon: autoDraw = True
+21.9703 	EXP 	fixation: autoDraw = True
+22.0577 	EXP 	dots: autoDraw = True
+22.3559 	EXP 	dots: autoDraw = False
+22.5718 	INFO 	Keyboard events cleared
+22.5714 	EXP 	polygon: autoDraw = False
+22.5714 	EXP 	fixation: autoDraw = False
+22.5714 	EXP 	fixation_respond: autoDraw = True
+22.7564 	EXP 	New trial (rep=1, index=12): <Trial 26 (12 in rep 1) data={'coherence': 0.0625, 'direction': 0, 'thisN': 26, 'thisTrialN': 12, 'thisRepN': 1}>
+22.7587 	DATA 	Keypress: left
+22.7705 	EXP 	dots: autoDraw = False
+22.7705 	EXP 	polygon: autoDraw = False
+22.7705 	EXP 	fixation: autoDraw = False
+22.7705 	EXP 	fixation_respond: autoDraw = False
+22.7705 	EXP 	dots: dir = 0.0
+22.7705 	EXP 	dots: coherence = 0.0625
+22.7705 	EXP 	polygon: autoDraw = True
+22.7705 	EXP 	fixation: autoDraw = True
+22.8704 	EXP 	dots: autoDraw = True
+23.1586 	EXP 	dots: autoDraw = False
+23.3548 	INFO 	Keyboard events cleared
+23.3542 	EXP 	fixation_respond: autoDraw = True
+23.3584 	EXP 	polygon: autoDraw = False
+23.3584 	EXP 	fixation: autoDraw = False
+23.6055 	EXP 	New trial (rep=1, index=13): <Trial 27 (13 in rep 1) data={'coherence': 0.125, 'direction': 0, 'thisN': 27, 'thisTrialN': 13, 'thisRepN': 1}>
+23.6079 	DATA 	Keypress: left
+23.6108 	EXP 	dots: autoDraw = False
+23.6108 	EXP 	polygon: autoDraw = False
+23.6108 	EXP 	fixation: autoDraw = False
+23.6108 	EXP 	fixation_respond: autoDraw = False
+23.6108 	EXP 	dots: dir = 0.0
+23.6108 	EXP 	dots: coherence = 0.125
+23.6108 	EXP 	polygon: autoDraw = True
+23.6108 	EXP 	fixation: autoDraw = True
+23.7037 	EXP 	dots: autoDraw = True
+24.0042 	EXP 	dots: autoDraw = False
+24.2214 	INFO 	Keyboard events cleared
+24.2208 	EXP 	polygon: autoDraw = False
+24.2208 	EXP 	fixation: autoDraw = False
+24.2208 	EXP 	fixation_respond: autoDraw = True
+24.7552 	EXP 	New trial (rep=2, index=0): <Trial 28 (0 in rep 2) data={'coherence': 1, 'direction': 180, 'thisN': 28, 'thisTrialN': 0, 'thisRepN': 2}>
+24.7578 	DATA 	Keypress: right
+24.7608 	EXP 	dots: autoDraw = False
+24.7608 	EXP 	polygon: autoDraw = False
+24.7608 	EXP 	fixation: autoDraw = False
+24.7608 	EXP 	fixation_respond: autoDraw = False
+24.7608 	EXP 	dots: dir = 180.0
+24.7608 	EXP 	dots: coherence = 1.0
+24.7608 	EXP 	polygon: autoDraw = True
+24.7608 	EXP 	fixation: autoDraw = True
+24.8536 	EXP 	dots: autoDraw = True
+25.1393 	EXP 	dots: autoDraw = False
+25.3437 	INFO 	Keyboard events cleared
+25.3433 	EXP 	fixation_respond: autoDraw = True
+25.3538 	EXP 	polygon: autoDraw = False
+25.3538 	EXP 	fixation: autoDraw = False
+25.4884 	EXP 	New trial (rep=2, index=1): <Trial 29 (1 in rep 2) data={'coherence': 0.0625, 'direction': 180, 'thisN': 29, 'thisTrialN': 1, 'thisRepN': 2}>
+25.4908 	DATA 	Keypress: left
+25.4936 	EXP 	dots: autoDraw = False
+25.4936 	EXP 	polygon: autoDraw = False
+25.4936 	EXP 	fixation: autoDraw = False
+25.4936 	EXP 	fixation_respond: autoDraw = False
+25.4936 	EXP 	dots: dir = 180.0
+25.4936 	EXP 	dots: coherence = 0.0625
+25.4936 	EXP 	polygon: autoDraw = True
+25.4936 	EXP 	fixation: autoDraw = True
+25.5871 	EXP 	dots: autoDraw = True
+25.8725 	EXP 	dots: autoDraw = False
+26.0868 	INFO 	Keyboard events cleared
+26.0865 	EXP 	fixation_respond: autoDraw = True
+26.0897 	EXP 	polygon: autoDraw = False
+26.0897 	EXP 	fixation: autoDraw = False
+26.3753 	EXP 	New trial (rep=2, index=2): <Trial 30 (2 in rep 2) data={'coherence': 0.125, 'direction': 0, 'thisN': 30, 'thisTrialN': 2, 'thisRepN': 2}>
+26.3778 	DATA 	Keypress: left
+26.3871 	EXP 	dots: autoDraw = False
+26.3871 	EXP 	polygon: autoDraw = False
+26.3871 	EXP 	fixation: autoDraw = False
+26.3871 	EXP 	fixation_respond: autoDraw = False
+26.3871 	EXP 	dots: dir = 0.0
+26.3871 	EXP 	dots: coherence = 0.125
+26.3871 	EXP 	polygon: autoDraw = True
+26.3871 	EXP 	fixation: autoDraw = True
+26.4882 	EXP 	dots: autoDraw = True
+26.7878 	EXP 	dots: autoDraw = False
+26.9710 	INFO 	Keyboard events cleared
+26.9708 	EXP 	fixation_respond: autoDraw = True
+26.9886 	EXP 	polygon: autoDraw = False
+26.9886 	EXP 	fixation: autoDraw = False
+27.2222 	EXP 	New trial (rep=2, index=3): <Trial 31 (3 in rep 2) data={'coherence': 0.25, 'direction': 0, 'thisN': 31, 'thisTrialN': 3, 'thisRepN': 2}>
+27.2248 	DATA 	Keypress: right
+27.2276 	EXP 	dots: autoDraw = False
+27.2276 	EXP 	polygon: autoDraw = False
+27.2276 	EXP 	fixation: autoDraw = False
+27.2276 	EXP 	fixation_respond: autoDraw = False
+27.2276 	EXP 	dots: dir = 0.0
+27.2276 	EXP 	dots: coherence = 0.25
+27.2276 	EXP 	polygon: autoDraw = True
+27.2276 	EXP 	fixation: autoDraw = True
+27.3204 	EXP 	dots: autoDraw = True
+27.6216 	EXP 	dots: autoDraw = False
+27.8382 	INFO 	Keyboard events cleared
+27.8379 	EXP 	polygon: autoDraw = False
+27.8379 	EXP 	fixation: autoDraw = False
+27.8379 	EXP 	fixation_respond: autoDraw = True
+28.0889 	EXP 	New trial (rep=2, index=4): <Trial 32 (4 in rep 2) data={'coherence': 0.0625, 'direction': 0, 'thisN': 32, 'thisTrialN': 4, 'thisRepN': 2}>
+28.0916 	DATA 	Keypress: right
+28.0943 	EXP 	dots: autoDraw = False
+28.0943 	EXP 	polygon: autoDraw = False
+28.0943 	EXP 	fixation: autoDraw = False
+28.0943 	EXP 	fixation_respond: autoDraw = False
+28.0943 	EXP 	dots: dir = 0.0
+28.0943 	EXP 	dots: coherence = 0.0625
+28.0943 	EXP 	polygon: autoDraw = True
+28.0943 	EXP 	fixation: autoDraw = True
+28.1871 	EXP 	dots: autoDraw = True
+28.4726 	EXP 	dots: autoDraw = False
+28.6879 	INFO 	Keyboard events cleared
+28.6873 	EXP 	fixation_respond: autoDraw = True
+28.6935 	EXP 	polygon: autoDraw = False
+28.6935 	EXP 	fixation: autoDraw = False
+28.9890 	EXP 	New trial (rep=2, index=5): <Trial 33 (5 in rep 2) data={'coherence': 0.5, 'direction': 180, 'thisN': 33, 'thisTrialN': 5, 'thisRepN': 2}>
+28.9910 	DATA 	Keypress: right
+28.9938 	EXP 	dots: autoDraw = False
+28.9938 	EXP 	polygon: autoDraw = False
+28.9938 	EXP 	fixation: autoDraw = False
+28.9938 	EXP 	fixation_respond: autoDraw = False
+28.9938 	EXP 	dots: dir = 180.0
+28.9938 	EXP 	dots: coherence = 0.5
+28.9938 	EXP 	polygon: autoDraw = True
+28.9938 	EXP 	fixation: autoDraw = True
+29.0871 	EXP 	dots: autoDraw = True
+29.3881 	EXP 	dots: autoDraw = False
+29.5884 	INFO 	Keyboard events cleared
+29.5881 	EXP 	fixation_respond: autoDraw = True
+29.6046 	EXP 	polygon: autoDraw = False
+29.6046 	EXP 	fixation: autoDraw = False
+29.8912 	EXP 	New trial (rep=2, index=6): <Trial 34 (6 in rep 2) data={'coherence': 0.25, 'direction': 180, 'thisN': 34, 'thisTrialN': 6, 'thisRepN': 2}>
+29.8938 	DATA 	Keypress: left
+29.9039 	EXP 	dots: autoDraw = False
+29.9039 	EXP 	polygon: autoDraw = False
+29.9039 	EXP 	fixation: autoDraw = False
+29.9039 	EXP 	fixation_respond: autoDraw = False
+29.9039 	EXP 	dots: dir = 180.0
+29.9039 	EXP 	dots: coherence = 0.25
+29.9039 	EXP 	polygon: autoDraw = True
+29.9039 	EXP 	fixation: autoDraw = True
+29.9898 	EXP 	dots: autoDraw = True
+30.2865 	EXP 	dots: autoDraw = False
+30.4908 	INFO 	Keyboard events cleared
+30.4906 	EXP 	polygon: autoDraw = False
+30.4906 	EXP 	fixation: autoDraw = False
+30.4906 	EXP 	fixation_respond: autoDraw = True
+30.9577 	EXP 	New trial (rep=2, index=7): <Trial 35 (7 in rep 2) data={'coherence': 0.5, 'direction': 0, 'thisN': 35, 'thisTrialN': 7, 'thisRepN': 2}>
+30.9601 	DATA 	Keypress: left
+30.9705 	EXP 	dots: autoDraw = False
+30.9705 	EXP 	polygon: autoDraw = False
+30.9705 	EXP 	fixation: autoDraw = False
+30.9705 	EXP 	fixation_respond: autoDraw = False
+30.9705 	EXP 	dots: dir = 0.0
+30.9705 	EXP 	dots: coherence = 0.5
+30.9705 	EXP 	polygon: autoDraw = True
+30.9705 	EXP 	fixation: autoDraw = True
+31.0714 	EXP 	dots: autoDraw = True
+31.3708 	EXP 	dots: autoDraw = False
+31.5716 	INFO 	Keyboard events cleared
+31.5713 	EXP 	polygon: autoDraw = False
+31.5713 	EXP 	fixation: autoDraw = False
+31.5713 	EXP 	fixation_respond: autoDraw = True
+31.8385 	EXP 	New trial (rep=2, index=8): <Trial 36 (8 in rep 2) data={'coherence': 0.03125, 'direction': 0, 'thisN': 36, 'thisTrialN': 8, 'thisRepN': 2}>
+31.8409 	DATA 	Keypress: right
+31.8437 	EXP 	dots: autoDraw = False
+31.8437 	EXP 	polygon: autoDraw = False
+31.8437 	EXP 	fixation: autoDraw = False
+31.8437 	EXP 	fixation_respond: autoDraw = False
+31.8437 	EXP 	dots: dir = 0.0
+31.8437 	EXP 	dots: coherence = 0.03125
+31.8437 	EXP 	polygon: autoDraw = True
+31.8437 	EXP 	fixation: autoDraw = True
+31.9372 	EXP 	dots: autoDraw = True
+32.2382 	EXP 	dots: autoDraw = False
+32.4259 	INFO 	Keyboard events cleared
+32.4256 	EXP 	fixation_respond: autoDraw = True
+32.4405 	EXP 	polygon: autoDraw = False
+32.4405 	EXP 	fixation: autoDraw = False
+32.8386 	EXP 	New trial (rep=2, index=9): <Trial 37 (9 in rep 2) data={'coherence': 0.03125, 'direction': 180, 'thisN': 37, 'thisTrialN': 9, 'thisRepN': 2}>
+32.8408 	DATA 	Keypress: left
+32.8435 	EXP 	dots: autoDraw = False
+32.8435 	EXP 	polygon: autoDraw = False
+32.8435 	EXP 	fixation: autoDraw = False
+32.8435 	EXP 	fixation_respond: autoDraw = False
+32.8435 	EXP 	dots: dir = 180.0
+32.8435 	EXP 	dots: coherence = 0.03125
+32.8435 	EXP 	polygon: autoDraw = True
+32.8435 	EXP 	fixation: autoDraw = True
+32.9368 	EXP 	dots: autoDraw = True
+33.2377 	EXP 	dots: autoDraw = False
+33.4387 	INFO 	Keyboard events cleared
+33.4380 	EXP 	fixation_respond: autoDraw = True
+33.4550 	EXP 	polygon: autoDraw = False
+33.4550 	EXP 	fixation: autoDraw = False
+33.7237 	EXP 	New trial (rep=2, index=10): <Trial 38 (10 in rep 2) data={'coherence': 1, 'direction': 0, 'thisN': 38, 'thisTrialN': 10, 'thisRepN': 2}>
+33.7264 	DATA 	Keypress: left
+33.7294 	EXP 	dots: autoDraw = False
+33.7294 	EXP 	polygon: autoDraw = False
+33.7294 	EXP 	fixation: autoDraw = False
+33.7294 	EXP 	fixation_respond: autoDraw = False
+33.7294 	EXP 	dots: dir = 0.0
+33.7294 	EXP 	dots: coherence = 1.0
+33.7294 	EXP 	polygon: autoDraw = True
+33.7294 	EXP 	fixation: autoDraw = True
+33.8204 	EXP 	dots: autoDraw = True
+34.1219 	EXP 	dots: autoDraw = False
+34.3258 	INFO 	Keyboard events cleared
+34.3254 	EXP 	polygon: autoDraw = False
+34.3254 	EXP 	fixation: autoDraw = False
+34.3254 	EXP 	fixation_respond: autoDraw = True
+34.5393 	EXP 	New trial (rep=2, index=11): <Trial 39 (11 in rep 2) data={'coherence': 0.125, 'direction': 180, 'thisN': 39, 'thisTrialN': 11, 'thisRepN': 2}>
+34.5415 	DATA 	Keypress: right
+34.5539 	EXP 	dots: autoDraw = False
+34.5539 	EXP 	polygon: autoDraw = False
+34.5539 	EXP 	fixation: autoDraw = False
+34.5539 	EXP 	fixation_respond: autoDraw = False
+34.5539 	EXP 	dots: dir = 180.0
+34.5539 	EXP 	dots: coherence = 0.125
+34.5539 	EXP 	polygon: autoDraw = True
+34.5539 	EXP 	fixation: autoDraw = True
+34.6371 	EXP 	dots: autoDraw = True
+34.9379 	EXP 	dots: autoDraw = False
+35.1393 	INFO 	Keyboard events cleared
+35.1387 	EXP 	fixation_respond: autoDraw = True
+35.1554 	EXP 	polygon: autoDraw = False
+35.1554 	EXP 	fixation: autoDraw = False
+35.4086 	EXP 	New trial (rep=2, index=12): <Trial 40 (12 in rep 2) data={'coherence': 0, 'direction': 180, 'thisN': 40, 'thisTrialN': 12, 'thisRepN': 2}>
+35.4109 	DATA 	Keypress: left
+35.4205 	EXP 	dots: autoDraw = False
+35.4205 	EXP 	polygon: autoDraw = False
+35.4205 	EXP 	fixation: autoDraw = False
+35.4205 	EXP 	fixation_respond: autoDraw = False
+35.4205 	EXP 	dots: dir = 180.0
+35.4205 	EXP 	dots: coherence = 0.0
+35.4205 	EXP 	polygon: autoDraw = True
+35.4205 	EXP 	fixation: autoDraw = True
+35.5078 	EXP 	dots: autoDraw = True
+35.8071 	EXP 	dots: autoDraw = False
+36.0045 	INFO 	Keyboard events cleared
+36.0034 	EXP 	fixation_respond: autoDraw = True
+36.0087 	EXP 	polygon: autoDraw = False
+36.0087 	EXP 	fixation: autoDraw = False
+36.6274 	DATA 	Keypress: left
+36.6380 	EXP 	New trial (rep=2, index=13): <Trial 41 (13 in rep 2) data={'coherence': 0, 'direction': 0, 'thisN': 41, 'thisTrialN': 13, 'thisRepN': 2}>
+36.6415 	EXP 	dots: autoDraw = False
+36.6415 	EXP 	polygon: autoDraw = False
+36.6415 	EXP 	fixation: autoDraw = False
+36.6415 	EXP 	fixation_respond: autoDraw = False
+36.6415 	EXP 	dots: dir = 0.0
+36.6415 	EXP 	dots: coherence = 0.0
+36.6415 	EXP 	polygon: autoDraw = True
+36.6415 	EXP 	fixation: autoDraw = True
+36.7244 	EXP 	dots: autoDraw = True
+37.0379 	EXP 	dots: autoDraw = False
+37.2384 	INFO 	Keyboard events cleared
+37.2377 	EXP 	fixation_respond: autoDraw = True
+37.2547 	EXP 	polygon: autoDraw = False
+37.2547 	EXP 	fixation: autoDraw = False
+37.4757 	EXP 	New trial (rep=3, index=0): <Trial 42 (0 in rep 3) data={'coherence': 1, 'direction': 180, 'thisN': 42, 'thisTrialN': 0, 'thisRepN': 3}>
+37.4785 	DATA 	Keypress: right
+37.4872 	EXP 	dots: autoDraw = False
+37.4872 	EXP 	polygon: autoDraw = False
+37.4872 	EXP 	fixation: autoDraw = False
+37.4872 	EXP 	fixation_respond: autoDraw = False
+37.4872 	EXP 	dots: dir = 180.0
+37.4872 	EXP 	dots: coherence = 1.0
+37.4872 	EXP 	polygon: autoDraw = True
+37.4872 	EXP 	fixation: autoDraw = True
+37.5731 	EXP 	dots: autoDraw = True
+37.8879 	EXP 	dots: autoDraw = False
+38.0883 	INFO 	Keyboard events cleared
+38.0880 	EXP 	polygon: autoDraw = False
+38.0880 	EXP 	fixation: autoDraw = False
+38.0880 	EXP 	fixation_respond: autoDraw = True
+38.3422 	DATA 	Keypress: left
+38.3465 	EXP 	New trial (rep=3, index=1): <Trial 43 (1 in rep 3) data={'coherence': 0.0625, 'direction': 180, 'thisN': 43, 'thisTrialN': 1, 'thisRepN': 3}>
+38.3538 	EXP 	dots: autoDraw = False
+38.3538 	EXP 	polygon: autoDraw = False
+38.3538 	EXP 	fixation: autoDraw = False
+38.3538 	EXP 	fixation_respond: autoDraw = False
+38.3538 	EXP 	dots: dir = 180.0
+38.3538 	EXP 	dots: coherence = 0.0625
+38.3538 	EXP 	polygon: autoDraw = True
+38.3538 	EXP 	fixation: autoDraw = True
+38.4410 	EXP 	dots: autoDraw = True
+38.7538 	EXP 	dots: autoDraw = False
+38.9395 	INFO 	Keyboard events cleared
+38.9392 	EXP 	polygon: autoDraw = False
+38.9392 	EXP 	fixation: autoDraw = False
+38.9392 	EXP 	fixation_respond: autoDraw = True
+39.2218 	EXP 	New trial (rep=3, index=2): <Trial 44 (2 in rep 3) data={'coherence': 0.125, 'direction': 0, 'thisN': 44, 'thisTrialN': 2, 'thisRepN': 3}>
+39.2244 	DATA 	Keypress: left
+39.2273 	EXP 	dots: autoDraw = False
+39.2273 	EXP 	polygon: autoDraw = False
+39.2273 	EXP 	fixation: autoDraw = False
+39.2273 	EXP 	fixation_respond: autoDraw = False
+39.2273 	EXP 	dots: dir = 0.0
+39.2273 	EXP 	dots: coherence = 0.125
+39.2273 	EXP 	polygon: autoDraw = True
+39.2273 	EXP 	fixation: autoDraw = True
+39.3204 	EXP 	dots: autoDraw = True
+39.6211 	EXP 	dots: autoDraw = False
+39.8221 	INFO 	Keyboard events cleared
+39.8213 	EXP 	fixation_respond: autoDraw = True
+39.8373 	EXP 	polygon: autoDraw = False
+39.8373 	EXP 	fixation: autoDraw = False
+40.2226 	EXP 	New trial (rep=3, index=3): <Trial 45 (3 in rep 3) data={'coherence': 0.0625, 'direction': 0, 'thisN': 45, 'thisTrialN': 3, 'thisRepN': 3}>
+40.2249 	DATA 	Keypress: right
+40.2373 	EXP 	dots: autoDraw = False
+40.2373 	EXP 	polygon: autoDraw = False
+40.2373 	EXP 	fixation: autoDraw = False
+40.2373 	EXP 	fixation_respond: autoDraw = False
+40.2373 	EXP 	dots: dir = 0.0
+40.2373 	EXP 	dots: coherence = 0.0625
+40.2373 	EXP 	polygon: autoDraw = True
+40.2373 	EXP 	fixation: autoDraw = True
+40.3205 	EXP 	dots: autoDraw = True
+40.6058 	EXP 	dots: autoDraw = False
+40.8379 	INFO 	Keyboard events cleared
+40.8376 	EXP 	polygon: autoDraw = False
+40.8376 	EXP 	fixation: autoDraw = False
+40.8376 	EXP 	fixation_respond: autoDraw = True
+41.0894 	EXP 	New trial (rep=3, index=4): <Trial 46 (4 in rep 3) data={'coherence': 0.5, 'direction': 0, 'thisN': 46, 'thisTrialN': 4, 'thisRepN': 3}>
+41.0920 	DATA 	Keypress: right
+41.1038 	EXP 	dots: autoDraw = False
+41.1038 	EXP 	polygon: autoDraw = False
+41.1038 	EXP 	fixation: autoDraw = False
+41.1038 	EXP 	fixation_respond: autoDraw = False
+41.1038 	EXP 	dots: dir = 0.0
+41.1038 	EXP 	dots: coherence = 0.5
+41.1038 	EXP 	polygon: autoDraw = True
+41.1038 	EXP 	fixation: autoDraw = True
+41.1866 	EXP 	dots: autoDraw = True
+41.4727 	EXP 	dots: autoDraw = False
+41.6878 	INFO 	Keyboard events cleared
+41.6875 	EXP 	fixation_respond: autoDraw = True
+41.7049 	EXP 	polygon: autoDraw = False
+41.7049 	EXP 	fixation: autoDraw = False
+41.8935 	EXP 	New trial (rep=3, index=5): <Trial 47 (5 in rep 3) data={'coherence': 0, 'direction': 0, 'thisN': 47, 'thisTrialN': 5, 'thisRepN': 3}>
+41.8958 	DATA 	Keypress: right
+41.9037 	EXP 	dots: autoDraw = False
+41.9037 	EXP 	polygon: autoDraw = False
+41.9037 	EXP 	fixation: autoDraw = False
+41.9037 	EXP 	fixation_respond: autoDraw = False
+41.9037 	EXP 	dots: dir = 0.0
+41.9037 	EXP 	dots: coherence = 0.0
+41.9037 	EXP 	polygon: autoDraw = True
+41.9037 	EXP 	fixation: autoDraw = True
+41.9918 	EXP 	dots: autoDraw = True
+42.3051 	EXP 	dots: autoDraw = False
+42.5051 	INFO 	Keyboard events cleared
+42.5044 	EXP 	polygon: autoDraw = False
+42.5044 	EXP 	fixation: autoDraw = False
+42.5044 	EXP 	fixation_respond: autoDraw = True
+43.0398 	EXP 	New trial (rep=3, index=6): <Trial 48 (6 in rep 3) data={'coherence': 0.25, 'direction': 0, 'thisN': 48, 'thisTrialN': 6, 'thisRepN': 3}>
+43.0416 	DATA 	Keypress: right
+43.0440 	EXP 	dots: autoDraw = False
+43.0440 	EXP 	polygon: autoDraw = False
+43.0440 	EXP 	fixation: autoDraw = False
+43.0440 	EXP 	fixation_respond: autoDraw = False
+43.0440 	EXP 	dots: dir = 0.0
+43.0440 	EXP 	dots: coherence = 0.25
+43.0440 	EXP 	polygon: autoDraw = True
+43.0440 	EXP 	fixation: autoDraw = True
+43.1370 	EXP 	dots: autoDraw = True
+43.4242 	EXP 	dots: autoDraw = False
+43.6550 	INFO 	Keyboard events cleared
+43.6542 	EXP 	polygon: autoDraw = False
+43.6542 	EXP 	fixation: autoDraw = False
+43.6542 	EXP 	fixation_respond: autoDraw = True
+43.8886 	EXP 	New trial (rep=3, index=7): <Trial 49 (7 in rep 3) data={'coherence': 0.5, 'direction': 180, 'thisN': 49, 'thisTrialN': 7, 'thisRepN': 3}>
+43.8912 	DATA 	Keypress: right
+43.8941 	EXP 	dots: autoDraw = False
+43.8941 	EXP 	polygon: autoDraw = False
+43.8941 	EXP 	fixation: autoDraw = False
+43.8941 	EXP 	fixation_respond: autoDraw = False
+43.8941 	EXP 	dots: dir = 180.0
+43.8941 	EXP 	dots: coherence = 0.5
+43.8941 	EXP 	polygon: autoDraw = True
+43.8941 	EXP 	fixation: autoDraw = True
+43.9871 	EXP 	dots: autoDraw = True
+44.2880 	EXP 	dots: autoDraw = False
+44.4883 	INFO 	Keyboard events cleared
+44.4880 	EXP 	fixation_respond: autoDraw = True
+44.5047 	EXP 	polygon: autoDraw = False
+44.5047 	EXP 	fixation: autoDraw = False
+44.7385 	EXP 	New trial (rep=3, index=8): <Trial 50 (8 in rep 3) data={'coherence': 0.25, 'direction': 180, 'thisN': 50, 'thisTrialN': 8, 'thisRepN': 3}>
+44.7411 	DATA 	Keypress: left
+44.7441 	EXP 	dots: autoDraw = False
+44.7441 	EXP 	polygon: autoDraw = False
+44.7441 	EXP 	fixation: autoDraw = False
+44.7441 	EXP 	fixation_respond: autoDraw = False
+44.7441 	EXP 	dots: dir = 180.0
+44.7441 	EXP 	dots: coherence = 0.25
+44.7441 	EXP 	polygon: autoDraw = True
+44.7441 	EXP 	fixation: autoDraw = True
+44.8370 	EXP 	dots: autoDraw = True
+45.1377 	EXP 	dots: autoDraw = False
+45.3373 	INFO 	Keyboard events cleared
+45.3371 	EXP 	fixation_respond: autoDraw = True
+45.3424 	EXP 	polygon: autoDraw = False
+45.3424 	EXP 	fixation: autoDraw = False
+45.5743 	EXP 	New trial (rep=3, index=9): <Trial 51 (9 in rep 3) data={'coherence': 0.03125, 'direction': 0, 'thisN': 51, 'thisTrialN': 9, 'thisRepN': 3}>
+45.5764 	DATA 	Keypress: left
+45.5871 	EXP 	dots: autoDraw = False
+45.5871 	EXP 	polygon: autoDraw = False
+45.5871 	EXP 	fixation: autoDraw = False
+45.5871 	EXP 	fixation_respond: autoDraw = False
+45.5871 	EXP 	dots: dir = 0.0
+45.5871 	EXP 	dots: coherence = 0.03125
+45.5871 	EXP 	polygon: autoDraw = True
+45.5871 	EXP 	fixation: autoDraw = True
+45.6732 	EXP 	dots: autoDraw = True
+45.9704 	EXP 	dots: autoDraw = False
+46.1720 	INFO 	Keyboard events cleared
+46.1718 	EXP 	polygon: autoDraw = False
+46.1718 	EXP 	fixation: autoDraw = False
+46.1718 	EXP 	fixation_respond: autoDraw = True
+46.4065 	EXP 	New trial (rep=3, index=10): <Trial 52 (10 in rep 3) data={'coherence': 0, 'direction': 180, 'thisN': 52, 'thisTrialN': 10, 'thisRepN': 3}>
+46.4092 	DATA 	Keypress: left
+46.4204 	EXP 	dots: autoDraw = False
+46.4204 	EXP 	polygon: autoDraw = False
+46.4204 	EXP 	fixation: autoDraw = False
+46.4204 	EXP 	fixation_respond: autoDraw = False
+46.4204 	EXP 	dots: dir = 180.0
+46.4204 	EXP 	dots: coherence = 0.0
+46.4204 	EXP 	polygon: autoDraw = True
+46.4204 	EXP 	fixation: autoDraw = True
+46.5037 	EXP 	dots: autoDraw = True
+46.7893 	EXP 	dots: autoDraw = False
+47.0041 	INFO 	Keyboard events cleared
+47.0038 	EXP 	fixation_respond: autoDraw = True
+47.0074 	EXP 	polygon: autoDraw = False
+47.0074 	EXP 	fixation: autoDraw = False
+47.3082 	EXP 	New trial (rep=3, index=11): <Trial 53 (11 in rep 3) data={'coherence': 0.125, 'direction': 180, 'thisN': 53, 'thisTrialN': 11, 'thisRepN': 3}>
+47.3105 	DATA 	Keypress: left
+47.3204 	EXP 	dots: autoDraw = False
+47.3204 	EXP 	polygon: autoDraw = False
+47.3204 	EXP 	fixation: autoDraw = False
+47.3204 	EXP 	fixation_respond: autoDraw = False
+47.3204 	EXP 	dots: dir = 180.0
+47.3204 	EXP 	dots: coherence = 0.125
+47.3204 	EXP 	polygon: autoDraw = True
+47.3204 	EXP 	fixation: autoDraw = True
+47.4070 	EXP 	dots: autoDraw = True
+47.7217 	EXP 	dots: autoDraw = False
+47.9218 	INFO 	Keyboard events cleared
+47.9210 	EXP 	polygon: autoDraw = False
+47.9210 	EXP 	fixation: autoDraw = False
+47.9210 	EXP 	fixation_respond: autoDraw = True
+48.2059 	EXP 	New trial (rep=3, index=12): <Trial 54 (12 in rep 3) data={'coherence': 1, 'direction': 0, 'thisN': 54, 'thisTrialN': 12, 'thisRepN': 3}>
+48.2082 	DATA 	Keypress: left
+48.2206 	EXP 	dots: autoDraw = False
+48.2206 	EXP 	polygon: autoDraw = False
+48.2206 	EXP 	fixation: autoDraw = False
+48.2206 	EXP 	fixation_respond: autoDraw = False
+48.2206 	EXP 	dots: dir = 0.0
+48.2206 	EXP 	dots: coherence = 1.0
+48.2206 	EXP 	polygon: autoDraw = True
+48.2206 	EXP 	fixation: autoDraw = True
+48.3037 	EXP 	dots: autoDraw = True
+48.5892 	EXP 	dots: autoDraw = False
+48.8216 	INFO 	Keyboard events cleared
+48.8209 	EXP 	polygon: autoDraw = False
+48.8209 	EXP 	fixation: autoDraw = False
+48.8209 	EXP 	fixation_respond: autoDraw = True
+48.9908 	EXP 	New trial (rep=3, index=13): <Trial 55 (13 in rep 3) data={'coherence': 0.03125, 'direction': 180, 'thisN': 55, 'thisTrialN': 13, 'thisRepN': 3}>
+48.9934 	DATA 	Keypress: right
+48.9964 	EXP 	dots: autoDraw = False
+48.9964 	EXP 	polygon: autoDraw = False
+48.9964 	EXP 	fixation: autoDraw = False
+48.9964 	EXP 	fixation_respond: autoDraw = False
+48.9964 	EXP 	dots: dir = 180.0
+48.9964 	EXP 	dots: coherence = 0.03125
+48.9964 	EXP 	polygon: autoDraw = True
+48.9964 	EXP 	fixation: autoDraw = True
+49.0910 	EXP 	dots: autoDraw = True
+49.4046 	EXP 	dots: autoDraw = False
+49.5934 	INFO 	Keyboard events cleared
+49.5929 	EXP 	polygon: autoDraw = False
+49.5929 	EXP 	fixation: autoDraw = False
+49.5929 	EXP 	fixation_respond: autoDraw = True
+49.8743 	EXP 	New trial (rep=4, index=0): <Trial 56 (0 in rep 4) data={'coherence': 0.0625, 'direction': 0, 'thisN': 56, 'thisTrialN': 0, 'thisRepN': 4}>
+49.8764 	DATA 	Keypress: left
+49.8872 	EXP 	dots: autoDraw = False
+49.8872 	EXP 	polygon: autoDraw = False
+49.8872 	EXP 	fixation: autoDraw = False
+49.8872 	EXP 	fixation_respond: autoDraw = False
+49.8872 	EXP 	dots: dir = 0.0
+49.8872 	EXP 	dots: coherence = 0.0625
+49.8872 	EXP 	polygon: autoDraw = True
+49.8872 	EXP 	fixation: autoDraw = True
+49.9696 	EXP 	dots: autoDraw = True
+50.2705 	EXP 	dots: autoDraw = False
+50.4708 	INFO 	Keyboard events cleared
+50.4704 	EXP 	fixation_respond: autoDraw = True
+50.4742 	EXP 	polygon: autoDraw = False
+50.4742 	EXP 	fixation: autoDraw = False
+50.7220 	EXP 	New trial (rep=4, index=1): <Trial 57 (1 in rep 4) data={'coherence': 0.0625, 'direction': 180, 'thisN': 57, 'thisTrialN': 1, 'thisRepN': 4}>
+50.7248 	DATA 	Keypress: left
+50.7278 	EXP 	dots: autoDraw = False
+50.7278 	EXP 	polygon: autoDraw = False
+50.7278 	EXP 	fixation: autoDraw = False
+50.7278 	EXP 	fixation_respond: autoDraw = False
+50.7278 	EXP 	dots: dir = 180.0
+50.7278 	EXP 	dots: coherence = 0.0625
+50.7278 	EXP 	polygon: autoDraw = True
+50.7278 	EXP 	fixation: autoDraw = True
+50.8205 	EXP 	dots: autoDraw = True
+51.1208 	EXP 	dots: autoDraw = False
+51.3225 	INFO 	Keyboard events cleared
+51.3218 	EXP 	fixation_respond: autoDraw = True
+51.3379 	EXP 	polygon: autoDraw = False
+51.3379 	EXP 	fixation: autoDraw = False
+51.7055 	EXP 	New trial (rep=4, index=2): <Trial 58 (2 in rep 4) data={'coherence': 0.25, 'direction': 0, 'thisN': 58, 'thisTrialN': 2, 'thisRepN': 4}>
+51.7082 	DATA 	Keypress: right
+51.7111 	EXP 	dots: autoDraw = False
+51.7111 	EXP 	polygon: autoDraw = False
+51.7111 	EXP 	fixation: autoDraw = False
+51.7111 	EXP 	fixation_respond: autoDraw = False
+51.7111 	EXP 	dots: dir = 0.0
+51.7111 	EXP 	dots: coherence = 0.25
+51.7111 	EXP 	polygon: autoDraw = True
+51.7111 	EXP 	fixation: autoDraw = True
+51.8037 	EXP 	dots: autoDraw = True
+52.0892 	EXP 	dots: autoDraw = False
+52.3047 	INFO 	Keyboard events cleared
+52.3039 	EXP 	fixation_respond: autoDraw = True
+52.3090 	EXP 	polygon: autoDraw = False
+52.3090 	EXP 	fixation: autoDraw = False
+52.6063 	EXP 	New trial (rep=4, index=3): <Trial 59 (3 in rep 4) data={'coherence': 0.03125, 'direction': 180, 'thisN': 59, 'thisTrialN': 3, 'thisRepN': 4}>
+52.6088 	DATA 	Keypress: right
+52.6206 	EXP 	dots: autoDraw = False
+52.6206 	EXP 	polygon: autoDraw = False
+52.6206 	EXP 	fixation: autoDraw = False
+52.6206 	EXP 	fixation_respond: autoDraw = False
+52.6206 	EXP 	dots: dir = 180.0
+52.6206 	EXP 	dots: coherence = 0.03125
+52.6206 	EXP 	polygon: autoDraw = True
+52.6206 	EXP 	fixation: autoDraw = True
+52.7213 	EXP 	dots: autoDraw = True
+53.0213 	EXP 	dots: autoDraw = False
+53.2226 	INFO 	Keyboard events cleared
+53.2220 	EXP 	polygon: autoDraw = False
+53.2220 	EXP 	fixation: autoDraw = False
+53.2220 	EXP 	fixation_respond: autoDraw = True
+53.4757 	DATA 	Keypress: right
+53.4794 	EXP 	New trial (rep=4, index=4): <Trial 60 (4 in rep 4) data={'coherence': 0.03125, 'direction': 0, 'thisN': 60, 'thisTrialN': 4, 'thisRepN': 4}>
+53.4871 	EXP 	dots: autoDraw = False
+53.4871 	EXP 	polygon: autoDraw = False
+53.4871 	EXP 	fixation: autoDraw = False
+53.4871 	EXP 	fixation_respond: autoDraw = False
+53.4871 	EXP 	dots: dir = 0.0
+53.4871 	EXP 	dots: coherence = 0.03125
+53.4871 	EXP 	polygon: autoDraw = True
+53.4871 	EXP 	fixation: autoDraw = True
+53.5746 	EXP 	dots: autoDraw = True
+53.8729 	EXP 	dots: autoDraw = False
+54.0884 	INFO 	Keyboard events cleared
+54.0876 	EXP 	polygon: autoDraw = False
+54.0876 	EXP 	fixation: autoDraw = False
+54.0876 	EXP 	fixation_respond: autoDraw = True
+54.4219 	EXP 	New trial (rep=4, index=5): <Trial 61 (5 in rep 4) data={'coherence': 0.25, 'direction': 180, 'thisN': 61, 'thisTrialN': 5, 'thisRepN': 4}>
+54.4243 	DATA 	Keypress: right
+54.4272 	EXP 	dots: autoDraw = False
+54.4272 	EXP 	polygon: autoDraw = False
+54.4272 	EXP 	fixation: autoDraw = False
+54.4272 	EXP 	fixation_respond: autoDraw = False
+54.4272 	EXP 	dots: dir = 180.0
+54.4272 	EXP 	dots: coherence = 0.25
+54.4272 	EXP 	polygon: autoDraw = True
+54.4272 	EXP 	fixation: autoDraw = True
+54.5204 	EXP 	dots: autoDraw = True
+54.8206 	EXP 	dots: autoDraw = False
+55.0214 	INFO 	Keyboard events cleared
+55.0210 	EXP 	fixation_respond: autoDraw = True
+55.0373 	EXP 	polygon: autoDraw = False
+55.0373 	EXP 	fixation: autoDraw = False
+55.2402 	EXP 	New trial (rep=4, index=6): <Trial 62 (6 in rep 4) data={'coherence': 0, 'direction': 180, 'thisN': 62, 'thisTrialN': 6, 'thisRepN': 4}>
+55.2428 	DATA 	Keypress: left
+55.2458 	EXP 	dots: autoDraw = False
+55.2458 	EXP 	polygon: autoDraw = False
+55.2458 	EXP 	fixation: autoDraw = False
+55.2458 	EXP 	fixation_respond: autoDraw = False
+55.2458 	EXP 	dots: dir = 180.0
+55.2458 	EXP 	dots: coherence = 0.0
+55.2458 	EXP 	polygon: autoDraw = True
+55.2458 	EXP 	fixation: autoDraw = True
+55.3370 	EXP 	dots: autoDraw = True
+55.6267 	EXP 	dots: autoDraw = False
+55.8385 	INFO 	Keyboard events cleared
+55.8383 	EXP 	fixation_respond: autoDraw = True
+55.8545 	EXP 	polygon: autoDraw = False
+55.8545 	EXP 	fixation: autoDraw = False
+56.1404 	EXP 	New trial (rep=4, index=7): <Trial 63 (7 in rep 4) data={'coherence': 1, 'direction': 180, 'thisN': 63, 'thisTrialN': 7, 'thisRepN': 4}>
+56.1432 	DATA 	Keypress: left
+56.1539 	EXP 	dots: autoDraw = False
+56.1539 	EXP 	polygon: autoDraw = False
+56.1539 	EXP 	fixation: autoDraw = False
+56.1539 	EXP 	fixation_respond: autoDraw = False
+56.1539 	EXP 	dots: dir = 180.0
+56.1539 	EXP 	dots: coherence = 1.0
+56.1539 	EXP 	polygon: autoDraw = True
+56.1539 	EXP 	fixation: autoDraw = True
+56.2544 	EXP 	dots: autoDraw = True
+56.5543 	EXP 	dots: autoDraw = False
+56.7551 	INFO 	Keyboard events cleared
+56.7542 	EXP 	polygon: autoDraw = False
+56.7542 	EXP 	fixation: autoDraw = False
+56.7542 	EXP 	fixation_respond: autoDraw = True
+56.9391 	EXP 	New trial (rep=4, index=8): <Trial 64 (8 in rep 4) data={'coherence': 0, 'direction': 0, 'thisN': 64, 'thisTrialN': 8, 'thisRepN': 4}>
+56.9411 	DATA 	Keypress: left
+56.9429 	EXP 	dots: autoDraw = False
+56.9429 	EXP 	polygon: autoDraw = False
+56.9429 	EXP 	fixation: autoDraw = False
+56.9429 	EXP 	fixation_respond: autoDraw = False
+56.9429 	EXP 	dots: dir = 0.0
+56.9429 	EXP 	dots: coherence = 0.0
+56.9429 	EXP 	polygon: autoDraw = True
+56.9429 	EXP 	fixation: autoDraw = True
+57.0362 	EXP 	dots: autoDraw = True
+57.3228 	EXP 	dots: autoDraw = False
+57.5369 	INFO 	Keyboard events cleared
+57.5366 	EXP 	polygon: autoDraw = False
+57.5366 	EXP 	fixation: autoDraw = False
+57.5366 	EXP 	fixation_respond: autoDraw = True
+57.7735 	EXP 	New trial (rep=4, index=9): <Trial 65 (9 in rep 4) data={'coherence': 0.125, 'direction': 0, 'thisN': 65, 'thisTrialN': 9, 'thisRepN': 4}>
+57.7764 	DATA 	Keypress: right
+57.7872 	EXP 	dots: autoDraw = False
+57.7872 	EXP 	polygon: autoDraw = False
+57.7872 	EXP 	fixation: autoDraw = False
+57.7872 	EXP 	fixation_respond: autoDraw = False
+57.7872 	EXP 	dots: dir = 0.0
+57.7872 	EXP 	dots: coherence = 0.125
+57.7872 	EXP 	polygon: autoDraw = True
+57.7872 	EXP 	fixation: autoDraw = True
+57.8704 	EXP 	dots: autoDraw = True
+58.1559 	EXP 	dots: autoDraw = False
+58.3888 	INFO 	Keyboard events cleared
+58.3885 	EXP 	polygon: autoDraw = False
+58.3885 	EXP 	fixation: autoDraw = False
+58.3885 	EXP 	fixation_respond: autoDraw = True
+58.6387 	EXP 	New trial (rep=4, index=10): <Trial 66 (10 in rep 4) data={'coherence': 0.125, 'direction': 180, 'thisN': 66, 'thisTrialN': 10, 'thisRepN': 4}>
+58.6410 	DATA 	Keypress: right
+58.6440 	EXP 	dots: autoDraw = False
+58.6440 	EXP 	polygon: autoDraw = False
+58.6440 	EXP 	fixation: autoDraw = False
+58.6440 	EXP 	fixation_respond: autoDraw = False
+58.6440 	EXP 	dots: dir = 180.0
+58.6440 	EXP 	dots: coherence = 0.125
+58.6440 	EXP 	polygon: autoDraw = True
+58.6440 	EXP 	fixation: autoDraw = True
+58.7371 	EXP 	dots: autoDraw = True
+59.0228 	EXP 	dots: autoDraw = False
+59.2373 	INFO 	Keyboard events cleared
+59.2370 	EXP 	fixation_respond: autoDraw = True
+59.2396 	EXP 	polygon: autoDraw = False
+59.2396 	EXP 	fixation: autoDraw = False
+59.6888 	EXP 	New trial (rep=4, index=11): <Trial 67 (11 in rep 4) data={'coherence': 0.5, 'direction': 180, 'thisN': 67, 'thisTrialN': 11, 'thisRepN': 4}>
+59.6913 	DATA 	Keypress: left
+59.6941 	EXP 	dots: autoDraw = False
+59.6941 	EXP 	polygon: autoDraw = False
+59.6941 	EXP 	fixation: autoDraw = False
+59.6941 	EXP 	fixation_respond: autoDraw = False
+59.6941 	EXP 	dots: dir = 180.0
+59.6941 	EXP 	dots: coherence = 0.5
+59.6941 	EXP 	polygon: autoDraw = True
+59.6941 	EXP 	fixation: autoDraw = True
+59.7883 	EXP 	dots: autoDraw = True
+60.0881 	EXP 	dots: autoDraw = False
+60.2873 	INFO 	Keyboard events cleared
+60.2870 	EXP 	fixation_respond: autoDraw = True
+60.2902 	EXP 	polygon: autoDraw = False
+60.2902 	EXP 	fixation: autoDraw = False
+60.4568 	EXP 	New trial (rep=4, index=12): <Trial 68 (12 in rep 4) data={'coherence': 0.5, 'direction': 0, 'thisN': 68, 'thisTrialN': 12, 'thisRepN': 4}>
+60.4592 	DATA 	Keypress: left
+60.4622 	EXP 	dots: autoDraw = False
+60.4622 	EXP 	polygon: autoDraw = False
+60.4622 	EXP 	fixation: autoDraw = False
+60.4622 	EXP 	fixation_respond: autoDraw = False
+60.4622 	EXP 	dots: dir = 0.0
+60.4622 	EXP 	dots: coherence = 0.5
+60.4622 	EXP 	polygon: autoDraw = True
+60.4622 	EXP 	fixation: autoDraw = True
+60.5537 	EXP 	dots: autoDraw = True
+60.8540 	EXP 	dots: autoDraw = False
+61.0722 	INFO 	Keyboard events cleared
+61.0715 	EXP 	polygon: autoDraw = False
+61.0715 	EXP 	fixation: autoDraw = False
+61.0715 	EXP 	fixation_respond: autoDraw = True
+61.3061 	EXP 	New trial (rep=4, index=13): <Trial 69 (13 in rep 4) data={'coherence': 1, 'direction': 0, 'thisN': 69, 'thisTrialN': 13, 'thisRepN': 4}>
+61.3084 	DATA 	Keypress: right
+61.3203 	EXP 	dots: autoDraw = False
+61.3203 	EXP 	polygon: autoDraw = False
+61.3203 	EXP 	fixation: autoDraw = False
+61.3203 	EXP 	fixation_respond: autoDraw = False
+61.3203 	EXP 	dots: dir = 0.0
+61.3203 	EXP 	dots: coherence = 1.0
+61.3203 	EXP 	polygon: autoDraw = True
+61.3203 	EXP 	fixation: autoDraw = True
+61.4049 	EXP 	dots: autoDraw = True
+61.7037 	EXP 	dots: autoDraw = False
+61.9050 	INFO 	Keyboard events cleared
+61.9047 	EXP 	fixation_respond: autoDraw = True
+61.9214 	EXP 	polygon: autoDraw = False
+61.9214 	EXP 	fixation: autoDraw = False
+62.0928 	DATA 	Keypress: right
+62.1048 	EXP 	New trial (rep=5, index=0): <Trial 70 (0 in rep 5) data={'coherence': 1, 'direction': 0, 'thisN': 70, 'thisTrialN': 0, 'thisRepN': 5}>
+62.1078 	EXP 	dots: autoDraw = False
+62.1078 	EXP 	polygon: autoDraw = False
+62.1078 	EXP 	fixation: autoDraw = False
+62.1078 	EXP 	fixation_respond: autoDraw = False
+62.1078 	EXP 	dots: dir = 0.0
+62.1078 	EXP 	dots: coherence = 1.0
+62.1078 	EXP 	polygon: autoDraw = True
+62.1078 	EXP 	fixation: autoDraw = True
+62.2037 	EXP 	dots: autoDraw = True
+62.4904 	EXP 	dots: autoDraw = False
+62.7039 	INFO 	Keyboard events cleared
+62.7037 	EXP 	fixation_respond: autoDraw = True
+62.7073 	EXP 	polygon: autoDraw = False
+62.7073 	EXP 	fixation: autoDraw = False
+62.9249 	EXP 	New trial (rep=5, index=1): <Trial 71 (1 in rep 5) data={'coherence': 0.25, 'direction': 0, 'thisN': 71, 'thisTrialN': 1, 'thisRepN': 5}>
+62.9275 	DATA 	Keypress: right
+62.9371 	EXP 	dots: autoDraw = False
+62.9371 	EXP 	polygon: autoDraw = False
+62.9371 	EXP 	fixation: autoDraw = False
+62.9371 	EXP 	fixation_respond: autoDraw = False
+62.9371 	EXP 	dots: dir = 0.0
+62.9371 	EXP 	dots: coherence = 0.25
+62.9371 	EXP 	polygon: autoDraw = True
+62.9371 	EXP 	fixation: autoDraw = True
+63.0242 	EXP 	dots: autoDraw = True
+63.3227 	EXP 	dots: autoDraw = False
+63.5381 	INFO 	Keyboard events cleared
+63.5378 	EXP 	polygon: autoDraw = False
+63.5378 	EXP 	fixation: autoDraw = False
+63.5378 	EXP 	fixation_respond: autoDraw = True
+63.8719 	EXP 	New trial (rep=5, index=2): <Trial 72 (2 in rep 5) data={'coherence': 0.0625, 'direction': 180, 'thisN': 72, 'thisTrialN': 2, 'thisRepN': 5}>
+63.8744 	DATA 	Keypress: right
+63.8772 	EXP 	dots: autoDraw = False
+63.8772 	EXP 	polygon: autoDraw = False
+63.8772 	EXP 	fixation: autoDraw = False
+63.8772 	EXP 	fixation_respond: autoDraw = False
+63.8772 	EXP 	dots: dir = 180.0
+63.8772 	EXP 	dots: coherence = 0.0625
+63.8772 	EXP 	polygon: autoDraw = True
+63.8772 	EXP 	fixation: autoDraw = True
+63.9710 	EXP 	dots: autoDraw = True
+64.2714 	EXP 	dots: autoDraw = False
+64.4716 	INFO 	Keyboard events cleared
+64.4713 	EXP 	fixation_respond: autoDraw = True
+64.4885 	EXP 	polygon: autoDraw = False
+64.4885 	EXP 	fixation: autoDraw = False
+64.8392 	EXP 	New trial (rep=5, index=3): <Trial 73 (3 in rep 5) data={'coherence': 0.03125, 'direction': 0, 'thisN': 73, 'thisTrialN': 3, 'thisRepN': 5}>
+64.8423 	DATA 	Keypress: right
+64.8454 	EXP 	dots: autoDraw = False
+64.8454 	EXP 	polygon: autoDraw = False
+64.8454 	EXP 	fixation: autoDraw = False
+64.8454 	EXP 	fixation_respond: autoDraw = False
+64.8454 	EXP 	dots: dir = 0.0
+64.8454 	EXP 	dots: coherence = 0.03125
+64.8454 	EXP 	polygon: autoDraw = True
+64.8454 	EXP 	fixation: autoDraw = True
+64.9370 	EXP 	dots: autoDraw = True
+65.2387 	EXP 	dots: autoDraw = False
+65.4383 	INFO 	Keyboard events cleared
+65.4380 	EXP 	fixation_respond: autoDraw = True
+65.4549 	EXP 	polygon: autoDraw = False
+65.4549 	EXP 	fixation: autoDraw = False
+65.6895 	EXP 	New trial (rep=5, index=4): <Trial 74 (4 in rep 5) data={'coherence': 0, 'direction': 180, 'thisN': 74, 'thisTrialN': 4, 'thisRepN': 5}>
+65.6918 	DATA 	Keypress: left
+65.7039 	EXP 	dots: autoDraw = False
+65.7039 	EXP 	polygon: autoDraw = False
+65.7039 	EXP 	fixation: autoDraw = False
+65.7039 	EXP 	fixation_respond: autoDraw = False
+65.7039 	EXP 	dots: dir = 180.0
+65.7039 	EXP 	dots: coherence = 0.0
+65.7039 	EXP 	polygon: autoDraw = True
+65.7039 	EXP 	fixation: autoDraw = True
+65.7872 	EXP 	dots: autoDraw = True
+66.0725 	EXP 	dots: autoDraw = False
+66.3053 	INFO 	Keyboard events cleared
+66.3046 	EXP 	polygon: autoDraw = False
+66.3046 	EXP 	fixation: autoDraw = False
+66.3046 	EXP 	fixation_respond: autoDraw = True
+66.5225 	EXP 	New trial (rep=5, index=5): <Trial 75 (5 in rep 5) data={'coherence': 1, 'direction': 180, 'thisN': 75, 'thisTrialN': 5, 'thisRepN': 5}>
+66.5248 	DATA 	Keypress: left
+66.5372 	EXP 	dots: autoDraw = False
+66.5372 	EXP 	polygon: autoDraw = False
+66.5372 	EXP 	fixation: autoDraw = False
+66.5372 	EXP 	fixation_respond: autoDraw = False
+66.5372 	EXP 	dots: dir = 180.0
+66.5372 	EXP 	dots: coherence = 1.0
+66.5372 	EXP 	polygon: autoDraw = True
+66.5372 	EXP 	fixation: autoDraw = True
+66.6203 	EXP 	dots: autoDraw = True
+66.9218 	EXP 	dots: autoDraw = False
+67.1217 	INFO 	Keyboard events cleared
+67.1209 	EXP 	fixation_respond: autoDraw = True
+67.1251 	EXP 	polygon: autoDraw = False
+67.1251 	EXP 	fixation: autoDraw = False
+67.3762 	EXP 	New trial (rep=5, index=6): <Trial 76 (6 in rep 5) data={'coherence': 0.5, 'direction': 180, 'thisN': 76, 'thisTrialN': 6, 'thisRepN': 5}>
+67.3787 	DATA 	Keypress: left
+67.3872 	EXP 	dots: autoDraw = False
+67.3872 	EXP 	polygon: autoDraw = False
+67.3872 	EXP 	fixation: autoDraw = False
+67.3872 	EXP 	fixation_respond: autoDraw = False
+67.3872 	EXP 	dots: dir = 180.0
+67.3872 	EXP 	dots: coherence = 0.5
+67.3872 	EXP 	polygon: autoDraw = True
+67.3872 	EXP 	fixation: autoDraw = True
+67.4743 	EXP 	dots: autoDraw = True
+67.7718 	EXP 	dots: autoDraw = False
+67.9713 	INFO 	Keyboard events cleared
+67.9706 	EXP 	fixation_respond: autoDraw = True
+67.9757 	EXP 	polygon: autoDraw = False
+67.9757 	EXP 	fixation: autoDraw = False
+68.1718 	EXP 	New trial (rep=5, index=7): <Trial 77 (7 in rep 5) data={'coherence': 0.0625, 'direction': 0, 'thisN': 77, 'thisTrialN': 7, 'thisRepN': 5}>
+68.1743 	DATA 	Keypress: left
+68.1766 	EXP 	dots: autoDraw = False
+68.1766 	EXP 	polygon: autoDraw = False
+68.1766 	EXP 	fixation: autoDraw = False
+68.1766 	EXP 	fixation_respond: autoDraw = False
+68.1766 	EXP 	dots: dir = 0.0
+68.1766 	EXP 	dots: coherence = 0.0625
+68.1766 	EXP 	polygon: autoDraw = True
+68.1766 	EXP 	fixation: autoDraw = True
+68.2703 	EXP 	dots: autoDraw = True
+68.5559 	EXP 	dots: autoDraw = False
+68.7718 	INFO 	Keyboard events cleared
+68.7714 	EXP 	fixation_respond: autoDraw = True
+68.7875 	EXP 	polygon: autoDraw = False
+68.7875 	EXP 	fixation: autoDraw = False
+69.0914 	EXP 	New trial (rep=5, index=8): <Trial 78 (8 in rep 5) data={'coherence': 0.125, 'direction': 180, 'thisN': 78, 'thisTrialN': 8, 'thisRepN': 5}>
+69.0939 	DATA 	Keypress: left
+69.1038 	EXP 	dots: autoDraw = False
+69.1038 	EXP 	polygon: autoDraw = False
+69.1038 	EXP 	fixation: autoDraw = False
+69.1038 	EXP 	fixation_respond: autoDraw = False
+69.1038 	EXP 	dots: dir = 180.0
+69.1038 	EXP 	dots: coherence = 0.125
+69.1038 	EXP 	polygon: autoDraw = True
+69.1038 	EXP 	fixation: autoDraw = True
+69.1909 	EXP 	dots: autoDraw = True
+69.4870 	EXP 	dots: autoDraw = False
+69.7059 	INFO 	Keyboard events cleared
+69.7052 	EXP 	polygon: autoDraw = False
+69.7052 	EXP 	fixation: autoDraw = False
+69.7052 	EXP 	fixation_respond: autoDraw = True
+69.9557 	EXP 	New trial (rep=5, index=9): <Trial 79 (9 in rep 5) data={'coherence': 0.5, 'direction': 0, 'thisN': 79, 'thisTrialN': 9, 'thisRepN': 5}>
+69.9582 	DATA 	Keypress: left
+69.9611 	EXP 	dots: autoDraw = False
+69.9611 	EXP 	polygon: autoDraw = False
+69.9611 	EXP 	fixation: autoDraw = False
+69.9611 	EXP 	fixation_respond: autoDraw = False
+69.9611 	EXP 	dots: dir = 0.0
+69.9611 	EXP 	dots: coherence = 0.5
+69.9611 	EXP 	polygon: autoDraw = True
+69.9611 	EXP 	fixation: autoDraw = True
+70.0537 	EXP 	dots: autoDraw = True
+70.3543 	EXP 	dots: autoDraw = False
+70.5557 	INFO 	Keyboard events cleared
+70.5550 	EXP 	fixation_respond: autoDraw = True
+70.5714 	EXP 	polygon: autoDraw = False
+70.5714 	EXP 	fixation: autoDraw = False
+70.7892 	EXP 	New trial (rep=5, index=10): <Trial 80 (10 in rep 5) data={'coherence': 0.125, 'direction': 0, 'thisN': 80, 'thisTrialN': 10, 'thisRepN': 5}>
+70.7917 	DATA 	Keypress: right
+70.8039 	EXP 	dots: autoDraw = False
+70.8039 	EXP 	polygon: autoDraw = False
+70.8039 	EXP 	fixation: autoDraw = False
+70.8039 	EXP 	fixation_respond: autoDraw = False
+70.8039 	EXP 	dots: dir = 0.0
+70.8039 	EXP 	dots: coherence = 0.125
+70.8039 	EXP 	polygon: autoDraw = True
+70.8039 	EXP 	fixation: autoDraw = True
+70.8871 	EXP 	dots: autoDraw = True
+71.1734 	EXP 	dots: autoDraw = False
+71.3872 	INFO 	Keyboard events cleared
+71.3869 	EXP 	fixation_respond: autoDraw = True
+71.3898 	EXP 	polygon: autoDraw = False
+71.3898 	EXP 	fixation: autoDraw = False
+71.8890 	EXP 	New trial (rep=5, index=11): <Trial 81 (11 in rep 5) data={'coherence': 0.03125, 'direction': 180, 'thisN': 81, 'thisTrialN': 11, 'thisRepN': 5}>
+71.8920 	DATA 	Keypress: right
+71.8949 	EXP 	dots: autoDraw = False
+71.8949 	EXP 	polygon: autoDraw = False
+71.8949 	EXP 	fixation: autoDraw = False
+71.8949 	EXP 	fixation_respond: autoDraw = False
+71.8949 	EXP 	dots: dir = 180.0
+71.8949 	EXP 	dots: coherence = 0.03125
+71.8949 	EXP 	polygon: autoDraw = True
+71.8949 	EXP 	fixation: autoDraw = True
+71.9870 	EXP 	dots: autoDraw = True
+72.2727 	EXP 	dots: autoDraw = False
+72.4893 	INFO 	Keyboard events cleared
+72.4886 	EXP 	fixation_respond: autoDraw = True
+72.5048 	EXP 	polygon: autoDraw = False
+72.5048 	EXP 	fixation: autoDraw = False
+72.9727 	EXP 	New trial (rep=5, index=12): <Trial 82 (12 in rep 5) data={'coherence': 0.25, 'direction': 180, 'thisN': 82, 'thisTrialN': 12, 'thisRepN': 5}>
+72.9753 	DATA 	Keypress: right
+72.9872 	EXP 	dots: autoDraw = False
+72.9872 	EXP 	polygon: autoDraw = False
+72.9872 	EXP 	fixation: autoDraw = False
+72.9872 	EXP 	fixation_respond: autoDraw = False
+72.9872 	EXP 	dots: dir = 180.0
+72.9872 	EXP 	dots: coherence = 0.25
+72.9872 	EXP 	polygon: autoDraw = True
+72.9872 	EXP 	fixation: autoDraw = True
+73.0703 	EXP 	dots: autoDraw = True
+73.3714 	EXP 	dots: autoDraw = False
+73.5715 	INFO 	Keyboard events cleared
+73.5713 	EXP 	fixation_respond: autoDraw = True
+73.5871 	EXP 	polygon: autoDraw = False
+73.5871 	EXP 	fixation: autoDraw = False
+73.8052 	EXP 	New trial (rep=5, index=13): <Trial 83 (13 in rep 5) data={'coherence': 0, 'direction': 0, 'thisN': 83, 'thisTrialN': 13, 'thisRepN': 5}>
+73.8076 	DATA 	Keypress: left
+73.8104 	EXP 	dots: autoDraw = False
+73.8104 	EXP 	polygon: autoDraw = False
+73.8104 	EXP 	fixation: autoDraw = False
+73.8104 	EXP 	fixation_respond: autoDraw = False
+73.8104 	EXP 	dots: dir = 0.0
+73.8104 	EXP 	dots: coherence = 0.0
+73.8104 	EXP 	polygon: autoDraw = True
+73.8104 	EXP 	fixation: autoDraw = True
+73.9048 	EXP 	dots: autoDraw = True
+74.2051 	EXP 	dots: autoDraw = False
+74.4053 	INFO 	Keyboard events cleared
+74.4045 	EXP 	fixation_respond: autoDraw = True
+74.4209 	EXP 	polygon: autoDraw = False
+74.4209 	EXP 	fixation: autoDraw = False
+74.6747 	EXP 	New trial (rep=6, index=0): <Trial 84 (0 in rep 6) data={'coherence': 1, 'direction': 0, 'thisN': 84, 'thisTrialN': 0, 'thisRepN': 6}>
+74.6771 	DATA 	Keypress: left
+74.6871 	EXP 	dots: autoDraw = False
+74.6871 	EXP 	polygon: autoDraw = False
+74.6871 	EXP 	fixation: autoDraw = False
+74.6871 	EXP 	fixation_respond: autoDraw = False
+74.6871 	EXP 	dots: dir = 0.0
+74.6871 	EXP 	dots: coherence = 1.0
+74.6871 	EXP 	polygon: autoDraw = True
+74.6871 	EXP 	fixation: autoDraw = True
+74.7732 	EXP 	dots: autoDraw = True
+75.0702 	EXP 	dots: autoDraw = False
+75.2884 	INFO 	Keyboard events cleared
+75.2881 	EXP 	polygon: autoDraw = False
+75.2881 	EXP 	fixation: autoDraw = False
+75.2881 	EXP 	fixation_respond: autoDraw = True
+75.4912 	EXP 	New trial (rep=6, index=1): <Trial 85 (1 in rep 6) data={'coherence': 0.0625, 'direction': 0, 'thisN': 85, 'thisTrialN': 1, 'thisRepN': 6}>
+75.4939 	DATA 	Keypress: right
+75.4966 	EXP 	dots: autoDraw = False
+75.4966 	EXP 	polygon: autoDraw = False
+75.4966 	EXP 	fixation: autoDraw = False
+75.4966 	EXP 	fixation_respond: autoDraw = False
+75.4966 	EXP 	dots: dir = 0.0
+75.4966 	EXP 	dots: coherence = 0.0625
+75.4966 	EXP 	polygon: autoDraw = True
+75.4966 	EXP 	fixation: autoDraw = True
+75.5871 	EXP 	dots: autoDraw = True
+75.8750 	EXP 	dots: autoDraw = False
+76.0874 	INFO 	Keyboard events cleared
+76.0871 	EXP 	fixation_respond: autoDraw = True
+76.0901 	EXP 	polygon: autoDraw = False
+76.0901 	EXP 	fixation: autoDraw = False
+76.7573 	EXP 	New trial (rep=6, index=2): <Trial 86 (2 in rep 6) data={'coherence': 0.125, 'direction': 0, 'thisN': 86, 'thisTrialN': 2, 'thisRepN': 6}>
+76.7601 	DATA 	Keypress: left
+76.7631 	EXP 	dots: autoDraw = False
+76.7631 	EXP 	polygon: autoDraw = False
+76.7631 	EXP 	fixation: autoDraw = False
+76.7631 	EXP 	fixation_respond: autoDraw = False
+76.7631 	EXP 	dots: dir = 0.0
+76.7631 	EXP 	dots: coherence = 0.125
+76.7631 	EXP 	polygon: autoDraw = True
+76.7631 	EXP 	fixation: autoDraw = True
+76.8576 	EXP 	dots: autoDraw = True
+77.1560 	EXP 	dots: autoDraw = False
+77.3720 	INFO 	Keyboard events cleared
+77.3713 	EXP 	polygon: autoDraw = False
+77.3713 	EXP 	fixation: autoDraw = False
+77.3713 	EXP 	fixation_respond: autoDraw = True
+77.6409 	EXP 	New trial (rep=6, index=3): <Trial 87 (3 in rep 6) data={'coherence': 0.5, 'direction': 180, 'thisN': 87, 'thisTrialN': 3, 'thisRepN': 6}>
+77.6437 	DATA 	Keypress: left
+77.6539 	EXP 	dots: autoDraw = False
+77.6539 	EXP 	polygon: autoDraw = False
+77.6539 	EXP 	fixation: autoDraw = False
+77.6539 	EXP 	fixation_respond: autoDraw = False
+77.6539 	EXP 	dots: dir = 180.0
+77.6539 	EXP 	dots: coherence = 0.5
+77.6539 	EXP 	polygon: autoDraw = True
+77.6539 	EXP 	fixation: autoDraw = True
+77.7371 	EXP 	dots: autoDraw = True
+78.0240 	EXP 	dots: autoDraw = False
+78.2425 	INFO 	Keyboard events cleared
+78.2420 	EXP 	polygon: autoDraw = False
+78.2420 	EXP 	fixation: autoDraw = False
+78.2420 	EXP 	fixation_respond: autoDraw = True
+78.9234 	EXP 	New trial (rep=6, index=4): <Trial 88 (4 in rep 6) data={'coherence': 0.03125, 'direction': 0, 'thisN': 88, 'thisTrialN': 4, 'thisRepN': 6}>
+78.9263 	DATA 	Keypress: left
+78.9372 	EXP 	dots: autoDraw = False
+78.9372 	EXP 	polygon: autoDraw = False
+78.9372 	EXP 	fixation: autoDraw = False
+78.9372 	EXP 	fixation_respond: autoDraw = False
+78.9372 	EXP 	dots: dir = 0.0
+78.9372 	EXP 	dots: coherence = 0.03125
+78.9372 	EXP 	polygon: autoDraw = True
+78.9372 	EXP 	fixation: autoDraw = True
+79.0203 	EXP 	dots: autoDraw = True
+79.3211 	EXP 	dots: autoDraw = False
+79.5382 	INFO 	Keyboard events cleared
+79.5375 	EXP 	polygon: autoDraw = False
+79.5375 	EXP 	fixation: autoDraw = False
+79.5375 	EXP 	fixation_respond: autoDraw = True
+79.7895 	EXP 	New trial (rep=6, index=5): <Trial 89 (5 in rep 6) data={'coherence': 0, 'direction': 0, 'thisN': 89, 'thisTrialN': 5, 'thisRepN': 6}>
+79.7923 	DATA 	Keypress: left
+79.8039 	EXP 	dots: autoDraw = False
+79.8039 	EXP 	polygon: autoDraw = False
+79.8039 	EXP 	fixation: autoDraw = False
+79.8039 	EXP 	fixation_respond: autoDraw = False
+79.8039 	EXP 	dots: dir = 0.0
+79.8039 	EXP 	dots: coherence = 0.0
+79.8039 	EXP 	polygon: autoDraw = True
+79.8039 	EXP 	fixation: autoDraw = True
+79.8870 	EXP 	dots: autoDraw = True
+80.1883 	EXP 	dots: autoDraw = False
+80.3874 	INFO 	Keyboard events cleared
+80.3870 	EXP 	fixation_respond: autoDraw = True
+80.3901 	EXP 	polygon: autoDraw = False
+80.3901 	EXP 	fixation: autoDraw = False
+80.8551 	EXP 	New trial (rep=6, index=6): <Trial 90 (6 in rep 6) data={'coherence': 0, 'direction': 180, 'thisN': 90, 'thisTrialN': 6, 'thisRepN': 6}>
+80.8573 	DATA 	Keypress: left
+80.8603 	EXP 	dots: autoDraw = False
+80.8603 	EXP 	polygon: autoDraw = False
+80.8603 	EXP 	fixation: autoDraw = False
+80.8603 	EXP 	fixation_respond: autoDraw = False
+80.8603 	EXP 	dots: dir = 180.0
+80.8603 	EXP 	dots: coherence = 0.0
+80.8603 	EXP 	polygon: autoDraw = True
+80.8603 	EXP 	fixation: autoDraw = True
+80.9538 	EXP 	dots: autoDraw = True
+81.2551 	EXP 	dots: autoDraw = False
+81.4438 	INFO 	Keyboard events cleared
+81.4433 	EXP 	fixation_respond: autoDraw = True
+81.4537 	EXP 	polygon: autoDraw = False
+81.4537 	EXP 	fixation: autoDraw = False
+81.9720 	EXP 	New trial (rep=6, index=7): <Trial 91 (7 in rep 6) data={'coherence': 0.125, 'direction': 180, 'thisN': 91, 'thisTrialN': 7, 'thisRepN': 6}>
+81.9746 	DATA 	Keypress: right
+81.9776 	EXP 	dots: autoDraw = False
+81.9776 	EXP 	polygon: autoDraw = False
+81.9776 	EXP 	fixation: autoDraw = False
+81.9776 	EXP 	fixation_respond: autoDraw = False
+81.9776 	EXP 	dots: dir = 180.0
+81.9776 	EXP 	dots: coherence = 0.125
+81.9776 	EXP 	polygon: autoDraw = True
+81.9776 	EXP 	fixation: autoDraw = True
+82.0702 	EXP 	dots: autoDraw = True
+82.3594 	EXP 	dots: autoDraw = False
+82.5723 	INFO 	Keyboard events cleared
+82.5716 	EXP 	fixation_respond: autoDraw = True
+82.5876 	EXP 	polygon: autoDraw = False
+82.5876 	EXP 	fixation: autoDraw = False
+82.9410 	EXP 	New trial (rep=6, index=8): <Trial 92 (8 in rep 6) data={'coherence': 0.25, 'direction': 0, 'thisN': 92, 'thisTrialN': 8, 'thisRepN': 6}>
+82.9436 	DATA 	Keypress: left
+82.9538 	EXP 	dots: autoDraw = False
+82.9538 	EXP 	polygon: autoDraw = False
+82.9538 	EXP 	fixation: autoDraw = False
+82.9538 	EXP 	fixation_respond: autoDraw = False
+82.9538 	EXP 	dots: dir = 0.0
+82.9538 	EXP 	dots: coherence = 0.25
+82.9538 	EXP 	polygon: autoDraw = True
+82.9538 	EXP 	fixation: autoDraw = True
+83.0370 	EXP 	dots: autoDraw = True
+83.3240 	EXP 	dots: autoDraw = False
+83.5374 	INFO 	Keyboard events cleared
+83.5370 	EXP 	fixation_respond: autoDraw = True
+83.5397 	EXP 	polygon: autoDraw = False
+83.5397 	EXP 	fixation: autoDraw = False
+84.0383 	EXP 	New trial (rep=6, index=9): <Trial 93 (9 in rep 6) data={'coherence': 0.03125, 'direction': 180, 'thisN': 93, 'thisTrialN': 9, 'thisRepN': 6}>
+84.0403 	DATA 	Keypress: right
+84.0432 	EXP 	dots: autoDraw = False
+84.0432 	EXP 	polygon: autoDraw = False
+84.0432 	EXP 	fixation: autoDraw = False
+84.0432 	EXP 	fixation_respond: autoDraw = False
+84.0432 	EXP 	dots: dir = 180.0
+84.0432 	EXP 	dots: coherence = 0.03125
+84.0432 	EXP 	polygon: autoDraw = True
+84.0432 	EXP 	fixation: autoDraw = True
+84.1370 	EXP 	dots: autoDraw = True
+84.4382 	EXP 	dots: autoDraw = False
+84.6382 	INFO 	Keyboard events cleared
+84.6375 	EXP 	fixation_respond: autoDraw = True
+84.6421 	EXP 	polygon: autoDraw = False
+84.6421 	EXP 	fixation: autoDraw = False
+84.9730 	EXP 	New trial (rep=6, index=10): <Trial 94 (10 in rep 6) data={'coherence': 1, 'direction': 180, 'thisN': 94, 'thisTrialN': 10, 'thisRepN': 6}>
+84.9756 	DATA 	Keypress: right
+84.9868 	EXP 	dots: autoDraw = False
+84.9868 	EXP 	polygon: autoDraw = False
+84.9868 	EXP 	fixation: autoDraw = False
+84.9868 	EXP 	fixation_respond: autoDraw = False
+84.9868 	EXP 	dots: dir = 180.0
+84.9868 	EXP 	dots: coherence = 1.0
+84.9868 	EXP 	polygon: autoDraw = True
+84.9868 	EXP 	fixation: autoDraw = True
+85.0707 	EXP 	dots: autoDraw = True
+85.3712 	EXP 	dots: autoDraw = False
+85.5707 	INFO 	Keyboard events cleared
+85.5704 	EXP 	fixation_respond: autoDraw = True
+85.5742 	EXP 	polygon: autoDraw = False
+85.5742 	EXP 	fixation: autoDraw = False
+85.7232 	EXP 	New trial (rep=6, index=11): <Trial 95 (11 in rep 6) data={'coherence': 0.0625, 'direction': 180, 'thisN': 95, 'thisTrialN': 11, 'thisRepN': 6}>
+85.7262 	DATA 	Keypress: left
+85.7372 	EXP 	dots: autoDraw = False
+85.7372 	EXP 	polygon: autoDraw = False
+85.7372 	EXP 	fixation: autoDraw = False
+85.7372 	EXP 	fixation_respond: autoDraw = False
+85.7372 	EXP 	dots: dir = 180.0
+85.7372 	EXP 	dots: coherence = 0.0625
+85.7372 	EXP 	polygon: autoDraw = True
+85.7372 	EXP 	fixation: autoDraw = True
+85.8215 	EXP 	dots: autoDraw = True
+86.1199 	EXP 	dots: autoDraw = False
+86.3207 	INFO 	Keyboard events cleared
+86.3204 	EXP 	fixation_respond: autoDraw = True
+86.3242 	EXP 	polygon: autoDraw = False
+86.3242 	EXP 	fixation: autoDraw = False
+86.8387 	EXP 	New trial (rep=6, index=12): <Trial 96 (12 in rep 6) data={'coherence': 0.25, 'direction': 180, 'thisN': 96, 'thisTrialN': 12, 'thisRepN': 6}>
+86.8414 	DATA 	Keypress: left
+86.8443 	EXP 	dots: autoDraw = False
+86.8443 	EXP 	polygon: autoDraw = False
+86.8443 	EXP 	fixation: autoDraw = False
+86.8443 	EXP 	fixation_respond: autoDraw = False
+86.8443 	EXP 	dots: dir = 180.0
+86.8443 	EXP 	dots: coherence = 0.25
+86.8443 	EXP 	polygon: autoDraw = True
+86.8443 	EXP 	fixation: autoDraw = True
+86.9371 	EXP 	dots: autoDraw = True
+87.2378 	EXP 	dots: autoDraw = False
+87.4390 	INFO 	Keyboard events cleared
+87.4384 	EXP 	fixation_respond: autoDraw = True
+87.4546 	EXP 	polygon: autoDraw = False
+87.4546 	EXP 	fixation: autoDraw = False
+87.7274 	DATA 	Keypress: left
+87.7377 	EXP 	New trial (rep=6, index=13): <Trial 97 (13 in rep 6) data={'coherence': 0.5, 'direction': 0, 'thisN': 97, 'thisTrialN': 13, 'thisRepN': 6}>
+87.7406 	EXP 	dots: autoDraw = False
+87.7406 	EXP 	polygon: autoDraw = False
+87.7406 	EXP 	fixation: autoDraw = False
+87.7406 	EXP 	fixation_respond: autoDraw = False
+87.7406 	EXP 	dots: dir = 0.0
+87.7406 	EXP 	dots: coherence = 0.5
+87.7406 	EXP 	polygon: autoDraw = True
+87.7406 	EXP 	fixation: autoDraw = True
+87.8233 	EXP 	dots: autoDraw = True
+88.1378 	EXP 	dots: autoDraw = False
+88.3385 	INFO 	Keyboard events cleared
+88.3378 	EXP 	fixation_respond: autoDraw = True
+88.3551 	EXP 	polygon: autoDraw = False
+88.3551 	EXP 	fixation: autoDraw = False
+88.6052 	EXP 	New trial (rep=7, index=0): <Trial 98 (0 in rep 7) data={'coherence': 0.25, 'direction': 180, 'thisN': 98, 'thisTrialN': 0, 'thisRepN': 7}>
+88.6077 	DATA 	Keypress: right
+88.6105 	EXP 	dots: autoDraw = False
+88.6105 	EXP 	polygon: autoDraw = False
+88.6105 	EXP 	fixation: autoDraw = False
+88.6105 	EXP 	fixation_respond: autoDraw = False
+88.6105 	EXP 	dots: dir = 180.0
+88.6105 	EXP 	dots: coherence = 0.25
+88.6105 	EXP 	polygon: autoDraw = True
+88.6105 	EXP 	fixation: autoDraw = True
+88.7050 	EXP 	dots: autoDraw = True
+89.0039 	EXP 	dots: autoDraw = False
+89.2039 	INFO 	Keyboard events cleared
+89.2036 	EXP 	fixation_respond: autoDraw = True
+89.2069 	EXP 	polygon: autoDraw = False
+89.2069 	EXP 	fixation: autoDraw = False
+89.6051 	EXP 	New trial (rep=7, index=1): <Trial 99 (1 in rep 7) data={'coherence': 1, 'direction': 0, 'thisN': 99, 'thisTrialN': 1, 'thisRepN': 7}>
+89.6073 	DATA 	Keypress: left
+89.6103 	EXP 	dots: autoDraw = False
+89.6103 	EXP 	polygon: autoDraw = False
+89.6103 	EXP 	fixation: autoDraw = False
+89.6103 	EXP 	fixation_respond: autoDraw = False
+89.6103 	EXP 	dots: dir = 0.0
+89.6103 	EXP 	dots: coherence = 1.0
+89.6103 	EXP 	polygon: autoDraw = True
+89.6103 	EXP 	fixation: autoDraw = True
+89.7037 	EXP 	dots: autoDraw = True
+89.9904 	EXP 	dots: autoDraw = False
+90.2039 	INFO 	Keyboard events cleared
+90.2037 	EXP 	fixation_respond: autoDraw = True
+90.2074 	EXP 	polygon: autoDraw = False
+90.2074 	EXP 	fixation: autoDraw = False
+90.4051 	EXP 	New trial (rep=7, index=2): <Trial 100 (2 in rep 7) data={'coherence': 0.0625, 'direction': 180, 'thisN': 100, 'thisTrialN': 2, 'thisRepN': 7}>
+90.4076 	DATA 	Keypress: right
+90.4105 	EXP 	dots: autoDraw = False
+90.4105 	EXP 	polygon: autoDraw = False
+90.4105 	EXP 	fixation: autoDraw = False
+90.4105 	EXP 	fixation_respond: autoDraw = False
+90.4105 	EXP 	dots: dir = 180.0
+90.4105 	EXP 	dots: coherence = 0.0625
+90.4105 	EXP 	polygon: autoDraw = True
+90.4105 	EXP 	fixation: autoDraw = True
+90.5037 	EXP 	dots: autoDraw = True
+90.7893 	EXP 	dots: autoDraw = False
+90.9906 	INFO 	Keyboard events cleared
+90.9903 	EXP 	fixation_respond: autoDraw = True
+91.0061 	EXP 	polygon: autoDraw = False
+91.0061 	EXP 	fixation: autoDraw = False
+91.4743 	EXP 	New trial (rep=7, index=3): <Trial 101 (3 in rep 7) data={'coherence': 0.5, 'direction': 180, 'thisN': 101, 'thisTrialN': 3, 'thisRepN': 7}>
+91.4769 	DATA 	Keypress: left
+91.4873 	EXP 	dots: autoDraw = False
+91.4873 	EXP 	polygon: autoDraw = False
+91.4873 	EXP 	fixation: autoDraw = False
+91.4873 	EXP 	fixation_respond: autoDraw = False
+91.4873 	EXP 	dots: dir = 180.0
+91.4873 	EXP 	dots: coherence = 0.5
+91.4873 	EXP 	polygon: autoDraw = True
+91.4873 	EXP 	fixation: autoDraw = True
+91.5742 	EXP 	dots: autoDraw = True
+91.8880 	EXP 	dots: autoDraw = False
+92.0757 	INFO 	Keyboard events cleared
+92.0754 	EXP 	polygon: autoDraw = False
+92.0754 	EXP 	fixation: autoDraw = False
+92.0754 	EXP 	fixation_respond: autoDraw = True
+92.4051 	EXP 	New trial (rep=7, index=4): <Trial 102 (4 in rep 7) data={'coherence': 0.125, 'direction': 180, 'thisN': 102, 'thisTrialN': 4, 'thisRepN': 7}>
+92.4071 	DATA 	Keypress: left
+92.4097 	EXP 	dots: autoDraw = False
+92.4097 	EXP 	polygon: autoDraw = False
+92.4097 	EXP 	fixation: autoDraw = False
+92.4097 	EXP 	fixation_respond: autoDraw = False
+92.4097 	EXP 	dots: dir = 180.0
+92.4097 	EXP 	dots: coherence = 0.125
+92.4097 	EXP 	polygon: autoDraw = True
+92.4097 	EXP 	fixation: autoDraw = True
+92.5038 	EXP 	dots: autoDraw = True
+92.7884 	EXP 	dots: autoDraw = False
+93.0057 	INFO 	Keyboard events cleared
+93.0050 	EXP 	fixation_respond: autoDraw = True
+93.0217 	EXP 	polygon: autoDraw = False
+93.0217 	EXP 	fixation: autoDraw = False
+93.5069 	EXP 	New trial (rep=7, index=5): <Trial 103 (5 in rep 7) data={'coherence': 0.25, 'direction': 0, 'thisN': 103, 'thisTrialN': 5, 'thisRepN': 7}>
+93.5097 	DATA 	Keypress: left
+93.5124 	EXP 	dots: autoDraw = False
+93.5124 	EXP 	polygon: autoDraw = False
+93.5124 	EXP 	fixation: autoDraw = False
+93.5124 	EXP 	fixation_respond: autoDraw = False
+93.5124 	EXP 	dots: dir = 0.0
+93.5124 	EXP 	dots: coherence = 0.25
+93.5124 	EXP 	polygon: autoDraw = True
+93.5124 	EXP 	fixation: autoDraw = True
+93.6036 	EXP 	dots: autoDraw = True
+93.8898 	EXP 	dots: autoDraw = False
+94.1222 	INFO 	Keyboard events cleared
+94.1214 	EXP 	polygon: autoDraw = False
+94.1214 	EXP 	fixation: autoDraw = False
+94.1214 	EXP 	fixation_respond: autoDraw = True
+94.4072 	EXP 	New trial (rep=7, index=6): <Trial 104 (6 in rep 7) data={'coherence': 0.03125, 'direction': 0, 'thisN': 104, 'thisTrialN': 6, 'thisRepN': 7}>
+94.4098 	DATA 	Keypress: right
+94.4128 	EXP 	dots: autoDraw = False
+94.4128 	EXP 	polygon: autoDraw = False
+94.4128 	EXP 	fixation: autoDraw = False
+94.4128 	EXP 	fixation_respond: autoDraw = False
+94.4128 	EXP 	dots: dir = 0.0
+94.4128 	EXP 	dots: coherence = 0.03125
+94.4128 	EXP 	polygon: autoDraw = True
+94.4128 	EXP 	fixation: autoDraw = True
+94.5038 	EXP 	dots: autoDraw = True
+94.8048 	EXP 	dots: autoDraw = False
+95.0225 	INFO 	Keyboard events cleared
+95.0218 	EXP 	polygon: autoDraw = False
+95.0218 	EXP 	fixation: autoDraw = False
+95.0218 	EXP 	fixation_respond: autoDraw = True
+95.4735 	EXP 	New trial (rep=7, index=7): <Trial 105 (7 in rep 7) data={'coherence': 0.125, 'direction': 0, 'thisN': 105, 'thisTrialN': 7, 'thisRepN': 7}>
+95.4760 	DATA 	Keypress: left
+95.4789 	EXP 	dots: autoDraw = False
+95.4789 	EXP 	polygon: autoDraw = False
+95.4789 	EXP 	fixation: autoDraw = False
+95.4789 	EXP 	fixation_respond: autoDraw = False
+95.4789 	EXP 	dots: dir = 0.0
+95.4789 	EXP 	dots: coherence = 0.125
+95.4789 	EXP 	polygon: autoDraw = True
+95.4789 	EXP 	fixation: autoDraw = True
+95.5704 	EXP 	dots: autoDraw = True
+95.8558 	EXP 	dots: autoDraw = False
+96.0892 	INFO 	Keyboard events cleared
+96.0885 	EXP 	polygon: autoDraw = False
+96.0885 	EXP 	fixation: autoDraw = False
+96.0885 	EXP 	fixation_respond: autoDraw = True
+96.3567 	EXP 	New trial (rep=7, index=8): <Trial 106 (8 in rep 7) data={'coherence': 0.03125, 'direction': 180, 'thisN': 106, 'thisTrialN': 8, 'thisRepN': 7}>
+96.3592 	DATA 	Keypress: right
+96.3705 	EXP 	dots: autoDraw = False
+96.3705 	EXP 	polygon: autoDraw = False
+96.3705 	EXP 	fixation: autoDraw = False
+96.3705 	EXP 	fixation_respond: autoDraw = False
+96.3705 	EXP 	dots: dir = 180.0
+96.3705 	EXP 	dots: coherence = 0.03125
+96.3705 	EXP 	polygon: autoDraw = True
+96.3705 	EXP 	fixation: autoDraw = True
+96.4546 	EXP 	dots: autoDraw = True
+96.7544 	EXP 	dots: autoDraw = False
+96.9545 	INFO 	Keyboard events cleared
+96.9537 	EXP 	fixation_respond: autoDraw = True
+96.9584 	EXP 	polygon: autoDraw = False
+96.9584 	EXP 	fixation: autoDraw = False
+97.2115 	EXP 	New trial (rep=7, index=9): <Trial 107 (9 in rep 7) data={'coherence': 0.5, 'direction': 0, 'thisN': 107, 'thisTrialN': 9, 'thisRepN': 7}>
+97.2138 	DATA 	Keypress: left
+97.2203 	EXP 	dots: autoDraw = False
+97.2203 	EXP 	polygon: autoDraw = False
+97.2203 	EXP 	fixation: autoDraw = False
+97.2203 	EXP 	fixation_respond: autoDraw = False
+97.2203 	EXP 	dots: dir = 0.0
+97.2203 	EXP 	dots: coherence = 0.5
+97.2203 	EXP 	polygon: autoDraw = True
+97.2203 	EXP 	fixation: autoDraw = True
+97.3067 	EXP 	dots: autoDraw = True
+97.6095 	EXP 	dots: autoDraw = False
+97.8090 	INFO 	Keyboard events cleared
+97.8087 	EXP 	polygon: autoDraw = False
+97.8087 	EXP 	fixation: autoDraw = False
+97.8087 	EXP 	fixation_respond: autoDraw = True
+98.1250 	EXP 	New trial (rep=7, index=10): <Trial 108 (10 in rep 7) data={'coherence': 0.0625, 'direction': 0, 'thisN': 108, 'thisTrialN': 10, 'thisRepN': 7}>
+98.1274 	DATA 	Keypress: right
+98.1372 	EXP 	dots: autoDraw = False
+98.1372 	EXP 	polygon: autoDraw = False
+98.1372 	EXP 	fixation: autoDraw = False
+98.1372 	EXP 	fixation_respond: autoDraw = False
+98.1372 	EXP 	dots: dir = 0.0
+98.1372 	EXP 	dots: coherence = 0.0625
+98.1372 	EXP 	polygon: autoDraw = True
+98.1372 	EXP 	fixation: autoDraw = True
+98.2381 	EXP 	dots: autoDraw = True
+98.5237 	EXP 	dots: autoDraw = False
+98.7388 	INFO 	Keyboard events cleared
+98.7381 	EXP 	polygon: autoDraw = False
+98.7381 	EXP 	fixation: autoDraw = False
+98.7381 	EXP 	fixation_respond: autoDraw = True
+99.0564 	EXP 	New trial (rep=7, index=11): <Trial 109 (11 in rep 7) data={'coherence': 0, 'direction': 0, 'thisN': 109, 'thisTrialN': 11, 'thisRepN': 7}>
+99.0588 	DATA 	Keypress: right
+99.0700 	EXP 	dots: autoDraw = False
+99.0700 	EXP 	polygon: autoDraw = False
+99.0700 	EXP 	fixation: autoDraw = False
+99.0700 	EXP 	fixation_respond: autoDraw = False
+99.0700 	EXP 	dots: dir = 0.0
+99.0700 	EXP 	dots: coherence = 0.0
+99.0700 	EXP 	polygon: autoDraw = True
+99.0700 	EXP 	fixation: autoDraw = True
+99.1539 	EXP 	dots: autoDraw = True
+99.4395 	EXP 	dots: autoDraw = False
+99.6539 	INFO 	Keyboard events cleared
+99.6536 	EXP 	fixation_respond: autoDraw = True
+99.6565 	EXP 	polygon: autoDraw = False
+99.6565 	EXP 	fixation: autoDraw = False
+100.2764 	DATA 	Keypress: left
+100.2872 	EXP 	New trial (rep=7, index=12): <Trial 110 (12 in rep 7) data={'coherence': 0, 'direction': 180, 'thisN': 110, 'thisTrialN': 12, 'thisRepN': 7}>
+100.2900 	EXP 	dots: autoDraw = False
+100.2900 	EXP 	polygon: autoDraw = False
+100.2900 	EXP 	fixation: autoDraw = False
+100.2900 	EXP 	fixation_respond: autoDraw = False
+100.2900 	EXP 	dots: dir = 180.0
+100.2900 	EXP 	dots: coherence = 0.0
+100.2900 	EXP 	polygon: autoDraw = True
+100.2900 	EXP 	fixation: autoDraw = True
+100.3739 	EXP 	dots: autoDraw = True
+100.6704 	EXP 	dots: autoDraw = False
+100.8774 	INFO 	Keyboard events cleared
+100.8771 	EXP 	fixation_respond: autoDraw = True
+100.8870 	EXP 	polygon: autoDraw = False
+100.8870 	EXP 	fixation: autoDraw = False
+101.2232 	EXP 	New trial (rep=7, index=13): <Trial 111 (13 in rep 7) data={'coherence': 1, 'direction': 180, 'thisN': 111, 'thisTrialN': 13, 'thisRepN': 7}>
+101.2256 	DATA 	Keypress: left
+101.2372 	EXP 	dots: autoDraw = False
+101.2372 	EXP 	polygon: autoDraw = False
+101.2372 	EXP 	fixation: autoDraw = False
+101.2372 	EXP 	fixation_respond: autoDraw = False
+101.2372 	EXP 	dots: dir = 180.0
+101.2372 	EXP 	dots: coherence = 1.0
+101.2372 	EXP 	polygon: autoDraw = True
+101.2372 	EXP 	fixation: autoDraw = True
+101.3203 	EXP 	dots: autoDraw = True
+101.6208 	EXP 	dots: autoDraw = False
+101.8389 	INFO 	Keyboard events cleared
+101.8382 	EXP 	polygon: autoDraw = False
+101.8382 	EXP 	fixation: autoDraw = False
+101.8382 	EXP 	fixation_respond: autoDraw = True
+101.9753 	DATA 	Keypress: left
+101.9880 	EXP 	New trial (rep=8, index=0): <Trial 112 (0 in rep 8) data={'coherence': 0.03125, 'direction': 0, 'thisN': 112, 'thisTrialN': 0, 'thisRepN': 8}>
+101.9918 	EXP 	dots: autoDraw = False
+101.9918 	EXP 	polygon: autoDraw = False
+101.9918 	EXP 	fixation: autoDraw = False
+101.9918 	EXP 	fixation_respond: autoDraw = False
+101.9918 	EXP 	dots: dir = 0.0
+101.9918 	EXP 	dots: coherence = 0.03125
+101.9918 	EXP 	polygon: autoDraw = True
+101.9918 	EXP 	fixation: autoDraw = True
+102.0740 	EXP 	dots: autoDraw = True
+102.3880 	EXP 	dots: autoDraw = False
+102.5889 	INFO 	Keyboard events cleared
+102.5882 	EXP 	fixation_respond: autoDraw = True
+102.6044 	EXP 	polygon: autoDraw = False
+102.6044 	EXP 	fixation: autoDraw = False
+102.9400 	EXP 	New trial (rep=8, index=1): <Trial 113 (1 in rep 8) data={'coherence': 0.25, 'direction': 0, 'thisN': 113, 'thisTrialN': 1, 'thisRepN': 8}>
+102.9425 	DATA 	Keypress: left
+102.9453 	EXP 	dots: autoDraw = False
+102.9453 	EXP 	polygon: autoDraw = False
+102.9453 	EXP 	fixation: autoDraw = False
+102.9453 	EXP 	fixation_respond: autoDraw = False
+102.9453 	EXP 	dots: dir = 0.0
+102.9453 	EXP 	dots: coherence = 0.25
+102.9453 	EXP 	polygon: autoDraw = True
+102.9453 	EXP 	fixation: autoDraw = True
+103.0371 	EXP 	dots: autoDraw = True
+103.3226 	EXP 	dots: autoDraw = False
+103.5375 	INFO 	Keyboard events cleared
+103.5371 	EXP 	fixation_respond: autoDraw = True
+103.5397 	EXP 	polygon: autoDraw = False
+103.5397 	EXP 	fixation: autoDraw = False
+103.8071 	EXP 	New trial (rep=8, index=2): <Trial 114 (2 in rep 8) data={'coherence': 0.03125, 'direction': 180, 'thisN': 114, 'thisTrialN': 2, 'thisRepN': 8}>
+103.8097 	DATA 	Keypress: right
+103.8204 	EXP 	dots: autoDraw = False
+103.8204 	EXP 	polygon: autoDraw = False
+103.8204 	EXP 	fixation: autoDraw = False
+103.8204 	EXP 	fixation_respond: autoDraw = False
+103.8204 	EXP 	dots: dir = 180.0
+103.8204 	EXP 	dots: coherence = 0.03125
+103.8204 	EXP 	polygon: autoDraw = True
+103.8204 	EXP 	fixation: autoDraw = True
+103.9069 	EXP 	dots: autoDraw = True
+104.2036 	EXP 	dots: autoDraw = False
+104.4050 	INFO 	Keyboard events cleared
+104.4043 	EXP 	fixation_respond: autoDraw = True
+104.4100 	EXP 	polygon: autoDraw = False
+104.4100 	EXP 	fixation: autoDraw = False
+105.4064 	EXP 	New trial (rep=8, index=3): <Trial 115 (3 in rep 8) data={'coherence': 0, 'direction': 0, 'thisN': 115, 'thisTrialN': 3, 'thisRepN': 8}>
+105.4092 	DATA 	Keypress: left
+105.4205 	EXP 	dots: autoDraw = False
+105.4205 	EXP 	polygon: autoDraw = False
+105.4205 	EXP 	fixation: autoDraw = False
+105.4205 	EXP 	fixation_respond: autoDraw = False
+105.4205 	EXP 	dots: dir = 0.0
+105.4205 	EXP 	dots: coherence = 0.0
+105.4205 	EXP 	polygon: autoDraw = True
+105.4205 	EXP 	fixation: autoDraw = True
+105.5036 	EXP 	dots: autoDraw = True
+105.7891 	EXP 	dots: autoDraw = False
+106.0218 	INFO 	Keyboard events cleared
+106.0211 	EXP 	polygon: autoDraw = False
+106.0211 	EXP 	fixation: autoDraw = False
+106.0211 	EXP 	fixation_respond: autoDraw = True
+106.3870 	EXP 	New trial (rep=8, index=4): <Trial 116 (4 in rep 8) data={'coherence': 0.125, 'direction': 0, 'thisN': 116, 'thisTrialN': 4, 'thisRepN': 8}>
+106.3882 	DATA 	Keypress: left
+106.3900 	EXP 	dots: autoDraw = False
+106.3900 	EXP 	polygon: autoDraw = False
+106.3900 	EXP 	fixation: autoDraw = False
+106.3900 	EXP 	fixation_respond: autoDraw = False
+106.3900 	EXP 	dots: dir = 0.0
+106.3900 	EXP 	dots: coherence = 0.125
+106.3900 	EXP 	polygon: autoDraw = True
+106.3900 	EXP 	fixation: autoDraw = True
+106.4876 	EXP 	dots: autoDraw = True
+106.7736 	EXP 	dots: autoDraw = False
+106.9740 	INFO 	Keyboard events cleared
+106.9737 	EXP 	fixation_respond: autoDraw = True
+106.9871 	EXP 	polygon: autoDraw = False
+106.9871 	EXP 	fixation: autoDraw = False
+107.2947 	EXP 	New trial (rep=8, index=5): <Trial 117 (5 in rep 8) data={'coherence': 0, 'direction': 180, 'thisN': 117, 'thisTrialN': 5, 'thisRepN': 8}>
+107.2973 	DATA 	Keypress: left
+107.3038 	EXP 	dots: autoDraw = False
+107.3038 	EXP 	polygon: autoDraw = False
+107.3038 	EXP 	fixation: autoDraw = False
+107.3038 	EXP 	fixation_respond: autoDraw = False
+107.3038 	EXP 	dots: dir = 180.0
+107.3038 	EXP 	dots: coherence = 0.0
+107.3038 	EXP 	polygon: autoDraw = True
+107.3038 	EXP 	fixation: autoDraw = True
+107.3902 	EXP 	dots: autoDraw = True
+107.6870 	EXP 	dots: autoDraw = False
+107.9061 	INFO 	Keyboard events cleared
+107.9053 	EXP 	polygon: autoDraw = False
+107.9053 	EXP 	fixation: autoDraw = False
+107.9053 	EXP 	fixation_respond: autoDraw = True
+108.1066 	EXP 	New trial (rep=8, index=6): <Trial 118 (6 in rep 8) data={'coherence': 0.0625, 'direction': 0, 'thisN': 118, 'thisTrialN': 6, 'thisRepN': 8}>
+108.1094 	DATA 	Keypress: right
+108.1201 	EXP 	dots: autoDraw = False
+108.1201 	EXP 	polygon: autoDraw = False
+108.1201 	EXP 	fixation: autoDraw = False
+108.1201 	EXP 	fixation_respond: autoDraw = False
+108.1201 	EXP 	dots: dir = 0.0
+108.1201 	EXP 	dots: coherence = 0.0625
+108.1201 	EXP 	polygon: autoDraw = True
+108.1201 	EXP 	fixation: autoDraw = True
+108.2036 	EXP 	dots: autoDraw = True
+108.4891 	EXP 	dots: autoDraw = False
+108.7225 	INFO 	Keyboard events cleared
+108.7219 	EXP 	polygon: autoDraw = False
+108.7219 	EXP 	fixation: autoDraw = False
+108.7219 	EXP 	fixation_respond: autoDraw = True
+108.9750 	EXP 	New trial (rep=8, index=7): <Trial 119 (7 in rep 8) data={'coherence': 0.5, 'direction': 0, 'thisN': 119, 'thisTrialN': 7, 'thisRepN': 8}>
+108.9789 	DATA 	Keypress: right
+108.9872 	EXP 	dots: autoDraw = False
+108.9872 	EXP 	polygon: autoDraw = False
+108.9872 	EXP 	fixation: autoDraw = False
+108.9872 	EXP 	fixation_respond: autoDraw = False
+108.9872 	EXP 	dots: dir = 0.0
+108.9872 	EXP 	dots: coherence = 0.5
+108.9872 	EXP 	polygon: autoDraw = True
+108.9872 	EXP 	fixation: autoDraw = True
+109.0879 	EXP 	dots: autoDraw = True
+109.3882 	EXP 	dots: autoDraw = False
+109.5893 	INFO 	Keyboard events cleared
+109.5886 	EXP 	polygon: autoDraw = False
+109.5886 	EXP 	fixation: autoDraw = False
+109.5886 	EXP 	fixation_respond: autoDraw = True
+109.7091 	DATA 	Keypress: right
+109.7216 	EXP 	New trial (rep=8, index=8): <Trial 120 (8 in rep 8) data={'coherence': 1, 'direction': 180, 'thisN': 120, 'thisTrialN': 8, 'thisRepN': 8}>
+109.7256 	EXP 	dots: autoDraw = False
+109.7256 	EXP 	polygon: autoDraw = False
+109.7256 	EXP 	fixation: autoDraw = False
+109.7256 	EXP 	fixation_respond: autoDraw = False
+109.7256 	EXP 	dots: dir = 180.0
+109.7256 	EXP 	dots: coherence = 1.0
+109.7256 	EXP 	polygon: autoDraw = True
+109.7256 	EXP 	fixation: autoDraw = True
+109.8203 	EXP 	dots: autoDraw = True
+110.1212 	EXP 	dots: autoDraw = False
+110.3221 	INFO 	Keyboard events cleared
+110.3218 	EXP 	fixation_respond: autoDraw = True
+110.3382 	EXP 	polygon: autoDraw = False
+110.3382 	EXP 	fixation: autoDraw = False
+110.5552 	EXP 	New trial (rep=8, index=9): <Trial 121 (9 in rep 8) data={'coherence': 0.125, 'direction': 180, 'thisN': 121, 'thisTrialN': 9, 'thisRepN': 8}>
+110.5577 	DATA 	Keypress: left
+110.5606 	EXP 	dots: autoDraw = False
+110.5606 	EXP 	polygon: autoDraw = False
+110.5606 	EXP 	fixation: autoDraw = False
+110.5606 	EXP 	fixation_respond: autoDraw = False
+110.5606 	EXP 	dots: dir = 180.0
+110.5606 	EXP 	dots: coherence = 0.125
+110.5606 	EXP 	polygon: autoDraw = True
+110.5606 	EXP 	fixation: autoDraw = True
+110.6537 	EXP 	dots: autoDraw = True
+110.9397 	EXP 	dots: autoDraw = False
+111.1560 	INFO 	Keyboard events cleared
+111.1553 	EXP 	fixation_respond: autoDraw = True
+111.1720 	EXP 	polygon: autoDraw = False
+111.1720 	EXP 	fixation: autoDraw = False
+111.4556 	EXP 	New trial (rep=8, index=10): <Trial 122 (10 in rep 8) data={'coherence': 0.25, 'direction': 180, 'thisN': 122, 'thisTrialN': 10, 'thisRepN': 8}>
+111.4581 	DATA 	Keypress: left
+111.4605 	EXP 	dots: autoDraw = False
+111.4605 	EXP 	polygon: autoDraw = False
+111.4605 	EXP 	fixation: autoDraw = False
+111.4605 	EXP 	fixation_respond: autoDraw = False
+111.4605 	EXP 	dots: dir = 180.0
+111.4605 	EXP 	dots: coherence = 0.25
+111.4605 	EXP 	polygon: autoDraw = True
+111.4605 	EXP 	fixation: autoDraw = True
+111.5537 	EXP 	dots: autoDraw = True
+111.8391 	EXP 	dots: autoDraw = False
+112.0540 	INFO 	Keyboard events cleared
+112.0536 	EXP 	fixation_respond: autoDraw = True
+112.0565 	EXP 	polygon: autoDraw = False
+112.0565 	EXP 	fixation: autoDraw = False
+112.3094 	EXP 	New trial (rep=8, index=11): <Trial 123 (11 in rep 8) data={'coherence': 0.0625, 'direction': 180, 'thisN': 123, 'thisTrialN': 11, 'thisRepN': 8}>
+112.3114 	DATA 	Keypress: left
+112.3203 	EXP 	dots: autoDraw = False
+112.3203 	EXP 	polygon: autoDraw = False
+112.3203 	EXP 	fixation: autoDraw = False
+112.3203 	EXP 	fixation_respond: autoDraw = False
+112.3203 	EXP 	dots: dir = 180.0
+112.3203 	EXP 	dots: coherence = 0.0625
+112.3203 	EXP 	polygon: autoDraw = True
+112.3203 	EXP 	fixation: autoDraw = True
+112.4069 	EXP 	dots: autoDraw = True
+112.7033 	EXP 	dots: autoDraw = False
+112.9225 	INFO 	Keyboard events cleared
+112.9218 	EXP 	polygon: autoDraw = False
+112.9218 	EXP 	fixation: autoDraw = False
+112.9218 	EXP 	fixation_respond: autoDraw = True
+113.2051 	EXP 	New trial (rep=8, index=12): <Trial 124 (12 in rep 8) data={'coherence': 0.5, 'direction': 180, 'thisN': 124, 'thisTrialN': 12, 'thisRepN': 8}>
+113.2073 	DATA 	Keypress: left
+113.2103 	EXP 	dots: autoDraw = False
+113.2103 	EXP 	polygon: autoDraw = False
+113.2103 	EXP 	fixation: autoDraw = False
+113.2103 	EXP 	fixation_respond: autoDraw = False
+113.2103 	EXP 	dots: dir = 180.0
+113.2103 	EXP 	dots: coherence = 0.5
+113.2103 	EXP 	polygon: autoDraw = True
+113.2103 	EXP 	fixation: autoDraw = True
+113.3198 	EXP 	dots: autoDraw = True
+113.6065 	EXP 	dots: autoDraw = False
+113.8053 	INFO 	Keyboard events cleared
+113.8044 	EXP 	fixation_respond: autoDraw = True
+113.8210 	EXP 	polygon: autoDraw = False
+113.8210 	EXP 	fixation: autoDraw = False
+114.0442 	DATA 	Keypress: left
+114.0548 	EXP 	New trial (rep=8, index=13): <Trial 125 (13 in rep 8) data={'coherence': 1, 'direction': 0, 'thisN': 125, 'thisTrialN': 13, 'thisRepN': 8}>
+114.0586 	EXP 	dots: autoDraw = False
+114.0586 	EXP 	polygon: autoDraw = False
+114.0586 	EXP 	fixation: autoDraw = False
+114.0586 	EXP 	fixation_respond: autoDraw = False
+114.0586 	EXP 	dots: dir = 0.0
+114.0586 	EXP 	dots: coherence = 1.0
+114.0586 	EXP 	polygon: autoDraw = True
+114.0586 	EXP 	fixation: autoDraw = True
+114.1536 	EXP 	dots: autoDraw = True
+114.4392 	EXP 	dots: autoDraw = False
+114.6414 	INFO 	Keyboard events cleared
+114.6411 	EXP 	fixation_respond: autoDraw = True
+114.6536 	EXP 	polygon: autoDraw = False
+114.6536 	EXP 	fixation: autoDraw = False
+114.8718 	EXP 	New trial (rep=9, index=0): <Trial 126 (0 in rep 9) data={'coherence': 1, 'direction': 0, 'thisN': 126, 'thisTrialN': 0, 'thisRepN': 9}>
+114.8742 	DATA 	Keypress: right
+114.8770 	EXP 	dots: autoDraw = False
+114.8770 	EXP 	polygon: autoDraw = False
+114.8770 	EXP 	fixation: autoDraw = False
+114.8770 	EXP 	fixation_respond: autoDraw = False
+114.8770 	EXP 	dots: dir = 0.0
+114.8770 	EXP 	dots: coherence = 1.0
+114.8770 	EXP 	polygon: autoDraw = True
+114.8770 	EXP 	fixation: autoDraw = True
+114.9708 	EXP 	dots: autoDraw = True
+115.2710 	EXP 	dots: autoDraw = False
+115.4600 	INFO 	Keyboard events cleared
+115.4595 	EXP 	fixation_respond: autoDraw = True
+115.4706 	EXP 	polygon: autoDraw = False
+115.4706 	EXP 	fixation: autoDraw = False
+115.6748 	EXP 	New trial (rep=9, index=1): <Trial 127 (1 in rep 9) data={'coherence': 0.25, 'direction': 180, 'thisN': 127, 'thisTrialN': 1, 'thisRepN': 9}>
+115.6773 	DATA 	Keypress: right
+115.6870 	EXP 	dots: autoDraw = False
+115.6870 	EXP 	polygon: autoDraw = False
+115.6870 	EXP 	fixation: autoDraw = False
+115.6870 	EXP 	fixation_respond: autoDraw = False
+115.6870 	EXP 	dots: dir = 180.0
+115.6870 	EXP 	dots: coherence = 0.25
+115.6870 	EXP 	polygon: autoDraw = True
+115.6870 	EXP 	fixation: autoDraw = True
+115.7734 	EXP 	dots: autoDraw = True
+116.0704 	EXP 	dots: autoDraw = False
+116.2885 	INFO 	Keyboard events cleared
+116.2878 	EXP 	polygon: autoDraw = False
+116.2878 	EXP 	fixation: autoDraw = False
+116.2878 	EXP 	fixation_respond: autoDraw = True
+116.7898 	EXP 	New trial (rep=9, index=2): <Trial 128 (2 in rep 9) data={'coherence': 0, 'direction': 0, 'thisN': 128, 'thisTrialN': 2, 'thisRepN': 9}>
+116.7924 	DATA 	Keypress: left
+116.8038 	EXP 	dots: autoDraw = False
+116.8038 	EXP 	polygon: autoDraw = False
+116.8038 	EXP 	fixation: autoDraw = False
+116.8038 	EXP 	fixation_respond: autoDraw = False
+116.8038 	EXP 	dots: dir = 0.0
+116.8038 	EXP 	dots: coherence = 0.0
+116.8038 	EXP 	polygon: autoDraw = True
+116.8038 	EXP 	fixation: autoDraw = True
+116.8869 	EXP 	dots: autoDraw = True
+117.1881 	EXP 	dots: autoDraw = False
+117.3873 	INFO 	Keyboard events cleared
+117.3870 	EXP 	fixation_respond: autoDraw = True
+117.3898 	EXP 	polygon: autoDraw = False
+117.3898 	EXP 	fixation: autoDraw = False
+117.8735 	EXP 	New trial (rep=9, index=3): <Trial 129 (3 in rep 9) data={'coherence': 0.5, 'direction': 180, 'thisN': 129, 'thisTrialN': 3, 'thisRepN': 9}>
+117.8766 	DATA 	Keypress: left
+117.8797 	EXP 	dots: autoDraw = False
+117.8797 	EXP 	polygon: autoDraw = False
+117.8797 	EXP 	fixation: autoDraw = False
+117.8797 	EXP 	fixation_respond: autoDraw = False
+117.8797 	EXP 	dots: dir = 180.0
+117.8797 	EXP 	dots: coherence = 0.5
+117.8797 	EXP 	polygon: autoDraw = True
+117.8797 	EXP 	fixation: autoDraw = True
+117.9704 	EXP 	dots: autoDraw = True
+118.2711 	EXP 	dots: autoDraw = False
+118.4881 	INFO 	Keyboard events cleared
+118.4873 	EXP 	polygon: autoDraw = False
+118.4873 	EXP 	fixation: autoDraw = False
+118.4873 	EXP 	fixation_respond: autoDraw = True
+118.5776 	EXP 	New trial (rep=9, index=4): <Trial 130 (4 in rep 9) data={'coherence': 0.25, 'direction': 0, 'thisN': 130, 'thisTrialN': 4, 'thisRepN': 9}>
+118.5801 	DATA 	Keypress: left
+118.5870 	EXP 	dots: autoDraw = False
+118.5870 	EXP 	polygon: autoDraw = False
+118.5870 	EXP 	fixation: autoDraw = False
+118.5870 	EXP 	fixation_respond: autoDraw = False
+118.5870 	EXP 	dots: dir = 0.0
+118.5870 	EXP 	dots: coherence = 0.25
+118.5870 	EXP 	polygon: autoDraw = True
+118.5870 	EXP 	fixation: autoDraw = True
+118.6734 	EXP 	dots: autoDraw = True
+118.9704 	EXP 	dots: autoDraw = False
+119.1884 	INFO 	Keyboard events cleared
+119.1877 	EXP 	polygon: autoDraw = False
+119.1877 	EXP 	fixation: autoDraw = False
+119.1877 	EXP 	fixation_respond: autoDraw = True
+119.4093 	EXP 	New trial (rep=9, index=5): <Trial 131 (5 in rep 9) data={'coherence': 0.0625, 'direction': 0, 'thisN': 131, 'thisTrialN': 5, 'thisRepN': 9}>
+119.4116 	DATA 	Keypress: right
+119.4204 	EXP 	dots: autoDraw = False
+119.4204 	EXP 	polygon: autoDraw = False
+119.4204 	EXP 	fixation: autoDraw = False
+119.4204 	EXP 	fixation_respond: autoDraw = False
+119.4204 	EXP 	dots: dir = 0.0
+119.4204 	EXP 	dots: coherence = 0.0625
+119.4204 	EXP 	polygon: autoDraw = True
+119.4204 	EXP 	fixation: autoDraw = True
+119.5079 	EXP 	dots: autoDraw = True
+119.8037 	EXP 	dots: autoDraw = False
+120.0216 	INFO 	Keyboard events cleared
+120.0208 	EXP 	polygon: autoDraw = False
+120.0208 	EXP 	fixation: autoDraw = False
+120.0208 	EXP 	fixation_respond: autoDraw = True
+120.2794 	DATA 	Keypress: right
+120.2872 	EXP 	New trial (rep=9, index=6): <Trial 132 (6 in rep 9) data={'coherence': 0, 'direction': 180, 'thisN': 132, 'thisTrialN': 6, 'thisRepN': 9}>
+120.2899 	EXP 	dots: autoDraw = False
+120.2899 	EXP 	polygon: autoDraw = False
+120.2899 	EXP 	fixation: autoDraw = False
+120.2899 	EXP 	fixation_respond: autoDraw = False
+120.2899 	EXP 	dots: dir = 180.0
+120.2899 	EXP 	dots: coherence = 0.0
+120.2899 	EXP 	polygon: autoDraw = True
+120.2899 	EXP 	fixation: autoDraw = True
+120.3864 	EXP 	dots: autoDraw = True
+120.6729 	EXP 	dots: autoDraw = False
+120.8902 	INFO 	Keyboard events cleared
+120.8900 	EXP 	fixation_respond: autoDraw = True
+120.9038 	EXP 	polygon: autoDraw = False
+120.9038 	EXP 	fixation: autoDraw = False
+121.1941 	EXP 	New trial (rep=9, index=7): <Trial 133 (7 in rep 9) data={'coherence': 0.03125, 'direction': 180, 'thisN': 133, 'thisTrialN': 7, 'thisRepN': 9}>
+121.1966 	DATA 	Keypress: left
+121.2038 	EXP 	dots: autoDraw = False
+121.2038 	EXP 	polygon: autoDraw = False
+121.2038 	EXP 	fixation: autoDraw = False
+121.2038 	EXP 	fixation_respond: autoDraw = False
+121.2038 	EXP 	dots: dir = 180.0
+121.2038 	EXP 	dots: coherence = 0.03125
+121.2038 	EXP 	polygon: autoDraw = True
+121.2038 	EXP 	fixation: autoDraw = True
+121.2909 	EXP 	dots: autoDraw = True
+121.5892 	EXP 	dots: autoDraw = False
+121.8053 	INFO 	Keyboard events cleared
+121.8045 	EXP 	polygon: autoDraw = False
+121.8045 	EXP 	fixation: autoDraw = False
+121.8045 	EXP 	fixation_respond: autoDraw = True
+122.0719 	EXP 	New trial (rep=9, index=8): <Trial 134 (8 in rep 9) data={'coherence': 0.125, 'direction': 180, 'thisN': 134, 'thisTrialN': 8, 'thisRepN': 9}>
+122.0747 	DATA 	Keypress: left
+122.0775 	EXP 	dots: autoDraw = False
+122.0775 	EXP 	polygon: autoDraw = False
+122.0775 	EXP 	fixation: autoDraw = False
+122.0775 	EXP 	fixation_respond: autoDraw = False
+122.0775 	EXP 	dots: dir = 180.0
+122.0775 	EXP 	dots: coherence = 0.125
+122.0775 	EXP 	polygon: autoDraw = True
+122.0775 	EXP 	fixation: autoDraw = True
+122.1702 	EXP 	dots: autoDraw = True
+122.4587 	EXP 	dots: autoDraw = False
+122.6707 	INFO 	Keyboard events cleared
+122.6704 	EXP 	fixation_respond: autoDraw = True
+122.6733 	EXP 	polygon: autoDraw = False
+122.6733 	EXP 	fixation: autoDraw = False
+123.0244 	EXP 	New trial (rep=9, index=9): <Trial 135 (9 in rep 9) data={'coherence': 0.5, 'direction': 0, 'thisN': 135, 'thisTrialN': 9, 'thisRepN': 9}>
+123.0273 	DATA 	Keypress: left
+123.0372 	EXP 	dots: autoDraw = False
+123.0372 	EXP 	polygon: autoDraw = False
+123.0372 	EXP 	fixation: autoDraw = False
+123.0372 	EXP 	fixation_respond: autoDraw = False
+123.0372 	EXP 	dots: dir = 0.0
+123.0372 	EXP 	dots: coherence = 0.5
+123.0372 	EXP 	polygon: autoDraw = True
+123.0372 	EXP 	fixation: autoDraw = True
+123.1203 	EXP 	dots: autoDraw = True
+123.4060 	EXP 	dots: autoDraw = False
+123.6209 	INFO 	Keyboard events cleared
+123.6203 	EXP 	fixation_respond: autoDraw = True
+123.6236 	EXP 	polygon: autoDraw = False
+123.6236 	EXP 	fixation: autoDraw = False
+123.8586 	EXP 	New trial (rep=9, index=10): <Trial 136 (10 in rep 9) data={'coherence': 0.03125, 'direction': 0, 'thisN': 136, 'thisTrialN': 10, 'thisRepN': 9}>
+123.8619 	DATA 	Keypress: right
+123.8705 	EXP 	dots: autoDraw = False
+123.8705 	EXP 	polygon: autoDraw = False
+123.8705 	EXP 	fixation: autoDraw = False
+123.8705 	EXP 	fixation_respond: autoDraw = False
+123.8705 	EXP 	dots: dir = 0.0
+123.8705 	EXP 	dots: coherence = 0.03125
+123.8705 	EXP 	polygon: autoDraw = True
+123.8705 	EXP 	fixation: autoDraw = True
+123.9567 	EXP 	dots: autoDraw = True
+124.2537 	EXP 	dots: autoDraw = False
+124.4542 	INFO 	Keyboard events cleared
+124.4537 	EXP 	fixation_respond: autoDraw = True
+124.4586 	EXP 	polygon: autoDraw = False
+124.4586 	EXP 	fixation: autoDraw = False
+124.7894 	EXP 	New trial (rep=9, index=11): <Trial 137 (11 in rep 9) data={'coherence': 0.0625, 'direction': 180, 'thisN': 137, 'thisTrialN': 11, 'thisRepN': 9}>
+124.7919 	DATA 	Keypress: right
+124.8038 	EXP 	dots: autoDraw = False
+124.8038 	EXP 	polygon: autoDraw = False
+124.8038 	EXP 	fixation: autoDraw = False
+124.8038 	EXP 	fixation_respond: autoDraw = False
+124.8038 	EXP 	dots: dir = 180.0
+124.8038 	EXP 	dots: coherence = 0.0625
+124.8038 	EXP 	polygon: autoDraw = True
+124.8038 	EXP 	fixation: autoDraw = True
+124.8870 	EXP 	dots: autoDraw = True
+125.1885 	EXP 	dots: autoDraw = False
+125.3884 	INFO 	Keyboard events cleared
+125.3881 	EXP 	fixation_respond: autoDraw = True
+125.4055 	EXP 	polygon: autoDraw = False
+125.4055 	EXP 	fixation: autoDraw = False
+125.6385 	EXP 	New trial (rep=9, index=12): <Trial 138 (12 in rep 9) data={'coherence': 1, 'direction': 180, 'thisN': 138, 'thisTrialN': 12, 'thisRepN': 9}>
+125.6408 	DATA 	Keypress: left
+125.6437 	EXP 	dots: autoDraw = False
+125.6437 	EXP 	polygon: autoDraw = False
+125.6437 	EXP 	fixation: autoDraw = False
+125.6437 	EXP 	fixation_respond: autoDraw = False
+125.6437 	EXP 	dots: dir = 180.0
+125.6437 	EXP 	dots: coherence = 1.0
+125.6437 	EXP 	polygon: autoDraw = True
+125.6437 	EXP 	fixation: autoDraw = True
+125.7382 	EXP 	dots: autoDraw = True
+126.0384 	EXP 	dots: autoDraw = False
+126.2382 	INFO 	Keyboard events cleared
+126.2378 	EXP 	fixation_respond: autoDraw = True
+126.2546 	EXP 	polygon: autoDraw = False
+126.2546 	EXP 	fixation: autoDraw = False
+126.4886 	EXP 	New trial (rep=9, index=13): <Trial 139 (13 in rep 9) data={'coherence': 0.125, 'direction': 0, 'thisN': 139, 'thisTrialN': 13, 'thisRepN': 9}>
+126.4914 	DATA 	Keypress: left
+126.4943 	EXP 	dots: autoDraw = False
+126.4943 	EXP 	polygon: autoDraw = False
+126.4943 	EXP 	fixation: autoDraw = False
+126.4943 	EXP 	fixation_respond: autoDraw = False
+126.4943 	EXP 	dots: dir = 0.0
+126.4943 	EXP 	dots: coherence = 0.125
+126.4943 	EXP 	polygon: autoDraw = True
+126.4943 	EXP 	fixation: autoDraw = True
+126.5871 	EXP 	dots: autoDraw = True
+126.8726 	EXP 	dots: autoDraw = False
+127.0887 	INFO 	Keyboard events cleared
+127.0881 	EXP 	fixation_respond: autoDraw = True
+127.1044 	EXP 	polygon: autoDraw = False
+127.1044 	EXP 	fixation: autoDraw = False
+127.4755 	DATA 	Keypress: right
+127.4864 	EXP 	dots: autoDraw = False
+127.4864 	EXP 	polygon: autoDraw = False
+127.4864 	EXP 	fixation: autoDraw = False
+127.4864 	EXP 	fixation_respond: autoDraw = False
+127.4865 	EXP 	motion-simple-example: status = STOPPED
+127.5101 	INFO 	saved data to '/Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768-Measuring-Perception/V768-Psychophysics-labs/08-motion-adaptation/data/215921_motion-simple-example_2025-03-03_22h14.43.732.csv'
+127.5111 	INFO 	saved data to /Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768-Measuring-Perception/V768-Psychophysics-labs/08-motion-adaptation/data/215921_motion-simple-example_2025-03-03_22h14.43.732.psydat
+127.5127 	WARNING 	t of last frame was 26.37ms (=1/37)
