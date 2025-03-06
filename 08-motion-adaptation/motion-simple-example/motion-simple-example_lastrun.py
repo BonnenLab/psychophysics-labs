@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on Mon Mar  3 22:14:40 2025
+    on Tue Mar  4 22:16:53 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -126,7 +126,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='/Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768-Measuring-Perception/V768-Psychophysics-labs/08-motion-adaptation/motion-simple-example_lastrun.py',
+        originPath='/Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768-Measuring-Perception/V768-Psychophysics-labs/08-motion-adaptation/motion-simple-example/motion-simple-example_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )

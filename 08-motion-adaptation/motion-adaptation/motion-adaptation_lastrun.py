@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on Mon Mar  3 23:39:49 2025
+    on Wed Mar  5 21:36:03 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -375,7 +375,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "begin_experiment" ---
     instructions = visual.TextStim(win=win, name='instructions',
-        text='On each trial, look at the fixation cross during. The stimulus (motion) will appear surrounding fixation.  When the fixation cross turns green, press left or right to indicate which direction the motion was moving.\n\nPress space to start the experiment.',
+        text='For the first 30 seconds of the experiment, you will fixate while a drifting grating moves to the right.  Then the trials will begin.  On each trial, look at the fixation cross during. The stimulus (motion) will appear surrounding fixation.  When the fixation cross turns green, press left or right to indicate which direction the motion was moving.\n\nAfter a few trials, there will be another drifting grating for a few seconds.\n\nPress space to start the experiment.',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -422,7 +422,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         colorSpace='rgb', lineColor='gray', fillColor='gray',
         opacity=None, depth=-2.0, interpolate=True)
     fixation_top = visual.ShapeStim(
-        win=win, name='fixation_top', vertices='cross',
+        win=win, name='fixation_top', vertices='star7',
         size=(0.025, 0.025),
         ori=0.0, pos=(0, 0), draggable=False, anchor='center',
         lineWidth=1.0,
@@ -685,7 +685,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # if grating_adaptation is active this frame...
         if grating_adaptation.status == STARTED:
             # update params
-            grating_adaptation.setPhase(t, log=False)
+            grating_adaptation.setPhase(t*1.5, log=False)
         
         # if grating_adaptation is stopping this frame...
         if grating_adaptation.status == STARTED:
@@ -856,7 +856,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         continueRoutine = True
         # update component parameters for each repeat
         # Run 'Begin Routine' code from code
-        if (thisTrial.thisN+1) % 5 == 0:
+        if (thisTrial.thisN+1) % 4 == 0:
             duration = 5
         else:
             duration = 0
@@ -909,7 +909,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # if grating_top is active this frame...
             if grating_top.status == STARTED:
                 # update params
-                grating_top.setPhase(t, log=False)
+                grating_top.setPhase(t*1.5, log=False)
             
             # if grating_top is stopping this frame...
             if grating_top.status == STARTED:
