@@ -1,0 +1,52 @@
+4.1094 	INFO 	Loaded monitor calibration from ['2023_05_12 15:00']
+4.1181 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+4.2757 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fab597668e0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fab597667c0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fab7a160370>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([3840, 2160]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.2758 	EXP 	window1: backgroundImage = ''
+4.2758 	EXP 	window1: backgroundFit = 'none'
+4.3224 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+4.3224 	EXP 	window1: recordFrameIntervals = False
+4.4552 	EXP 	window1: recordFrameIntervals = True
+5.2771 	WARNING 	t of last frame was 21.17ms (=1/47)
+5.3060 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+7.0088 	INFO 	keyboard.Keyboard is using iohub backend.
+7.0089 	INFO 	keyboard.Keyboard is using iohub backend.
+7.0089 	INFO 	keyboard.Keyboard is using iohub backend.
+7.0089 	EXP 	motion-experiment: status = STARTED
+7.0372 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Here are the instructions', units='height', win=Window(...), wrapWidth=1)
+7.0406 	EXP 	Created dots = DotStim(__class__=<class 'psychopy.visual.dot.DotStim'>, autoLog=True, coherence=1.0, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, dir=1.0, dotLife=10.0, dotSize=6.0, element=None, fieldAnchor=UNKNOWN, fieldPos=array([0., 0.]), fieldShape='circle', fieldSize=array([0.5, 0.5]), nDots=50, name='dots', noiseDots='direction', opacity=1, rgb=UNKNOWN, signalDots='same', speed=0.002, units='height', win=Window(...))
+7.0450 	EXP 	Created fixation_circle = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([0.00392157, 0.00392157, 0.00392157]), fillColorSpace='rgb', fillRGB=array([0.00392157, 0.00392157, 0.00392157]), interpolate=True, lineColor=array([0.00392157, 0.00392157, 0.00392157]), lineColorSpace='rgb', lineRGB=array([0.00392157, 0.00392157, 0.00392157]), lineWidth=1.0, name='fixation_circle', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.0464 	EXP 	Created fixation_cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='fixation_cross', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.025, 0.025]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.0477 	EXP 	Created fixation_green = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, draggable=False, fillColor=array([-1.        ,  0.00392157, -1.        ]), fillColorSpace='rgb', fillRGB=array([-1.        ,  0.00392157, -1.        ]), interpolate=True, lineColor=array([-1.        ,  0.00392157, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        ,  0.00392157, -1.        ]), lineWidth=1.0, name='fixation_green', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.025, 0.025]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0129 	INFO 	Keyboard events cleared
+0.0127 	EXP 	text: autoDraw = True
+1.2920 	DATA 	Keypress: left
+1.2955 	WARNING 	t of last frame was 49.67ms (=1/20)
+1.3814 	DATA 	Keypress: right
+1.4974 	DATA 	Keypress: left
+1.6310 	DATA 	Keypress: down
+1.9144 	DATA 	Keypress: up
+2.1769 	DATA 	Keypress: down
+3.8742 	EXP 	Imported conditions.xlsx as conditions, 12 conditions, 2 params
+3.8754 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'direction': 0, 'coherence': 0.8, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+3.8815 	DATA 	Keypress: space
+3.8844 	WARNING 	t of last frame was 121.79ms (=1/8)
+3.8844 	EXP 	text: autoDraw = False
+3.8844 	EXP 	dots: dir = 0.0
+3.8844 	EXP 	dots: coherence = 0.8
+3.8844 	EXP 	dots: autoDraw = True
+3.8844 	EXP 	fixation_circle: autoDraw = True
+3.8844 	EXP 	fixation_cross: autoDraw = True
+4.3631 	INFO 	Keyboard events cleared
+4.3628 	EXP 	fixation_green: autoDraw = True
+4.3791 	EXP 	dots: autoDraw = False
+4.4791 	EXP 	fixation_circle: autoDraw = False
+4.4791 	EXP 	fixation_cross: autoDraw = False
+7.6328 	DATA 	Keypress: escape
+7.8333 	EXP 	motion-experiment: status = STOPPED
+7.8416 	EXP 	fixation_green: autoDraw = False
+7.8417 	EXP 	motion-experiment: status = STOPPED
+7.8432 	INFO 	saved data to '/Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768-Measuring-Perception/V768-Psychophysics-labs/08-motion-adaptation/motion-experiment/data/813793_motion-experiment_2025-03-07_14h48.49.315.csv'
+7.8440 	INFO 	saved data to /Users/kbonnen/Library/CloudStorage/OneDrive-IndianaUniversity/Courses/V768-Measuring-Perception/V768-Psychophysics-labs/08-motion-adaptation/motion-experiment/data/813793_motion-experiment_2025-03-07_14h48.49.315.psydat
