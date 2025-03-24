@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on Mon Mar 24 11:57:15 2025
+    on Mon Mar 24 17:14:39 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -58,7 +58,7 @@ or run the experiment with `--pilot` as an argument. To change what pilot
 PILOTING = core.setPilotModeFromArgs()
 # start off with values from experiment settings
 _fullScr = True
-_winSize = [1440, 900]
+_winSize = [1512, 982]
 # if in pilot mode, apply overrides according to preferences
 if PILOTING:
     # force windowed mode
@@ -373,9 +373,9 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "Wait" ---
     start_trial_text = visual.TextStim(win=win, name='start_trial_text',
-        text='On each trial you will be asked to report whether the blob is the left or right of the red dot.\n\nPress space to continue',
+        text='On each trial, two blob stimuli will be presented in sequence. You should report whether the second blob left or right of the first blob.\n\nPress space to continue',
         font='Arial',
-        pos=(-0.3, 0.25), draggable=False, height=0.04, wrapWidth=None, ori=0.0, 
+        pos=None, draggable=False, height=0.04, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=0.0);
@@ -598,7 +598,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # set up handler to look after randomisation of conditions etc
     trials = data.TrialHandler2(
         name='trials',
-        nReps=1.0, 
+        nReps=3.0, 
         method='random', 
         extraInfo=expInfo, 
         originPath=-1, 
@@ -889,7 +889,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         routineTimer.reset()
         thisExp.nextEntry()
         
-    # completed 1.0 repeats of 'trials'
+    # completed 3.0 repeats of 'trials'
     
     if thisSession is not None:
         # if running in a Session with a Liaison client, send data up to now
