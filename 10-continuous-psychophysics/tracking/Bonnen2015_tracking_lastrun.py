@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on Mon Mar 24 11:54:14 2025
+    on Tue Mar 25 00:26:17 2025
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -38,7 +38,7 @@ deviceManager = hardware.DeviceManager()
 _thisDir = os.path.dirname(os.path.abspath(__file__))
 # store info about the experiment session
 psychopyVersion = '2024.2.4'
-expName = 'helloworld'  # from the Builder filename that created this script
+expName = 'tracking'  # from the Builder filename that created this script
 # information about this experiment
 expInfo = {
     'participant': f"{randint(0, 999999):06.0f}",
@@ -58,7 +58,7 @@ or run the experiment with `--pilot` as an argument. To change what pilot
 PILOTING = core.setPilotModeFromArgs()
 # start off with values from experiment settings
 _fullScr = True
-_winSize = [1440, 900]
+_winSize = [1512, 982]
 # if in pilot mode, apply overrides according to preferences
 if PILOTING:
     # force windowed mode
@@ -361,7 +361,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "Wait" ---
     start_trial_text = visual.TextStim(win=win, name='start_trial_text',
-        text='Follow the center of the blob as it moves around in a random walk.  \n\nClick with your mouse to begin the trial.',
+        text='Use the red cursor to track the center of the light blob.\n\nClick the mouse or trackpad to start the trial.',
         font='Arial',
         pos=None, draggable=False, height=0.04, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -456,7 +456,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # set up handler to look after randomisation of conditions etc
     trials = data.TrialHandler2(
         name='trials',
-        nReps=1.0, 
+        nReps=4.0, 
         method='random', 
         extraInfo=expInfo, 
         originPath=-1, 
@@ -974,7 +974,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             routineTimer.addTime(-15.500000)
         thisExp.nextEntry()
         
-    # completed 1.0 repeats of 'trials'
+    # completed 4.0 repeats of 'trials'
     
     if thisSession is not None:
         # if running in a Session with a Liaison client, send data up to now
