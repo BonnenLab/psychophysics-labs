@@ -1,0 +1,65 @@
+7.3099 	INFO 	Loaded monitor calibration from ['2023_05_12 15:00']
+7.4405 	INFO 	Using renderer 'Apple M2 Max' for graphics
+7.4405 	INFO 	OpenGL version supported by driver is 2..
+7.4528 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x171461690>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x171461630>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x174b06bf0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([3024, 1964]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.4529 	EXP 	window1: backgroundImage = ''
+7.4529 	EXP 	window1: backgroundFit = 'none'
+7.7584 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.7584 	EXP 	window1: recordFrameIntervals = False
+7.8881 	EXP 	window1: recordFrameIntervals = True
+8.7960 	WARNING 	t of last frame was 23.58ms (=1/42)
+8.8110 	DATA 	Keypress: space
+8.8717 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+11.0213 	INFO 	keyboard.Keyboard is using iohub backend.
+11.0213 	EXP 	speed-estimation: status = STARTED
+11.0749 	EXP 	Created begin = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='begin', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.0780 	EXP 	Created dots = DotStim(__class__=<class 'psychopy.visual.dot.DotStim'>, autoLog=True, coherence=1.0, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, dir=0.0, dotLife=30.0, dotSize=np.float64(4.0), element=None, fieldAnchor=UNKNOWN, fieldPos=array([0., 0.]), fieldShape='circle', fieldSize=array([0.4, 0.4]), nDots=100, name='dots', noiseDots='direction', opacity=1, rgb=UNKNOWN, signalDots='same', speed=1.0, units='height', win=Window(...))
+11.0812 	EXP 	Created circle_block = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([0.00392157, 0.00392157, 0.00392157]), fillColorSpace='rgb', fillRGB=array([0.00392157, 0.00392157, 0.00392157]), interpolate=True, lineColor=array([0.00392157, 0.00392157, 0.00392157]), lineColorSpace='rgb', lineRGB=array([0.00392157, 0.00392157, 0.00392157]), lineWidth=1.0, name='circle_block', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+11.0825 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.025, 0.025]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+11.1632 	WARNING 	Font b'Open Sans' was requested. No similar font found.
+11.1756 	WARNING 	Font b'Open Sans' was requested. No similar font found.
+11.1897 	WARNING 	Font b'Open Sans' was requested. No similar font found.
+11.1995 	WARNING 	Font b'Open Sans' was requested. No similar font found.
+11.2026 	WARNING 	Font b'Open Sans' was requested. No similar font found.
+11.2111 	WARNING 	Font b'Open Sans' was requested. No similar font found.
+11.2222 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-3, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=np.float64(0.05), labelWrapWidth=None, labels=('slow', 'medium', 'fast'), lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0. , -0.1]), readOnly=False, self=UNKNOWN, size=array([0.8 , 0.05]), startValue=2, style='rating', styleTweaks=[], ticks=array([1, 2, 3]), units='height', win=Window(...))
+0.0090 	EXP 	slider: autoLog = True
+0.0090 	EXP 	slider: styleTweaks = []
+0.0090 	EXP 	slider: styleTweaks = []
+0.0090 	EXP 	slider: styleTweaks = []
+0.0090 	EXP 	slider: styleTweaks = []
+0.0090 	EXP 	slider: contrast = 1.0
+0.0090 	EXP 	slider: markerPos = 2
+0.0090 	EXP 	slider: autoLog = True
+0.0138 	INFO 	Keyboard events cleared
+0.0135 	EXP 	begin: autoDraw = True
+0.8273 	EXP 	Device response: <KeyPress from None: t=0.7979910830035806, value=space, duration=None>
+0.8392 	EXP 	Imported speed-estimation.csv as conditions, 7 conditions, 1 params
+0.8402 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'speed': np.float64(0.00025), 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.8538 	DATA 	Keypress: space
+0.8571 	WARNING 	t of last frame was 57.71ms (=1/17)
+0.8571 	EXP 	begin: autoDraw = False
+0.8571 	EXP 	dots: speed = np.float64(0.00025)
+0.8571 	EXP 	slider: markerPos = None
+0.8571 	EXP 	slider: markerPos = 2
+0.8571 	EXP 	circle_block: autoDraw = True
+0.8571 	EXP 	polygon: autoDraw = True
+0.9193 	EXP 	dots: autoDraw = True
+1.0002 	EXP 	Device response: <KeyPress from None: t=0.7979910830035806, value=space, duration=0.18937345797894523>
+1.9169 	EXP 	dots: autoDraw = False
+1.9867 	INFO 	Keyboard events cleared
+1.9863 	WARNING 	t of last frame was 69.39ms (=1/14)
+1.9863 	EXP 	slider: autoDraw = True
+2.8891 	EXP 	Device response: <KeyPress from None: t=2.885627707990352, value=escape, duration=None>
+2.8917 	DATA 	Keypress: escape
+3.0666 	EXP 	Device response: <KeyPress from None: t=2.885627707990352, value=escape, duration=0.1703464579768479>
+3.0669 	EXP 	speed-estimation: status = STOPPED
+3.0691 	EXP 	circle_block: autoDraw = False
+3.0691 	EXP 	polygon: autoDraw = False
+3.0691 	EXP 	slider: autoDraw = False
+3.0691 	EXP 	speed-estimation: status = STOPPED
+3.0705 	INFO 	saved data to '/Users/kbonnen/Documents/work-repos/psychophysics-labs/06-2d-motion/speed-estimation/data/977594_speed-estimation_2026-02-26_12h07.10.251.csv'
+3.0713 	INFO 	saved data to /Users/kbonnen/Documents/work-repos/psychophysics-labs/06-2d-motion/speed-estimation/data/977594_speed-estimation_2026-02-26_12h07.10.251.psydat
