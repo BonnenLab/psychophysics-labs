@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" ?>
-<PsychoPy2experiment encoding="utf-8" version="2023.2.3">
+<PsychoPy2experiment encoding="utf-8" version="2025.2.4">
   <Settings>
-    <Param val="use prefs" valType="str" updates="None" name="Audio latency priority"/>
     <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
     <Param val="" valType="str" updates="None" name="Completed URL"/>
     <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
@@ -47,6 +46,7 @@
     <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
     <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
     <Param val="tracking" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
     <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
     <Param val="None" valType="str" updates="None" name="eyetracker"/>
     <Param val="" valType="code" updates="None" name="frameRate"/>
@@ -62,9 +62,7 @@
     <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
     <Param val="scene_camera.json" valType="file" updates="None" name="plCompanionCameraCalibration"/>
     <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
-    <Param val="True" valType="bool" updates="None" name="plCompanionRecordingEnabled"/>
     <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
-    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
     <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
     <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
     <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
@@ -186,8 +184,8 @@
         <Param val="blob.setPos([0, 0]);&amp;#10;response_mouse.setPos([0, 0]);&amp;#10;response_mouse.setVisible(0);&amp;#10;blob.x = [];&amp;#10;blob.y = [];&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="blob.setPos((0,0))&amp;#10;response_mouse.setPos((0,0))&amp;#10;response_mouse.setVisible(0)&amp;#10;blob.x = []&amp;#10;blob.y = []" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
-        <Param val="if response_mouse.status == STARTED:&amp;#10;    x,y = blob.pos&amp;#10;    blob.x.append(x)&amp;#10;    blob.y.append(y)" valType="extendedCode" updates="constant" name="Each Frame"/>
-        <Param val="if ((response_mouse.status === PsychoJS.Status.STARTED)) {&amp;#10;    [x, y] = blob.pos;&amp;#10;    blob.x.push(x);&amp;#10;    blob.y.push(y);&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="if response_mouse.status == STARTED:&amp;#10;    x,y = blob.pos&amp;#10;    blob.x.append(float(x))&amp;#10;    blob.y.append(float(y))" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if ((response_mouse.status === PsychoJS.Status.STARTED)) {&amp;#10;    [x, y] = blob.pos;&amp;#10;    blob.x.push(Number.parseFloat(x));&amp;#10;    blob.y.push(Number.parseFloat(y));&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
         <Param val="trials.addData(&quot;blob.x&quot;, blob.x);&amp;#10;trials.addData(&quot;blob.y&quot;, blob.y);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
