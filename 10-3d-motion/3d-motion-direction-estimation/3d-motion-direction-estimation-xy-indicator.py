@@ -51,13 +51,14 @@ VIEWING_DISTANCE_CM = 57.0   # observer-to-screen distance (typical laptop ~57 c
 IPD_CM              = 6.5    # interpupillary distance, human average
 
 # Stimulus  (Bonnen et al. 2020, Methods)
-N_DOTS              = 100
+N_DOTS              = 20
 FIELD_DIAMETER_DEG  = 5.0    # frontoparallel diameter of dot-cloud aperture (deg)
 ECCENTRICITY_DEG    = 5.0    # aperture center distance from fixation (deg)
 STIM_DURATION_S     = 1.0    # motion display duration (s)
 FIXATION_DURATION_S = 0.5    # fixation cross duration (s)
 SPEED_CMS           = 5.0    # environmental dot speed (cm/s)
 DOT_SIZE_BASE_DEG   = 0.12   # dot diameter at viewing distance (deg); scales with depth
+DOT_CONTRAST        = 0.1   # dot luminance as fraction of max (Bonnen et al. 2020 used 0.05)
 
 # Trial structure: 72 directions × 2 visual fields = 144 trials
 DIRECTIONS_DEG = np.arange(0, 360, 5)   # 0°, 5°, 10°, …, 355°
@@ -72,9 +73,13 @@ INDICATOR_R = 3.0   # radius in degrees
 # Colors in PsychoPy rgb space (range −1 to +1)
 # Black background required for color-mask anaglyph: masked dots land on black,
 # so only the unmasked channel(s) are visible through the corresponding filter lens.
-COL_BG    = [-1, -1, -1]   # black
+COL_BG    = [ 0,  0,  0]   # mid-gray (Bonnen et al. 2020 background)
 COL_WHITE = [ 1,  1,  1]
-COL_DIM   = [ 0,  0,  0]   # mid-gray
+COL_DIM   = [-0.5, -0.5, -0.5]   # dim gray for labels (visible against mid-gray)
+# Dot contrast: Weber contrast relative to mid-gray background
+# In PsychoPy's −1 to +1 space, v=0 is mid-gray, so bright/dark are ±DOT_CONTRAST
+COL_DOT_BRIGHT = [ DOT_CONTRAST,  DOT_CONTRAST,  DOT_CONTRAST]
+COL_DOT_DARK   = [-DOT_CONTRAST, -DOT_CONTRAST, -DOT_CONTRAST]
 
 
 # ============================================================
@@ -146,20 +151,20 @@ fixation = visual.ShapeStim(
     fillColor=COL_WHITE, lineColor=COL_WHITE, colorSpace='rgb',
 )
 
-# Left-eye and right-eye dot clouds — both white.
+# Left-eye and right-eye dot clouds — half bright, half dark (set per trial).
 # The correct eye channel is selected at draw time via glColorMask (see draw_dots()).
 left_eye_dots = visual.ElementArrayStim(
     win=win, nElements=N_DOTS,
     elementTex=None, elementMask='circle',
     sizes=DOT_SIZE_BASE_DEG,
-    colors=COL_WHITE, colorSpace='rgb',
+    colors=COL_DOT_BRIGHT, colorSpace='rgb',
     xys=np.zeros((N_DOTS, 2)),
 )
 right_eye_dots = visual.ElementArrayStim(
     win=win, nElements=N_DOTS,
     elementTex=None, elementMask='circle',
     sizes=DOT_SIZE_BASE_DEG,
-    colors=COL_WHITE, colorSpace='rgb',
+    colors=COL_DOT_BRIGHT, colorSpace='rgb',
     xys=np.zeros((N_DOTS, 2)),
 )
 
@@ -395,6 +400,13 @@ for trial_num, trial in enumerate(trial_list):
 
     # Initialise dot cloud at random positions within the sphere
     dots = init_dot_cloud(N_DOTS, cx, cy, cz, sphere_r_cm)
+
+    # Randomly assign half dots bright, half dark; same assignment for both eyes
+    dot_colors = np.array(COL_DOT_BRIGHT * N_DOTS, dtype=float).reshape(N_DOTS, 3)
+    dark_idx = np.random.choice(N_DOTS, N_DOTS // 2, replace=False)
+    dot_colors[dark_idx] = COL_DOT_DARK
+    left_eye_dots.colors  = dot_colors
+    right_eye_dots.colors = dot_colors
 
     # ── Fixation ─────────────────────────────────────────────
     fixation.draw()
